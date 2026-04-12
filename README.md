@@ -120,7 +120,20 @@ npx remotion render src/index.ts AMCVideo out/视频名.mp4 --codec h264
 npx remotion still src/index.ts AMCCover out/封面名.png
 ```
 
-### 第七步：检查验收
+### 第七步：生成发布文案
+
+```bash
+npx ts-node generate-copy.ts
+```
+
+自动生成：
+- **推荐标题**（20字以内，多个备选）
+- **正文摘要**（从视频文案提取关键信息）
+- **标签**（竞赛名+通用标签，去重）
+
+输出到 `out/发布文案.txt`，直接复制到短视频平台。
+
+### 第八步：检查验收
 
 1. 播放视频检查画面、配音、字幕
 2. 根据反馈微调后重复第 3-6 步
