@@ -2,7 +2,7 @@
  * 生成短视频平台发布文案（标题+正文+标签）
  * 运行: npx ts-node generate-copy.ts
  */
-import { writeFileSync } from "fs";
+import { writeFileSync, mkdirSync, existsSync } from "fs";
 import { SCENES } from "./src/config";
 
 function main(): void {
@@ -37,8 +37,14 @@ function main(): void {
   const output = `${title}\n${body}\n${tags}`;
 
   console.log(output);
-  writeFileSync("out/发布文案.txt", output, "utf-8");
-  console.log("\n\n✅ 已保存到 out/发布文案.txt");
+
+  // 保存到发布文案文件夹，文件名=标题
+  const dir = "out/发布文案";
+  if (!existsSync(dir)) mkdirSync(dir, { recursive: true });
+  const fileName = title.replace(/[！!？?]/g, "").trim();
+  const filePath = `${dir}/${fileName}.txt`;
+  writeFileSync(filePath, output, "utf-8");
+  console.log(`\n✅ 已保存到 ${filePath}`);
 }
 
 main();
