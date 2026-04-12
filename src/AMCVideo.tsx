@@ -47,7 +47,7 @@ export const AMCVideo: React.FC<AMCVideoProps> = ({ sceneDurations }) => {
     const scene = SCENES[index] as any;
     switch (scene.type) {
       case "cover":
-        return <CoverScene seriesName="每天介绍一个国际竞赛" competitionName="AMC" competitionNameEn="American Mathematics Competitions" episodeTag="翰林有方 · 国际竞赛系列" />;
+        return <CoverScene seriesName={scene.seriesName} competitionName={scene.competitionName} competitionNameEn={scene.competitionNameEn} episodeTag={scene.episodeTag} />;
       case "opening-chart":
         return <ChartScene />;
       case "opening-stats":
@@ -55,7 +55,7 @@ export const AMCVideo: React.FC<AMCVideoProps> = ({ sceneDurations }) => {
       case "title-card":
         return <TitleCardScene title={scene.title} subtitle={scene.subtitle} highlights={scene.highlights} />;
       case "levels-compare":
-        return <WhatIsAMCScene title="三级竞赛对比" subtitle="AMC 8 / 10 / 12" levels={scene.levels} />;
+        return <WhatIsAMCScene title={scene.title || "竞赛级别对比"} subtitle={scene.subtitle || ""} levels={scene.levels} />;
       case "key-points":
         return <KeyPointsScene title={scene.title} subtitle={scene.subtitle} keyPoints={scene.keyPoints} />;
       case "comparison":
@@ -75,7 +75,7 @@ export const AMCVideo: React.FC<AMCVideoProps> = ({ sceneDurations }) => {
       case "prep-steps":
         return <PrepScene title={scene.title} subtitle={scene.subtitle} steps={scene.steps} />;
       case "closing":
-        return <ClosingScene title="开启你的数学之旅" text={scene.text} />;
+        return <ClosingScene title={scene.title || "结语"} text={scene.text} />;
       default:
         return null;
     }

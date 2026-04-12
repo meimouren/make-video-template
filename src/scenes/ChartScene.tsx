@@ -5,15 +5,12 @@ import { FONT_FAMILY_CN, FONT_FAMILY_EN } from "../fonts";
 import { AnimatedLineChart } from "../components/AnimatedLineChart";
 
 const PARTICIPATION_DATA = [
-  { year: "2010", value: 180000 },
-  { year: "2012", value: 200000 },
-  { year: "2014", value: 220000 },
-  { year: "2016", value: 240000 },
-  { year: "2018", value: 270000 },
-  { year: "2020", value: 250000 },
-  { year: "2022", value: 290000 },
-  { year: "2024", value: 310000 },
-  { year: "2026", value: 350000 },
+  { year: "2015", value: 18000 },
+  { year: "2017", value: 20000 },
+  { year: "2019", value: 22000 },
+  { year: "2021", value: 19000 },
+  { year: "2023", value: 24000 },
+  { year: "2025", value: 27092 },
 ];
 
 export const ChartScene: React.FC = () => {
@@ -33,14 +30,14 @@ export const ChartScene: React.FC = () => {
       <div
         style={{
           fontFamily: FONT_FAMILY_EN,
-          fontSize: 120,
+          fontSize: 110,
           fontWeight: 800,
           color: COLORS.primary,
-          letterSpacing: 12,
+          letterSpacing: 8,
           textAlign: "center",
         }}
       >
-        AMC
+        Euclid
       </div>
 
       <AnimatedLineChart

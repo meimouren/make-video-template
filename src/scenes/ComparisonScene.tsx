@@ -58,9 +58,9 @@ export const ComparisonScene: React.FC<ComparisonSceneProps> = ({
             padding: "20px 0",
           }}
         >
-          <div style={{ flex: 1, textAlign: "center", fontSize: 44, fontWeight: 700, color: "#fff" }}>对比项</div>
-          <div style={{ flex: 1, textAlign: "center", fontSize: 44, fontWeight: 700, color: "#fff" }}>AMC 10</div>
-          <div style={{ flex: 1, textAlign: "center", fontSize: 44, fontWeight: 700, color: "#fff" }}>AMC 12</div>
+          <div style={{ flex: 1, textAlign: "center", fontSize: 40, fontWeight: 700, color: "#fff" }}>对比项</div>
+          <div style={{ flex: 1, textAlign: "center", fontSize: 40, fontWeight: 700, color: "#fff" }}>{subtitle.split(" vs ")[0] || "A"}</div>
+          <div style={{ flex: 1, textAlign: "center", fontSize: 40, fontWeight: 700, color: "#fff" }}>{subtitle.split(" vs ")[1] || "B"}</div>
         </div>
 
         {/* 数据行 */}

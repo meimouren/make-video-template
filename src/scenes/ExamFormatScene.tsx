@@ -56,8 +56,8 @@ export const ExamFormatScene: React.FC<ExamFormatSceneProps> = ({
 
           <div style={{ display: "flex", flexDirection: "column", gap: 12, marginTop: 12 }}>
             {[
-              { label: "AMC 10/12 满分", value: "150 分" },
-              { label: "禁止使用", value: "计算器" },
+              { label: "满分", value: "150 分" },
+              { label: "计算器", value: "禁止使用" },
               { label: "题型", value: "25 道选择题" },
             ].map((item, i) => {
               const itemProgress = spring({

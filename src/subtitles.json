@@ -2,289 +2,229 @@
   {
     "id": 1,
     "startFrame": 0,
-    "endFrame": 146,
-    "text": "每天介绍一个国际竞赛，今天要介绍的是AMC，美国数学竞赛"
+    "endFrame": 173,
+    "text": "每天介绍一个国际竞赛，今天要介绍的是Euclid，欧几里得数学竞赛"
   },
   {
     "id": 2,
-    "startFrame": 137,
-    "endFrame": 341,
-    "text": "全球最具影响力的中学生数学竞赛，每年超过三十万名来自全球各地的优秀学子参与角逐"
+    "startFrame": 164,
+    "endFrame": 333,
+    "text": "加拿大最具含金量的高中数学竞赛，每年超过两万七千名学生参与角逐"
   },
   {
     "id": 3,
-    "startFrame": 332,
-    "endFrame": 496,
-    "text": "无论你是初次了解还是正在备赛，这个视频将为你全面解读AMC的方方面面"
+    "startFrame": 333,
+    "endFrame": 425,
+    "text": "被誉为申请北美名校理工专业的敲门砖"
   },
   {
     "id": 4,
-    "startFrame": 487,
-    "endFrame": 783,
-    "text": "AMC，全称American Mathematics Competitions，美国数学竞赛，由MAA，Mathematical Association of America，美国数学协会主办"
+    "startFrame": 416,
+    "endFrame": 613,
+    "text": "无论你是计划申请滑铁卢大学，还是想提升数学竞争力，这个视频帮你全面了解欧几里得竞赛"
   },
   {
     "id": 5,
-    "startFrame": 783,
-    "endFrame": 808,
-    "text": "自1950年创办"
+    "startFrame": 604,
+    "endFrame": 725,
+    "text": "Euclid，全称Euclid Mathematics Contest，欧几里得数学竞赛"
   },
   {
     "id": 6,
-    "startFrame": 799,
-    "endFrame": 938,
-    "text": "2000年正式拆分为AMC 10和AMC 12两个级别"
+    "startFrame": 725,
+    "endFrame": 925,
+    "text": "由CEMC，Centre for Education in Mathematics and Computing，滑铁卢大学数学与计算机教育中心主办"
   },
   {
     "id": 7,
-    "startFrame": 938,
-    "endFrame": 1005,
-    "text": "AMC 8于1985年推出"
+    "startFrame": 916,
+    "endFrame": 1023,
+    "text": "欧几里得是加拿大认可度最高的高中数学竞赛"
   },
   {
     "id": 8,
-    "startFrame": 1005,
-    "endFrame": 1113,
-    "text": "如今已发展为覆盖全球四千多所学校的顶级赛事"
+    "startFrame": 1023,
+    "endFrame": 1184,
+    "text": "滑铁卢大学数学与工程学院在官网上明确表示强烈推荐申请学生参加"
   },
   {
     "id": 9,
-    "startFrame": 1104,
-    "endFrame": 1212,
-    "text": "AMC分为三个级别，分别面向初中和高中学生"
+    "startFrame": 1184,
+    "endFrame": 1270,
+    "text": "成绩也是入学奖学金发放的重要依据"
   },
   {
     "id": 10,
-    "startFrame": 1203,
-    "endFrame": 1338,
-    "text": "AMC 8面向8年级及以下学生，是入门级别的数学竞赛"
+    "startFrame": 1261,
+    "endFrame": 1373,
+    "text": "考试共10道题，每题10分，满分100分"
   },
   {
     "id": 11,
-    "startFrame": 1338,
-    "endFrame": 1410,
-    "text": "共25道选择题，限时40分钟"
+    "startFrame": 1373,
+    "endFrame": 1462,
+    "text": "限时150分钟，也就是两个半小时"
   },
   {
     "id": 12,
-    "startFrame": 1401,
-    "endFrame": 1495,
-    "text": "评分简单：答对得1分，答错不扣分"
+    "startFrame": 1462,
+    "endFrame": 1512,
+    "text": "纸质笔试，独立作答"
   },
   {
     "id": 13,
-    "startFrame": 1495,
-    "endFrame": 1583,
-    "text": "由于没有罚分，建议每道题都作答"
+    "startFrame": 1503,
+    "endFrame": 1564,
+    "text": "每道题由多个小题组成"
   },
   {
     "id": 14,
-    "startFrame": 1583,
-    "endFrame": 1689,
-    "text": "全球前1%可获卓越奖，前5%获优秀奖"
+    "startFrame": 1564,
+    "endFrame": 1668,
+    "text": "简答题只需写出最终答案，每小题3分"
   },
   {
     "id": 15,
-    "startFrame": 1680,
-    "endFrame": 1829,
-    "text": "AMC 10面向10年级及以下学生，考试内容不超过代数II"
+    "startFrame": 1668,
+    "endFrame": 1790,
+    "text": "全解题需要完整的解题过程，每小题最高7分"
   },
   {
     "id": 16,
-    "startFrame": 1829,
-    "endFrame": 1968,
-    "text": "AMC 12面向12年级及以下学生，内容扩展到预微积分"
+    "startFrame": 1781,
+    "endFrame": 1979,
+    "text": "欧几里得最大的特点是全解题会根据解题过程的完整性、清晰度和表达方式来评分"
   },
   {
     "id": 17,
-    "startFrame": 1959,
-    "endFrame": 2074,
-    "text": "两个级别均为25道四选一选择题，限时75分钟"
+    "startFrame": 1979,
+    "endFrame": 2089,
+    "text": "即使答案正确，如果表达不清晰也不能拿满分"
   },
   {
     "id": 18,
-    "startFrame": 2074,
-    "endFrame": 2199,
-    "text": "答对6分，空白1.5分，答错不得分，满分150分"
+    "startFrame": 2080,
+    "endFrame": 2188,
+    "text": "2025年欧几里得竞赛平均分54.8分"
   },
   {
     "id": 19,
-    "startFrame": 2199,
-    "endFrame": 2262,
-    "text": "每年11月A卷和B卷两场"
+    "startFrame": 2188,
+    "endFrame": 2329,
+    "text": "前25%的证书线为68分，学校冠军的奖牌线为54分"
   },
   {
     "id": 20,
-    "startFrame": 2253,
-    "endFrame": 2379,
-    "text": "得分等于6乘以答对题数，加上1.5乘以空白题数"
+    "startFrame": 2320,
+    "endFrame": 2464,
+    "text": "考试内容涵盖函数、几何、数列、排列组合和代数五大领域"
   },
   {
     "id": 21,
-    "startFrame": 2379,
-    "endFrame": 2516,
-    "text": "答错不得分也不扣分，但放弃作答可以获得1.5分保底"
+    "startFrame": 2464,
+    "endFrame": 2581,
+    "text": "题目难度递增，前几题基础，后几题极具挑战性"
   },
   {
     "id": 22,
-    "startFrame": 2507,
-    "endFrame": 2670,
-    "text": "顶尖学生通常答对20题以上，同时战略性跳过最难的几题"
+    "startFrame": 2572,
+    "endFrame": 2795,
+    "text": "2026年欧几里得竞赛将于3月31日在北美和南美举行，4月1日在其他地区举行"
   },
   {
     "id": 23,
-    "startFrame": 2670,
-    "endFrame": 2752,
-    "text": "不确定的题留空比乱猜更划算"
+    "startFrame": 2795,
+    "endFrame": 2859,
+    "text": "报名截止日期是3月5日"
   },
   {
     "id": 24,
-    "startFrame": 2743,
-    "endFrame": 3004,
-    "text": "AMC考试涵盖四大核心领域：代数占30%，几何25%，数论25%，组合数学20%"
+    "startFrame": 2850,
+    "endFrame": 2987,
+    "text": "面向高中最后一年的学生，但低年级优秀学生也可以参加"
   },
   {
     "id": 25,
-    "startFrame": 2995,
-    "endFrame": 3159,
-    "text": "高年级AMC 12还会涉及复数、对数函数和更深入的三角恒等式"
+    "startFrame": 2987,
+    "endFrame": 3102,
+    "text": "正式参赛者须在2007年1月1日或之后出生"
   },
   {
     "id": 26,
-    "startFrame": 3159,
-    "endFrame": 3269,
-    "text": "不允许使用计算器，注重创新思维与逻辑推理"
+    "startFrame": 3102,
+    "endFrame": 3151,
+    "text": "报名费每人18加元"
   },
   {
     "id": 27,
-    "startFrame": 3260,
-    "endFrame": 3316,
-    "text": "了解时间安排至关重要"
+    "startFrame": 3142,
+    "endFrame": 3243,
+    "text": "前25%获得滑铁卢大学颁发的荣誉证书"
   },
   {
     "id": 28,
-    "startFrame": 3316,
-    "endFrame": 3500,
-    "text": "AMC 10和12每年11月举行A卷和B卷两场，AIME在次年2月"
+    "startFrame": 3243,
+    "endFrame": 3344,
+    "text": "加拿大前5名获得500加元奖金和奖牌"
   },
   {
     "id": 29,
-    "startFrame": 3500,
-    "endFrame": 3572,
-    "text": "建议至少提前三到六个月备考"
+    "startFrame": 3344,
+    "endFrame": 3428,
+    "text": "接下来10名获得200加元奖金"
   },
   {
     "id": 30,
-    "startFrame": 3563,
-    "endFrame": 3769,
-    "text": "AIME，全称American Invitational Mathematics Examination，美国数学邀请赛"
+    "startFrame": 3418,
+    "endFrame": 3566,
+    "text": "欧几里得成绩已经成为北美各大院校理工专业评估学生的重要依据"
   },
   {
     "id": 31,
-    "startFrame": 3769,
-    "endFrame": 3848,
-    "text": "只有AMC成绩达到晋级分数线的学生才能受邀参加"
+    "startFrame": 3566,
+    "endFrame": 3694,
+    "text": "不仅是滑铁卢大学，加拿大和英美的众多名校都高度认可"
   },
   {
     "id": 32,
-    "startFrame": 3839,
-    "endFrame": 4027,
-    "text": "AIME难度远高于AMC，平均分只有5到6分，10分以上属于非常优秀"
+    "startFrame": 3685,
+    "endFrame": 3760,
+    "text": "建议至少提前3到6个月准备"
   },
   {
     "id": 33,
-    "startFrame": 4027,
-    "endFrame": 4176,
-    "text": "本赛季晋级线：AMC 10A需105分，12A需96分"
+    "startFrame": 3760,
+    "endFrame": 3910,
+    "text": "CEMC官网提供历年真题和详细解析，是最好的备考资源"
   },
   {
     "id": 34,
-    "startFrame": 4167,
-    "endFrame": 4211,
-    "text": "AMC构建了完整的晋级通道"
+    "startFrame": 3910,
+    "endFrame": 3979,
+    "text": "重点练习全解题的书写规范"
   },
   {
     "id": 35,
-    "startFrame": 4211,
-    "endFrame": 4269,
-    "text": "三十万参赛者中约一万人晋级AIME"
+    "startFrame": 3970,
+    "endFrame": 4103,
+    "text": "第三步针对薄弱领域专项突破，第四步做限时模拟训练"
   },
   {
     "id": 36,
-    "startFrame": 4269,
-    "endFrame": 4516,
-    "text": "再选拔约250人参加USAMO，全称United States of America Mathematical Olympiad，美国数学奥林匹克"
+    "startFrame": 4103,
+    "endFrame": 4253,
+    "text": "特别注意全解题的表达规范，阅卷非常看重解题过程的清晰度"
   },
   {
     "id": 37,
-    "startFrame": 4516,
-    "endFrame": 4712,
-    "text": "最终6人代表国家出征IMO，International Mathematical Olympiad，国际数学奥林匹克"
+    "startFrame": 4244,
+    "endFrame": 4400,
+    "text": "欧几里得不仅是一场竞赛，更是通往北美顶尖大学理工专业的黄金通道"
   },
   {
     "id": 38,
-    "startFrame": 4703,
-    "endFrame": 4783,
-    "text": "2025至2026赛季的重要变化"
-  },
-  {
-    "id": 39,
-    "startFrame": 4783,
-    "endFrame": 4997,
-    "text": "USAMO选拔公式中，AIME成绩权重从10倍提高到20倍，AIME的表现变得更加关键"
-  },
-  {
-    "id": 40,
-    "startFrame": 4988,
-    "endFrame": 5154,
-    "text": "对于计划申请海外名校的学生来说，AMC是最具含金量的学术背景之一"
-  },
-  {
-    "id": 41,
-    "startFrame": 5154,
-    "endFrame": 5304,
-    "text": "哈佛、MIT、斯坦福等顶尖院校明确认可AMC和AIME成绩"
-  },
-  {
-    "id": 42,
-    "startFrame": 5295,
-    "endFrame": 5436,
-    "text": "成功的AMC备赛需要系统规划，建议至少提前3到6个月"
-  },
-  {
-    "id": 43,
-    "startFrame": 5436,
-    "endFrame": 5549,
-    "text": "先做历年真题了解题型，然后专项突破薄弱领域"
-  },
-  {
-    "id": 44,
-    "startFrame": 5540,
-    "endFrame": 5652,
-    "text": "第三步做限时训练培养时间管理能力，第四步考前模拟冲刺"
-  },
-  {
-    "id": 45,
-    "startFrame": 5652,
-    "endFrame": 5820,
-    "text": "推荐使用Art of Problem Solving在线平台和专业竞赛辅导课程"
-  },
-  {
-    "id": 46,
-    "startFrame": 5811,
-    "endFrame": 5920,
-    "text": "AMC不仅是一场竞赛，更是一次自我突破的旅程"
-  },
-  {
-    "id": 47,
-    "startFrame": 5920,
-    "endFrame": 6034,
-    "text": "选择AMC，就是选择通往世界顶级学术殿堂的道路"
-  },
-  {
-    "id": 48,
-    "startFrame": 6034,
-    "endFrame": 6138,
-    "text": "现在就开始准备，让数学成为你最强大的竞争力"
+    "startFrame": 4400,
+    "endFrame": 4500,
+    "text": "现在就开始准备，让数学成为你最亮眼的名片"
   }
 ]

@@ -18,7 +18,7 @@ type OpeningSceneProps = {
   stats: Stat[];
 };
 
-// AMC 参赛人数历年增长数据
+// 参赛人数历年增长数据（从 config 切换主题时需同步更新 ChartScene.tsx）
 const PARTICIPATION_DATA = [
   { year: "2010", value: 180000 },
   { year: "2012", value: 200000 },
@@ -66,7 +66,7 @@ export const OpeningScene: React.FC<OpeningSceneProps> = ({
       <div
         style={{
           fontFamily: FONT_FAMILY_EN,
-          fontSize: 160,
+          fontSize: 130,
           fontWeight: 800,
           color: COLORS.primary,
           letterSpacing: 20,
@@ -76,7 +76,7 @@ export const OpeningScene: React.FC<OpeningSceneProps> = ({
           opacity: titleProgress,
         }}
       >
-        AMC
+        Euclid
       </div>
 
       <div
