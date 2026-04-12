@@ -1,0 +1,290 @@
+[
+  {
+    "id": 1,
+    "startFrame": 0,
+    "endFrame": 146,
+    "text": "每天介绍一个国际竞赛，今天要介绍的是AMC，美国数学竞赛"
+  },
+  {
+    "id": 2,
+    "startFrame": 137,
+    "endFrame": 341,
+    "text": "全球最具影响力的中学生数学竞赛，每年超过三十万名来自全球各地的优秀学子参与角逐"
+  },
+  {
+    "id": 3,
+    "startFrame": 332,
+    "endFrame": 496,
+    "text": "无论你是初次了解还是正在备赛，这个视频将为你全面解读AMC的方方面面"
+  },
+  {
+    "id": 4,
+    "startFrame": 487,
+    "endFrame": 783,
+    "text": "AMC，全称American Mathematics Competitions，美国数学竞赛，由MAA，Mathematical Association of America，美国数学协会主办"
+  },
+  {
+    "id": 5,
+    "startFrame": 783,
+    "endFrame": 808,
+    "text": "自1950年创办"
+  },
+  {
+    "id": 6,
+    "startFrame": 799,
+    "endFrame": 938,
+    "text": "2000年正式拆分为AMC 10和AMC 12两个级别"
+  },
+  {
+    "id": 7,
+    "startFrame": 938,
+    "endFrame": 1005,
+    "text": "AMC 8于1985年推出"
+  },
+  {
+    "id": 8,
+    "startFrame": 1005,
+    "endFrame": 1113,
+    "text": "如今已发展为覆盖全球四千多所学校的顶级赛事"
+  },
+  {
+    "id": 9,
+    "startFrame": 1104,
+    "endFrame": 1212,
+    "text": "AMC分为三个级别，分别面向初中和高中学生"
+  },
+  {
+    "id": 10,
+    "startFrame": 1203,
+    "endFrame": 1338,
+    "text": "AMC 8面向8年级及以下学生，是入门级别的数学竞赛"
+  },
+  {
+    "id": 11,
+    "startFrame": 1338,
+    "endFrame": 1410,
+    "text": "共25道选择题，限时40分钟"
+  },
+  {
+    "id": 12,
+    "startFrame": 1401,
+    "endFrame": 1495,
+    "text": "评分简单：答对得1分，答错不扣分"
+  },
+  {
+    "id": 13,
+    "startFrame": 1495,
+    "endFrame": 1583,
+    "text": "由于没有罚分，建议每道题都作答"
+  },
+  {
+    "id": 14,
+    "startFrame": 1583,
+    "endFrame": 1689,
+    "text": "全球前1%可获卓越奖，前5%获优秀奖"
+  },
+  {
+    "id": 15,
+    "startFrame": 1680,
+    "endFrame": 1829,
+    "text": "AMC 10面向10年级及以下学生，考试内容不超过代数II"
+  },
+  {
+    "id": 16,
+    "startFrame": 1829,
+    "endFrame": 1968,
+    "text": "AMC 12面向12年级及以下学生，内容扩展到预微积分"
+  },
+  {
+    "id": 17,
+    "startFrame": 1959,
+    "endFrame": 2074,
+    "text": "两个级别均为25道四选一选择题，限时75分钟"
+  },
+  {
+    "id": 18,
+    "startFrame": 2074,
+    "endFrame": 2199,
+    "text": "答对6分，空白1.5分，答错不得分，满分150分"
+  },
+  {
+    "id": 19,
+    "startFrame": 2199,
+    "endFrame": 2262,
+    "text": "每年11月A卷和B卷两场"
+  },
+  {
+    "id": 20,
+    "startFrame": 2253,
+    "endFrame": 2379,
+    "text": "得分等于6乘以答对题数，加上1.5乘以空白题数"
+  },
+  {
+    "id": 21,
+    "startFrame": 2379,
+    "endFrame": 2516,
+    "text": "答错不得分也不扣分，但放弃作答可以获得1.5分保底"
+  },
+  {
+    "id": 22,
+    "startFrame": 2507,
+    "endFrame": 2670,
+    "text": "顶尖学生通常答对20题以上，同时战略性跳过最难的几题"
+  },
+  {
+    "id": 23,
+    "startFrame": 2670,
+    "endFrame": 2752,
+    "text": "不确定的题留空比乱猜更划算"
+  },
+  {
+    "id": 24,
+    "startFrame": 2743,
+    "endFrame": 3004,
+    "text": "AMC考试涵盖四大核心领域：代数占30%，几何25%，数论25%，组合数学20%"
+  },
+  {
+    "id": 25,
+    "startFrame": 2995,
+    "endFrame": 3159,
+    "text": "高年级AMC 12还会涉及复数、对数函数和更深入的三角恒等式"
+  },
+  {
+    "id": 26,
+    "startFrame": 3159,
+    "endFrame": 3269,
+    "text": "不允许使用计算器，注重创新思维与逻辑推理"
+  },
+  {
+    "id": 27,
+    "startFrame": 3260,
+    "endFrame": 3316,
+    "text": "了解时间安排至关重要"
+  },
+  {
+    "id": 28,
+    "startFrame": 3316,
+    "endFrame": 3500,
+    "text": "AMC 10和12每年11月举行A卷和B卷两场，AIME在次年2月"
+  },
+  {
+    "id": 29,
+    "startFrame": 3500,
+    "endFrame": 3572,
+    "text": "建议至少提前三到六个月备考"
+  },
+  {
+    "id": 30,
+    "startFrame": 3563,
+    "endFrame": 3769,
+    "text": "AIME，全称American Invitational Mathematics Examination，美国数学邀请赛"
+  },
+  {
+    "id": 31,
+    "startFrame": 3769,
+    "endFrame": 3848,
+    "text": "只有AMC成绩达到晋级分数线的学生才能受邀参加"
+  },
+  {
+    "id": 32,
+    "startFrame": 3839,
+    "endFrame": 4027,
+    "text": "AIME难度远高于AMC，平均分只有5到6分，10分以上属于非常优秀"
+  },
+  {
+    "id": 33,
+    "startFrame": 4027,
+    "endFrame": 4176,
+    "text": "本赛季晋级线：AMC 10A需105分，12A需96分"
+  },
+  {
+    "id": 34,
+    "startFrame": 4167,
+    "endFrame": 4211,
+    "text": "AMC构建了完整的晋级通道"
+  },
+  {
+    "id": 35,
+    "startFrame": 4211,
+    "endFrame": 4269,
+    "text": "三十万参赛者中约一万人晋级AIME"
+  },
+  {
+    "id": 36,
+    "startFrame": 4269,
+    "endFrame": 4516,
+    "text": "再选拔约250人参加USAMO，全称United States of America Mathematical Olympiad，美国数学奥林匹克"
+  },
+  {
+    "id": 37,
+    "startFrame": 4516,
+    "endFrame": 4712,
+    "text": "最终6人代表国家出征IMO，International Mathematical Olympiad，国际数学奥林匹克"
+  },
+  {
+    "id": 38,
+    "startFrame": 4703,
+    "endFrame": 4783,
+    "text": "2025至2026赛季的重要变化"
+  },
+  {
+    "id": 39,
+    "startFrame": 4783,
+    "endFrame": 4997,
+    "text": "USAMO选拔公式中，AIME成绩权重从10倍提高到20倍，AIME的表现变得更加关键"
+  },
+  {
+    "id": 40,
+    "startFrame": 4988,
+    "endFrame": 5154,
+    "text": "对于计划申请海外名校的学生来说，AMC是最具含金量的学术背景之一"
+  },
+  {
+    "id": 41,
+    "startFrame": 5154,
+    "endFrame": 5304,
+    "text": "哈佛、MIT、斯坦福等顶尖院校明确认可AMC和AIME成绩"
+  },
+  {
+    "id": 42,
+    "startFrame": 5295,
+    "endFrame": 5436,
+    "text": "成功的AMC备赛需要系统规划，建议至少提前3到6个月"
+  },
+  {
+    "id": 43,
+    "startFrame": 5436,
+    "endFrame": 5549,
+    "text": "先做历年真题了解题型，然后专项突破薄弱领域"
+  },
+  {
+    "id": 44,
+    "startFrame": 5540,
+    "endFrame": 5652,
+    "text": "第三步做限时训练培养时间管理能力，第四步考前模拟冲刺"
+  },
+  {
+    "id": 45,
+    "startFrame": 5652,
+    "endFrame": 5820,
+    "text": "推荐使用Art of Problem Solving在线平台和专业竞赛辅导课程"
+  },
+  {
+    "id": 46,
+    "startFrame": 5811,
+    "endFrame": 5920,
+    "text": "AMC不仅是一场竞赛，更是一次自我突破的旅程"
+  },
+  {
+    "id": 47,
+    "startFrame": 5920,
+    "endFrame": 6034,
+    "text": "选择AMC，就是选择通往世界顶级学术殿堂的道路"
+  },
+  {
+    "id": 48,
+    "startFrame": 6034,
+    "endFrame": 6138,
+    "text": "现在就开始准备，让数学成为你最强大的竞争力"
+  }
+]
