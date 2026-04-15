@@ -5,25 +5,25 @@
 import { writeFileSync, mkdirSync, existsSync } from "fs";
 import { SCENES } from "./src/config";
 
-// 学科关键词映射
-const SUBJECT_TAGS: Record<string, string[]> = {
-  物理: ["物理竞赛", "物理"],
-  数学: ["数学竞赛", "数学"],
-  化学: ["化学竞赛", "化学"],
-  生物: ["生物竞赛", "生物"],
-  经济: ["商赛", "经济", "金融"],
-  投资: ["商赛", "投资", "金融"],
-  金融: ["商赛", "金融"],
-  计算机: ["编程竞赛", "计算机"],
-  信息: ["信息学竞赛", "编程"],
-  写作: ["写作竞赛", "英语"],
-  辩论: ["辩论赛", "演讲"],
-};
+// 学科检测：按竞赛名称和标题中的关键词判断，避免内容中的误匹配
+const SUBJECT_RULES: Array<{ patterns: string[]; tags: string[] }> = [
+  { patterns: ["化学奥", "化学竞赛", "Chemistry Olympiad", "化学奥赛", "UKChO", "化学挑战"], tags: ["化学竞赛", "化学"] },
+  { patterns: ["物理奥", "物理竞赛", "Physics Challenge", "Physics Olympiad", "物理奥赛", "BPhO", "IPC", "SPC", "CAP"], tags: ["物理竞赛", "物理"] },
+  { patterns: ["数学竞赛", "数学奥", "Mathematics Competition", "Math Olympiad", "AMC", "Euclid", "AIME"], tags: ["数学竞赛", "数学"] },
+  { patterns: ["生物奥", "生物竞赛", "Biology Olympiad", "BBO", "USABO"], tags: ["生物竞赛", "生物"] },
+  { patterns: ["投资挑战", "商赛", "Investment Challenge", "SIC", "KWHS"], tags: ["商赛", "投资", "金融"] },
+  { patterns: ["经济学", "Economics"], tags: ["商赛", "经济", "金融"] },
+  { patterns: ["计算机", "信息学", "编程", "Informatics", "USACO"], tags: ["编程竞赛", "计算机"] },
+  { patterns: ["写作", "Writing"], tags: ["写作竞赛", "英语"] },
+  { patterns: ["辩论", "Debate", "模联", "Model UN"], tags: ["辩论赛", "演讲"] },
+];
 
-function detectSubjectTags(allText: string): string[] {
-  for (const [keyword, tags] of Object.entries(SUBJECT_TAGS)) {
-    if (allText.includes(keyword)) {
-      return tags;
+function detectSubjectTags(coverText: string, allText: string): string[] {
+  // 优先从封面和标题文案判断
+  const combined = coverText + " " + allText.slice(0, 500);
+  for (const rule of SUBJECT_RULES) {
+    if (rule.patterns.some((p) => combined.includes(p))) {
+      return rule.tags;
     }
   }
   return ["学科竞赛"];
@@ -37,9 +37,10 @@ function main(): void {
   const cnMatch = cover?.text?.match(/[，,]([^，,。！？]+(竞赛|挑战赛|奥赛|奥林匹克))/);
   const nameCn = cnMatch ? cnMatch[1] : name;
 
-  // 合并所有文案用于学科检测
+  // 学科检测：封面文案+前500字
+  const coverText = cover?.text || "";
   const allText = SCENES.map((s) => s.text || "").join("");
-  const subjectTags = detectSubjectTags(allText);
+  const subjectTags = detectSubjectTags(coverText, allText);
 
   // 提取核心信息
   const highlights: string[] = [];

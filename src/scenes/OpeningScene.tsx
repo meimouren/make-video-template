@@ -76,7 +76,7 @@ export const OpeningScene: React.FC<OpeningSceneProps> = ({
           opacity: titleProgress,
         }}
       >
-        SPC
+        UKChO
       </div>
 
       <div

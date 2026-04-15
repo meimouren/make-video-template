@@ -2,241 +2,241 @@
   {
     "id": 1,
     "startFrame": 0,
-    "endFrame": 175,
-    "text": "每天介绍一个国际竞赛，今天要介绍的是SPC，英国高级物理挑战赛"
+    "endFrame": 161,
+    "text": "每天介绍一个国际竞赛，今天要介绍的是UKChO，英国化学奥林匹克"
   },
   {
     "id": 2,
-    "startFrame": 166,
-    "endFrame": 309,
-    "text": "英国最权威的高中物理竞赛之一，每年超过6000名学生参加"
+    "startFrame": 152,
+    "endFrame": 327,
+    "text": "英国最权威的高中化学竞赛，由英国皇家化学学会主办，已有超过50年历史"
   },
   {
     "id": 3,
-    "startFrame": 309,
-    "endFrame": 446,
-    "text": "由牛津大学物理系联合主办，顶尖选手受邀前往皇家学会领奖"
+    "startFrame": 327,
+    "endFrame": 440,
+    "text": "获奖经历是申请牛剑理科和医学专业的重要加分项"
   },
   {
     "id": 4,
-    "startFrame": 437,
-    "endFrame": 635,
-    "text": "如果你是10到11年级的学生，想挑战更高难度的物理问题，SPC是你的最佳选择"
+    "startFrame": 431,
+    "endFrame": 654,
+    "text": "无论你是化学爱好者还是想冲刺英国G5名校，这个视频帮你全面了解UKChO英国化学奥赛"
   },
   {
     "id": 5,
-    "startFrame": 626,
-    "endFrame": 780,
-    "text": "SPC，全称Senior Physics Challenge，英国高级物理挑战赛"
+    "startFrame": 645,
+    "endFrame": 801,
+    "text": "UKChO，全称UK Chemistry Olympiad，英国化学奥林匹克"
   },
   {
     "id": 6,
-    "startFrame": 780,
-    "endFrame": 950,
-    "text": "由BPhO，British Physics Olympiad，英国物理奥林匹克组委会主办"
+    "startFrame": 801,
+    "endFrame": 974,
+    "text": "由RSC，Royal Society of Chemistry，英国皇家化学学会主办"
   },
   {
     "id": 7,
-    "startFrame": 950,
-    "endFrame": 1066,
-    "text": "该组委会由牛津大学物理系、英国物理学会和奥格登基金会联合组成"
+    "startFrame": 974,
+    "endFrame": 1060,
+    "text": "旨在培养学生的化学问题解决能力和创造性思维"
   },
   {
     "id": 8,
-    "startFrame": 1057,
-    "endFrame": 1251,
-    "text": "从2025年起，没有SPC或IPC奖项的学生将无法报名BPhO正赛Round 1"
+    "startFrame": 1051,
+    "endFrame": 1170,
+    "text": "UKChO是英国国际化学奥林匹克IChO国家队的选拔通道"
   },
   {
     "id": 9,
-    "startFrame": 1251,
-    "endFrame": 1362,
-    "text": "SPC正式成为通往英国物理奥林匹克的资格通行证"
+    "startFrame": 1170,
+    "endFrame": 1358,
+    "text": "Round 1全球开放参赛，Round 2选拔约30人集训，最终4人代表英国出征IChO"
   },
   {
     "id": 10,
-    "startFrame": 1362,
-    "endFrame": 1469,
-    "text": "而且BPhO正赛名额严格控制在3500个席位"
+    "startFrame": 1349,
+    "endFrame": 1477,
+    "text": "Round 1是一场120分钟的笔试，满分约84分"
   },
   {
     "id": 11,
-    "startFrame": 1460,
-    "endFrame": 1534,
-    "text": "线下赛时长60分钟，满分40分"
+    "startFrame": 1477,
+    "endFrame": 1585,
+    "text": "包含5到6道大题，每道大题有3到10个小题"
   },
   {
     "id": 12,
-    "startFrame": 1534,
-    "endFrame": 1603,
-    "text": "包含若干短答题加一到两道长题"
+    "startFrame": 1585,
+    "endFrame": 1647,
+    "text": "在学校内进行，由老师监考"
   },
   {
     "id": 13,
-    "startFrame": 1603,
-    "endFrame": 1672,
-    "text": "由学校老师监考，不可远程参加"
+    "startFrame": 1638,
+    "endFrame": 1794,
+    "text": "考试内容涵盖无机化学、有机化学、物理化学和分析化学四大方向"
   },
   {
     "id": 14,
-    "startFrame": 1672,
-    "endFrame": 1804,
-    "text": "不需要太多A-level新知识，但题目风格比课堂更高阶"
+    "startFrame": 1794,
+    "endFrame": 1918,
+    "text": "题目以真实世界的化学问题为背景，不涉及现场实验"
   },
   {
     "id": 15,
-    "startFrame": 1794,
-    "endFrame": 1875,
-    "text": "SPC提供线上和线下两种模式"
+    "startFrame": 1909,
+    "endFrame": 2003,
+    "text": "2026年Round 1满分84分"
   },
   {
     "id": 16,
-    "startFrame": 1875,
-    "endFrame": 2067,
-    "text": "线上赛全部选择题，分两组各20题，每组30分钟，可以在不同日期完成"
+    "startFrame": 2003,
+    "endFrame": 2097,
+    "text": "金奖线38分，约8.5%的学生获得"
   },
   {
     "id": 17,
-    "startFrame": 2067,
-    "endFrame": 2160,
-    "text": "线下赛包含短答和长题，考查更深入"
+    "startFrame": 2097,
+    "endFrame": 2169,
+    "text": "银奖线23分，约25.7%"
   },
   {
     "id": 18,
-    "startFrame": 2151,
-    "endFrame": 2236,
-    "text": "奖项按英国学生成绩排名划线"
+    "startFrame": 2169,
+    "endFrame": 2241,
+    "text": "铜奖线13分，约36.5%"
   },
   {
     "id": 19,
-    "startFrame": 2236,
-    "endFrame": 2451,
-    "text": "金奖约前5%，银奖约前15%，铜奖I约前30%，铜奖II约前45%"
+    "startFrame": 2232,
+    "endFrame": 2347,
+    "text": "所有试卷寄回英国，由RSC指定考官统一评分"
   },
   {
     "id": 20,
-    "startFrame": 2451,
-    "endFrame": 2588,
-    "text": "历史数据显示金奖线约26分，银奖线约20分"
+    "startFrame": 2347,
+    "endFrame": 2522,
+    "text": "全球奖项先按英国学生成绩划出分数线，其他国家学生参照同一标准评奖"
   },
   {
     "id": 21,
-    "startFrame": 2578,
-    "endFrame": 2732,
-    "text": "设超级金奖、金奖、银奖、铜奖I和铜奖II五个等级"
+    "startFrame": 2513,
+    "endFrame": 2556,
+    "text": "Round 1全球开放"
   },
   {
     "id": 22,
-    "startFrame": 2732,
-    "endFrame": 2854,
-    "text": "顶尖获奖者受邀前往皇家学会参加颁奖典礼"
+    "startFrame": 2556,
+    "endFrame": 2638,
+    "text": "前30名进入Round 2在诺丁汉大学集训"
   },
   {
     "id": 23,
-    "startFrame": 2854,
-    "endFrame": 2963,
-    "text": "金奖获得者还可获得ASDAN奖学金"
+    "startFrame": 2638,
+    "endFrame": 2887,
+    "text": "经过选拔训练，4人组成英国国家队出征IChO，International Chemistry Olympiad，国际化学奥林匹克"
   },
   {
     "id": 24,
-    "startFrame": 2953,
-    "endFrame": 3055,
-    "text": "SPC面向10到11年级，难度高于IPC"
+    "startFrame": 2877,
+    "endFrame": 2936,
+    "text": "报名从9月中旬到1月中旬"
   },
   {
     "id": 25,
-    "startFrame": 3055,
-    "endFrame": 3162,
-    "text": "IPC面向9到10年级，是更基础的入门赛事"
+    "startFrame": 2936,
+    "endFrame": 3000,
+    "text": "Round 1在1月底进行"
   },
   {
     "id": 26,
-    "startFrame": 3162,
-    "endFrame": 3289,
-    "text": "两者都是BPhO正赛的资格赛，获得任一奖项即可报名"
+    "startFrame": 3000,
+    "endFrame": 3093,
+    "text": "Round 2在4月初于诺丁汉大学举行"
   },
   {
     "id": 27,
-    "startFrame": 3280,
-    "endFrame": 3377,
-    "text": "线上赛在1月中旬进行，线下赛在3月"
+    "startFrame": 3093,
+    "endFrame": 3186,
+    "text": "IChO在7月于乌兹别克斯坦塔什干举行"
   },
   {
     "id": 28,
-    "startFrame": 3377,
-    "endFrame": 3474,
-    "text": "顶尖获奖者4月受邀前往皇家学会领奖"
+    "startFrame": 3176,
+    "endFrame": 3302,
+    "text": "面向16到19岁的高中生，主要针对高中最后一年的学生"
   },
   {
     "id": 29,
-    "startFrame": 3464,
-    "endFrame": 3545,
-    "text": "SPC获奖后可报名BPhO正赛Round 1"
+    "startFrame": 3302,
+    "endFrame": 3448,
+    "text": "中国籍学生可以参加Round 1，与英国学生统一考试统一评奖"
   },
   {
     "id": 30,
-    "startFrame": 3545,
-    "endFrame": 3862,
-    "text": "BPhO优秀选手进入Round 2决赛，再选拔进入国家队训练营，最终5人代表英国出征IPhO，International Physics Olympiad，国际物理奥林匹克"
+    "startFrame": 3448,
+    "endFrame": 3506,
+    "text": "需通过学校或指定机构报名"
   },
   {
     "id": 31,
-    "startFrame": 3853,
-    "endFrame": 3984,
-    "text": "SPC是申请英国G5大学物理和工程专业的重要加分项"
+    "startFrame": 3497,
+    "endFrame": 3675,
+    "text": "UKChO获奖经历是申请英国G5大学化学、医学和药学专业的重要加分项"
   },
   {
     "id": 32,
-    "startFrame": 3984,
-    "endFrame": 4089,
-    "text": "获奖经历证明你具备超越课堂的物理思维能力"
+    "startFrame": 3675,
+    "endFrame": 3764,
+    "text": "由英国皇家化学学会背书，含金量极高"
   },
   {
     "id": 33,
-    "startFrame": 4089,
-    "endFrame": 4194,
-    "text": "更是通往BPhO正赛和IPhO的必经之路"
+    "startFrame": 3755,
+    "endFrame": 3812,
+    "text": "建议提前3到6个月准备"
   },
   {
     "id": 34,
-    "startFrame": 4185,
-    "endFrame": 4240,
-    "text": "建议提前2到3个月准备"
+    "startFrame": 3812,
+    "endFrame": 3951,
+    "text": "以A-level化学为基础，重点深化有机化学和物理化学"
   },
   {
     "id": 35,
-    "startFrame": 4240,
-    "endFrame": 4329,
-    "text": "以A-level物理和IB物理为基础"
+    "startFrame": 3951,
+    "endFrame": 4033,
+    "text": "RSC官网提供历年真题和考官报告"
   },
   {
     "id": 36,
-    "startFrame": 4329,
-    "endFrame": 4483,
-    "text": "BPhO官网提供历年真题和评分标准，建议至少做4套真题熟悉题型"
+    "startFrame": 4024,
+    "endFrame": 4119,
+    "text": "重点攻克合成路线设计和复杂计算题"
   },
   {
     "id": 37,
-    "startFrame": 4474,
-    "endFrame": 4589,
-    "text": "长题分值高且考查深度分析能力，是拿高分的关键"
+    "startFrame": 4119,
+    "endFrame": 4196,
+    "text": "阅读考官报告了解常见失分点"
   },
   {
     "id": 38,
-    "startFrame": 4589,
-    "endFrame": 4746,
-    "text": "重点练习物理原理的推导和应用，考前做限时模拟适应60分钟节奏"
+    "startFrame": 4196,
+    "endFrame": 4327,
+    "text": "考前做限时模拟训练，适应120分钟的考试节奏"
   },
   {
     "id": 39,
-    "startFrame": 4737,
-    "endFrame": 4873,
-    "text": "SPC不仅是一场挑战，更是迈向英国物理奥林匹克的关键一步"
+    "startFrame": 4318,
+    "endFrame": 4457,
+    "text": "UKChO不仅是一场竞赛，更是通往国际化学奥林匹克的起点"
   },
   {
     "id": 40,
-    "startFrame": 4873,
-    "endFrame": 4970,
-    "text": "现在就开始准备，让物理成为你最亮眼的名片"
+    "startFrame": 4457,
+    "endFrame": 4556,
+    "text": "现在就开始准备，让化学成为你最闪亮的名片"
   }
 ]

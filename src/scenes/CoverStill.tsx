@@ -38,7 +38,7 @@ export const CoverStill: React.FC = () => {
           lineHeight: 1,
         }}
       >
-        SPC
+        UKChO
       </div>
       <div
         style={{
@@ -50,7 +50,7 @@ export const CoverStill: React.FC = () => {
           textAlign: "center",
         }}
       >
-        英国高级物理挑战赛
+        英国化学奥林匹克
       </div>
       <div
         style={{
