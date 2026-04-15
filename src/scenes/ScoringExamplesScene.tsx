@@ -61,9 +61,11 @@ export const ScoringExamplesScene: React.FC<ScoringExamplesSceneProps> = ({
               <div style={{ fontFamily: FONT_FAMILY_EN, fontSize: 72, fontWeight: 800, color: isTop ? "#fff" : COLORS.highlight, lineHeight: 1, marginBottom: 14 }}>
                 {ex.score}
               </div>
-              <div style={{ fontSize: 30, color: isTop ? "#ffffffAA" : COLORS.textLight }}>
-                对{ex.correct}题 · 空{ex.blank}题
-              </div>
+              {(ex.correct > 0 || ex.blank > 0) && (
+                <div style={{ fontSize: 30, color: isTop ? "#ffffffAA" : COLORS.textLight }}>
+                  对{ex.correct}题 · 空{ex.blank}题
+                </div>
+              )}
             </div>
           );
         })}

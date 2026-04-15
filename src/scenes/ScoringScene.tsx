@@ -76,9 +76,11 @@ export const ScoringScene: React.FC<ScoringSceneProps> = ({
               >
                 {ex.score}
               </div>
-              <div style={{ fontSize: 36, color: isTop ? "#ffffffBB" : COLORS.textLight }}>
-                对{ex.correct}题 · 空{ex.blank}题
-              </div>
+              {(ex.correct > 0 || ex.blank > 0) && (
+                <div style={{ fontSize: 36, color: isTop ? "#ffffffBB" : COLORS.textLight }}>
+                  对{ex.correct}题 · 空{ex.blank}题
+                </div>
+              )}
             </div>
           );
         })}
