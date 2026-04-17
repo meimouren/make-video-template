@@ -9,8 +9,8 @@ import { SCENES } from "./src/config";
 const SUBJECT_RULES: Array<{ patterns: string[]; tags: string[] }> = [
   { patterns: ["化学奥", "化学竞赛", "Chemistry Olympiad", "化学奥赛", "UKChO", "化学挑战"], tags: ["化学竞赛", "化学"] },
   { patterns: ["物理奥", "物理竞赛", "Physics Challenge", "Physics Olympiad", "物理奥赛", "BPhO", "IPC", "SPC", "CAP"], tags: ["物理竞赛", "物理"] },
-  { patterns: ["数学竞赛", "数学奥", "Mathematics Competition", "Math Olympiad", "AMC", "Euclid", "AIME"], tags: ["数学竞赛", "数学"] },
-  { patterns: ["生物奥", "生物竞赛", "Biology Olympiad", "BBO", "USABO"], tags: ["生物竞赛", "生物"] },
+  { patterns: ["数学竞赛", "数学奥", "数学锦标赛", "数学邀请赛", "Mathematics Competition", "Math Olympiad", "Mathematics Tournament", "AMC", "Euclid", "AIME", "HMMT", "MATHCOUNTS", "ARML", "PUMAC"], tags: ["数学竞赛", "数学"] },
+  { patterns: ["生物奥", "生物竞赛", "Biology Olympiad", "BBO", "USABO", "Brain Bee", "脑科学", "神经科学"], tags: ["生物竞赛", "生物", "脑科学"] },
   { patterns: ["投资挑战", "商赛", "Investment Challenge", "SIC", "KWHS"], tags: ["商赛", "投资", "金融"] },
   { patterns: ["经济学", "Economics"], tags: ["商赛", "经济", "金融"] },
   { patterns: ["计算机", "信息学", "编程", "Informatics", "USACO"], tags: ["编程竞赛", "计算机"] },

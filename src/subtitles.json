@@ -2,241 +2,247 @@
   {
     "id": 1,
     "startFrame": 0,
-    "endFrame": 161,
-    "text": "每天介绍一个国际竞赛，今天要介绍的是UKChO，英国化学奥林匹克"
+    "endFrame": 184,
+    "text": "每天介绍一个国际竞赛，今天要介绍的是HMMT，哈佛麻省理工数学锦标赛"
   },
   {
     "id": 2,
-    "startFrame": 152,
-    "endFrame": 327,
-    "text": "英国最权威的高中化学竞赛，由英国皇家化学学会主办，已有超过50年历史"
+    "startFrame": 175,
+    "endFrame": 316,
+    "text": "由哈佛大学和麻省理工学院联合举办的顶级高中数学锦标赛"
   },
   {
     "id": 3,
-    "startFrame": 327,
-    "endFrame": 440,
-    "text": "获奖经历是申请牛剑理科和医学专业的重要加分项"
+    "startFrame": 316,
+    "endFrame": 463,
+    "text": "自1998年创办至今，是全美竞争最激烈的数学团队赛之一"
   },
   {
     "id": 4,
-    "startFrame": 431,
-    "endFrame": 654,
-    "text": "无论你是化学爱好者还是想冲刺英国G5名校，这个视频帮你全面了解UKChO英国化学奥赛"
+    "startFrame": 454,
+    "endFrame": 602,
+    "text": "如果你的数学团队想挑战全美最强对手，HMMT就是最佳舞台"
   },
   {
     "id": 5,
-    "startFrame": 645,
-    "endFrame": 801,
-    "text": "UKChO，全称UK Chemistry Olympiad，英国化学奥林匹克"
+    "startFrame": 602,
+    "endFrame": 676,
+    "text": "这个视频帮你全面了解这项赛事"
   },
   {
     "id": 6,
-    "startFrame": 801,
-    "endFrame": 974,
-    "text": "由RSC，Royal Society of Chemistry，英国皇家化学学会主办"
+    "startFrame": 667,
+    "endFrame": 883,
+    "text": "HMMT，全称Harvard-MIT Mathematics Tournament，哈佛麻省理工数学锦标赛"
   },
   {
     "id": 7,
-    "startFrame": 974,
-    "endFrame": 1060,
-    "text": "旨在培养学生的化学问题解决能力和创造性思维"
+    "startFrame": 883,
+    "endFrame": 961,
+    "text": "由哈佛大学和MIT的本科生联合组织运营"
   },
   {
     "id": 8,
-    "startFrame": 1051,
-    "endFrame": 1170,
-    "text": "UKChO是英国国际化学奥林匹克IChO国家队的选拔通道"
+    "startFrame": 961,
+    "endFrame": 1006,
+    "text": "每年举办秋季和春季两场"
   },
   {
     "id": 9,
-    "startFrame": 1170,
-    "endFrame": 1358,
-    "text": "Round 1全球开放参赛，Round 2选拔约30人集训，最终4人代表英国出征IChO"
+    "startFrame": 997,
+    "endFrame": 1155,
+    "text": "秋季赛在11月于MIT举行，难度相对较低，适合初次参赛的队伍"
   },
   {
     "id": 10,
-    "startFrame": 1349,
-    "endFrame": 1477,
-    "text": "Round 1是一场120分钟的笔试，满分约84分"
+    "startFrame": 1155,
+    "endFrame": 1355,
+    "text": "春季赛在2月于哈佛举行，难度更高，前30名队伍自动获得下一年春季赛的参赛资格"
   },
   {
     "id": 11,
-    "startFrame": 1477,
-    "endFrame": 1585,
-    "text": "包含5到6道大题，每道大题有3到10个小题"
+    "startFrame": 1345,
+    "endFrame": 1492,
+    "text": "个人赛包含综合测试和三个科目测试：代数、几何和组合"
   },
   {
     "id": 12,
-    "startFrame": 1585,
-    "endFrame": 1647,
-    "text": "在学校内进行，由老师监考"
+    "startFrame": 1492,
+    "endFrame": 1580,
+    "text": "每个科目10道题，限时50分钟"
   },
   {
     "id": 13,
-    "startFrame": 1638,
-    "endFrame": 1794,
-    "text": "考试内容涵盖无机化学、有机化学、物理化学和分析化学四大方向"
+    "startFrame": 1580,
+    "endFrame": 1650,
+    "text": "科目测试需要在报名时选择"
   },
   {
     "id": 14,
-    "startFrame": 1794,
-    "endFrame": 1918,
-    "text": "题目以真实世界的化学问题为背景，不涉及现场实验"
+    "startFrame": 1641,
+    "endFrame": 1780,
+    "text": "团队赛由6到8人组成的队伍共同完成，限时60分钟"
   },
   {
     "id": 15,
-    "startFrame": 1909,
-    "endFrame": 2003,
-    "text": "2026年Round 1满分84分"
+    "startFrame": 1780,
+    "endFrame": 1873,
+    "text": "题目按难度加权计分，满分400分"
   },
   {
     "id": 16,
-    "startFrame": 2003,
-    "endFrame": 2097,
-    "text": "金奖线38分，约8.5%的学生获得"
+    "startFrame": 1873,
+    "endFrame": 1937,
+    "text": "考验团队协作和分工策略"
   },
   {
     "id": 17,
-    "startFrame": 2097,
-    "endFrame": 2169,
-    "text": "银奖线23分，约25.7%"
+    "startFrame": 1928,
+    "endFrame": 2020,
+    "text": "Guts Round是最刺激的环节"
   },
   {
     "id": 18,
-    "startFrame": 2169,
-    "endFrame": 2241,
-    "text": "铜奖线13分，约36.5%"
+    "startFrame": 2020,
+    "endFrame": 2156,
+    "text": "80分钟内团队需要完成36道题，分为12组每组3题"
   },
   {
     "id": 19,
-    "startFrame": 2232,
-    "endFrame": 2347,
-    "text": "所有试卷寄回英国，由RSC指定考官统一评分"
+    "startFrame": 2156,
+    "endFrame": 2254,
+    "text": "答完一组才能拿到下一组，实时公布排名"
   },
   {
     "id": 20,
-    "startFrame": 2347,
-    "endFrame": 2522,
-    "text": "全球奖项先按英国学生成绩划出分数线，其他国家学生参照同一标准评奖"
+    "startFrame": 2245,
+    "endFrame": 2367,
+    "text": "最终的Sweepstakes总排名综合个人赛和团队赛的成绩"
   },
   {
     "id": 21,
-    "startFrame": 2513,
-    "endFrame": 2556,
-    "text": "Round 1全球开放"
+    "startFrame": 2367,
+    "endFrame": 2522,
+    "text": "团队赛Team Round占总分的25%，Guts Round也占重要比例"
   },
   {
     "id": 22,
-    "startFrame": 2556,
-    "endFrame": 2638,
-    "text": "前30名进入Round 2在诺丁汉大学集训"
+    "startFrame": 2522,
+    "endFrame": 2577,
+    "text": "个人赛成绩累加计入团队总分"
   },
   {
     "id": 23,
-    "startFrame": 2638,
-    "endFrame": 2887,
-    "text": "经过选拔训练，4人组成英国国家队出征IChO，International Chemistry Olympiad，国际化学奥林匹克"
+    "startFrame": 2568,
+    "endFrame": 2667,
+    "text": "秋季赛设代数、几何和组合三个科目测试"
   },
   {
     "id": 24,
-    "startFrame": 2877,
-    "endFrame": 2936,
-    "text": "报名从9月中旬到1月中旬"
+    "startFrame": 2667,
+    "endFrame": 2722,
+    "text": "春季赛增加微积分科目"
   },
   {
     "id": 25,
-    "startFrame": 2936,
-    "endFrame": 3000,
-    "text": "Round 1在1月底进行"
+    "startFrame": 2722,
+    "endFrame": 2777,
+    "text": "综合测试覆盖所有领域"
   },
   {
     "id": 26,
-    "startFrame": 3000,
-    "endFrame": 3093,
-    "text": "Round 2在4月初于诺丁汉大学举行"
+    "startFrame": 2777,
+    "endFrame": 2887,
+    "text": "题目难度从AMC水平到USAMO水平不等"
   },
   {
     "id": 27,
-    "startFrame": 3093,
-    "endFrame": 3186,
-    "text": "IChO在7月于乌兹别克斯坦塔什干举行"
+    "startFrame": 2878,
+    "endFrame": 2972,
+    "text": "报名在每年9月开放，约3周窗口期"
   },
   {
     "id": 28,
-    "startFrame": 3176,
-    "endFrame": 3302,
-    "text": "面向16到19岁的高中生，主要针对高中最后一年的学生"
+    "startFrame": 2972,
+    "endFrame": 3084,
+    "text": "由于场地限制，参赛资格通过随机抽签决定"
   },
   {
     "id": 29,
-    "startFrame": 3302,
-    "endFrame": 3448,
-    "text": "中国籍学生可以参加Round 1，与英国学生统一考试统一评奖"
+    "startFrame": 3084,
+    "endFrame": 3196,
+    "text": "秋季赛11月在MIT，春季赛2月在哈佛"
   },
   {
     "id": 30,
-    "startFrame": 3448,
-    "endFrame": 3506,
-    "text": "需通过学校或指定机构报名"
+    "startFrame": 3186,
+    "endFrame": 3322,
+    "text": "参赛者必须21岁以下，且在报名时为全日制中小学在校生"
   },
   {
     "id": 31,
-    "startFrame": 3497,
-    "endFrame": 3675,
-    "text": "UKChO获奖经历是申请英国G5大学化学、医学和药学专业的重要加分项"
+    "startFrame": 3322,
+    "endFrame": 3422,
+    "text": "由于名额有限，通过随机抽签确定参赛队伍"
   },
   {
     "id": 32,
-    "startFrame": 3675,
-    "endFrame": 3764,
-    "text": "由英国皇家化学学会背书，含金量极高"
+    "startFrame": 3422,
+    "endFrame": 3516,
+    "text": "但春季赛前30名队伍可直接保送下一年"
   },
   {
     "id": 33,
-    "startFrame": 3755,
-    "endFrame": 3812,
-    "text": "建议提前3到6个月准备"
+    "startFrame": 3507,
+    "endFrame": 3603,
+    "text": "HMMT是全美竞争最激烈的数学团队赛"
   },
   {
     "id": 34,
-    "startFrame": 3812,
-    "endFrame": 3951,
-    "text": "以A-level化学为基础，重点深化有机化学和物理化学"
+    "startFrame": 3603,
+    "endFrame": 3817,
+    "text": "在哈佛和MIT的校园里与全美最强数学选手同台竞技，参赛经历本身就是名校申请的亮点"
   },
   {
     "id": 35,
-    "startFrame": 3951,
-    "endFrame": 4033,
-    "text": "RSC官网提供历年真题和考官报告"
+    "startFrame": 3808,
+    "endFrame": 3907,
+    "text": "建议先有AMC和AIME的竞赛基础"
   },
   {
     "id": 36,
-    "startFrame": 4024,
-    "endFrame": 4119,
-    "text": "重点攻克合成路线设计和复杂计算题"
+    "startFrame": 3907,
+    "endFrame": 4018,
+    "text": "团队成员要有明确分工，每人主攻一个科目"
   },
   {
     "id": 37,
-    "startFrame": 4119,
-    "endFrame": 4196,
-    "text": "阅读考官报告了解常见失分点"
+    "startFrame": 4018,
+    "endFrame": 4106,
+    "text": "HMMT官网提供历年真题和解答"
   },
   {
     "id": 38,
-    "startFrame": 4196,
-    "endFrame": 4327,
-    "text": "考前做限时模拟训练，适应120分钟的考试节奏"
+    "startFrame": 4097,
+    "endFrame": 4240,
+    "text": "Guts Round是最考验团队默契的环节，需要大量团队模拟练习"
   },
   {
     "id": 39,
-    "startFrame": 4318,
-    "endFrame": 4457,
-    "text": "UKChO不仅是一场竞赛，更是通往国际化学奥林匹克的起点"
+    "startFrame": 4240,
+    "endFrame": 4348,
+    "text": "Team Round则要训练高效的分工和讨论策略"
   },
   {
     "id": 40,
-    "startFrame": 4457,
-    "endFrame": 4556,
-    "text": "现在就开始准备，让化学成为你最闪亮的名片"
+    "startFrame": 4339,
+    "endFrame": 4515,
+    "text": "HMMT不仅是一场比赛，更是与全美最强数学高手同台竞技的机会"
+  },
+  {
+    "id": 41,
+    "startFrame": 4515,
+    "endFrame": 4597,
+    "text": "组建你的团队，现在就开始准备"
   }
 ]

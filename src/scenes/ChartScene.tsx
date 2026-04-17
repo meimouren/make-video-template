@@ -5,14 +5,14 @@ import { FONT_FAMILY_CN, FONT_FAMILY_EN } from "../fonts";
 import { AnimatedLineChart } from "../components/AnimatedLineChart";
 
 const PARTICIPATION_DATA = [
-  { year: "2018", value: 6000 },
-  { year: "2019", value: 7000 },
-  { year: "2020", value: 6500 },
-  { year: "2021", value: 8000 },
-  { year: "2022", value: 9500 },
-  { year: "2023", value: 11000 },
-  { year: "2024", value: 12000 },
-  { year: "2025", value: 13000 },
+  { year: "2018", value: 600 },
+  { year: "2019", value: 700 },
+  { year: "2020", value: 500 },
+  { year: "2021", value: 650 },
+  { year: "2022", value: 800 },
+  { year: "2023", value: 900 },
+  { year: "2024", value: 1000 },
+  { year: "2025", value: 1100 },
 ];
 
 export const ChartScene: React.FC = () => {
@@ -32,19 +32,19 @@ export const ChartScene: React.FC = () => {
       <div
         style={{
           fontFamily: FONT_FAMILY_EN,
-          fontSize: 120,
+          fontSize: 130,
           fontWeight: 800,
           color: COLORS.primary,
           letterSpacing: 6,
           textAlign: "center",
         }}
       >
-        UKChO
+        HMMT
       </div>
 
       <AnimatedLineChart
         data={PARTICIPATION_DATA}
-        title="历年全球参赛人数趋势"
+        title="历年参赛队伍数趋势"
         unit="+"
         delay={0.3 * fps}
       />

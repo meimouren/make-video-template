@@ -70,7 +70,7 @@ export const CoverScene: React.FC<CoverSceneProps> = ({
           textAlign: "center",
         }}
       >
-        英国化学奥林匹克
+        哈佛麻省理工数学锦标赛
       </div>
 
       {/* 注释 */}
