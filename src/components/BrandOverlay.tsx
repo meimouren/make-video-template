@@ -16,7 +16,7 @@ export const BrandOverlay: React.FC = () => {
       <div
         style={{
           position: "absolute",
-          top: 28,
+          top: 58,
           left: 36,
           fontFamily: FONT_FAMILY_EN,
           fontSize: 80,
@@ -32,7 +32,7 @@ export const BrandOverlay: React.FC = () => {
       <div
         style={{
           position: "absolute",
-          top: 36,
+          top: 66,
           left: 0,
           right: 0,
           textAlign: "center",
@@ -50,7 +50,7 @@ export const BrandOverlay: React.FC = () => {
       <div
         style={{
           position: "absolute",
-          top: 40,
+          top: 70,
           right: 32,
           fontFamily: FONT_FAMILY_CN,
           fontSize: 20,

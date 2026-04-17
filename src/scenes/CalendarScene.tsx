@@ -40,7 +40,8 @@ export const CalendarScene: React.FC<CalendarSceneProps> = ({
             config: { damping: 16, stiffness: 100, mass: 0.6 },
           });
 
-          const isHighlight = ev.event.includes("AIME") || ev.event.includes("USAMO");
+          // 最后两个事件高亮（通常是晋级赛/国际赛）
+          const isHighlight = i >= events.length - 2;
 
           return (
             <div
@@ -100,6 +101,19 @@ export const CalendarScene: React.FC<CalendarSceneProps> = ({
             </div>
           );
         })}
+      </div>
+
+      {/* 底部注释 */}
+      <div
+        style={{
+          fontFamily: FONT_FAMILY_CN,
+          fontSize: 24,
+          color: "#555555",
+          textAlign: "center",
+          marginTop: 8,
+        }}
+      >
+        * 以上时间参考往年安排，具体以官方公布为准
       </div>
     </AbsoluteFill>
   );
