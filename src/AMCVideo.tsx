@@ -11,12 +11,12 @@ import { fade } from "@remotion/transitions/fade";
 import { Background } from "./components/_legacy/Background";
 import { BrandOverlay } from "./components/_legacy/BrandOverlay";
 import { SubtitleOverlay } from "./components/_legacy/SubtitleOverlay";
-import { CoverScene } from "./scenes/_legacy/CoverScene";
+import { CoverScene } from "./scenes/CoverScene";
 import { ChartScene } from "./scenes/ChartScene";
 import { OpeningScene as OpeningSceneV2 } from "./scenes/OpeningScene";
 import { StatsScene } from "./scenes/StatsScene";
 import { TitleCardScene } from "./scenes/_legacy/TitleCardScene";
-import { WhatIsAMCScene } from "./scenes/_legacy/WhatIsAMCScene";
+import { WhatIsAMCScene } from "./scenes/WhatIsAMCScene";
 import { KeyPointsScene } from "./scenes/_legacy/KeyPointsScene";
 import { ComparisonScene } from "./scenes/_legacy/ComparisonScene";
 import { ScoringScene } from "./scenes/ScoringScene";
@@ -26,7 +26,7 @@ import { CalendarScene } from "./scenes/_legacy/CalendarScene";
 import { WhyAMCScene } from "./scenes/_legacy/WhyAMCScene";
 import { ProgressionScene } from "./scenes/_legacy/ProgressionScene";
 import { PrepScene } from "./scenes/_legacy/PrepScene";
-import { ClosingScene } from "./scenes/_legacy/ClosingScene";
+import { ClosingScene } from "./scenes/ClosingScene";
 import { SCENES, COMPETITION } from "./config";
 
 export type AMCVideoProps = {
