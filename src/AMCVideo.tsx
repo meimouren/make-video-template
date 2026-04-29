@@ -12,16 +12,16 @@ import { Background } from "./components/_legacy/Background";
 import { BrandOverlay } from "./components/_legacy/BrandOverlay";
 import { SubtitleOverlay } from "./components/_legacy/SubtitleOverlay";
 import { CoverScene } from "./scenes/_legacy/CoverScene";
-import { ChartScene } from "./scenes/_legacy/ChartScene";
+import { ChartScene } from "./scenes/ChartScene";
 import { OpeningScene as OpeningSceneV2 } from "./scenes/OpeningScene";
-import { StatsScene } from "./scenes/_legacy/StatsScene";
+import { StatsScene } from "./scenes/StatsScene";
 import { TitleCardScene } from "./scenes/_legacy/TitleCardScene";
 import { WhatIsAMCScene } from "./scenes/_legacy/WhatIsAMCScene";
 import { KeyPointsScene } from "./scenes/_legacy/KeyPointsScene";
 import { ComparisonScene } from "./scenes/_legacy/ComparisonScene";
-import { ScoringScene } from "./scenes/_legacy/ScoringScene";
-import { ScoringExamplesScene } from "./scenes/_legacy/ScoringExamplesScene";
-import { TopicsScene } from "./scenes/_legacy/TopicsScene";
+import { ScoringScene } from "./scenes/ScoringScene";
+import { ScoringExamplesScene } from "./scenes/ScoringExamplesScene";
+import { TopicsScene } from "./scenes/TopicsScene";
 import { CalendarScene } from "./scenes/_legacy/CalendarScene";
 import { WhyAMCScene } from "./scenes/_legacy/WhyAMCScene";
 import { ProgressionScene } from "./scenes/_legacy/ProgressionScene";
@@ -60,7 +60,7 @@ export const AMCVideo: React.FC<AMCVideoProps> = ({ sceneDurations }) => {
           />
         );
       case "opening-stats":
-        return <StatsScene stats={scene.stats} />;
+        return <StatsScene title={scene.title} subtitle={scene.subtitle} stats={scene.stats} />;
       case "title-card":
         return <TitleCardScene title={scene.title} subtitle={scene.subtitle} highlights={scene.highlights} />;
       case "levels-compare":

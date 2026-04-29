@@ -1,18 +1,16 @@
 import React from 'react';
 import { AbsoluteFill } from 'remotion';
 import { EditorialChart } from '../components/EditorialChart';
-import { useFrom, useStagger } from '../animations/primitives';
+import { StatBlock } from '../components/StatBlock';
+import { useFrom } from '../animations/primitives';
 import { useNumberCount } from '../animations/data-hooks';
-import { power3Out, back } from '../animations/easings';
+import { power3Out } from '../animations/easings';
 import { BRAND } from '../theme/colors';
 import {
   D0_CAPTION,
-  D1_BODY,
   D2_SUBTITLE,
-  D3_TITLE,
   D4_HEADLINE,
   FONT_HEAD_EN,
-  FONT_BODY_EN,
   FONT_CN,
   tokenToStyle,
 } from '../theme/typography';
@@ -24,62 +22,6 @@ interface OpeningSceneProps {
   participationData: Array<{ year: string; value: number }>;
   participationUnit: string;
 }
-
-interface StatCardProps {
-  label: string;
-  value: string;
-  index: number;
-  delay: number;
-  emphasis?: boolean;
-}
-
-const StatCard: React.FC<StatCardProps> = ({ label, value, index, delay, emphasis }) => {
-  const card = useStagger({
-    stagger: 0.12,
-    index,
-    delay,
-    duration: 0.55,
-    ease: back(1.4).out,
-    from: { y: 24, opacity: 0, scale: 0.85 },
-  });
-  return (
-    <div
-      style={{
-        flex: 1,
-        padding: '24px 24px',
-        background: emphasis ? BRAND.yellow : BRAND.cardBg,
-        border: emphasis ? 'none' : `1px solid ${BRAND.cardBorder}`,
-        borderRadius: 12,
-        transform: `translateY(${card.y}px) scale(${card.scale})`,
-        opacity: card.opacity,
-        transformOrigin: 'center bottom',
-      }}
-    >
-      <div
-        style={{
-          ...tokenToStyle(D3_TITLE),
-          fontFamily: FONT_BODY_EN,
-          fontWeight: 800,
-          color: emphasis ? BRAND.black : BRAND.yellow,
-          marginBottom: 4,
-        }}
-      >
-        {value}
-      </div>
-      <div
-        style={{
-          ...tokenToStyle(D0_CAPTION),
-          fontFamily: FONT_CN,
-          fontWeight: 500,
-          color: emphasis ? BRAND.black : BRAND.textLight,
-          opacity: emphasis ? 0.85 : 1,
-        }}
-      >
-        {label}
-      </div>
-    </div>
-  );
-};
 
 const AnimatedGrowthValue: React.FC = () => {
   // 500 -> 1500 = 200% growth, count up
@@ -204,19 +146,19 @@ export const OpeningScene: React.FC<OpeningSceneProps> = ({
           marginBottom: 40,
         }}
       >
-        <StatCard
+        <StatBlock
           index={0}
           delay={0.5}
           label="历年参赛人数增长"
           value={(<AnimatedGrowthValue />) as unknown as string}
         />
-        <StatCard
+        <StatBlock
           index={1}
           delay={0.5}
           label={`${firstYear} - ${lastYear}`}
           value={`${participationData.length} 届`}
         />
-        <StatCard
+        <StatBlock
           index={2}
           delay={0.5}
           label="二零二六参赛规模"
