@@ -1,7 +1,7 @@
 import React from "react";
 import { Composition, Still } from "remotion";
 import { AMCVideo, AMCVideoProps } from "./AMCVideo";
-import { CoverStill } from "./scenes/CoverStill";
+import { CoverStill } from "./scenes/_legacy/CoverStill";
 import { SCENES, FPS, WIDTH, HEIGHT } from "./config";
 import sceneDurationsData from "./scene-durations.json";
 

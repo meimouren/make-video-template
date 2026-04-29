@@ -8,24 +8,24 @@ import {
 } from "remotion";
 import { TransitionSeries, linearTiming } from "@remotion/transitions";
 import { fade } from "@remotion/transitions/fade";
-import { Background } from "./components/Background";
-import { BrandOverlay } from "./components/BrandOverlay";
-import { SubtitleOverlay } from "./components/SubtitleOverlay";
-import { CoverScene } from "./scenes/CoverScene";
-import { ChartScene } from "./scenes/ChartScene";
-import { StatsScene } from "./scenes/StatsScene";
-import { TitleCardScene } from "./scenes/TitleCardScene";
-import { WhatIsAMCScene } from "./scenes/WhatIsAMCScene";
-import { KeyPointsScene } from "./scenes/KeyPointsScene";
-import { ComparisonScene } from "./scenes/ComparisonScene";
-import { ScoringScene } from "./scenes/ScoringScene";
-import { ScoringExamplesScene } from "./scenes/ScoringExamplesScene";
-import { TopicsScene } from "./scenes/TopicsScene";
-import { CalendarScene } from "./scenes/CalendarScene";
-import { WhyAMCScene } from "./scenes/WhyAMCScene";
-import { ProgressionScene } from "./scenes/ProgressionScene";
-import { PrepScene } from "./scenes/PrepScene";
-import { ClosingScene } from "./scenes/ClosingScene";
+import { Background } from "./components/_legacy/Background";
+import { BrandOverlay } from "./components/_legacy/BrandOverlay";
+import { SubtitleOverlay } from "./components/_legacy/SubtitleOverlay";
+import { CoverScene } from "./scenes/_legacy/CoverScene";
+import { ChartScene } from "./scenes/_legacy/ChartScene";
+import { StatsScene } from "./scenes/_legacy/StatsScene";
+import { TitleCardScene } from "./scenes/_legacy/TitleCardScene";
+import { WhatIsAMCScene } from "./scenes/_legacy/WhatIsAMCScene";
+import { KeyPointsScene } from "./scenes/_legacy/KeyPointsScene";
+import { ComparisonScene } from "./scenes/_legacy/ComparisonScene";
+import { ScoringScene } from "./scenes/_legacy/ScoringScene";
+import { ScoringExamplesScene } from "./scenes/_legacy/ScoringExamplesScene";
+import { TopicsScene } from "./scenes/_legacy/TopicsScene";
+import { CalendarScene } from "./scenes/_legacy/CalendarScene";
+import { WhyAMCScene } from "./scenes/_legacy/WhyAMCScene";
+import { ProgressionScene } from "./scenes/_legacy/ProgressionScene";
+import { PrepScene } from "./scenes/_legacy/PrepScene";
+import { ClosingScene } from "./scenes/_legacy/ClosingScene";
 import { SCENES } from "./config";
 
 export type AMCVideoProps = {
@@ -59,7 +59,7 @@ export const AMCVideo: React.FC<AMCVideoProps> = ({ sceneDurations }) => {
       case "key-points":
         return <KeyPointsScene title={scene.title} subtitle={scene.subtitle} keyPoints={scene.keyPoints} />;
       case "comparison":
-        return <ComparisonScene title={scene.title} subtitle={scene.subtitle} comparison={scene.comparison} />;
+        return <ComparisonScene title={scene.title} subtitle={scene.subtitle} comparison={scene.comparison} leftLabel={scene.leftLabel} rightLabel={scene.rightLabel} />;
       case "scoring-formula":
         return <ScoringScene title={scene.title} subtitle={scene.subtitle} formula={scene.formula} scoringExamples={[]} />;
       case "scoring-examples":
