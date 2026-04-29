@@ -8,9 +8,9 @@ import {
 } from "remotion";
 import { TransitionSeries, springTiming } from "@remotion/transitions";
 import { fade } from "@remotion/transitions/fade";
-import { Background } from "./components/_legacy/Background";
-import { BrandOverlay } from "./components/_legacy/BrandOverlay";
-import { SubtitleOverlay } from "./components/_legacy/SubtitleOverlay";
+import { Background } from "./components/Background";
+import { BrandOverlay } from "./components/BrandOverlay";
+import { SubtitleOverlay } from "./components/SubtitleOverlay";
 import { CoverScene } from "./scenes/CoverScene";
 import { ChartScene } from "./scenes/ChartScene";
 import { OpeningScene as OpeningSceneV2 } from "./scenes/OpeningScene";
