@@ -1,8 +1,8 @@
 import React from 'react';
-import { useChartDraw, useStagger } from '../animations';
+import { useChartDraw, useStagger, useFrom } from '../animations';
 import { power3Out, back } from '../animations/easings';
 import { BRAND, DATA } from '../theme/colors';
-import { D0_CAPTION, FONT_BODY_EN } from '../theme/typography';
+import { D0_CAPTION, D2_SUBTITLE, FONT_BODY_EN } from '../theme/typography';
 
 export interface ChartPoint {
   label: string;
@@ -21,61 +21,114 @@ interface EditorialChartProps {
   seriesColor?: string;
 }
 
-const ChartDot: React.FC<{ x: number; y: number; index: number; delay: number; color: string }> = ({
-  x, y, index, delay, color,
-}) => {
+const ChartDot: React.FC<{
+  x: number;
+  y: number;
+  index: number;
+  delay: number;
+  color: string;
+  isLast: boolean;
+}> = ({ x, y, index, delay, color, isLast }) => {
   const dot = useStagger({
-    stagger: 0.12, index,
-    delay, duration: 0.4,
+    stagger: 0.12,
+    index,
+    delay,
+    duration: 0.45,
     ease: back().out,
     from: { scale: 0 },
   });
+  // Pulsing halo on the last (latest) point only — draws attention to current value
+  const halo = useFrom({
+    delay: delay + index * 0.12 + 0.3,
+    duration: 0.6,
+    ease: power3Out,
+    from: { opacity: 0, scale: 0.5 },
+  });
   return (
-    <circle
-      cx={x}
-      cy={y}
-      r={8}
-      fill={color}
-      style={{ transform: `scale(${dot.scale})`, transformOrigin: `${x}px ${y}px` }}
-    />
+    <g style={{ transform: `scale(${dot.scale})`, transformOrigin: `${x}px ${y}px` }}>
+      {isLast && (
+        <circle
+          cx={x}
+          cy={y}
+          r={26}
+          fill={color}
+          opacity={halo.opacity * 0.18 * halo.scale}
+        />
+      )}
+      <circle cx={x} cy={y} r={20} fill={BRAND.black} stroke={color} strokeWidth={3} />
+      <circle cx={x} cy={y} r={10} fill={color} />
+    </g>
   );
 };
 
-const ChartLabel: React.FC<{ x: number; y: number; text: string; index: number; delay: number }> = ({
-  x, y, text, index, delay,
-}) => {
+const ChartLabel: React.FC<{
+  x: number;
+  y: number;
+  text: string;
+  index: number;
+  delay: number;
+  highlight: boolean;
+}> = ({ x, y, text, index, delay, highlight }) => {
   const lab = useStagger({
-    stagger: 0.12, index,
-    delay: delay + 0.1, duration: 0.4,
+    stagger: 0.12,
+    index,
+    delay: delay + 0.15,
+    duration: 0.45,
     ease: power3Out,
-    from: { y: -10, opacity: 0 },
+    from: { y: -14, opacity: 0 },
   });
+  const padX = 14;
+  const padY = 6;
+  const charW = D0_CAPTION.fontSize * 0.62;
+  const w = text.length * charW + padX * 2;
+  const h = D0_CAPTION.fontSize + padY * 2;
   return (
-    <text
-      x={x}
-      y={y + lab.y}
-      textAnchor="middle"
-      fontFamily={FONT_BODY_EN}
-      fontSize={D0_CAPTION.fontSize}
-      fontWeight={600}
-      fill={BRAND.white}
-      opacity={lab.opacity}
+    <g
+      style={{
+        transform: `translateY(${lab.y}px)`,
+        opacity: lab.opacity,
+      }}
     >
-      {text}
-    </text>
+      <rect
+        x={x - w / 2}
+        y={y - h}
+        width={w}
+        height={h}
+        rx={6}
+        fill={highlight ? BRAND.yellow : 'rgba(255,255,255,0.08)'}
+        stroke={highlight ? 'transparent' : 'rgba(255,255,255,0.18)'}
+        strokeWidth={1}
+      />
+      <text
+        x={x}
+        y={y - h / 2}
+        textAnchor="middle"
+        dominantBaseline="middle"
+        fontFamily={FONT_BODY_EN}
+        fontSize={D0_CAPTION.fontSize}
+        fontWeight={700}
+        fill={highlight ? BRAND.black : BRAND.white}
+      >
+        {text}
+      </text>
+    </g>
   );
 };
 
 export const EditorialChart: React.FC<EditorialChartProps> = ({
-  points, width, height, unit,
-  drawDelay = 0.3, drawDuration = 1.4,
+  points,
+  width,
+  height,
+  unit,
+  drawDelay = 0.3,
+  drawDuration = 1.4,
   pointStaggerDelay = 1.2,
   seriesColor = DATA.red,
 }) => {
-  const padL = 80;
-  const padR = 80;
-  const padT = 40;
-  const padB = 80;
+  const padL = 110;
+  const padR = 110;
+  const padT = 70;
+  const padB = 100;
   const innerW = width - padL - padR;
   const innerH = height - padT - padB;
 
@@ -94,62 +147,116 @@ export const EditorialChart: React.FC<EditorialChartProps> = ({
     ''
   );
 
-  // Approximate path length for stroke-dashoffset (sum of segment lengths)
+  // Closed area path: line -> bottom-right -> bottom-left -> close
+  const baselineY = padT + innerH;
+  const areaD =
+    pathD +
+    ` L ${projected[projected.length - 1].x} ${baselineY}` +
+    ` L ${projected[0].x} ${baselineY} Z`;
+
+  // Approximate path length for stroke-dashoffset
   const totalLen = projected.reduce((sum, p, i) => {
     if (i === 0) return 0;
     const prev = projected[i - 1];
     return sum + Math.hypot(p.x - prev.x, p.y - prev.y);
   }, 0);
 
-  const { dashOffset } = useChartDraw({
+  const { dashOffset, progress: drawProgress } = useChartDraw({
     delay: drawDelay,
     duration: drawDuration,
     ease: power3Out,
   });
 
+  const areaAnim = useFrom({
+    delay: drawDelay + 0.3,
+    duration: 0.9,
+    ease: power3Out,
+    from: { opacity: 0 },
+  });
+
   // Y-axis gridlines (5 lines)
   const gridYs = [0, 0.25, 0.5, 0.75, 1].map((p) => padT + innerH * p);
+  const gridValues = [0, 0.25, 0.5, 0.75, 1].map((p) => Math.round(maxVal - p * (maxVal - minVal)));
+
+  const gradientId = `area-gradient-${seriesColor.replace('#', '')}`;
 
   return (
     <svg viewBox={`0 0 ${width} ${height}`} width={width} height={height}>
-      {/* Gridlines */}
+      <defs>
+        <linearGradient id={gradientId} x1="0%" y1="0%" x2="0%" y2="100%">
+          <stop offset="0%" stopColor={seriesColor} stopOpacity={0.55} />
+          <stop offset="60%" stopColor={seriesColor} stopOpacity={0.18} />
+          <stop offset="100%" stopColor={seriesColor} stopOpacity={0} />
+        </linearGradient>
+        <clipPath id={`area-clip-${gradientId}`}>
+          <rect
+            x={padL}
+            y={padT}
+            width={innerW * drawProgress}
+            height={innerH}
+          />
+        </clipPath>
+      </defs>
+
+      {/* Gridlines + numeric ticks on left axis */}
       {gridYs.map((y, i) => (
-        <line
-          key={i}
-          x1={padL}
-          y1={y}
-          x2={width - padR}
-          y2={y}
-          stroke={BRAND.divider}
-          strokeWidth={1}
-          opacity={0.6}
-        />
+        <g key={i}>
+          <line
+            x1={padL}
+            y1={y}
+            x2={width - padR}
+            y2={y}
+            stroke={i === gridYs.length - 1 ? BRAND.white : BRAND.divider}
+            strokeWidth={i === gridYs.length - 1 ? 1.5 : 1}
+            opacity={i === gridYs.length - 1 ? 1 : 0.45}
+            strokeDasharray={i === gridYs.length - 1 ? '0' : '4 6'}
+          />
+          {i < gridYs.length - 1 && (
+            <text
+              x={padL - 16}
+              y={y + 6}
+              textAnchor="end"
+              fontFamily={FONT_BODY_EN}
+              fontSize={D0_CAPTION.fontSize - 2}
+              fill={BRAND.textLight}
+            >
+              {gridValues[i].toLocaleString()}
+            </text>
+          )}
+        </g>
       ))}
 
       {/* Y-axis unit label (top-left) */}
       <text
-        x={padL}
-        y={padT - 12}
+        x={padL - 16}
+        y={padT - 16}
+        textAnchor="end"
         fontFamily={FONT_BODY_EN}
         fontSize={D0_CAPTION.fontSize}
-        fill={BRAND.textLight}
+        fontWeight={600}
+        fill={BRAND.yellow}
       >
         {unit}
       </text>
 
-      {/* Animated line */}
+      {/* Area fill under line (clipped by drawProgress so it grows with the line) */}
+      <g opacity={areaAnim.opacity} clipPath={`url(#area-clip-${gradientId})`}>
+        <path d={areaD} fill={`url(#${gradientId})`} />
+      </g>
+
+      {/* Animated line on top of fill */}
       <path
         d={pathD}
         fill="none"
         stroke={seriesColor}
-        strokeWidth={4}
+        strokeWidth={5}
         strokeLinecap="round"
         strokeLinejoin="round"
         strokeDasharray={totalLen}
         strokeDashoffset={dashOffset(totalLen)}
       />
 
-      {/* Data points (stagger overshoot) */}
+      {/* Data points with rings */}
       {projected.map((p, i) => (
         <ChartDot
           key={`dot-${i}`}
@@ -158,18 +265,20 @@ export const EditorialChart: React.FC<EditorialChartProps> = ({
           index={i}
           delay={pointStaggerDelay}
           color={seriesColor}
+          isLast={i === projected.length - 1}
         />
       ))}
 
-      {/* Value labels above points */}
+      {/* Value labels above points (last one highlighted yellow) */}
       {projected.map((p, i) => (
         <ChartLabel
           key={`label-${i}`}
           x={p.x}
-          y={p.y - 22}
+          y={p.y - 32}
           text={p.value.toLocaleString()}
           index={i}
           delay={pointStaggerDelay}
+          highlight={i === projected.length - 1}
         />
       ))}
 
@@ -178,25 +287,16 @@ export const EditorialChart: React.FC<EditorialChartProps> = ({
         <text
           key={`xlabel-${i}`}
           x={p.x}
-          y={height - padB / 2 + 8}
+          y={baselineY + 38}
           textAnchor="middle"
           fontFamily={FONT_BODY_EN}
           fontSize={D0_CAPTION.fontSize}
-          fill={BRAND.textLight}
+          fontWeight={i === projected.length - 1 ? 700 : 400}
+          fill={i === projected.length - 1 ? BRAND.yellow : BRAND.textLight}
         >
           {p.label}
         </text>
       ))}
-
-      {/* Baseline */}
-      <line
-        x1={padL}
-        y1={padT + innerH}
-        x2={width - padR}
-        y2={padT + innerH}
-        stroke={BRAND.white}
-        strokeWidth={1.5}
-      />
     </svg>
   );
 };
