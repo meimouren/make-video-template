@@ -102,9 +102,11 @@ export const KeyPointsScene: React.FC<KeyPointsSceneProps> = ({ title, subtitle,
       footer="HANLIN · 国际竞赛系列"
       bodyPanel={false}
     >
-      <div style={{ display: 'flex', flexDirection: 'column', gap: 14 }}>
+      <div style={{ display: 'flex', flexDirection: 'column', gap: 14, flex: 1, minHeight: 0 }}>
         {keyPoints.map((kp, i) => (
-          <KeyPointRow key={kp.label + i} kp={kp} index={i} delay={1.0} />
+          <div key={kp.label + i} style={{ flex: 1, display: 'flex', minHeight: 0 }}>
+            <KeyPointRow kp={kp} index={i} delay={1.0} />
+          </div>
         ))}
       </div>
     </SceneShell>

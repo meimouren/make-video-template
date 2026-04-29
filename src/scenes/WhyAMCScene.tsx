@@ -145,7 +145,10 @@ export const WhyAMCScene: React.FC<WhyAMCSceneProps> = ({ title, subtitle, benef
         style={{
           display: 'grid',
           gridTemplateColumns: cols === 1 ? '1fr' : '1fr 1fr',
+          gridTemplateRows: cols === 1 ? `repeat(${total}, 1fr)` : `repeat(${Math.ceil(total / 2)}, 1fr)`,
           gap: 16,
+          flex: 1,
+          minHeight: 0,
         }}
       >
         {benefits.map((b, i) => (

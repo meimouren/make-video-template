@@ -49,6 +49,8 @@ const Row: React.FC<{
         gap: 14,
         transform: `translateY(${row.y}px)`,
         opacity: row.opacity,
+        flex: 1,
+        minHeight: 0,
       }}
     >
       {/* Aspect label cell */}
@@ -186,7 +188,7 @@ export const ComparisonScene: React.FC<ComparisonSceneProps> = ({
       </div>
 
       {/* Rows */}
-      <div style={{ display: 'flex', flexDirection: 'column', gap: 10 }}>
+      <div style={{ display: 'flex', flexDirection: 'column', gap: 10, flex: 1, minHeight: 0 }}>
         {comparison.map((c, i) => (
           <Row key={c.aspect + i} item={c} index={i} delay={1.0} />
         ))}

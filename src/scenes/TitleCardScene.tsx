@@ -32,8 +32,6 @@ const HighlightTile: React.FC<{ text: string; index: number; delay: number; tota
   return (
     <div
       style={{
-        flex: '1 1 calc(33% - 14px)',
-        minWidth: 240,
         padding: '24px 26px',
         background: BRAND.cardBg,
         border: `1px solid ${BRAND.cardBorder}`,
@@ -91,10 +89,12 @@ export const TitleCardScene: React.FC<TitleCardSceneProps> = ({ title, subtitle,
     >
       <div
         style={{
-          display: 'flex',
-          flexWrap: 'wrap',
+          display: 'grid',
+          gridTemplateColumns: 'repeat(3, 1fr)',
+          gridAutoRows: '1fr',
           gap: 14,
-          alignContent: 'flex-start',
+          flex: 1,
+          minHeight: 0,
         }}
       >
         {highlights.map((h, i) => (

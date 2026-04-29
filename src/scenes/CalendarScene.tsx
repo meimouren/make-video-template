@@ -57,7 +57,7 @@ const TimelineRow: React.FC<{
   });
 
   return (
-    <div style={{ display: 'flex', gap: 26, position: 'relative' }}>
+    <div style={{ display: 'flex', gap: 26, position: 'relative', flex: 1, minHeight: 0 }}>
       {/* Dot + connector */}
       <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', minWidth: 36 }}>
         <div
@@ -163,7 +163,7 @@ export const CalendarScene: React.FC<CalendarSceneProps> = ({ title, subtitle, e
       metaChips={metaChips}
       footer="数据来源 · 翰林有方"
     >
-      <div style={{ display: 'flex', flexDirection: 'column' }}>
+      <div style={{ display: 'flex', flexDirection: 'column', flex: 1, minHeight: 0 }}>
         {events.map((e, i) => (
           <TimelineRow
             key={e.date + i}

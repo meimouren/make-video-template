@@ -41,6 +41,8 @@ const StepCard: React.FC<{ step: Step; index: number; delay: number }> = ({ step
         borderRadius: 14,
         transform: `translateY(${card.y}px) scale(${card.scale})`,
         opacity: card.opacity,
+        flex: 1,
+        alignItems: 'center',
       }}
     >
       {/* Number badge */}
@@ -125,9 +127,11 @@ export const PrepScene: React.FC<PrepSceneProps> = ({ title, subtitle, steps }) 
       footer="HANLIN · 国际竞赛系列"
       bodyPanel={false}
     >
-      <div style={{ display: 'flex', flexDirection: 'column', gap: 14 }}>
+      <div style={{ display: 'flex', flexDirection: 'column', gap: 14, flex: 1, minHeight: 0 }}>
         {steps.map((s, i) => (
-          <StepCard key={s.num + i} step={s} index={i} delay={1.0} />
+          <div key={s.num + i} style={{ flex: 1, minHeight: 0, display: 'flex' }}>
+            <StepCard step={s} index={i} delay={1.0} />
+          </div>
         ))}
       </div>
     </SceneShell>

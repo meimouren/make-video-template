@@ -45,7 +45,7 @@ const StageCard: React.FC<{
   const accent = palette[index % palette.length];
 
   return (
-    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'stretch' }}>
+    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'stretch', flex: 1, minHeight: 0 }}>
       <div
         style={{
           display: 'flex',
@@ -57,6 +57,8 @@ const StageCard: React.FC<{
           borderRadius: 12,
           transform: `translateY(${card.y}px) scale(${card.scale})`,
           opacity: card.opacity,
+          flex: 1,
+          alignItems: 'center',
         }}
       >
         {/* Stage badge */}
@@ -178,16 +180,20 @@ export const ProgressionScene: React.FC<ProgressionSceneProps> = ({ title, subti
       footer="HANLIN · 国际竞赛系列"
       bodyPanel={false}
     >
-      <div style={{ display: 'flex', flexDirection: 'column' }}>
+      <div style={{ display: 'flex', flexDirection: 'column', flex: 1, minHeight: 0 }}>
         {pathway.map((step, i) => (
-          <StageCard
+          <div
             key={step.stage + i}
-            step={step}
-            index={i}
-            delay={1.0}
-            total={pathway.length}
-            isLast={i === pathway.length - 1}
-          />
+            style={{ flex: 1, minHeight: 0, display: 'flex', flexDirection: 'column' }}
+          >
+            <StageCard
+              step={step}
+              index={i}
+              delay={1.0}
+              total={pathway.length}
+              isLast={i === pathway.length - 1}
+            />
+          </div>
         ))}
       </div>
     </SceneShell>
