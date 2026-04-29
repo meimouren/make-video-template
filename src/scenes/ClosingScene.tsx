@@ -1,12 +1,11 @@
 import React from 'react';
-import { AbsoluteFill, useCurrentFrame, useVideoConfig, interpolate } from 'remotion';
+import { AbsoluteFill } from 'remotion';
 import { useFrom, useTextReveal } from '../animations/primitives';
 import { power3Out } from '../animations/easings';
 import { BRAND } from '../theme/colors';
 import {
   D2_SUBTITLE,
   D4_HEADLINE,
-  FONT_BODY_EN,
   FONT_CN,
   tokenToStyle,
 } from '../theme/typography';
@@ -17,9 +16,6 @@ interface ClosingSceneProps {
 }
 
 export const ClosingScene: React.FC<ClosingSceneProps> = ({ title, text }) => {
-  const frame = useCurrentFrame();
-  const { fps, durationInFrames } = useVideoConfig();
-
   const titleReveal = useTextReveal({
     text: title,
     delay: 0.3,
@@ -46,16 +42,6 @@ export const ClosingScene: React.FC<ClosingSceneProps> = ({ title, text }) => {
     ease: power3Out,
     from: { y: 14, opacity: 0 },
   });
-
-  // Yellow wipe right-to-left during the last 0.8 seconds
-  const wipeStartFrame = durationInFrames - Math.round(0.8 * fps);
-  const wipeProgress = interpolate(
-    frame,
-    [wipeStartFrame, durationInFrames],
-    [0, 1],
-    { extrapolateLeft: 'clamp', extrapolateRight: 'clamp' }
-  );
-  const wipeEase = power3Out(wipeProgress);
 
   return (
     <AbsoluteFill style={{ background: BRAND.black }}>
@@ -133,16 +119,6 @@ export const ClosingScene: React.FC<ClosingSceneProps> = ({ title, text }) => {
           翰林有方 · 国际竞赛系列
         </div>
       </div>
-
-      {/* Yellow exit wipe */}
-      <div
-        style={{
-          position: 'absolute',
-          inset: 0,
-          background: BRAND.yellow,
-          transform: `translateX(${(1 - wipeEase) * 110}%)`,
-        }}
-      />
     </AbsoluteFill>
   );
 };
