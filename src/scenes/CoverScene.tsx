@@ -1,102 +1,159 @@
-import React from "react";
-import { AbsoluteFill } from "remotion";
-import { COLORS } from "../config";
-import { FONT_FAMILY_CN, FONT_FAMILY_EN } from "../fonts";
+import React from 'react';
+import { AbsoluteFill } from 'remotion';
+import { useFrom, useTextReveal } from '../animations/primitives';
+import { back, power3Out } from '../animations/easings';
+import { COMPETITION } from '../config';
+import { BRAND } from '../theme/colors';
+import { D2_SUBTITLE, FONT_BODY_EN, FONT_CN, tokenToStyle } from '../theme/typography';
 
-type CoverSceneProps = {
+interface CoverSceneProps {
   seriesName: string;
   competitionName: string;
   competitionNameEn: string;
   episodeTag: string;
-};
+}
 
-/**
- * Top guide 风格封面 — 纯黑+网格+黄白大字
- */
 export const CoverScene: React.FC<CoverSceneProps> = ({
   seriesName,
   competitionName,
-  competitionNameEn,
   episodeTag,
 }) => {
+  const cnNameFull = COMPETITION.nameCn;
+
+  // Adaptive font sizes
+  const enLen = competitionName.length;
+  const enFontSize = enLen <= 3 ? 280 : enLen <= 4 ? 240 : enLen <= 5 ? 200 : 170;
+  const enLetterSpacing = enLen <= 3 ? 16 : enLen <= 4 ? 12 : 8;
+
+  const cnLen = cnNameFull.length;
+  const cnFontSize = cnLen <= 7 ? 80 : cnLen <= 9 ? 72 : cnLen <= 11 ? 64 : 56;
+
+  // Series name on top
+  const seriesAnim = useFrom({
+    delay: 0.1,
+    duration: 0.5,
+    ease: power3Out,
+    from: { y: -20, opacity: 0 },
+  });
+
+  // Big EN name reveal
+  const enReveal = useTextReveal({
+    text: competitionName,
+    delay: 0.4,
+    durationPerChar: 0.07,
+  });
+
+  // Yellow underline bar grows after EN name
+  const underlineAnim = useFrom({
+    delay: 0.4 + competitionName.length * 0.07 + 0.15,
+    duration: 0.55,
+    ease: power3Out,
+    from: { scale: 0 },
+  });
+
+  // CN full name fades in
+  const cnAnim = useFrom({
+    delay: 0.4 + competitionName.length * 0.07 + 0.4,
+    duration: 0.55,
+    ease: power3Out,
+    from: { y: 14, opacity: 0 },
+  });
+
+  // Episode tag chip pops up last
+  const chipAnim = useFrom({
+    delay: 1.5,
+    duration: 0.5,
+    ease: back(1.6).out,
+    from: { y: 16, opacity: 0, scale: 0.85 },
+  });
+
   return (
     <AbsoluteFill
       style={{
-        display: "flex",
-        flexDirection: "column",
-        alignItems: "center",
-        justifyContent: "center",
-        gap: 20,
-        background: "#000000",
+        background: BRAND.black,
+        display: 'flex',
+        flexDirection: 'column',
+        alignItems: 'center',
+        justifyContent: 'center',
+        gap: 32,
       }}
     >
-      {/* 系列名 — 白色 */}
+      {/* Series name */}
       <div
         style={{
-          fontFamily: FONT_FAMILY_CN,
-          fontSize: 48,
-          fontWeight: 700,
-          color: "#FFFFFF",
-          letterSpacing: 6,
-          textAlign: "center",
+          fontFamily: FONT_CN,
+          fontSize: 36,
+          fontWeight: 600,
+          color: BRAND.white,
+          letterSpacing: '0.4em',
+          opacity: seriesAnim.opacity * 0.85,
+          transform: `translateY(${seriesAnim.y}px)`,
         }}
       >
-        每天介绍一个国际竞赛
+        {seriesName}
       </div>
 
-      {/* 竞赛名 — 超大黄色 */}
+      {/* Big EN name with reveal */}
       <div
         style={{
-          fontFamily: FONT_FAMILY_EN,
-          fontSize: 240,
+          fontFamily: FONT_BODY_EN,
+          fontSize: enFontSize,
           fontWeight: 900,
-          color: COLORS.primary,
-          letterSpacing: 16,
-          textAlign: "center",
-          lineHeight: 1,
+          color: BRAND.yellow,
+          letterSpacing: enLetterSpacing,
+          textAlign: 'center',
+          minHeight: enFontSize * 1.0,
+          lineHeight: 1.0,
         }}
       >
-        {competitionName}
+        {enReveal.visibleText || ' '}
       </div>
 
-      {/* 中文名 — 黄色 */}
+      {/* Yellow underline */}
       <div
         style={{
-          fontFamily: FONT_FAMILY_CN,
-          fontSize: 72,
-          fontWeight: 800,
-          color: COLORS.primary,
-          letterSpacing: 8,
-          textAlign: "center",
+          width: enLen * (enFontSize * 0.55),
+          maxWidth: 800,
+          height: 8,
+          background: BRAND.yellow,
+          borderRadius: 4,
+          transform: `scaleX(${underlineAnim.scale})`,
+          transformOrigin: 'center',
+        }}
+      />
+
+      {/* CN full name */}
+      <div
+        style={{
+          fontFamily: FONT_CN,
+          fontSize: cnFontSize,
+          fontWeight: 700,
+          color: BRAND.white,
+          letterSpacing: '0.06em',
+          textAlign: 'center',
+          opacity: cnAnim.opacity,
+          transform: `translateY(${cnAnim.y}px)`,
         }}
       >
-        哈佛麻省理工数学锦标赛
+        {cnNameFull}
       </div>
 
-      {/* 注释 */}
+      {/* Episode tag chip */}
       <div
         style={{
-          fontFamily: FONT_FAMILY_CN,
-          fontSize: 26,
-          color: "#666666",
-          textAlign: "center",
-          marginTop: 20,
-          letterSpacing: 2,
-        }}
-      >
-        注：依托权威数据精准建模，客观呈现真实结果
-      </div>
-
-      {/* 底部品牌 */}
-      <div
-        style={{
-          position: "absolute",
-          bottom: 80,
-          fontFamily: FONT_FAMILY_CN,
+          marginTop: 28,
+          padding: '12px 28px',
+          background: BRAND.cardBg,
+          border: `1px solid ${BRAND.cardBorder}`,
+          borderRadius: 999,
+          ...tokenToStyle(D2_SUBTITLE),
+          fontFamily: FONT_CN,
           fontSize: 28,
-          color: "#444444",
-          letterSpacing: 8,
-          textAlign: "center",
+          color: BRAND.textLight,
+          letterSpacing: '0.18em',
+          fontWeight: 500,
+          transform: `translateY(${chipAnim.y}px) scale(${chipAnim.scale})`,
+          opacity: chipAnim.opacity,
         }}
       >
         {episodeTag}

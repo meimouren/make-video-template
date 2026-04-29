@@ -1,124 +1,232 @@
-import React from "react";
+import React from 'react';
+import { AbsoluteFill } from 'remotion';
+import { EditorialChart } from '../components/EditorialChart';
+import { StatBlock } from '../components/StatBlock';
+import { useFrom } from '../animations/primitives';
+import { useNumberCount } from '../animations/data-hooks';
+import { power3Out } from '../animations/easings';
+import { BRAND } from '../theme/colors';
 import {
-  AbsoluteFill,
-  useCurrentFrame,
-  useVideoConfig,
-  spring,
-} from "remotion";
-import { COLORS } from "../config";
-import { FONT_FAMILY_CN, FONT_FAMILY_EN } from "../fonts";
-import { AnimatedNumber } from "../components/AnimatedNumber";
-import { AnimatedLineChart } from "../components/AnimatedLineChart";
+  D0_CAPTION,
+  D2_SUBTITLE,
+  D4_HEADLINE,
+  FONT_HEAD_EN,
+  FONT_CN,
+  tokenToStyle,
+} from '../theme/typography';
 
-type Stat = { label: string; value: number; suffix: string };
-
-type OpeningSceneProps = {
+interface OpeningSceneProps {
   title: string;
   subtitle: string;
-  stats: Stat[];
-};
+  participationTitle: string;
+  participationData: Array<{ year: string; value: number }>;
+  participationUnit: string;
+}
 
-// 参赛人数历年增长数据（从 config 切换主题时需同步更新 ChartScene.tsx）
-const PARTICIPATION_DATA = [
-  { year: "2010", value: 180000 },
-  { year: "2012", value: 200000 },
-  { year: "2014", value: 220000 },
-  { year: "2016", value: 240000 },
-  { year: "2018", value: 270000 },
-  { year: "2020", value: 250000 },
-  { year: "2022", value: 290000 },
-  { year: "2024", value: 310000 },
-  { year: "2026", value: 350000 },
-];
+const AnimatedGrowthValue: React.FC = () => {
+  // 500 -> 1500 = 200% growth, count up
+  const growth = useNumberCount({
+    delay: 0.6,
+    duration: 1.2,
+    from: 0,
+    to: 200,
+    ease: power3Out,
+  });
+  return <>+{Math.round(growth)}%</>;
+};
 
 export const OpeningScene: React.FC<OpeningSceneProps> = ({
   title,
   subtitle,
-  stats,
+  participationTitle,
+  participationData,
+  participationUnit,
 }) => {
-  const frame = useCurrentFrame();
-  const { fps } = useVideoConfig();
-
-  const titleProgress = spring({
-    frame,
-    fps,
-    config: { damping: 14, stiffness: 80, mass: 0.6 },
+  const titleAnim = useFrom({
+    delay: 0.1,
+    duration: 0.7,
+    ease: power3Out,
+    from: { x: -20, opacity: 0 },
+  });
+  const subtitleAnim = useFrom({
+    delay: 0.3,
+    duration: 0.6,
+    ease: power3Out,
+    from: { y: -12, opacity: 0 },
+  });
+  const chartTitleAnim = useFrom({
+    delay: 1.0,
+    duration: 0.5,
+    ease: power3Out,
+    from: { y: -10, opacity: 0 },
+  });
+  const panelAnim = useFrom({
+    delay: 1.0,
+    duration: 0.6,
+    ease: power3Out,
+    from: { y: 24, opacity: 0 },
+  });
+  const captionAnim = useFrom({
+    delay: 2.6,
+    duration: 0.5,
+    ease: power3Out,
+    from: { opacity: 0 },
   });
 
-  const subtitleProgress = spring({
-    frame: Math.max(0, frame - 0.2 * fps),
-    fps,
-    config: { damping: 18, stiffness: 100, mass: 0.6 },
-  });
+  const points = participationData.map((d) => ({ label: d.year, value: d.value }));
+
+  // Pull aggregate stats from data
+  const firstYear = participationData[0]?.year ?? '';
+  const lastYear = participationData[participationData.length - 1]?.year ?? '';
+  const lastValue = participationData[participationData.length - 1]?.value ?? 0;
 
   return (
     <AbsoluteFill
       style={{
-        display: "flex",
-        flexDirection: "column",
-        alignItems: "center",
-        justifyContent: "center",
-        gap: 16,
-        padding: "40px 20px",
+        background: BRAND.black,
+        padding: '170px 70px 200px',
+        display: 'flex',
+        flexDirection: 'column',
+        justifyContent: 'center',
       }}
     >
-      {/* 标题区 */}
+      {/* Title block with yellow accent bar */}
       <div
         style={{
-          fontFamily: FONT_FAMILY_EN,
-          fontSize: 130,
-          fontWeight: 800,
-          color: COLORS.primary,
-          letterSpacing: 20,
-          textAlign: "center",
-          width: "100%",
-          transform: `scale(${titleProgress})`,
-          opacity: titleProgress,
+          display: 'flex',
+          alignItems: 'flex-start',
+          gap: 24,
+          transform: `translateX(${titleAnim.x}px)`,
+          opacity: titleAnim.opacity,
+          marginBottom: 18,
         }}
       >
-        HMMT
+        <div
+          style={{
+            width: 8,
+            alignSelf: 'stretch',
+            background: BRAND.yellow,
+            borderRadius: 4,
+            marginTop: 8,
+          }}
+        />
+        <div style={{ flex: 1 }}>
+          <div
+            style={{
+              ...tokenToStyle(D4_HEADLINE),
+              fontFamily: FONT_CN,
+              color: BRAND.yellow,
+              fontWeight: 800,
+            }}
+          >
+            {title}
+          </div>
+          <div
+            style={{
+              ...tokenToStyle(D2_SUBTITLE),
+              fontFamily: FONT_CN,
+              color: BRAND.white,
+              fontWeight: 400,
+              marginTop: 12,
+              transform: `translateY(${subtitleAnim.y}px)`,
+              opacity: subtitleAnim.opacity,
+            }}
+          >
+            {subtitle}
+          </div>
+        </div>
       </div>
 
+      {/* Stat cards row */}
       <div
         style={{
-          fontFamily: FONT_FAMILY_CN,
-          fontSize: 48,
-          color: COLORS.primary,
-          fontWeight: 600,
-          textAlign: "center",
-          width: "100%",
-          opacity: subtitleProgress,
+          display: 'flex',
+          gap: 18,
+          marginTop: 36,
+          marginBottom: 40,
         }}
       >
-        {title}
+        <StatBlock
+          index={0}
+          delay={0.5}
+          label="历年参赛人数增长"
+          value={(<AnimatedGrowthValue />) as unknown as string}
+        />
+        <StatBlock
+          index={1}
+          delay={0.5}
+          label={`${firstYear} - ${lastYear}`}
+          value={`${participationData.length} 届`}
+        />
+        <StatBlock
+          index={2}
+          delay={0.5}
+          label="二零二六参赛规模"
+          value={`${lastValue.toLocaleString()}+`}
+          emphasis
+        />
       </div>
 
-      {/* 财经风折线图 — 参赛人数增长 */}
-      <AnimatedLineChart
-        data={PARTICIPATION_DATA}
-        title="历年参赛人数增长趋势"
-        unit="+"
-        delay={0.8 * fps}
-      />
-
-      {/* 底部关键数字 */}
+      {/* Chart panel with subtle background */}
       <div
         style={{
-          display: "grid",
-          gridTemplateColumns: "1fr 1fr",
-          gap: "24px 48px",
-          marginTop: 8,
+          background: 'rgba(255,255,255,0.025)',
+          border: `1px solid ${BRAND.cardBorder}`,
+          borderRadius: 16,
+          padding: '36px 28px 24px',
+          transform: `translateY(${panelAnim.y}px)`,
+          opacity: panelAnim.opacity,
         }}
       >
-        {stats.map((stat, i) => (
-          <AnimatedNumber
-            key={i}
-            value={stat.value}
-            suffix={stat.suffix}
-            label={stat.label}
-            delay={2.5 * fps + i * 0.15 * fps}
-          />
-        ))}
+        <div
+          style={{
+            ...tokenToStyle(D2_SUBTITLE),
+            fontFamily: FONT_CN,
+            color: BRAND.white,
+            fontWeight: 700,
+            marginBottom: 8,
+            transform: `translateY(${chartTitleAnim.y}px)`,
+            opacity: chartTitleAnim.opacity,
+          }}
+        >
+          {participationTitle}
+        </div>
+        <div
+          style={{
+            ...tokenToStyle(D0_CAPTION),
+            fontFamily: FONT_CN,
+            color: BRAND.textLight,
+            marginBottom: 4,
+            transform: `translateY(${chartTitleAnim.y}px)`,
+            opacity: chartTitleAnim.opacity,
+          }}
+        >
+          单位：{participationUnit} · 数据来源 翰林有方
+        </div>
+        <EditorialChart
+          points={points}
+          width={940}
+          height={620}
+          unit={participationUnit}
+          drawDelay={1.2}
+          drawDuration={1.6}
+          pointStaggerDelay={2.2}
+        />
+      </div>
+
+      {/* Source caption (italic, fades in last) */}
+      <div
+        style={{
+          ...tokenToStyle(D0_CAPTION),
+          fontFamily: FONT_HEAD_EN,
+          fontStyle: 'italic',
+          color: BRAND.textLight,
+          marginTop: 18,
+          opacity: captionAnim.opacity,
+          alignSelf: 'flex-end',
+        }}
+      >
+        — 翰林有方 · 国际竞赛系列 EP.{lastYear.slice(-2)}
       </div>
     </AbsoluteFill>
   );

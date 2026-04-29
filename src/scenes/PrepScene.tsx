@@ -1,89 +1,139 @@
-import React from "react";
-import { AbsoluteFill, useCurrentFrame, useVideoConfig, spring } from "remotion";
-import { COLORS } from "../config";
-import { FONT_FAMILY_CN, FONT_FAMILY_EN } from "../fonts";
-import { AnimatedTitle } from "../components/AnimatedTitle";
+import React from 'react';
+import { SceneShell, MetaChip } from '../components/SceneShell';
+import { useStagger } from '../animations/primitives';
+import { back } from '../animations/easings';
+import { BRAND, DATA } from '../theme/colors';
+import { D0_CAPTION, D1_BODY, D2_SUBTITLE, FONT_BODY_EN, FONT_CN, tokenToStyle } from '../theme/typography';
 
-type Step = { num: string; title: string; desc: string };
+interface Step {
+  num: string;
+  title: string;
+  desc: string;
+}
 
-type PrepSceneProps = {
+interface PrepSceneProps {
   title: string;
   subtitle: string;
   steps: Step[];
-};
+}
 
-export const PrepScene: React.FC<PrepSceneProps> = ({
-  title, subtitle, steps,
-}) => {
-  const frame = useCurrentFrame();
-  const { fps } = useVideoConfig();
+const palette = [DATA.red, DATA.blue, DATA.green, DATA.orange];
+
+const StepCard: React.FC<{ step: Step; index: number; delay: number }> = ({ step, index, delay }) => {
+  const card = useStagger({
+    stagger: 0.18,
+    index,
+    delay,
+    duration: 0.6,
+    ease: back(1.4).out,
+    from: { y: 22, opacity: 0, scale: 0.92 },
+  });
+  const accent = palette[index % palette.length];
 
   return (
-    <AbsoluteFill
+    <div
       style={{
-        display: "flex",
-        flexDirection: "column",
-        alignItems: "center",
-        justifyContent: "center",
-        gap: 26,
-        padding: "40px 50px",
+        display: 'flex',
+        gap: 22,
+        padding: '24px 26px',
+        background: BRAND.cardBg,
+        border: `1px solid ${BRAND.cardBorder}`,
+        borderRadius: 14,
+        transform: `translateY(${card.y}px) scale(${card.scale})`,
+        opacity: card.opacity,
+        flex: 1,
+        alignItems: 'center',
       }}
     >
-      <AnimatedTitle title={title} subtitle={subtitle} />
-
-      <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 36, marginTop: 10 }}>
-        {steps.map((step, i) => {
-          const cardProgress = spring({
-            frame: Math.max(0, frame - 0.5 * fps - i * 0.2 * fps),
-            fps,
-            config: { damping: 16, stiffness: 90, mass: 0.6 },
-          });
-
-          return (
-            <div
-              key={i}
-              style={{
-                fontFamily: FONT_FAMILY_CN,
-                width: 460,
-                background: COLORS.cardBg,
-                border: `2px solid ${COLORS.cardBorder}`,
-                borderRadius: 16,
-                padding: "32px 26px",
-                textAlign: "center",
-                opacity: cardProgress,
-                transform: `translateY(${(1 - cardProgress) * 30}px)`,
-              }}
-            >
-              <div
-                style={{
-                  fontFamily: FONT_FAMILY_EN,
-                  fontSize: 72,
-                  fontWeight: 800,
-                  color: COLORS.primary,
-                  opacity: 0.3,
-                  lineHeight: 1,
-                  marginBottom: 10,
-                }}
-              >
-                {step.num}
-              </div>
-              <div
-                style={{
-                  fontSize: 50,
-                  fontWeight: 700,
-                  color: COLORS.highlight,
-                  marginBottom: 10,
-                }}
-              >
-                {step.title}
-              </div>
-              <div style={{ fontSize: 40, color: COLORS.textLight, lineHeight: 1.5 }}>
-                {step.desc}
-              </div>
-            </div>
-          );
-        })}
+      {/* Number badge */}
+      <div
+        style={{
+          display: 'flex',
+          flexDirection: 'column',
+          alignItems: 'center',
+          justifyContent: 'center',
+          minWidth: 110,
+          padding: '16px 0',
+          background: BRAND.black,
+          border: `2px solid ${accent}`,
+          borderRadius: 12,
+          color: accent,
+        }}
+      >
+        <div
+          style={{
+            fontFamily: FONT_BODY_EN,
+            fontSize: 16,
+            color: BRAND.textLight,
+            letterSpacing: '0.22em',
+            fontWeight: 700,
+            marginBottom: 4,
+          }}
+        >
+          STEP
+        </div>
+        <div
+          style={{
+            fontFamily: FONT_BODY_EN,
+            fontSize: 56,
+            fontWeight: 900,
+            color: accent,
+            lineHeight: 1.0,
+          }}
+        >
+          {step.num}
+        </div>
       </div>
-    </AbsoluteFill>
+
+      <div style={{ flex: 1, display: 'flex', flexDirection: 'column', gap: 8 }}>
+        <div
+          style={{
+            ...tokenToStyle(D2_SUBTITLE),
+            fontFamily: FONT_CN,
+            fontWeight: 800,
+            color: BRAND.yellow,
+          }}
+        >
+          {step.title}
+        </div>
+        <div
+          style={{
+            ...tokenToStyle(D1_BODY),
+            fontFamily: FONT_CN,
+            color: BRAND.white,
+            fontWeight: 400,
+            opacity: 0.92,
+          }}
+        >
+          {step.desc}
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export const PrepScene: React.FC<PrepSceneProps> = ({ title, subtitle, steps }) => {
+  const metaChips: MetaChip[] = [
+    { label: 'ROADMAP', value: `${steps.length} 步`, accent: BRAND.yellow },
+    { label: 'TIMELINE', value: '系统性备赛', accent: DATA.blue },
+  ];
+
+  return (
+    <SceneShell
+      eyebrow="PREP · 备赛路线"
+      title={title}
+      subtitle={subtitle}
+      metaChips={metaChips}
+      footer="HANLIN · 国际竞赛系列"
+      bodyPanel={false}
+    >
+      <div style={{ display: 'flex', flexDirection: 'column', gap: 14, flex: 1, minHeight: 0 }}>
+        {steps.map((s, i) => (
+          <div key={s.num + i} style={{ flex: 1, minHeight: 0, display: 'flex' }}>
+            <StepCard step={s} index={i} delay={1.0} />
+          </div>
+        ))}
+      </div>
+    </SceneShell>
   );
 };

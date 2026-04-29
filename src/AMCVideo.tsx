@@ -6,13 +6,14 @@ import {
   staticFile,
   useVideoConfig,
 } from "remotion";
-import { TransitionSeries, linearTiming } from "@remotion/transitions";
+import { TransitionSeries, springTiming } from "@remotion/transitions";
 import { fade } from "@remotion/transitions/fade";
 import { Background } from "./components/Background";
 import { BrandOverlay } from "./components/BrandOverlay";
 import { SubtitleOverlay } from "./components/SubtitleOverlay";
 import { CoverScene } from "./scenes/CoverScene";
 import { ChartScene } from "./scenes/ChartScene";
+import { OpeningScene as OpeningSceneV2 } from "./scenes/OpeningScene";
 import { StatsScene } from "./scenes/StatsScene";
 import { TitleCardScene } from "./scenes/TitleCardScene";
 import { WhatIsAMCScene } from "./scenes/WhatIsAMCScene";
@@ -26,7 +27,7 @@ import { WhyAMCScene } from "./scenes/WhyAMCScene";
 import { ProgressionScene } from "./scenes/ProgressionScene";
 import { PrepScene } from "./scenes/PrepScene";
 import { ClosingScene } from "./scenes/ClosingScene";
-import { SCENES } from "./config";
+import { SCENES, COMPETITION } from "./config";
 
 export type AMCVideoProps = {
   sceneDurations: number[];
@@ -34,7 +35,9 @@ export type AMCVideoProps = {
 
 export const AMCVideo: React.FC<AMCVideoProps> = ({ sceneDurations }) => {
   const { fps } = useVideoConfig();
-  const transitionDuration = Math.round(0.3 * fps);
+  // Slightly longer + smoother (spring) transitions for v2 — feels less abrupt
+  // and matches the editorial pacing of the new scenes.
+  const transitionDuration = Math.round(0.4 * fps);
 
   const sceneStartFrames: number[] = [];
   let currentStart = 0;
@@ -49,9 +52,17 @@ export const AMCVideo: React.FC<AMCVideoProps> = ({ sceneDurations }) => {
       case "cover":
         return <CoverScene seriesName={scene.seriesName} competitionName={scene.competitionName} competitionNameEn={scene.competitionNameEn} episodeTag={scene.episodeTag} />;
       case "opening-chart":
-        return <ChartScene />;
+        return (
+          <OpeningSceneV2
+            title={scene.title}
+            subtitle={scene.subtitle}
+            participationTitle={COMPETITION.participationTitle}
+            participationData={COMPETITION.participationData}
+            participationUnit={COMPETITION.participationUnit}
+          />
+        );
       case "opening-stats":
-        return <StatsScene stats={scene.stats} />;
+        return <StatsScene title={scene.title} subtitle={scene.subtitle} stats={scene.stats} />;
       case "title-card":
         return <TitleCardScene title={scene.title} subtitle={scene.subtitle} highlights={scene.highlights} />;
       case "levels-compare":
@@ -59,7 +70,7 @@ export const AMCVideo: React.FC<AMCVideoProps> = ({ sceneDurations }) => {
       case "key-points":
         return <KeyPointsScene title={scene.title} subtitle={scene.subtitle} keyPoints={scene.keyPoints} />;
       case "comparison":
-        return <ComparisonScene title={scene.title} subtitle={scene.subtitle} comparison={scene.comparison} />;
+        return <ComparisonScene title={scene.title} subtitle={scene.subtitle} comparison={scene.comparison} leftLabel={scene.leftLabel} rightLabel={scene.rightLabel} />;
       case "scoring-formula":
         return <ScoringScene title={scene.title} subtitle={scene.subtitle} formula={scene.formula} scoringExamples={[]} />;
       case "scoring-examples":
@@ -95,7 +106,10 @@ export const AMCVideo: React.FC<AMCVideoProps> = ({ sceneDurations }) => {
               {index < SCENES.length - 1 && (
                 <TransitionSeries.Transition
                   presentation={fade()}
-                  timing={linearTiming({ durationInFrames: transitionDuration })}
+                  timing={springTiming({
+                    config: { damping: 200, stiffness: 100, mass: 0.5 },
+                    durationInFrames: transitionDuration,
+                  })}
                 />
               )}
             </React.Fragment>

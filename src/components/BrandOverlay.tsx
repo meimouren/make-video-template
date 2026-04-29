@@ -1,63 +1,79 @@
-import React from "react";
-import { AbsoluteFill } from "remotion";
-import { COLORS } from "../config";
-import { FONT_FAMILY_CN, FONT_FAMILY_EN } from "../fonts";
+import React from 'react';
+import { AbsoluteFill } from 'remotion';
+import { BRAND } from '../theme/colors';
+import { FONT_BODY_EN, FONT_CN, FONT_HEAD_EN } from '../fonts';
 
 /**
- * Top guide 风格品牌标识层
- * 左上角：黄色大引号
- * 顶部居中：品牌名
- * 右上角：灰色注释
+ * Academic Editorial brand bar.
+ * Top: ink "翰林有方" centered with editorial rule.
+ * Top-left: small em-dash + EN series label.
+ * Top-right: italic note caption.
  */
 export const BrandOverlay: React.FC = () => {
   return (
-    <AbsoluteFill style={{ pointerEvents: "none" }}>
-      {/* 左上角黄色双引号 */}
+    <AbsoluteFill style={{ pointerEvents: 'none' }}>
+      {/* Top-left: small EN series label */}
       <div
         style={{
-          position: "absolute",
-          top: 58,
-          left: 36,
-          fontFamily: FONT_FAMILY_EN,
-          fontSize: 80,
-          fontWeight: 900,
-          color: COLORS.primary,
-          lineHeight: 0.8,
+          position: 'absolute',
+          top: 70,
+          left: 40,
+          fontFamily: FONT_BODY_EN,
+          fontSize: 18,
+          fontWeight: 600,
+          color: BRAND.yellow,
+          letterSpacing: '0.32em',
+          textTransform: 'uppercase',
         }}
       >
-        {"\u201C"}
+        Hanlin · Series
       </div>
 
-      {/* 顶部居中品牌名 */}
+      {/* Top-center brand name (ink, serif) */}
       <div
         style={{
-          position: "absolute",
-          top: 66,
+          position: 'absolute',
+          top: 64,
           left: 0,
           right: 0,
-          textAlign: "center",
-          fontFamily: FONT_FAMILY_CN,
+          textAlign: 'center',
+          fontFamily: FONT_CN,
           fontSize: 32,
           fontWeight: 700,
-          color: COLORS.primary,
-          letterSpacing: 6,
+          color: BRAND.white,
+          letterSpacing: '0.24em',
         }}
       >
         翰林有方
       </div>
 
-      {/* 右上角注释 */}
+      {/* Top-center thin rule under brand */}
       <div
         style={{
-          position: "absolute",
-          top: 70,
-          right: 32,
-          fontFamily: FONT_FAMILY_CN,
-          fontSize: 20,
-          color: "#555555",
+          position: 'absolute',
+          top: 110,
+          left: '50%',
+          transform: 'translateX(-50%)',
+          width: 40,
+          height: 1.5,
+          background: BRAND.yellow,
+        }}
+      />
+
+      {/* Top-right italic note */}
+      <div
+        style={{
+          position: 'absolute',
+          top: 72,
+          right: 36,
+          fontFamily: FONT_CN,
+          fontSize: 18,
+          fontStyle: 'italic',
+          color: BRAND.textLight,
+          letterSpacing: '0.04em',
         }}
       >
-        注：视频部分素材仅供参考
+        — 视频部分素材仅供参考
       </div>
     </AbsoluteFill>
   );

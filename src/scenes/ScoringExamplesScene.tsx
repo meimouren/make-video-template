@@ -1,74 +1,128 @@
-import React from "react";
-import { AbsoluteFill, useCurrentFrame, useVideoConfig, spring } from "remotion";
-import { COLORS } from "../config";
-import { FONT_FAMILY_CN, FONT_FAMILY_EN } from "../fonts";
-import { AnimatedTitle } from "../components/AnimatedTitle";
+import React from 'react';
+import { AbsoluteFill } from 'remotion';
+import { ScoreCard } from '../components/ScoreCard';
+import { useFrom } from '../animations/primitives';
+import { power3Out } from '../animations/easings';
+import { BRAND } from '../theme/colors';
+import {
+  D2_SUBTITLE,
+  D4_HEADLINE,
+  FONT_CN,
+  tokenToStyle,
+} from '../theme/typography';
 
-type ScoringExample = { correct: number; blank: number; score: number; label: string };
+interface ScoringExample {
+  correct: number;
+  blank: number;
+  score: number;
+  label: string;
+}
 
-type ScoringExamplesSceneProps = {
+interface ScoringExamplesSceneProps {
   title: string;
   subtitle: string;
   scoringExamples: ScoringExample[];
-};
+}
 
 export const ScoringExamplesScene: React.FC<ScoringExamplesSceneProps> = ({
-  title, subtitle, scoringExamples,
+  title,
+  subtitle,
+  scoringExamples,
 }) => {
-  const frame = useCurrentFrame();
-  const { fps } = useVideoConfig();
+  const titleAnim = useFrom({
+    delay: 0.1,
+    duration: 0.7,
+    ease: power3Out,
+    from: { x: -20, opacity: 0 },
+  });
+  const subtitleAnim = useFrom({
+    delay: 0.3,
+    duration: 0.6,
+    ease: power3Out,
+    from: { y: -12, opacity: 0 },
+  });
+
+  // Use 1-column for >=5 examples, 2-column otherwise
+  const cols = scoringExamples.length >= 5 ? 1 : 2;
 
   return (
     <AbsoluteFill
       style={{
-        display: "flex",
-        flexDirection: "column",
-        alignItems: "center",
-        justifyContent: "center",
-        gap: 40,
-        padding: "60px 50px",
+        background: BRAND.black,
+        padding: '180px 70px 220px',
+        display: 'flex',
+        flexDirection: 'column',
+        justifyContent: 'center',
       }}
     >
-      <AnimatedTitle title={title} subtitle={subtitle} />
+      {/* Title block */}
+      <div
+        style={{
+          display: 'flex',
+          alignItems: 'flex-start',
+          gap: 24,
+          transform: `translateX(${titleAnim.x}px)`,
+          opacity: titleAnim.opacity,
+          marginBottom: 18,
+        }}
+      >
+        <div
+          style={{
+            width: 8,
+            alignSelf: 'stretch',
+            background: BRAND.yellow,
+            borderRadius: 4,
+            marginTop: 8,
+          }}
+        />
+        <div style={{ flex: 1 }}>
+          <div
+            style={{
+              ...tokenToStyle(D4_HEADLINE),
+              fontFamily: FONT_CN,
+              color: BRAND.yellow,
+              fontWeight: 800,
+            }}
+          >
+            {title}
+          </div>
+          <div
+            style={{
+              ...tokenToStyle(D2_SUBTITLE),
+              fontFamily: FONT_CN,
+              color: BRAND.white,
+              fontWeight: 400,
+              marginTop: 12,
+              transform: `translateY(${subtitleAnim.y}px)`,
+              opacity: subtitleAnim.opacity,
+            }}
+          >
+            {subtitle}
+          </div>
+        </div>
+      </div>
 
-      <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 28 }}>
-        {scoringExamples.map((ex, i) => {
-          const cardProgress = spring({
-            frame: Math.max(0, frame - 0.4 * fps - i * 0.15 * fps),
-            fps,
-            config: { damping: 16, stiffness: 100, mass: 0.6 },
-          });
-          const isTop = i === 0;
-
-          return (
-            <div
-              key={i}
-              style={{
-                fontFamily: FONT_FAMILY_CN,
-                width: 440,
-                background: isTop ? COLORS.primary : COLORS.cardBg,
-                border: `2px solid ${isTop ? COLORS.primary : COLORS.cardBorder}`,
-                borderRadius: 20,
-                padding: "28px 22px",
-                textAlign: "center",
-                opacity: cardProgress,
-                transform: `translateY(${(1 - cardProgress) * 25}px)`,
-              }}
-            >
-              <div style={{ fontSize: 36, color: isTop ? "#ffffffBB" : COLORS.textLight, marginBottom: 10 }}>
-                {ex.label}
-              </div>
-              <div style={{ fontFamily: FONT_FAMILY_EN, fontSize: 72, fontWeight: 800, color: isTop ? "#fff" : COLORS.highlight, lineHeight: 1, marginBottom: 14 }}>
-                {ex.score}
-              </div>
-              {(ex.correct > 0 || ex.blank > 0) && (
-                <div style={{ fontSize: 30, color: isTop ? "#ffffffAA" : COLORS.textLight }}>
-                  对{ex.correct}题 · 空{ex.blank}题
-                </div>
-              )}
-            </div>
-          );
-        })}
+      {/* Score cards grid */}
+      <div
+        style={{
+          display: 'grid',
+          gridTemplateColumns: cols === 1 ? '1fr' : '1fr 1fr',
+          gap: 20,
+          marginTop: 60,
+        }}
+      >
+        {scoringExamples.map((ex, i) => (
+          <ScoreCard
+            key={i}
+            index={i}
+            delay={0.7}
+            label={ex.label}
+            correct={ex.correct}
+            blank={ex.blank}
+            score={ex.score}
+            emphasis={i === 0 || ex.score === Math.max(...scoringExamples.map((s) => s.score))}
+          />
+        ))}
       </div>
     </AbsoluteFill>
   );

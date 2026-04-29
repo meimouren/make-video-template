@@ -1,94 +1,198 @@
-import React from "react";
-import { AbsoluteFill, useCurrentFrame, useVideoConfig, spring } from "remotion";
-import { COLORS } from "../config";
-import { FONT_FAMILY_CN, FONT_FAMILY_EN } from "../fonts";
-import { AnimatedTitle } from "../components/AnimatedTitle";
+import React from 'react';
+import { SceneShell, MetaChip } from '../components/SceneShell';
+import { useFrom, useStagger } from '../animations/primitives';
+import { back, power3Out } from '../animations/easings';
+import { BRAND, DATA } from '../theme/colors';
+import {
+  D0_CAPTION,
+  D1_BODY,
+  D2_SUBTITLE,
+  D3_TITLE,
+  FONT_BODY_EN,
+  FONT_CN,
+  tokenToStyle,
+} from '../theme/typography';
 
-type ComparisonItem = { item: string; amc10: string; amc12: string };
+interface ComparisonItem {
+  aspect: string;
+  left: string;
+  right: string;
+}
 
-type ComparisonSceneProps = {
+interface ComparisonSceneProps {
   title: string;
   subtitle: string;
   comparison: ComparisonItem[];
+  leftLabel: string;
+  rightLabel: string;
+}
+
+const Row: React.FC<{
+  item: ComparisonItem;
+  index: number;
+  delay: number;
+}> = ({ item, index, delay }) => {
+  const row = useStagger({
+    stagger: 0.13,
+    index,
+    delay,
+    duration: 0.6,
+    ease: power3Out,
+    from: { y: 14, opacity: 0 },
+  });
+  return (
+    <div
+      style={{
+        display: 'grid',
+        gridTemplateColumns: '180px 1fr 1fr',
+        alignItems: 'stretch',
+        gap: 14,
+        transform: `translateY(${row.y}px)`,
+        opacity: row.opacity,
+        flex: 1,
+        minHeight: 0,
+      }}
+    >
+      {/* Aspect label cell */}
+      <div
+        style={{
+          ...tokenToStyle(D0_CAPTION),
+          fontFamily: FONT_CN,
+          color: BRAND.textLight,
+          fontWeight: 700,
+          letterSpacing: '0.12em',
+          padding: '20px 18px',
+          background: 'rgba(255,255,255,0.015)',
+          border: `1px solid ${BRAND.cardBorder}`,
+          borderRadius: 10,
+          textAlign: 'center',
+          alignSelf: 'stretch',
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+        }}
+      >
+        {item.aspect}
+      </div>
+      {/* Left value */}
+      <div
+        style={{
+          ...tokenToStyle(D1_BODY),
+          fontFamily: FONT_CN,
+          color: BRAND.white,
+          fontWeight: 600,
+          textAlign: 'center',
+          padding: '20px 18px',
+          background: BRAND.cardBg,
+          border: `1px solid ${DATA.blue}55`,
+          borderRadius: 10,
+          alignSelf: 'stretch',
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+        }}
+      >
+        {item.left}
+      </div>
+      {/* Right value */}
+      <div
+        style={{
+          ...tokenToStyle(D1_BODY),
+          fontFamily: FONT_CN,
+          color: BRAND.yellow,
+          fontWeight: 700,
+          textAlign: 'center',
+          padding: '20px 18px',
+          background: `${DATA.red}1a`,
+          border: `1px solid ${DATA.red}88`,
+          borderRadius: 10,
+          alignSelf: 'stretch',
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+        }}
+      >
+        {item.right}
+      </div>
+    </div>
+  );
+};
+
+const HeaderCell: React.FC<{ label: string; color: string; delay: number; isRight?: boolean }> = ({
+  label,
+  color,
+  delay,
+  isRight,
+}) => {
+  const anim = useFrom({
+    delay,
+    duration: 0.55,
+    ease: back(1.4).out,
+    from: { y: 14, opacity: 0, scale: 0.9 },
+  });
+  return (
+    <div
+      style={{
+        background: isRight ? color : 'transparent',
+        border: `2px solid ${color}`,
+        borderRadius: 10,
+        padding: '14px 18px',
+        textAlign: 'center',
+        ...tokenToStyle(D2_SUBTITLE),
+        fontFamily: FONT_CN,
+        fontWeight: 800,
+        color: isRight ? BRAND.black : color,
+        transform: `translateY(${anim.y}px) scale(${anim.scale})`,
+        opacity: anim.opacity,
+      }}
+    >
+      {label}
+    </div>
+  );
 };
 
 export const ComparisonScene: React.FC<ComparisonSceneProps> = ({
-  title, subtitle, comparison,
+  title,
+  subtitle,
+  comparison,
+  leftLabel,
+  rightLabel,
 }) => {
-  const frame = useCurrentFrame();
-  const { fps } = useVideoConfig();
-
-  const tableProgress = spring({
-    frame: Math.max(0, frame - 0.5 * fps),
-    fps,
-    config: { damping: 18, stiffness: 80, mass: 0.7 },
-  });
+  const metaChips: MetaChip[] = [
+    { label: 'OPTION A', value: leftLabel, accent: DATA.blue },
+    { label: 'OPTION B', value: rightLabel, accent: DATA.red },
+    { label: 'CRITERIA', value: `${comparison.length} 维度`, accent: BRAND.yellow },
+  ];
 
   return (
-    <AbsoluteFill
-      style={{
-        display: "flex",
-        flexDirection: "column",
-        alignItems: "center",
-        justifyContent: "center",
-        gap: 32,
-        padding: "40px 50px",
-      }}
+    <SceneShell
+      eyebrow="COMPARISON · 维度对比"
+      title={title}
+      subtitle={subtitle}
+      metaChips={metaChips}
+      footer="HANLIN · 国际竞赛系列"
+      bodyPanel
     >
-      <AnimatedTitle title={title} subtitle={subtitle} />
-
-      {/* 对比表格 */}
+      {/* Column headers */}
       <div
         style={{
-          fontFamily: FONT_FAMILY_CN,
-          background: COLORS.cardBg,
-          borderRadius: 16,
-          overflow: "hidden",
-          border: `2px solid ${COLORS.cardBorder}`,
-          opacity: tableProgress,
-          transform: `scale(${0.9 + tableProgress * 0.1})`,
-          width: 980,
+          display: 'grid',
+          gridTemplateColumns: '180px 1fr 1fr',
+          gap: 14,
+          marginBottom: 14,
         }}
       >
-        {/* 表头 */}
-        <div
-          style={{
-            display: "flex",
-            background: COLORS.primary,
-            padding: "20px 0",
-          }}
-        >
-          <div style={{ flex: 1, textAlign: "center", fontSize: 40, fontWeight: 700, color: "#fff" }}>对比项</div>
-          <div style={{ flex: 1, textAlign: "center", fontSize: 40, fontWeight: 700, color: "#fff" }}>{subtitle.split(" vs ")[0] || "A"}</div>
-          <div style={{ flex: 1, textAlign: "center", fontSize: 40, fontWeight: 700, color: "#fff" }}>{subtitle.split(" vs ")[1] || "B"}</div>
-        </div>
-
-        {/* 数据行 */}
-        {comparison.map((row, i) => {
-          const rowProgress = spring({
-            frame: Math.max(0, frame - 0.7 * fps - i * 0.12 * fps),
-            fps,
-            config: { damping: 18, stiffness: 110, mass: 0.5 },
-          });
-
-          return (
-            <div
-              key={i}
-              style={{
-                display: "flex",
-                padding: "18px 0",
-                borderBottom: i < comparison.length - 1 ? `1px solid ${COLORS.divider}` : "none",
-                background: i % 2 === 1 ? "rgba(255,255,255,0.04)" : "transparent",
-                opacity: rowProgress,
-              }}
-            >
-              <div style={{ flex: 1, textAlign: "center", fontSize: 40, fontWeight: 600, color: COLORS.text }}>{row.item}</div>
-              <div style={{ flex: 1, textAlign: "center", fontSize: 40, color: COLORS.primary, fontWeight: 600 }}>{row.amc10}</div>
-              <div style={{ flex: 1, textAlign: "center", fontSize: 40, color: COLORS.highlight, fontWeight: 600 }}>{row.amc12}</div>
-            </div>
-          );
-        })}
+        <div />
+        <HeaderCell label={leftLabel} color={DATA.blue} delay={0.7} />
+        <HeaderCell label={rightLabel} color={DATA.red} delay={0.85} isRight />
       </div>
-    </AbsoluteFill>
+
+      {/* Rows */}
+      <div style={{ display: 'flex', flexDirection: 'column', gap: 10, flex: 1, minHeight: 0 }}>
+        {comparison.map((c, i) => (
+          <Row key={c.aspect + i} item={c} index={i} delay={1.0} />
+        ))}
+      </div>
+    </SceneShell>
   );
 };

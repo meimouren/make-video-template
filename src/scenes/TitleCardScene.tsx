@@ -1,63 +1,107 @@
-import React from "react";
-import { AbsoluteFill, useCurrentFrame, useVideoConfig, spring } from "remotion";
-import { COLORS } from "../config";
-import { FONT_FAMILY_CN } from "../fonts";
-import { AnimatedTitle } from "../components/AnimatedTitle";
+import React from 'react';
+import { SceneShell, MetaChip } from '../components/SceneShell';
+import { useStagger } from '../animations/primitives';
+import { back } from '../animations/easings';
+import { BRAND, DATA } from '../theme/colors';
+import { D1_BODY, D2_SUBTITLE, FONT_BODY_EN, FONT_CN, tokenToStyle } from '../theme/typography';
 
-type TitleCardSceneProps = {
+interface TitleCardSceneProps {
   title: string;
   subtitle: string;
   highlights: string[];
-};
+}
 
-export const TitleCardScene: React.FC<TitleCardSceneProps> = ({
-  title, subtitle, highlights,
+const palette = [DATA.red, DATA.blue, DATA.green, DATA.orange, BRAND.yellow];
+
+const HighlightTile: React.FC<{ text: string; index: number; delay: number; total: number }> = ({
+  text,
+  index,
+  delay,
+  total,
 }) => {
-  const frame = useCurrentFrame();
-  const { fps } = useVideoConfig();
+  const tile = useStagger({
+    stagger: 0.12,
+    index,
+    delay,
+    duration: 0.6,
+    ease: back(1.5).out,
+    from: { y: 18, opacity: 0, scale: 0.88 },
+  });
+  const accent = palette[index % palette.length];
 
   return (
-    <AbsoluteFill
+    <div
       style={{
-        display: "flex",
-        flexDirection: "column",
-        alignItems: "center",
-        justifyContent: "center",
-        gap: 48,
-        padding: "60px 50px",
+        padding: '24px 26px',
+        background: BRAND.cardBg,
+        border: `1px solid ${BRAND.cardBorder}`,
+        borderTop: `4px solid ${accent}`,
+        borderRadius: 12,
+        transform: `translateY(${tile.y}px) scale(${tile.scale})`,
+        opacity: tile.opacity,
+        display: 'flex',
+        flexDirection: 'column',
+        gap: 10,
       }}
     >
-      <AnimatedTitle title={title} subtitle={subtitle} />
-
-      <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: 20 }}>
-        {highlights.map((h, i) => {
-          const chipProgress = spring({
-            frame: Math.max(0, frame - 0.4 * fps - i * 0.15 * fps),
-            fps,
-            config: { damping: 14, stiffness: 100, mass: 0.5 },
-          });
-
-          return (
-            <div
-              key={i}
-              style={{
-                fontFamily: FONT_FAMILY_CN,
-                fontSize: 40,
-                fontWeight: 600,
-                color: i % 2 === 0 ? COLORS.primary : COLORS.highlight,
-                background: COLORS.cardBg,
-                border: `2px solid ${COLORS.cardBorder}`,
-                borderRadius: 50,
-                padding: "16px 40px",
-                opacity: chipProgress,
-                transform: `scale(${0.7 + chipProgress * 0.3}) translateY(${(1 - chipProgress) * 20}px)`,
-              }}
-            >
-              {h}
-            </div>
-          );
-        })}
+      <div
+        style={{
+          fontFamily: FONT_BODY_EN,
+          fontSize: 44,
+          fontWeight: 900,
+          color: accent,
+          letterSpacing: '0.02em',
+          lineHeight: 1.0,
+        }}
+      >
+        {String(index + 1).padStart(2, '0')}
+        <span style={{ color: BRAND.textLight, fontWeight: 500, marginLeft: 8, fontSize: 22 }}>
+          / {String(total).padStart(2, '0')}
+        </span>
       </div>
-    </AbsoluteFill>
+      <div
+        style={{
+          ...tokenToStyle(D2_SUBTITLE),
+          fontFamily: FONT_CN,
+          color: BRAND.yellow,
+          fontWeight: 800,
+        }}
+      >
+        {text}
+      </div>
+    </div>
+  );
+};
+
+export const TitleCardScene: React.FC<TitleCardSceneProps> = ({ title, subtitle, highlights }) => {
+  const metaChips: MetaChip[] = [
+    { label: 'OVERVIEW', value: `${highlights.length} 关键词`, accent: BRAND.yellow },
+    { label: 'AT A GLANCE', value: '核心特征速览', accent: DATA.blue },
+  ];
+
+  return (
+    <SceneShell
+      eyebrow="OVERVIEW · 核心定位"
+      title={title}
+      subtitle={subtitle}
+      metaChips={metaChips}
+      footer="HANLIN · 国际竞赛系列"
+      bodyPanel={false}
+    >
+      <div
+        style={{
+          display: 'grid',
+          gridTemplateColumns: 'repeat(3, 1fr)',
+          gridAutoRows: '1fr',
+          gap: 14,
+          flex: 1,
+          minHeight: 0,
+        }}
+      >
+        {highlights.map((h, i) => (
+          <HighlightTile key={h + i} text={h} index={i} delay={1.0} total={highlights.length} />
+        ))}
+      </div>
+    </SceneShell>
   );
 };

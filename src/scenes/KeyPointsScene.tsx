@@ -1,78 +1,115 @@
-import React from "react";
-import { AbsoluteFill, useCurrentFrame, useVideoConfig, spring } from "remotion";
-import { COLORS } from "../config";
-import { FONT_FAMILY_CN } from "../fonts";
-import { AnimatedTitle } from "../components/AnimatedTitle";
+import React from 'react';
+import { SceneShell, MetaChip } from '../components/SceneShell';
+import { useStagger } from '../animations/primitives';
+import { power3Out } from '../animations/easings';
+import { BRAND, DATA } from '../theme/colors';
+import { D0_CAPTION, D1_BODY, D2_SUBTITLE, D3_TITLE, FONT_BODY_EN, FONT_CN, tokenToStyle } from '../theme/typography';
 
-type KeyPoint = { label: string; value: string };
+interface KeyPoint {
+  label: string;
+  value: string;
+}
 
-type KeyPointsSceneProps = {
+interface KeyPointsSceneProps {
   title: string;
   subtitle: string;
   keyPoints: KeyPoint[];
-};
+}
 
-export const KeyPointsScene: React.FC<KeyPointsSceneProps> = ({
-  title, subtitle, keyPoints,
+const palette = [DATA.red, DATA.blue, DATA.green, DATA.orange];
+
+const KeyPointRow: React.FC<{ kp: KeyPoint; index: number; delay: number }> = ({
+  kp,
+  index,
+  delay,
 }) => {
-  const frame = useCurrentFrame();
-  const { fps } = useVideoConfig();
+  const row = useStagger({
+    stagger: 0.13,
+    index,
+    delay,
+    duration: 0.6,
+    ease: power3Out,
+    from: { x: -18, opacity: 0 },
+  });
+  const accent = palette[index % palette.length];
 
   return (
-    <AbsoluteFill
+    <div
       style={{
-        display: "flex",
-        flexDirection: "column",
-        alignItems: "center",
-        justifyContent: "center",
-        gap: 52,
-        padding: "60px 50px",
+        display: 'flex',
+        alignItems: 'center',
+        gap: 22,
+        padding: '22px 26px',
+        background: BRAND.cardBg,
+        border: `1px solid ${BRAND.cardBorder}`,
+        borderLeft: `5px solid ${accent}`,
+        borderRadius: 12,
+        transform: `translateX(${row.x}px)`,
+        opacity: row.opacity,
       }}
     >
-      <AnimatedTitle title={title} subtitle={subtitle} />
-
-      {/* 全宽卡片纵向排列 */}
       <div
         style={{
-          display: "flex",
-          flexDirection: "column",
-          gap: 26,
-          width: "100%",
-          padding: "0 26px",
+          fontFamily: FONT_BODY_EN,
+          fontSize: 52,
+          fontWeight: 900,
+          color: accent,
+          letterSpacing: '0.02em',
+          minWidth: 84,
+          lineHeight: 1.0,
         }}
       >
-        {keyPoints.map((kp, i) => {
-          const cardProgress = spring({
-            frame: Math.max(0, frame - 0.4 * fps - i * 0.12 * fps),
-            fps,
-            config: { damping: 16, stiffness: 100, mass: 0.6 },
-          });
-
-          const accentColor = i % 2 === 0 ? COLORS.primary : COLORS.highlight;
-
-          return (
-            <div
-              key={i}
-              style={{
-                fontFamily: FONT_FAMILY_CN,
-                background: COLORS.cardBg,
-                border: `2px solid ${COLORS.cardBorder}`,
-                borderLeft: `6px solid ${accentColor}`,
-                borderRadius: 16,
-                padding: "32px 40px",
-                display: "flex",
-                justifyContent: "space-between",
-                alignItems: "center",
-                opacity: cardProgress,
-                transform: `translateX(${(1 - cardProgress) * 30}px)`,
-              }}
-            >
-              <span style={{ fontSize: 46, color: COLORS.textLight }}>{kp.label}</span>
-              <span style={{ fontSize: 48, fontWeight: 700, color: accentColor }}>{kp.value}</span>
-            </div>
-          );
-        })}
+        {String(index + 1).padStart(2, '0')}
       </div>
-    </AbsoluteFill>
+
+      <div
+        style={{
+          ...tokenToStyle(D1_BODY),
+          fontFamily: FONT_CN,
+          color: BRAND.white,
+          fontWeight: 600,
+          flex: 1,
+        }}
+      >
+        {kp.label}
+      </div>
+
+      <div
+        style={{
+          ...tokenToStyle(D2_SUBTITLE),
+          fontFamily: FONT_CN,
+          color: BRAND.yellow,
+          fontWeight: 800,
+          textAlign: 'right',
+        }}
+      >
+        {kp.value}
+      </div>
+    </div>
+  );
+};
+
+export const KeyPointsScene: React.FC<KeyPointsSceneProps> = ({ title, subtitle, keyPoints }) => {
+  const metaChips: MetaChip[] = [
+    { label: 'KEY POINTS', value: `${keyPoints.length} 项`, accent: BRAND.yellow },
+  ];
+
+  return (
+    <SceneShell
+      eyebrow="DETAILS · 关键信息"
+      title={title}
+      subtitle={subtitle}
+      metaChips={metaChips}
+      footer="HANLIN · 国际竞赛系列"
+      bodyPanel={false}
+    >
+      <div style={{ display: 'flex', flexDirection: 'column', gap: 14, flex: 1, minHeight: 0 }}>
+        {keyPoints.map((kp, i) => (
+          <div key={kp.label + i} style={{ flex: 1, display: 'flex', minHeight: 0 }}>
+            <KeyPointRow kp={kp} index={i} delay={1.0} />
+          </div>
+        ))}
+      </div>
+    </SceneShell>
   );
 };

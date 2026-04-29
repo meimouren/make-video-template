@@ -1,95 +1,123 @@
-import React from "react";
+import React from 'react';
+import { AbsoluteFill } from 'remotion';
+import { useFrom, useTextReveal } from '../animations/primitives';
+import { power3Out } from '../animations/easings';
+import { BRAND } from '../theme/colors';
 import {
-  AbsoluteFill,
-  useCurrentFrame,
-  useVideoConfig,
-  interpolate,
-  spring,
-} from "remotion";
-import { COLORS } from "../config";
-import { FONT_FAMILY_CN, FONT_FAMILY_EN } from "../fonts";
+  D2_SUBTITLE,
+  D4_HEADLINE,
+  FONT_CN,
+  tokenToStyle,
+} from '../theme/typography';
 
-type ClosingSceneProps = { title: string; text: string };
+interface ClosingSceneProps {
+  title: string;
+  text: string;
+}
 
 export const ClosingScene: React.FC<ClosingSceneProps> = ({ title, text }) => {
-  const frame = useCurrentFrame();
-  const { fps, durationInFrames } = useVideoConfig();
-
-  const titleProgress = spring({
-    frame,
-    fps,
-    config: { damping: 14, stiffness: 70, mass: 0.6 },
+  const titleReveal = useTextReveal({
+    text: title,
+    delay: 0.3,
+    durationPerChar: 0.06,
   });
 
-  const textProgress = spring({
-    frame: Math.max(0, frame - 0.4 * fps),
-    fps,
-    config: { damping: 18, stiffness: 90, mass: 0.6 },
+  const accentAnim = useFrom({
+    delay: 0.2,
+    duration: 0.55,
+    ease: power3Out,
+    from: { scale: 0 },
   });
 
-  const fadeOut = interpolate(
-    frame,
-    [durationInFrames - 1.5 * fps, durationInFrames],
-    [1, 0],
-    { extrapolateLeft: "clamp", extrapolateRight: "clamp" },
-  );
+  const textAnim = useFrom({
+    delay: 0.3 + title.length * 0.06 + 0.2,
+    duration: 0.7,
+    ease: power3Out,
+    from: { y: 20, opacity: 0 },
+  });
+
+  const chipAnim = useFrom({
+    delay: 0.3 + title.length * 0.06 + 0.6,
+    duration: 0.55,
+    ease: power3Out,
+    from: { y: 14, opacity: 0 },
+  });
 
   return (
-    <AbsoluteFill
-      style={{
-        display: "flex",
-        flexDirection: "column",
-        alignItems: "center",
-        justifyContent: "center",
-        gap: 32,
-        opacity: fadeOut,
-      }}
-    >
+    <AbsoluteFill style={{ background: BRAND.black }}>
       <div
         style={{
-          fontFamily: FONT_FAMILY_CN,
-          fontSize: 100,
-          fontWeight: 900,
-          color: COLORS.primary,
-          letterSpacing: 8,
-          textAlign: "center",
-          width: "100%",
-          transform: `scale(${titleProgress})`,
-          opacity: titleProgress,
+          width: '100%',
+          height: '100%',
+          padding: '180px 80px 220px',
+          display: 'flex',
+          flexDirection: 'column',
+          justifyContent: 'center',
+          alignItems: 'center',
+          gap: 32,
+          textAlign: 'center',
         }}
       >
-        {title}
-      </div>
+        {/* Yellow accent bar (horizontal, centered) */}
+        <div
+          style={{
+            width: 140,
+            height: 6,
+            background: BRAND.yellow,
+            borderRadius: 3,
+            transform: `scaleX(${accentAnim.scale})`,
+          }}
+        />
 
-      <div
-        style={{
-          fontFamily: FONT_FAMILY_CN,
-          fontSize: 44,
-          lineHeight: 1.8,
-          color: COLORS.text,
-          maxWidth: 900,
-          textAlign: "center",
-          padding: "0 50px",
-          opacity: textProgress,
-          transform: `translateY(${(1 - textProgress) * 15}px)`,
-        }}
-      >
-        {text}
-      </div>
+        {/* Title with reveal */}
+        <div
+          style={{
+            ...tokenToStyle(D4_HEADLINE),
+            fontFamily: FONT_CN,
+            fontWeight: 800,
+            color: BRAND.yellow,
+            minHeight: D4_HEADLINE.fontSize * D4_HEADLINE.lineHeight,
+          }}
+        >
+          {titleReveal.visibleText || ' '}
+        </div>
 
-      <div
-        style={{
-          fontFamily: FONT_FAMILY_CN,
-          marginTop: 40,
-          fontSize: 36,
-          color: COLORS.primary,
-          letterSpacing: 12,
-          textAlign: "center",
-          width: "100%",
-          opacity: textProgress,
-        }}
-      >
-        翰林有方 HANLIN
+        {/* Body text */}
+        <div
+          style={{
+            ...tokenToStyle(D2_SUBTITLE),
+            fontFamily: FONT_CN,
+            color: BRAND.white,
+            fontWeight: 400,
+            opacity: textAnim.opacity,
+            transform: `translateY(${textAnim.y}px)`,
+            maxWidth: 880,
+            marginTop: 12,
+            lineHeight: 1.6,
+          }}
+        >
+          {text}
+        </div>
+
+        {/* Brand chip */}
+        <div
+          style={{
+            marginTop: 36,
+            padding: '14px 32px',
+            background: BRAND.cardBg,
+            border: `1px solid ${BRAND.cardBorder}`,
+            borderRadius: 999,
+            fontFamily: FONT_CN,
+            fontSize: 28,
+            color: BRAND.textLight,
+            letterSpacing: '0.18em',
+            fontWeight: 500,
+            opacity: chipAnim.opacity,
+            transform: `translateY(${chipAnim.y}px)`,
+          }}
+        >
+          翰林有方 · 国际竞赛系列
+        </div>
       </div>
     </AbsoluteFill>
   );

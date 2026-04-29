@@ -1,140 +1,127 @@
-import React from "react";
-import {
-  AbsoluteFill,
-  useCurrentFrame,
-  useVideoConfig,
-  spring,
-} from "remotion";
-import { COLORS } from "../config";
-import { FONT_FAMILY_CN, FONT_FAMILY_EN } from "../fonts";
-import { AnimatedTitle } from "../components/AnimatedTitle";
+import React from 'react';
+import { AbsoluteFill } from 'remotion';
+import { LevelCard } from '../components/LevelCard';
+import { useFrom } from '../animations/primitives';
+import { power3Out } from '../animations/easings';
+import { BRAND } from '../theme/colors';
+import { D2_SUBTITLE, D4_HEADLINE, FONT_CN, tokenToStyle } from '../theme/typography';
 
-type Level = {
+interface Level {
   name: string;
-  target: string;
-  questions: number;
-  time: string;
-  scoring: string;
-};
+  target?: string;
+  questions?: number;
+  time?: string;
+  scoring?: string;
+  detail?: string;
+  badge?: string;
+  color?: string;
+}
 
-type WhatIsAMCSceneProps = {
+interface WhatIsAMCSceneProps {
   title: string;
   subtitle: string;
   levels: Level[];
-};
+}
 
-export const WhatIsAMCScene: React.FC<WhatIsAMCSceneProps> = ({
-  title,
-  subtitle,
-  levels,
-}) => {
-  const frame = useCurrentFrame();
-  const { fps } = useVideoConfig();
+export const WhatIsAMCScene: React.FC<WhatIsAMCSceneProps> = ({ title, subtitle, levels }) => {
+  const titleAnim = useFrom({
+    delay: 0.1,
+    duration: 0.7,
+    ease: power3Out,
+    from: { x: -20, opacity: 0 },
+  });
+  const subtitleAnim = useFrom({
+    delay: 0.3,
+    duration: 0.6,
+    ease: power3Out,
+    from: { y: -12, opacity: 0 },
+  });
+
+  // Layout: 1 col for >=4 cards or full schema, 2 cols otherwise
+  const useFullSchema = levels.some((l) => l.target || l.questions || l.time || l.scoring);
+  const cols = useFullSchema || levels.length >= 4 ? 1 : 2;
 
   return (
     <AbsoluteFill
       style={{
-        display: "flex",
-        flexDirection: "column",
-        alignItems: "center",
-        justifyContent: "center",
-        gap: 32,
-        padding: "40px 50px",
+        background: BRAND.black,
+        padding: '180px 70px 220px',
+        display: 'flex',
+        flexDirection: 'column',
+        justifyContent: 'center',
       }}
     >
-      <AnimatedTitle title={title} subtitle={subtitle} />
+      {/* Title block */}
+      <div
+        style={{
+          display: 'flex',
+          alignItems: 'flex-start',
+          gap: 24,
+          transform: `translateX(${titleAnim.x}px)`,
+          opacity: titleAnim.opacity,
+          marginBottom: 18,
+        }}
+      >
+        <div
+          style={{
+            width: 8,
+            alignSelf: 'stretch',
+            background: BRAND.yellow,
+            borderRadius: 4,
+            marginTop: 8,
+          }}
+        />
+        <div style={{ flex: 1 }}>
+          <div
+            style={{
+              ...tokenToStyle(D4_HEADLINE),
+              fontFamily: FONT_CN,
+              color: BRAND.yellow,
+              fontWeight: 800,
+            }}
+          >
+            {title}
+          </div>
+          <div
+            style={{
+              ...tokenToStyle(D2_SUBTITLE),
+              fontFamily: FONT_CN,
+              color: BRAND.white,
+              fontWeight: 400,
+              marginTop: 12,
+              transform: `translateY(${subtitleAnim.y}px)`,
+              opacity: subtitleAnim.opacity,
+            }}
+          >
+            {subtitle}
+          </div>
+        </div>
+      </div>
 
-      <div style={{ display: "flex", flexDirection: "column", gap: 32, marginTop: 10, alignItems: "center" }}>
-        {levels.map((level, i) => {
-          const cardDelay = 0.6 * fps + i * 0.2 * fps;
-          const adjustedFrame = Math.max(0, frame - cardDelay);
-
-          const cardProgress = spring({
-            frame: adjustedFrame,
-            fps,
-            config: { damping: 16, stiffness: 90, mass: 0.6 },
-          });
-
-          const borderColor =
-            i === 0 ? "#4CAF50" : i === 1 ? COLORS.primary : COLORS.highlight;
-
-          return (
-            <div
-              key={i}
-              style={{
-                fontFamily: FONT_FAMILY_CN,
-                width: 960,
-                background: COLORS.cardBg,
-                border: `2px solid ${COLORS.cardBorder}`,
-                borderTop: `5px solid ${borderColor}`,
-                borderRadius: 16,
-                padding: "26px 40px",
-                display: "flex",
-                flexDirection: "row",
-                alignItems: "center",
-                gap: 32,
-                opacity: cardProgress,
-                transform: `translateY(${(1 - cardProgress) * 35}px)`,
-              }}
-            >
-              <div style={{ display: "flex", flexDirection: "column", alignItems: "center", flexShrink: 0 }}>
-                <div
-                  style={{
-                    fontFamily: FONT_FAMILY_EN,
-                    fontSize: 54,
-                    fontWeight: 800,
-                    color: borderColor,
-                    marginBottom: 6,
-                  }}
-                >
-                  {level.name}
-                </div>
-                <div
-                  style={{
-                    fontSize: 40,
-                    color: COLORS.text,
-                    fontWeight: 600,
-                  }}
-                >
-                  {level.target}
-                </div>
-              </div>
-              <div style={{ flex: 1 }}>
-              {[
-                { label: "题目", value: `${level.questions} 道选择题` },
-                { label: "时间", value: level.time },
-                { label: "评分", value: level.scoring },
-              ].map((item, j) => {
-                const itemProgress = spring({
-                  frame: Math.max(0, frame - cardDelay - j * 0.08 * fps),
-                  fps,
-                  config: { damping: 20, stiffness: 120, mass: 0.5 },
-                });
-
-                return (
-                  <div
-                    key={j}
-                    style={{
-                      display: "flex",
-                      justifyContent: "space-between",
-                      padding: "10px 0",
-                      borderBottom: j < 2 ? `1px solid ${COLORS.divider}` : "none",
-                      opacity: itemProgress,
-                    }}
-                  >
-                    <span style={{ fontSize: 40, color: COLORS.textLight }}>
-                      {item.label}
-                    </span>
-                    <span style={{ fontSize: 40, fontWeight: 600, color: COLORS.text }}>
-                      {item.value}
-                    </span>
-                  </div>
-                );
-              })}
-              </div>
-            </div>
-          );
-        })}
+      {/* Level cards grid */}
+      <div
+        style={{
+          display: 'grid',
+          gridTemplateColumns: cols === 1 ? '1fr' : '1fr 1fr',
+          gap: 18,
+          marginTop: 50,
+        }}
+      >
+        {levels.map((lv, i) => (
+          <LevelCard
+            key={lv.name + i}
+            index={i}
+            delay={0.7}
+            name={lv.name}
+            target={lv.target}
+            questions={lv.questions}
+            time={lv.time}
+            scoring={lv.scoring}
+            detail={lv.detail}
+            badge={lv.badge}
+            badgeColor={lv.color}
+          />
+        ))}
       </div>
     </AbsoluteFill>
   );

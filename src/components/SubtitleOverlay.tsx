@@ -1,26 +1,26 @@
-import React from "react";
-import { AbsoluteFill, useCurrentFrame, useVideoConfig, spring } from "remotion";
-import { FONT_FAMILY_CN } from "../fonts";
-import subtitlesData from "../subtitles.json";
+import React from 'react';
+import { AbsoluteFill, useCurrentFrame, useVideoConfig, spring } from 'remotion';
+import { FONT_CN } from '../fonts';
+import { BRAND } from '../theme/colors';
+import subtitlesData from '../subtitles.json';
 
-type SubtitleLine = {
+interface SubtitleLine {
   id: number;
   startFrame: number;
   endFrame: number;
   text: string;
-};
+}
 
 const subtitles: SubtitleLine[] = subtitlesData;
 
 /**
- * 字幕层 — 从 subtitles.json 读取
- * 编辑 src/subtitles.json 可手动调整每句字幕内容和时间
+ * Academic Editorial subtitle layer.
+ * Ink-on-parchment with a soft cream gradient backdrop for legibility.
  */
 export const SubtitleOverlay: React.FC = () => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
 
-  // 找到当前帧对应的字幕
   const current = subtitles.find(
     (s) => frame >= s.startFrame && frame < s.endFrame,
   );
@@ -36,27 +36,29 @@ export const SubtitleOverlay: React.FC = () => {
   });
 
   return (
-    <AbsoluteFill style={{ pointerEvents: "none" }}>
+    <AbsoluteFill style={{ pointerEvents: 'none' }}>
       <div
         style={{
-          position: "absolute",
-          bottom: 120,
+          position: 'absolute',
+          bottom: 110,
           left: 40,
           right: 40,
-          display: "flex",
-          justifyContent: "center",
+          display: 'flex',
+          justifyContent: 'center',
         }}
       >
         <div
           style={{
-            fontFamily: FONT_FAMILY_CN,
-            fontSize: 44,
+            fontFamily: FONT_CN,
+            fontSize: 42,
             fontWeight: 700,
-            color: "#FFFFFF",
-            textAlign: "center",
-            textShadow: "0 2px 8px rgba(0,0,0,0.9)",
+            color: BRAND.white, // deep ink
+            textAlign: 'center',
+            // Subtle parchment-tinted shadow for legibility against any panel underneath
+            textShadow: `0 2px 8px ${BRAND.black}cc, 0 1px 2px ${BRAND.black}99`,
             maxWidth: 960,
             lineHeight: 1.4,
+            letterSpacing: '0.02em',
             opacity: progress,
             transform: `translateY(${(1 - progress) * 8}px)`,
           }}

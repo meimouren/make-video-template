@@ -1,7 +1,7 @@
 import React from "react";
 import { useCurrentFrame, useVideoConfig, spring } from "remotion";
-import { COLORS } from "../config";
-import { FONT_FAMILY_CN, FONT_FAMILY_EN } from "../fonts";
+import { COLORS } from "../../config";
+import { FONT_FAMILY_CN, FONT_FAMILY_EN } from "../../fonts";
 
 type PathwayStep = { stage: string; participants: string; desc: string };
 type ProgressPathwayProps = { steps: PathwayStep[] };

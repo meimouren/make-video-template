@@ -2,247 +2,475 @@
   {
     "id": 1,
     "startFrame": 0,
-    "endFrame": 184,
-    "text": "每天介绍一个国际竞赛，今天要介绍的是HMMT，哈佛麻省理工数学锦标赛"
+    "endFrame": 122,
+    "text": "每天介绍一个国际竞赛，今天要介绍的是EMCC"
   },
   {
     "id": 2,
-    "startFrame": 175,
-    "endFrame": 316,
-    "text": "由哈佛大学和麻省理工学院联合举办的顶级高中数学锦标赛"
+    "startFrame": 122,
+    "endFrame": 189,
+    "text": "埃克塞特数学俱乐部挑战赛"
   },
   {
     "id": 3,
-    "startFrame": 316,
-    "endFrame": 463,
-    "text": "自1998年创办至今，是全美竞争最激烈的数学团队赛之一"
+    "startFrame": 180,
+    "endFrame": 280,
+    "text": "EMCC中文译为埃克塞特数学俱乐部挑战赛"
   },
   {
     "id": 4,
-    "startFrame": 454,
-    "endFrame": 602,
-    "text": "如果你的数学团队想挑战全美最强对手，HMMT就是最佳舞台"
+    "startFrame": 280,
+    "endFrame": 405,
+    "text": "由美国顶级寄宿高中菲利普斯埃克塞特的数学俱乐部主办"
   },
   {
     "id": 5,
-    "startFrame": 602,
-    "endFrame": 676,
-    "text": "这个视频帮你全面了解这项赛事"
+    "startFrame": 405,
+    "endFrame": 530,
+    "text": "面向全球初中生，二零一一年首届举办，至今已超过十届"
   },
   {
     "id": 6,
-    "startFrame": 667,
-    "endFrame": 883,
-    "text": "HMMT，全称Harvard-MIT Mathematics Tournament，哈佛麻省理工数学锦标赛"
+    "startFrame": 521,
+    "endFrame": 611,
+    "text": "如果你的孩子正在冲刺埃克塞特，安多福"
   },
   {
     "id": 7,
-    "startFrame": 883,
-    "endFrame": 961,
-    "text": "由哈佛大学和MIT的本科生联合组织运营"
+    "startFrame": 611,
+    "endFrame": 686,
+    "text": "迪尔菲尔德这些美国顶级寄宿高中"
   },
   {
     "id": 8,
-    "startFrame": 961,
-    "endFrame": 1006,
-    "text": "每年举办秋季和春季两场"
+    "startFrame": 686,
+    "endFrame": 791,
+    "text": "EMCC几乎是最有直接加分效果的初中数学赛"
   },
   {
     "id": 9,
-    "startFrame": 997,
-    "endFrame": 1155,
-    "text": "秋季赛在11月于MIT举行，难度相对较低，适合初次参赛的队伍"
+    "startFrame": 791,
+    "endFrame": 936,
+    "text": "它由埃克塞特学生亲自命题，埃克塞特招生官自己就认识这项赛事"
   },
   {
     "id": 10,
-    "startFrame": 1155,
-    "endFrame": 1355,
-    "text": "春季赛在2月于哈佛举行，难度更高，前30名队伍自动获得下一年春季赛的参赛资格"
+    "startFrame": 928,
+    "endFrame": 1076,
+    "text": "EMCC是一项面向全球八年级及以下中学生的数学团队赛"
   },
   {
     "id": 11,
-    "startFrame": 1345,
-    "endFrame": 1492,
-    "text": "个人赛包含综合测试和三个科目测试：代数、几何和组合"
+    "startFrame": 1076,
+    "endFrame": 1201,
+    "text": "四人一队，学生可以组学校队、校外队或者跨国队"
   },
   {
     "id": 12,
-    "startFrame": 1492,
-    "endFrame": 1580,
-    "text": "每个科目10道题，限时50分钟"
+    "startFrame": 1201,
+    "endFrame": 1303,
+    "text": "比赛由埃克塞特在校学生亲自命题和组织"
   },
   {
     "id": 13,
-    "startFrame": 1580,
-    "endFrame": 1650,
-    "text": "科目测试需要在报名时选择"
+    "startFrame": 1303,
+    "endFrame": 1388,
+    "text": "是该校数学俱乐部的年度重磅活动"
   },
   {
     "id": 14,
-    "startFrame": 1641,
-    "endFrame": 1780,
-    "text": "团队赛由6到8人组成的队伍共同完成，限时60分钟"
+    "startFrame": 1379,
+    "endFrame": 1493,
+    "text": "菲利普斯埃克塞特是美国历史最悠久的寄宿高中之一"
   },
   {
     "id": 15,
-    "startFrame": 1780,
-    "endFrame": 1873,
-    "text": "题目按难度加权计分，满分400分"
+    "startFrame": 1493,
+    "endFrame": 1607,
+    "text": "马克·扎克伯格和前总统富兰克林·皮尔斯都是校友"
   },
   {
     "id": 16,
-    "startFrame": 1873,
-    "endFrame": 1937,
-    "text": "考验团队协作和分工策略"
+    "startFrame": 1607,
+    "endFrame": 1755,
+    "text": "EMCC由该校数学俱乐部Exeter Math Club承办"
   },
   {
     "id": 17,
-    "startFrame": 1928,
-    "endFrame": 2020,
-    "text": "Guts Round是最刺激的环节"
+    "startFrame": 1755,
+    "endFrame": 1864,
+    "text": "完全由学生运营，代表学校最顶尖的数学学术传统"
   },
   {
     "id": 18,
-    "startFrame": 2020,
-    "endFrame": 2156,
-    "text": "80分钟内团队需要完成36道题，分为12组每组3题"
+    "startFrame": 1854,
+    "endFrame": 1928,
+    "text": "EMCC完整赛制由四个环节组成"
   },
   {
     "id": 19,
-    "startFrame": 2156,
-    "endFrame": 2254,
-    "text": "答完一组才能拿到下一组，实时公布排名"
+    "startFrame": 1928,
+    "endFrame": 2062,
+    "text": "Speed快速轮比速度，Accuracy精准轮比稳定度"
   },
   {
     "id": 20,
-    "startFrame": 2245,
-    "endFrame": 2367,
-    "text": "最终的Sweepstakes总排名综合个人赛和团队赛的成绩"
+    "startFrame": 2062,
+    "endFrame": 2211,
+    "text": "Team团队轮比合作，Guts疯狂轮是全场最有看点的收官环节"
   },
   {
     "id": 21,
-    "startFrame": 2367,
-    "endFrame": 2522,
-    "text": "团队赛Team Round占总分的25%，Guts Round也占重要比例"
+    "startFrame": 2211,
+    "endFrame": 2270,
+    "text": "四个轮加在一起决定总排名"
   },
   {
     "id": 22,
-    "startFrame": 2522,
-    "endFrame": 2577,
-    "text": "个人赛成绩累加计入团队总分"
+    "startFrame": 2261,
+    "endFrame": 2338,
+    "text": "Speed快速轮是第一轮个人赛"
   },
   {
     "id": 23,
-    "startFrame": 2568,
-    "endFrame": 2667,
-    "text": "秋季赛设代数、几何和组合三个科目测试"
+    "startFrame": 2338,
+    "endFrame": 2466,
+    "text": "二十五分钟内独立完成二十道题，平均每题只有一分多钟"
   },
   {
     "id": 24,
-    "startFrame": 2667,
-    "endFrame": 2722,
-    "text": "春季赛增加微积分科目"
+    "startFrame": 2466,
+    "endFrame": 2569,
+    "text": "题目难度循序递增，前几题送分，后几题拉分"
   },
   {
     "id": 25,
-    "startFrame": 2722,
-    "endFrame": 2777,
-    "text": "综合测试覆盖所有领域"
+    "startFrame": 2569,
+    "endFrame": 2656,
+    "text": "这一轮考察的是学生基础扎实度和手速"
   },
   {
     "id": 26,
-    "startFrame": 2777,
-    "endFrame": 2887,
-    "text": "题目难度从AMC水平到USAMO水平不等"
+    "startFrame": 2647,
+    "endFrame": 2742,
+    "text": "Accuracy精准轮是第二轮个人赛"
   },
   {
     "id": 27,
-    "startFrame": 2878,
-    "endFrame": 2972,
-    "text": "报名在每年9月开放，约3周窗口期"
+    "startFrame": 2742,
+    "endFrame": 2901,
+    "text": "四十五分钟内只做十道题，题目明显更难，要求学生静下心慢慢推理"
   },
   {
     "id": 28,
-    "startFrame": 2972,
-    "endFrame": 3084,
-    "text": "由于场地限制，参赛资格通过随机抽签决定"
+    "startFrame": 2901,
+    "endFrame": 3018,
+    "text": "每道题权重大，算错一题就会对总分产生明显影响"
   },
   {
     "id": 29,
-    "startFrame": 3084,
-    "endFrame": 3196,
-    "text": "秋季赛11月在MIT，春季赛2月在哈佛"
+    "startFrame": 3018,
+    "endFrame": 3071,
+    "text": "考察的是精度和稳定性"
   },
   {
     "id": 30,
-    "startFrame": 3186,
-    "endFrame": 3322,
-    "text": "参赛者必须21岁以下，且在报名时为全日制中小学在校生"
+    "startFrame": 3062,
+    "endFrame": 3166,
+    "text": "Team团队轮是整场比赛里纯粹的协作环节"
   },
   {
     "id": 31,
-    "startFrame": 3322,
-    "endFrame": 3422,
-    "text": "由于名额有限，通过随机抽签确定参赛队伍"
+    "startFrame": 3166,
+    "endFrame": 3312,
+    "text": "一小时内队内四人共同完成十五道题，队员可以自由讨论，分工"
   },
   {
     "id": 32,
-    "startFrame": 3422,
-    "endFrame": 3516,
-    "text": "但春季赛前30名队伍可直接保送下一年"
+    "startFrame": 3312,
+    "endFrame": 3333,
+    "text": "相互验证"
   },
   {
     "id": 33,
-    "startFrame": 3507,
-    "endFrame": 3603,
-    "text": "HMMT是全美竞争最激烈的数学团队赛"
+    "startFrame": 3333,
+    "endFrame": 3484,
+    "text": "这一轮考的是团队分工能力和战术选择，也是EMCC的精髓之一"
   },
   {
     "id": 34,
-    "startFrame": 3603,
-    "endFrame": 3817,
-    "text": "在哈佛和MIT的校园里与全美最强数学选手同台竞技，参赛经历本身就是名校申请的亮点"
+    "startFrame": 3476,
+    "endFrame": 3583,
+    "text": "Guts疯狂轮是EMCC最具有观赏性的环节"
   },
   {
     "id": 35,
-    "startFrame": 3808,
-    "endFrame": 3907,
-    "text": "建议先有AMC和AIME的竞赛基础"
+    "startFrame": 3583,
+    "endFrame": 3690,
+    "text": "七十五分钟内分六组、每组四道题依次拿题作答"
   },
   {
     "id": 36,
-    "startFrame": 3907,
-    "endFrame": 4018,
-    "text": "团队成员要有明确分工，每人主攻一个科目"
+    "startFrame": 3690,
+    "endFrame": 3782,
+    "text": "前一组答完才能拿下一组，时间卡得极紧"
   },
   {
     "id": 37,
-    "startFrame": 4018,
-    "endFrame": 4106,
-    "text": "HMMT官网提供历年真题和解答"
+    "startFrame": 3782,
+    "endFrame": 3879,
+    "text": "最后还有Bonus加分环节，是收官之战"
   },
   {
     "id": 38,
-    "startFrame": 4097,
-    "endFrame": 4240,
-    "text": "Guts Round是最考验团队默契的环节，需要大量团队模拟练习"
+    "startFrame": 3871,
+    "endFrame": 4018,
+    "text": "EMCC所有题目最终答案都是介于零到一百万之间的非负整数"
   },
   {
     "id": 39,
-    "startFrame": 4240,
-    "endFrame": 4348,
-    "text": "Team Round则要训练高效的分工和讨论策略"
+    "startFrame": 4018,
+    "endFrame": 4076,
+    "text": "不设选择题，不设过程分"
   },
   {
     "id": 40,
-    "startFrame": 4339,
-    "endFrame": 4515,
-    "text": "HMMT不仅是一场比赛，更是与全美最强数学高手同台竞技的机会"
+    "startFrame": 4076,
+    "endFrame": 4134,
+    "text": "答对得满分，答错不倒扣"
   },
   {
     "id": 41,
-    "startFrame": 4515,
-    "endFrame": 4597,
-    "text": "组建你的团队，现在就开始准备"
+    "startFrame": 4134,
+    "endFrame": 4287,
+    "text": "这种格式类似AIME和MOAA，考察的是严密推理和精确计算"
+  },
+  {
+    "id": 42,
+    "startFrame": 4278,
+    "endFrame": 4426,
+    "text": "EMCC面向全球八年级及以下的中学生开放，国际学生完全平等"
+  },
+  {
+    "id": 43,
+    "startFrame": 4426,
+    "endFrame": 4549,
+    "text": "一支队伍固定四人，既可以是同校队，也可以跨校组队"
+  },
+  {
+    "id": 44,
+    "startFrame": 4549,
+    "endFrame": 4703,
+    "text": "国际赛场多数由阿思丹赛事组织承办，国内选手可以在国内直接参赛"
+  },
+  {
+    "id": 45,
+    "startFrame": 4694,
+    "endFrame": 4766,
+    "text": "EMCC同时提供两种参赛方式"
+  },
+  {
+    "id": 46,
+    "startFrame": 4766,
+    "endFrame": 4916,
+    "text": "线下在菲利普斯埃克塞特校园的Phillips Hall举行"
+  },
+  {
+    "id": 47,
+    "startFrame": 4916,
+    "endFrame": 4993,
+    "text": "体验最原汁原味的藤校级赛事氛围"
+  },
+  {
+    "id": 48,
+    "startFrame": 4993,
+    "endFrame": 5122,
+    "text": "线上考试通过官方平台进行，全球学生同一时区窗口开考"
+  },
+  {
+    "id": 49,
+    "startFrame": 5122,
+    "endFrame": 5163,
+    "text": "评审标准完全一致"
+  },
+  {
+    "id": 50,
+    "startFrame": 5155,
+    "endFrame": 5213,
+    "text": "EMCC奖项体系包含三档"
+  },
+  {
+    "id": 51,
+    "startFrame": 5213,
+    "endFrame": 5338,
+    "text": "个人赛方面Speed和Accuracy分别评选高分奖"
+  },
+  {
+    "id": 52,
+    "startFrame": 5338,
+    "endFrame": 5443,
+    "text": "团队赛方面Team和Guts分别颁团队高分奖"
+  },
+  {
+    "id": 53,
+    "startFrame": 5443,
+    "endFrame": 5572,
+    "text": "总榜前几名另外颁发Grand Champion大满贯奖"
+  },
+  {
+    "id": 54,
+    "startFrame": 5572,
+    "endFrame": 5639,
+    "text": "每位获奖选手都有官方证书邮寄"
+  },
+  {
+    "id": 55,
+    "startFrame": 5630,
+    "endFrame": 5777,
+    "text": "参考往年时间安排，EMCC在每年一月下旬的周末举办一届"
+  },
+  {
+    "id": 56,
+    "startFrame": 5777,
+    "endFrame": 5864,
+    "text": "今年二零二六的比赛已经在一月完成"
+  },
+  {
+    "id": 57,
+    "startFrame": 5864,
+    "endFrame": 6011,
+    "text": "明年二零二七报名通常在十一月开启，十二月中下旬报名截止"
+  },
+  {
+    "id": 58,
+    "startFrame": 6011,
+    "endFrame": 6104,
+    "text": "明年一月下旬开考，国内赛场同步开放"
+  },
+  {
+    "id": 59,
+    "startFrame": 6096,
+    "endFrame": 6231,
+    "text": "EMCC和MOAA是两场经常被放在一起比的初中数学赛"
+  },
+  {
+    "id": 60,
+    "startFrame": 6231,
+    "endFrame": 6387,
+    "text": "EMCC由菲利普斯埃克塞特主办，MOAA由菲利普斯安多福主办"
+  },
+  {
+    "id": 61,
+    "startFrame": 6387,
+    "endFrame": 6512,
+    "text": "两所顶尖寄宿高中，各自用赛事为未来学生做出预筛选"
+  },
+  {
+    "id": 62,
+    "startFrame": 6502,
+    "endFrame": 6629,
+    "text": "EMCC最核心的价值在于美国顶级寄宿高中申请"
+  },
+  {
+    "id": 63,
+    "startFrame": 6629,
+    "endFrame": 6802,
+    "text": "埃克塞特，安多福，迪尔菲尔德，乔特罗斯玛丽这些寄宿名校招生官"
+  },
+  {
+    "id": 64,
+    "startFrame": 6802,
+    "endFrame": 6854,
+    "text": "都非常熟悉EMCC"
+  },
+  {
+    "id": 65,
+    "startFrame": 6854,
+    "endFrame": 7009,
+    "text": "对冲刺这些学校的孩子来说，EMCC获奖是直接有效的加分"
+  },
+  {
+    "id": 66,
+    "startFrame": 6999,
+    "endFrame": 7138,
+    "text": "国内初中学生建议先从AMC 8和MathCounts打底"
+  },
+  {
+    "id": 67,
+    "startFrame": 7138,
+    "endFrame": 7262,
+    "text": "春季参加EMCC和MOAA两场寄宿高中主办的团队赛"
+  },
+  {
+    "id": 68,
+    "startFrame": 7262,
+    "endFrame": 7396,
+    "text": "积累国际赛成绩，九年级之后过渡到AMC 10，AIME"
+  },
+  {
+    "id": 69,
+    "startFrame": 7396,
+    "endFrame": 7486,
+    "text": "HMMT和MIT主办的高中级别数学赛"
+  },
+  {
+    "id": 70,
+    "startFrame": 7478,
+    "endFrame": 7624,
+    "text": "第一步从EMCC官网下载历届真题，题库可以追溯到二零一一年"
+  },
+  {
+    "id": 71,
+    "startFrame": 7624,
+    "endFrame": 7720,
+    "text": "第二步提前两个月组建四人队伍，磨合分工"
+  },
+  {
+    "id": 72,
+    "startFrame": 7720,
+    "endFrame": 7836,
+    "text": "第三步分Speed，Accuracy，Team"
+  },
+  {
+    "id": 73,
+    "startFrame": 7836,
+    "endFrame": 7906,
+    "text": "Guts四个轮分别做专项训练"
+  },
+  {
+    "id": 74,
+    "startFrame": 7906,
+    "endFrame": 7971,
+    "text": "第四步限时全真模拟完整四轮"
+  },
+  {
+    "id": 75,
+    "startFrame": 7962,
+    "endFrame": 8081,
+    "text": "EMCC是菲利普斯埃克塞特学生主办的初中数学锦标赛"
+  },
+  {
+    "id": 76,
+    "startFrame": 8081,
+    "endFrame": 8186,
+    "text": "是冲刺美国顶级寄宿高中最直接的数学加分赛之一"
+  },
+  {
+    "id": 77,
+    "startFrame": 8186,
+    "endFrame": 8324,
+    "text": "想让孩子申请埃克塞特，安多福，Ten Schools的家长"
+  },
+  {
+    "id": 78,
+    "startFrame": 8324,
+    "endFrame": 8353,
+    "text": "可以重点关注"
+  },
+  {
+    "id": 79,
+    "startFrame": 8353,
+    "endFrame": 8410,
+    "text": "关注翰林有方获取更多信息"
   }
 ]

@@ -1,65 +1,97 @@
-import React from "react";
-import { AbsoluteFill } from "remotion";
-import { COLORS } from "../config";
-import { FONT_FAMILY_CN, FONT_FAMILY_EN } from "../fonts";
+import React from 'react';
+import { AbsoluteFill } from 'remotion';
+import { COMPETITION } from '../config';
+import { BRAND } from '../theme/colors';
+import { FONT_BODY_EN, FONT_CN } from '../theme/typography';
 
+/**
+ * Static cover frame for the AMCCover Still composition.
+ * Same end-state as CoverScene but no animations.
+ */
 export const CoverStill: React.FC = () => {
+  const enName = COMPETITION.name;
+  const cnNameFull = COMPETITION.nameCn;
+
+  const enLen = enName.length;
+  const enFontSize = enLen <= 3 ? 280 : enLen <= 4 ? 240 : enLen <= 5 ? 200 : 170;
+  const enLetterSpacing = enLen <= 3 ? 16 : enLen <= 4 ? 12 : 8;
+
+  const cnLen = cnNameFull.length;
+  const cnFontSize = cnLen <= 7 ? 80 : cnLen <= 9 ? 72 : cnLen <= 11 ? 64 : 56;
+
   return (
     <AbsoluteFill
       style={{
-        display: "flex",
-        flexDirection: "column",
-        alignItems: "center",
-        justifyContent: "center",
-        gap: 20,
-        background: "#000000",
+        background: BRAND.black,
+        display: 'flex',
+        flexDirection: 'column',
+        alignItems: 'center',
+        justifyContent: 'center',
+        gap: 32,
       }}
     >
       <div
         style={{
-          fontFamily: FONT_FAMILY_CN,
-          fontSize: 48,
-          fontWeight: 700,
-          color: "#FFFFFF",
-          letterSpacing: 6,
-          textAlign: "center",
+          fontFamily: FONT_CN,
+          fontSize: 36,
+          fontWeight: 600,
+          color: BRAND.white,
+          letterSpacing: '0.4em',
+          opacity: 0.85,
         }}
       >
         每天介绍一个国际竞赛
       </div>
+
       <div
         style={{
-          fontFamily: FONT_FAMILY_EN,
-          fontSize: 240,
+          fontFamily: FONT_BODY_EN,
+          fontSize: enFontSize,
           fontWeight: 900,
-          color: COLORS.primary,
-          letterSpacing: 16,
-          textAlign: "center",
-          lineHeight: 1,
+          color: BRAND.yellow,
+          letterSpacing: enLetterSpacing,
+          textAlign: 'center',
+          lineHeight: 1.0,
         }}
       >
-        HMMT
+        {enName}
       </div>
+
       <div
         style={{
-          fontFamily: FONT_FAMILY_CN,
-          fontSize: 72,
-          fontWeight: 800,
-          color: COLORS.primary,
-          letterSpacing: 8,
-          textAlign: "center",
+          width: enLen * (enFontSize * 0.55),
+          maxWidth: 800,
+          height: 8,
+          background: BRAND.yellow,
+          borderRadius: 4,
+        }}
+      />
+
+      <div
+        style={{
+          fontFamily: FONT_CN,
+          fontSize: cnFontSize,
+          fontWeight: 700,
+          color: BRAND.white,
+          letterSpacing: '0.06em',
+          textAlign: 'center',
         }}
       >
-        哈佛麻省理工数学锦标赛
+        {cnNameFull}
       </div>
+
       <div
         style={{
-          position: "absolute",
-          bottom: 80,
-          fontFamily: FONT_FAMILY_CN,
+          marginTop: 28,
+          padding: '12px 28px',
+          background: BRAND.cardBg,
+          border: `1px solid ${BRAND.cardBorder}`,
+          borderRadius: 999,
+          fontFamily: FONT_CN,
           fontSize: 28,
-          color: "#444444",
-          letterSpacing: 8,
+          color: BRAND.textLight,
+          letterSpacing: '0.18em',
+          fontWeight: 500,
         }}
       >
         翰林有方 · 国际竞赛系列

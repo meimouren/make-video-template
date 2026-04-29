@@ -1,7 +1,7 @@
 import React from "react";
 import { useCurrentFrame, useVideoConfig, interpolate, spring } from "remotion";
-import { COLORS } from "../config";
-import { FONT_FAMILY_EN } from "../fonts";
+import { COLORS } from "../../config";
+import { FONT_FAMILY_EN } from "../../fonts";
 
 type AnimatedNumberProps = {
   value: number;

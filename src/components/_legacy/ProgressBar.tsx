@@ -1,6 +1,6 @@
 import React from "react";
 import { useCurrentFrame, useVideoConfig, interpolate } from "remotion";
-import { COLORS } from "../config";
+import { COLORS } from "../../config";
 
 type ProgressBarProps = {
   sceneIndex: number;
@@ -42,7 +42,7 @@ export const ProgressBar: React.FC<ProgressBarProps> = ({
           style={{
             height: "100%",
             width: `${progress}%`,
-            background: `linear-gradient(90deg, ${COLORS.primary}, ${COLORS.secondary})`,
+            background: `linear-gradient(90deg, ${COLORS.primary}, ${COLORS.gold})`,
             borderRadius: 2,
             transition: "none",
           }}

@@ -1,6 +1,6 @@
 import React from "react";
 import { useCurrentFrame, useVideoConfig, interpolate, spring } from "remotion";
-import { COLORS } from "../config";
+import { COLORS } from "../../config";
 
 type SceneNumberProps = {
   number: number;

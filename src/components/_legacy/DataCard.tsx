@@ -1,7 +1,7 @@
 import React from "react";
 import { useCurrentFrame, useVideoConfig, spring } from "remotion";
-import { COLORS } from "../config";
-import { FONT_FAMILY_CN } from "../fonts";
+import { COLORS } from "../../config";
+import { FONT_FAMILY_CN } from "../../fonts";
 
 type DataCardProps = {
   title: string;
