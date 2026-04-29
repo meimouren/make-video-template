@@ -68,8 +68,8 @@ const StageCard: React.FC<{
             flexDirection: 'column',
             alignItems: 'center',
             justifyContent: 'center',
-            minWidth: 96,
-            padding: '12px 0',
+            minWidth: 116,
+            padding: '14px 0',
             background: `${accent}1a`,
             border: `1px solid ${accent}66`,
             borderRadius: 10,
@@ -78,11 +78,11 @@ const StageCard: React.FC<{
           <div
             style={{
               fontFamily: FONT_BODY_EN,
-              fontSize: 16,
+              fontSize: 18,
               color: BRAND.textLight,
-              letterSpacing: '0.18em',
+              letterSpacing: '0.22em',
               fontWeight: 700,
-              marginBottom: 2,
+              marginBottom: 4,
             }}
           >
             STAGE
@@ -90,7 +90,7 @@ const StageCard: React.FC<{
           <div
             style={{
               fontFamily: FONT_BODY_EN,
-              fontSize: 38,
+              fontSize: 56,
               fontWeight: 900,
               color: accent,
               lineHeight: 1.0,

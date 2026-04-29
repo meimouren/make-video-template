@@ -47,14 +47,15 @@ const HighlightTile: React.FC<{ text: string; index: number; delay: number; tota
       <div
         style={{
           fontFamily: FONT_BODY_EN,
-          fontSize: 22,
-          fontWeight: 800,
+          fontSize: 44,
+          fontWeight: 900,
           color: accent,
-          letterSpacing: '0.06em',
+          letterSpacing: '0.02em',
+          lineHeight: 1.0,
         }}
       >
         {String(index + 1).padStart(2, '0')}
-        <span style={{ color: BRAND.textLight, fontWeight: 500, marginLeft: 6 }}>
+        <span style={{ color: BRAND.textLight, fontWeight: 500, marginLeft: 8, fontSize: 22 }}>
           / {String(total).padStart(2, '0')}
         </span>
       </div>

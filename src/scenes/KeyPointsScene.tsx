@@ -51,11 +51,12 @@ const KeyPointRow: React.FC<{ kp: KeyPoint; index: number; delay: number }> = ({
       <div
         style={{
           fontFamily: FONT_BODY_EN,
-          fontSize: 28,
+          fontSize: 52,
           fontWeight: 900,
           color: accent,
-          letterSpacing: '0.04em',
-          minWidth: 56,
+          letterSpacing: '0.02em',
+          minWidth: 84,
+          lineHeight: 1.0,
         }}
       >
         {String(index + 1).padStart(2, '0')}

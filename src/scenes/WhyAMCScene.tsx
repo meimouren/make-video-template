@@ -71,14 +71,15 @@ const BenefitTile: React.FC<{ benefit: Benefit; index: number; delay: number; to
         <div
           style={{
             fontFamily: FONT_BODY_EN,
-            fontSize: 28,
+            fontSize: 56,
             fontWeight: 900,
             color: accent,
-            letterSpacing: '0.04em',
+            letterSpacing: '0.02em',
+            lineHeight: 1.0,
           }}
         >
           {String(index + 1).padStart(2, '0')}
-          <span style={{ color: BRAND.textLight, fontWeight: 500, marginLeft: 6 }}>
+          <span style={{ color: BRAND.textLight, fontWeight: 500, marginLeft: 8, fontSize: 26 }}>
             / {String(total).padStart(2, '0')}
           </span>
         </div>

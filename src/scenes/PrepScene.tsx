@@ -52,8 +52,8 @@ const StepCard: React.FC<{ step: Step; index: number; delay: number }> = ({ step
           flexDirection: 'column',
           alignItems: 'center',
           justifyContent: 'center',
-          minWidth: 88,
-          padding: '14px 0',
+          minWidth: 110,
+          padding: '16px 0',
           background: BRAND.black,
           border: `2px solid ${accent}`,
           borderRadius: 12,
@@ -63,11 +63,11 @@ const StepCard: React.FC<{ step: Step; index: number; delay: number }> = ({ step
         <div
           style={{
             fontFamily: FONT_BODY_EN,
-            fontSize: 14,
+            fontSize: 16,
             color: BRAND.textLight,
-            letterSpacing: '0.18em',
+            letterSpacing: '0.22em',
             fontWeight: 700,
-            marginBottom: 2,
+            marginBottom: 4,
           }}
         >
           STEP
@@ -75,7 +75,7 @@ const StepCard: React.FC<{ step: Step; index: number; delay: number }> = ({ step
         <div
           style={{
             fontFamily: FONT_BODY_EN,
-            fontSize: 40,
+            fontSize: 56,
             fontWeight: 900,
             color: accent,
             lineHeight: 1.0,
