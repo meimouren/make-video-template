@@ -13,6 +13,7 @@ import { BrandOverlay } from "./components/_legacy/BrandOverlay";
 import { SubtitleOverlay } from "./components/_legacy/SubtitleOverlay";
 import { CoverScene } from "./scenes/_legacy/CoverScene";
 import { ChartScene } from "./scenes/_legacy/ChartScene";
+import { OpeningScene as OpeningSceneV2 } from "./scenes/OpeningScene";
 import { StatsScene } from "./scenes/_legacy/StatsScene";
 import { TitleCardScene } from "./scenes/_legacy/TitleCardScene";
 import { WhatIsAMCScene } from "./scenes/_legacy/WhatIsAMCScene";
@@ -26,7 +27,7 @@ import { WhyAMCScene } from "./scenes/_legacy/WhyAMCScene";
 import { ProgressionScene } from "./scenes/_legacy/ProgressionScene";
 import { PrepScene } from "./scenes/_legacy/PrepScene";
 import { ClosingScene } from "./scenes/_legacy/ClosingScene";
-import { SCENES } from "./config";
+import { SCENES, COMPETITION } from "./config";
 
 export type AMCVideoProps = {
   sceneDurations: number[];
@@ -49,7 +50,15 @@ export const AMCVideo: React.FC<AMCVideoProps> = ({ sceneDurations }) => {
       case "cover":
         return <CoverScene seriesName={scene.seriesName} competitionName={scene.competitionName} competitionNameEn={scene.competitionNameEn} episodeTag={scene.episodeTag} />;
       case "opening-chart":
-        return <ChartScene />;
+        return (
+          <OpeningSceneV2
+            title={scene.title}
+            subtitle={scene.subtitle}
+            participationTitle={COMPETITION.participationTitle}
+            participationData={COMPETITION.participationData}
+            participationUnit={COMPETITION.participationUnit}
+          />
+        );
       case "opening-stats":
         return <StatsScene stats={scene.stats} />;
       case "title-card":
