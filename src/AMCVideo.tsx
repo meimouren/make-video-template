@@ -6,7 +6,7 @@ import {
   staticFile,
   useVideoConfig,
 } from "remotion";
-import { TransitionSeries, linearTiming } from "@remotion/transitions";
+import { TransitionSeries, springTiming } from "@remotion/transitions";
 import { fade } from "@remotion/transitions/fade";
 import { Background } from "./components/_legacy/Background";
 import { BrandOverlay } from "./components/_legacy/BrandOverlay";
@@ -35,7 +35,9 @@ export type AMCVideoProps = {
 
 export const AMCVideo: React.FC<AMCVideoProps> = ({ sceneDurations }) => {
   const { fps } = useVideoConfig();
-  const transitionDuration = Math.round(0.3 * fps);
+  // Slightly longer + smoother (spring) transitions for v2 — feels less abrupt
+  // and matches the editorial pacing of the new scenes.
+  const transitionDuration = Math.round(0.4 * fps);
 
   const sceneStartFrames: number[] = [];
   let currentStart = 0;
@@ -104,7 +106,10 @@ export const AMCVideo: React.FC<AMCVideoProps> = ({ sceneDurations }) => {
               {index < SCENES.length - 1 && (
                 <TransitionSeries.Transition
                   presentation={fade()}
-                  timing={linearTiming({ durationInFrames: transitionDuration })}
+                  timing={springTiming({
+                    config: { damping: 200, stiffness: 100, mass: 0.5 },
+                    durationInFrames: transitionDuration,
+                  })}
                 />
               )}
             </React.Fragment>
