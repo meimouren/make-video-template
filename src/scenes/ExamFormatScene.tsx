@@ -1,7 +1,7 @@
 import React from 'react';
-import { SceneShell } from '../components/SceneShell';
+import { SceneShell, MetaChip } from '../components/SceneShell';
 import { BarRow } from '../components/BarRow';
-import { BRAND } from '../theme/colors';
+import { BRAND, DATA } from '../theme/colors';
 
 interface Domain {
   name: string;
@@ -16,28 +16,30 @@ interface ExamFormatSceneProps {
 
 export const ExamFormatScene: React.FC<ExamFormatSceneProps> = ({ title, subtitle, domains }) => {
   const maxPct = Math.max(...domains.map((d) => d.percentage));
+  const topDomain = domains.reduce((a, b) => (a.percentage > b.percentage ? a : b));
+
+  const metaChips: MetaChip[] = [
+    { label: 'DOMAINS', value: `${domains.length} 类`, accent: DATA.blue },
+    { label: 'TOP', value: `${topDomain.name} ${topDomain.percentage}%`, accent: BRAND.yellow },
+    { label: 'TOTAL', value: `${domains.reduce((s, d) => s + d.percentage, 0)}%`, accent: DATA.green },
+  ];
 
   return (
-    <SceneShell title={title} subtitle={subtitle}>
-      <div
-        style={{
-          background: 'rgba(255,255,255,0.025)',
-          border: `1px solid ${BRAND.cardBorder}`,
-          borderRadius: 16,
-          padding: '36px 32px',
-          marginTop: 18,
-          display: 'flex',
-          flexDirection: 'column',
-          gap: 28,
-        }}
-      >
+    <SceneShell
+      eyebrow="FORMAT · 题型分布"
+      title={title}
+      subtitle={subtitle}
+      metaChips={metaChips}
+      footer="HANLIN · 国际竞赛系列"
+    >
+      <div style={{ display: 'flex', flexDirection: 'column', gap: 26 }}>
         {domains.map((d, i) => (
           <BarRow
             key={d.name}
             name={d.name}
             percentage={d.percentage}
             index={i}
-            delay={0.7}
+            delay={1.0}
             maxPercentage={maxPct}
           />
         ))}
