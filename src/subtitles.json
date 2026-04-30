@@ -2,367 +2,409 @@
   {
     "id": 1,
     "startFrame": 0,
-    "endFrame": 124,
-    "text": "每天介绍一个国际竞赛，今天要介绍的是CLMC"
+    "endFrame": 169,
+    "text": "每天介绍一个国际竞赛，今天要介绍的是F=ma，美国物理选拔赛"
   },
   {
     "id": 2,
-    "startFrame": 124,
-    "endFrame": 175,
-    "text": "加拿大数学测评中级"
+    "startFrame": 160,
+    "endFrame": 299,
+    "text": "F等于ma，是美国物理奥林匹克USAPhO的初选考试"
   },
   {
     "id": 3,
-    "startFrame": 166,
-    "endFrame": 183,
-    "text": "CLMC"
+    "startFrame": 299,
+    "endFrame": 390,
+    "text": "也是通往美国物理国家队的第一道门槛"
   },
   {
     "id": 4,
-    "startFrame": 183,
-    "endFrame": 341,
-    "text": "全称Canada Lynx Mathematical Competition"
+    "startFrame": 390,
+    "endFrame": 534,
+    "text": "由美国物理教师协会AAPT和美国物理学会AIP联合主办"
   },
   {
     "id": 5,
-    "startFrame": 341,
-    "endFrame": 453,
-    "text": "中文译为加拿大数学测评中级，由加拿大数学学会CMS主办"
+    "startFrame": 534,
+    "endFrame": 683,
+    "text": "每年约六千名顶尖学生参加，前四百名晋级USAPhO半决赛"
   },
   {
     "id": 6,
-    "startFrame": 453,
-    "endFrame": 519,
-    "text": "这是面向中学阶段学生的数学测评赛"
+    "startFrame": 674,
+    "endFrame": 804,
+    "text": "F等于ma是国内学生进入美国物理国家队的标志性赛事"
   },
   {
     "id": 7,
-    "startFrame": 519,
-    "endFrame": 577,
-    "text": "由加拿大数学学会作为官方背书"
+    "startFrame": 804,
+    "endFrame": 861,
+    "text": "它是USAPhO的初选"
   },
   {
     "id": 8,
-    "startFrame": 568,
-    "endFrame": 638,
-    "text": "CLMC的稀缺性来自三方面"
+    "startFrame": 861,
+    "endFrame": 1001,
+    "text": "USAPhO又是IPhO国际物理奥赛美国国家队的选拔赛"
   },
   {
     "id": 9,
-    "startFrame": 638,
-    "endFrame": 751,
-    "text": "第一是加拿大数学学会CMS官方主办，背书强"
+    "startFrame": 1001,
+    "endFrame": 1173,
+    "text": "F等于ma的成绩在顶尖大学物理和工程专业申请中是非常硬的物理学背景"
   },
   {
     "id": 10,
-    "startFrame": 751,
-    "endFrame": 880,
-    "text": "第二是命题难度对中学生友好，是入门级国际数学测评"
+    "startFrame": 1164,
+    "endFrame": 1283,
+    "text": "F等于ma的核心定位是基于代数的力学高难度选拔赛"
   },
   {
     "id": 11,
-    "startFrame": 880,
-    "endFrame": 1025,
-    "text": "第三是申请加拿大顶尖大学的相关认可度高，包括滑铁卢大学"
+    "startFrame": 1283,
+    "endFrame": 1426,
+    "text": "所有题目集中在牛顿力学板块，包括运动学，动力学，能量，动量"
   },
   {
     "id": 12,
-    "startFrame": 1025,
-    "endFrame": 1073,
-    "text": "多伦多大学，UBC"
+    "startFrame": 1426,
+    "endFrame": 1490,
+    "text": "转动，振动等核心力学知识点"
   },
   {
     "id": 13,
-    "startFrame": 1065,
-    "endFrame": 1217,
-    "text": "CLMC的核心定位是面向七到十一年级中学生的数学测评赛"
+    "startFrame": 1490,
+    "endFrame": 1589,
+    "text": "难度对标AP Physics 1甚至更高"
   },
   {
     "id": 14,
-    "startFrame": 1217,
-    "endFrame": 1307,
-    "text": "题目基于加拿大中学课程核心知识点"
+    "startFrame": 1589,
+    "endFrame": 1678,
+    "text": "是物理竞赛体系中最严肃的入门门槛之一"
   },
   {
     "id": 15,
-    "startFrame": 1307,
-    "endFrame": 1403,
-    "text": "涵盖代数几何概率初步等基础数学板块"
+    "startFrame": 1669,
+    "endFrame": 1747,
+    "text": "F等于ma由两家美国物理学界顶级机构联合主办"
   },
   {
     "id": 16,
-    "startFrame": 1403,
-    "endFrame": 1567,
-    "text": "难度对应中学课程要求，适合作为加拿大数学竞赛体系的入门门槛"
+    "startFrame": 1747,
+    "endFrame": 1906,
+    "text": "AAPT是American Association of Physics Teachers"
   },
   {
     "id": 17,
-    "startFrame": 1558,
-    "endFrame": 1712,
-    "text": "CMS全称Canadian Mathematical Society"
+    "startFrame": 1906,
+    "endFrame": 1934,
+    "text": "美国物理教师协会"
   },
   {
     "id": 18,
-    "startFrame": 1712,
-    "endFrame": 1820,
-    "text": "加拿大数学学会，是加拿大数学领域最权威的学术组织"
+    "startFrame": 1934,
+    "endFrame": 2050,
+    "text": "AIP是American Institute of Physics"
   },
   {
     "id": 19,
-    "startFrame": 1820,
-    "endFrame": 1937,
-    "text": "CMS旗下还主办着加拿大数学奥赛CMO等其他权威赛事"
+    "startFrame": 2050,
+    "endFrame": 2071,
+    "text": "美国物理学会"
   },
   {
     "id": 20,
-    "startFrame": 1937,
-    "endFrame": 2014,
-    "text": "CLMC作为CMS的中学生入门赛事"
+    "startFrame": 2071,
+    "endFrame": 2219,
+    "text": "美国物理国家队Project U.S. Physics Team自一九八六年开始运作"
   },
   {
     "id": 21,
-    "startFrame": 2014,
-    "endFrame": 2100,
-    "text": "承担着加拿大数学竞赛体系最早入口的角色"
+    "startFrame": 2219,
+    "endFrame": 2275,
+    "text": "F等于ma是其选拔体系的入门考试"
   },
   {
     "id": 22,
-    "startFrame": 2091,
-    "endFrame": 2161,
-    "text": "CLMC的考试格式标准化"
+    "startFrame": 2267,
+    "endFrame": 2361,
+    "text": "F等于ma的考试格式经多年迭代后稳定"
   },
   {
     "id": 23,
-    "startFrame": 2161,
-    "endFrame": 2329,
-    "text": "整套试卷十五道选择题，限时九十分钟，平均每题六分钟思考时间"
+    "startFrame": 2361,
+    "endFrame": 2502,
+    "text": "整套试卷二十五道选择题，限时七十五分钟，平均每题三分钟"
   },
   {
     "id": 24,
-    "startFrame": 2329,
-    "endFrame": 2468,
-    "text": "题型为四选一选择题，难度循序渐进，前几题基础送分"
+    "startFrame": 2502,
+    "endFrame": 2601,
+    "text": "题目均为多选题中的单选形式，答错不倒扣"
   },
   {
     "id": 25,
-    "startFrame": 2468,
-    "endFrame": 2520,
-    "text": "后几题需要灵活思考"
+    "startFrame": 2601,
+    "endFrame": 2716,
+    "text": "从二零一五年起取消倒扣机制，鼓励学生大胆作答"
   },
   {
     "id": 26,
-    "startFrame": 2511,
-    "endFrame": 2601,
-    "text": "CLMC评分按全球同年级排名颁奖"
+    "startFrame": 2706,
+    "endFrame": 2781,
+    "text": "F等于ma的核心机制是晋级制"
   },
   {
     "id": 27,
-    "startFrame": 2601,
-    "endFrame": 2752,
-    "text": "金奖颁给前百分之十的选手，银奖颁给前百分之十一到二十五"
+    "startFrame": 2781,
+    "endFrame": 2926,
+    "text": "每年得分前四百名学生晋级USAPhO美国物理奥赛半决赛"
   },
   {
     "id": 28,
-    "startFrame": 2752,
-    "endFrame": 2830,
-    "text": "铜奖颁给前百分之二十六到五十"
+    "startFrame": 2926,
+    "endFrame": 3055,
+    "text": "USAPhO中的前二十名进入美国物理国家队夏令营"
   },
   {
     "id": 29,
-    "startFrame": 2830,
-    "endFrame": 2925,
-    "text": "所有完成考试的学生都会获得参赛证书"
+    "startFrame": 3055,
+    "endFrame": 3195,
+    "text": "夏令营中再选出五人代表美国队出征IPhO国际物理奥赛"
   },
   {
     "id": 30,
-    "startFrame": 2925,
-    "endFrame": 3031,
-    "text": "所有奖项由加拿大数学学会CMS官方颁发"
+    "startFrame": 3195,
+    "endFrame": 3265,
+    "text": "F等于ma是这条路径的入口"
   },
   {
     "id": 31,
-    "startFrame": 3023,
-    "endFrame": 3129,
-    "text": "CLMC对全球七到十一年级在读学生开放"
+    "startFrame": 3257,
+    "endFrame": 3325,
+    "text": "F等于ma的参赛资格相对严格"
   },
   {
     "id": 32,
-    "startFrame": 3129,
-    "endFrame": 3302,
-    "text": "国内学生通过加拿大教育考试中心ICAE或代理机构在国内考点参加"
+    "startFrame": 3325,
+    "endFrame": 3369,
+    "text": "学生必须是美国公民"
   },
   {
     "id": 33,
-    "startFrame": 3302,
-    "endFrame": 3436,
-    "text": "考试时间根据时区分两天进行，加拿大和美洲在第一天"
+    "startFrame": 3369,
+    "endFrame": 3472,
+    "text": "绿卡持有者或目前正在美国学校就读的国际学生"
   },
   {
     "id": 34,
-    "startFrame": 3436,
-    "endFrame": 3481,
-    "text": "亚太地区在第二天"
+    "startFrame": 3472,
+    "endFrame": 3614,
+    "text": "从二零二六年开始，F等于ma和USAPhO全部改为线上考试"
   },
   {
     "id": 35,
-    "startFrame": 3472,
-    "endFrame": 3508,
-    "text": "对中国家长而言"
+    "startFrame": 3614,
+    "endFrame": 3731,
+    "text": "通过Educational Vistas平台进行"
   },
   {
     "id": 36,
-    "startFrame": 3508,
-    "endFrame": 3740,
-    "text": "CLMC的价值首先在加拿大留学方向：加拿大数学学会主办的赛事在加拿大顶尖大学申请中获得认可"
+    "startFrame": 3731,
+    "endFrame": 3770,
+    "text": "不再发放纸质试卷"
   },
   {
     "id": 37,
-    "startFrame": 3740,
-    "endFrame": 3915,
-    "text": "其次是数学竞赛入门：90分钟15题的格式适合刚开始接触数学竞赛的学生"
+    "startFrame": 3761,
+    "endFrame": 3797,
+    "text": "对中国家长而言"
   },
   {
     "id": 38,
-    "startFrame": 3915,
-    "endFrame": 4070,
-    "text": "第三是奖项含金量：CMS官方颁发的证书在简历上有清晰来源背书"
+    "startFrame": 3797,
+    "endFrame": 3932,
+    "text": "F等于ma的价值首先在物理学背景含金量：即使没有晋级"
   },
   {
     "id": 39,
-    "startFrame": 4061,
-    "endFrame": 4217,
-    "text": "CLMC和CSMC是加拿大数学学会和滑铁卢大学CEMC旗下两个不同的中学数学赛"
+    "startFrame": 3932,
+    "endFrame": 4030,
+    "text": "参赛和成绩本身就是高水平物理能力的证明"
   },
   {
     "id": 40,
-    "startFrame": 4217,
-    "endFrame": 4305,
-    "text": "CLMC由CMS主办，是数学学会的中学入门赛"
+    "startFrame": 4030,
+    "endFrame": 4196,
+    "text": "其次是国家队路径：晋级到USAPhO甚至国家队夏令营是申请MIT"
   },
   {
     "id": 41,
-    "startFrame": 4305,
-    "endFrame": 4541,
-    "text": "CSMC全称Canadian Senior and Intermediate Mathematics Contests"
+    "startFrame": 4196,
+    "endFrame": 4232,
+    "text": "Caltech"
   },
   {
     "id": 42,
-    "startFrame": 4541,
-    "endFrame": 4645,
-    "text": "由滑铁卢大学CEMC主办，是另一条加拿大数学竞赛体系"
+    "startFrame": 4232,
+    "endFrame": 4356,
+    "text": "普林斯顿等顶尖理工大学物理或工程专业的重量级背景"
   },
   {
     "id": 43,
-    "startFrame": 4637,
-    "endFrame": 4764,
-    "text": "CLMC每年通常在九月底或十月初举办，分两天进行"
+    "startFrame": 4348,
+    "endFrame": 4541,
+    "text": "F等于ma和Physics Bowl是国内家长经常被放在一起比较的两个美国物理赛事"
   },
   {
     "id": 44,
-    "startFrame": 4764,
-    "endFrame": 4875,
-    "text": "二零二五赛季于十月二日和三日举办，已经结束"
+    "startFrame": 4541,
+    "endFrame": 4668,
+    "text": "Physics Bowl是入门级测评，覆盖面广，门槛低"
   },
   {
     "id": 45,
-    "startFrame": 4875,
-    "endFrame": 4975,
-    "text": "下届二零二六赛季预计在九月底十月初进行"
+    "startFrame": 4668,
+    "endFrame": 4804,
+    "text": "F等于ma是高难度选拔，晋级USAPhO，面向顶尖物理选手"
   },
   {
     "id": 46,
-    "startFrame": 4975,
-    "endFrame": 5038,
-    "text": "具体日期由CMS官方公告"
+    "startFrame": 4804,
+    "endFrame": 4922,
+    "text": "两者通常分阶段参加，先Physics Bowl打底"
   },
   {
     "id": 47,
-    "startFrame": 5029,
-    "endFrame": 5060,
-    "text": "对国内学生而言"
+    "startFrame": 4922,
+    "endFrame": 4955,
+    "text": "再冲F等于ma"
   },
   {
     "id": 48,
-    "startFrame": 5060,
-    "endFrame": 5179,
-    "text": "加拿大数学竞赛路径建议是先参加CLMC作为中学阶段入门"
+    "startFrame": 4946,
+    "endFrame": 5042,
+    "text": "F等于ma每年通常在二月初举办考试"
   },
   {
     "id": 49,
-    "startFrame": 5179,
-    "endFrame": 5284,
-    "text": "初中后期参加滑铁卢大学CEMC旗下的Pascal"
+    "startFrame": 5042,
+    "endFrame": 5178,
+    "text": "二零二六年的考试日已经举办完毕，时间是二月十二日"
   },
   {
     "id": 50,
-    "startFrame": 5284,
-    "endFrame": 5407,
-    "text": "Cayley，Fermat三联赛事，高中阶段参加CSMC"
+    "startFrame": 5178,
+    "endFrame": 5240,
+    "text": "下午一点到四点东部时间"
   },
   {
     "id": 51,
-    "startFrame": 5407,
-    "endFrame": 5499,
-    "text": "Euclid，最终冲刺CMO加拿大数学奥赛"
+    "startFrame": 5240,
+    "endFrame": 5336,
+    "text": "下届二零二七年预计同样在二月初进行"
   },
   {
     "id": 52,
-    "startFrame": 5490,
-    "endFrame": 5600,
-    "text": "第一步同步加拿大七到十一年级中学数学课纲"
+    "startFrame": 5336,
+    "endFrame": 5426,
+    "text": "报名通道由AAPT在每年一月开放"
   },
   {
     "id": 53,
-    "startFrame": 5600,
-    "endFrame": 5660,
-    "text": "重点是代数几何概率初步"
+    "startFrame": 5417,
+    "endFrame": 5551,
+    "text": "国内物理竞赛路径建议是先完成AP Physics课程基础"
   },
   {
     "id": 54,
-    "startFrame": 5660,
-    "endFrame": 5770,
-    "text": "第二步从CMS官网获取近五年CLMC真题"
+    "startFrame": 5551,
+    "endFrame": 5646,
+    "text": "参加Physics Bowl作为入门测评"
   },
   {
     "id": 55,
-    "startFrame": 5770,
-    "endFrame": 5858,
-    "text": "第三步每周限时九十分钟做完整一套"
+    "startFrame": 5646,
+    "endFrame": 5732,
+    "text": "进而冲F等于ma挑战晋级USAPhO"
   },
   {
     "id": 56,
-    "startFrame": 5858,
-    "endFrame": 5995,
-    "text": "第四步重点训练应用题和文字题，是CLMC的失分大户"
+    "startFrame": 5732,
+    "endFrame": 5804,
+    "text": "前四百名进入USAPhO半决赛"
   },
   {
     "id": 57,
-    "startFrame": 5995,
-    "endFrame": 6061,
-    "text": "第五步赛前两周做全真模考"
+    "startFrame": 5804,
+    "endFrame": 5880,
+    "text": "前二十名进入美国物理国家队夏令营"
   },
   {
     "id": 58,
-    "startFrame": 6052,
-    "endFrame": 6190,
-    "text": "CLMC是加拿大数学学会CMS主办的中学生数学测评赛"
+    "startFrame": 5880,
+    "endFrame": 5975,
+    "text": "最终五人代表美国出征IPhO国际物理奥赛"
   },
   {
     "id": 59,
-    "startFrame": 6190,
-    "endFrame": 6312,
-    "text": "是国内学生进入加拿大数学竞赛体系的常见入门起点"
+    "startFrame": 5966,
+    "endFrame": 6134,
+    "text": "第一步同步AP Physics 1或Physics C的力学板块"
   },
   {
     "id": 60,
-    "startFrame": 6312,
-    "endFrame": 6471,
-    "text": "对计划走加拿大留学路径的中学生家庭来说，CLMC值得重点关注"
+    "startFrame": 6134,
+    "endFrame": 6249,
+    "text": "第二步从AAPT官网获取近十年F等于ma真题"
   },
   {
     "id": 61,
-    "startFrame": 6471,
-    "endFrame": 6556,
+    "startFrame": 6249,
+    "endFrame": 6349,
+    "text": "第三步每周限时七十五分钟做完整一套真题"
+  },
+  {
+    "id": 62,
+    "startFrame": 6349,
+    "endFrame": 6459,
+    "text": "第四步重点训练能量、动量、转动力学三大板块"
+  },
+  {
+    "id": 63,
+    "startFrame": 6459,
+    "endFrame": 6585,
+    "text": "第五步冲刺阶段以速度训练为主，平均每题三分钟做完"
+  },
+  {
+    "id": 64,
+    "startFrame": 6576,
+    "endFrame": 6712,
+    "text": "F等于ma是美国物理教师协会主办的USAPhO选拔考试"
+  },
+  {
+    "id": 65,
+    "startFrame": 6712,
+    "endFrame": 6832,
+    "text": "是通往美国物理国家队和IPhO国际物理奥赛的入口"
+  },
+  {
+    "id": 66,
+    "startFrame": 6832,
+    "endFrame": 6937,
+    "text": "对志在顶尖理工科申请的高中物理学生家庭来说"
+  },
+  {
+    "id": 67,
+    "startFrame": 6937,
+    "endFrame": 7027,
+    "text": "F等于ma是最值得规划的物理竞赛之一"
+  },
+  {
+    "id": 68,
+    "startFrame": 7027,
+    "endFrame": 7107,
     "text": "关注翰林有方获取更多国际竞赛信息"
   }
 ]
