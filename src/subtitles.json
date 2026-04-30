@@ -2,373 +2,415 @@
   {
     "id": 1,
     "startFrame": 0,
-    "endFrame": 107,
-    "text": "每天介绍一个国际竞赛，今天要介绍的是ASOP"
+    "endFrame": 115,
+    "text": "每天介绍一个国际竞赛，今天要介绍的是IYPT"
   },
   {
     "id": 2,
-    "startFrame": 107,
-    "endFrame": 155,
-    "text": "澳大利亚物理奥林匹克"
+    "startFrame": 115,
+    "endFrame": 173,
+    "text": "国际青年物理学家锦标赛"
   },
   {
     "id": 3,
-    "startFrame": 146,
-    "endFrame": 160,
-    "text": "ASOP"
+    "startFrame": 164,
+    "endFrame": 180,
+    "text": "IYPT"
   },
   {
     "id": 4,
-    "startFrame": 160,
-    "endFrame": 293,
-    "text": "全称Australian Science Olympiad - Physics"
+    "startFrame": 180,
+    "endFrame": 352,
+    "text": "全称International Young Physicists Tournament"
   },
   {
     "id": 5,
-    "startFrame": 293,
-    "endFrame": 341,
-    "text": "中文译为澳大利亚物理奥林匹克"
+    "startFrame": 352,
+    "endFrame": 412,
+    "text": "中文译为国际青年物理学家锦标赛"
   },
   {
     "id": 6,
-    "startFrame": 341,
-    "endFrame": 487,
-    "text": "由澳大利亚科学创新机构Australian Science Innovations主办"
+    "startFrame": 412,
+    "endFrame": 480,
+    "text": "是一项面向高中生的团队物理研究竞赛"
   },
   {
     "id": 7,
-    "startFrame": 487,
-    "endFrame": 576,
-    "text": "是澳大利亚通往国际物理奥赛IPhO国家队的官方选拔赛"
+    "startFrame": 480,
+    "endFrame": 548,
+    "text": "由国际青年物理学家锦标赛理事会主办"
   },
   {
     "id": 8,
-    "startFrame": 566,
-    "endFrame": 635,
-    "text": "ASOP的稀缺性来自三方面"
+    "startFrame": 548,
+    "endFrame": 648,
+    "text": "每年三十多个国家代表队进行真正的科学辩论和研究展示"
   },
   {
     "id": 9,
-    "startFrame": 635,
-    "endFrame": 779,
-    "text": "第一是澳洲方向：是澳大利亚IPhO国家队选拔的官方入口"
+    "startFrame": 640,
+    "endFrame": 710,
+    "text": "IYPT的稀缺性来自三方面"
   },
   {
     "id": 10,
-    "startFrame": 779,
-    "endFrame": 918,
-    "text": "第二是APhO通道：澳洲八人代表参加亚洲物理奥林匹克"
+    "startFrame": 710,
+    "endFrame": 856,
+    "text": "第一是赛制独特：不是考试，而是真实的物理研究和学术辩论"
   },
   {
     "id": 11,
-    "startFrame": 918,
-    "endFrame": 1073,
-    "text": "第三是澳洲八大认可：澳洲八大名校理工科申请认可ASOP成绩"
+    "startFrame": 856,
+    "endFrame": 1012,
+    "text": "第二是团队科研：每队五人围绕开放性物理问题做实验和理论探索"
   },
   {
     "id": 12,
-    "startFrame": 1064,
-    "endFrame": 1189,
-    "text": "ASOP的核心定位是澳大利亚高中阶段最权威的物理选拔赛"
+    "startFrame": 1012,
+    "endFrame": 1168,
+    "text": "第三是申请价值：在顶尖大学申请中是体现科研能力的非常硬背景"
   },
   {
     "id": 13,
-    "startFrame": 1189,
-    "endFrame": 1287,
-    "text": "考试由学校组织，限时两小时，覆盖物理全板块"
+    "startFrame": 1168,
+    "endFrame": 1244,
+    "text": "与传统考试型奥赛形成强差异化"
   },
   {
     "id": 14,
-    "startFrame": 1287,
-    "endFrame": 1408,
-    "text": "表现优异者受邀参加澳大利亚国立大学ANU的暑期训练营"
+    "startFrame": 1235,
+    "endFrame": 1351,
+    "text": "IYPT的核心定位是高中阶段最具科研感的物理竞赛"
   },
   {
     "id": 15,
-    "startFrame": 1408,
-    "endFrame": 1552,
-    "text": "再经选拔代表澳洲出征APhO亚太物理奥赛和IPhO国际物理奥赛"
+    "startFrame": 1351,
+    "endFrame": 1462,
+    "text": "每年由国际理事会IOC公布十七道开放性物理问题"
   },
   {
     "id": 16,
-    "startFrame": 1543,
-    "endFrame": 1696,
-    "text": "ASI全称Australian Science Innovations"
+    "startFrame": 1462,
+    "endFrame": 1573,
+    "text": "团队需要花一整年时间做实验，推导理论，撰写报告"
   },
   {
     "id": 17,
-    "startFrame": 1696,
-    "endFrame": 1797,
-    "text": "是澳大利亚专门组织科学奥林匹克项目的国家级机构"
+    "startFrame": 1573,
+    "endFrame": 1723,
+    "text": "最终在Physics Fight物理辩论中向其他队伍展示和挑战"
   },
   {
     "id": 18,
-    "startFrame": 1797,
-    "endFrame": 1889,
-    "text": "除了物理ASOP，ASI同样运营化学，生物"
+    "startFrame": 1714,
+    "endFrame": 1843,
+    "text": "IYPT由国际青年物理学家锦标赛理事会IOC主办"
   },
   {
     "id": 19,
-    "startFrame": 1889,
+    "startFrame": 1843,
     "endFrame": 1950,
-    "text": "地球与环境四个学科的奥林匹克"
+    "text": "是一个由各国物理学界代表组成的非营利组织"
   },
   {
     "id": 20,
     "startFrame": 1950,
-    "endFrame": 2055,
-    "text": "澳大利亚国家队的所有科学奥赛选拔由ASI统一管理"
+    "endFrame": 2100,
+    "text": "每年由理事会公布次年的十七道问题，由各成员国组织本国选拔"
   },
   {
     "id": 21,
-    "startFrame": 2047,
-    "endFrame": 2107,
-    "text": "ASOP的考试格式标准化"
+    "startFrame": 2100,
+    "endFrame": 2234,
+    "text": "第三十九届二零二六年IYPT决赛将在瑞士苏黎世举行"
   },
   {
     "id": 22,
-    "startFrame": 2107,
-    "endFrame": 2211,
-    "text": "学生通过学校报名，由学校老师在校内组织监考"
+    "startFrame": 2226,
+    "endFrame": 2335,
+    "text": "IYPT的比赛由Physics Fight物理辩论赛组成"
   },
   {
     "id": 23,
-    "startFrame": 2211,
-    "endFrame": 2290,
-    "text": "整套试卷限时两小时，纸笔形式作答"
+    "startFrame": 2335,
+    "endFrame": 2428,
+    "text": "每场Physics Fight有三到四个队伍参与"
   },
   {
     "id": 24,
-    "startFrame": 2290,
-    "endFrame": 2379,
-    "text": "所有学生在同一考试期内参加，确保公平"
+    "startFrame": 2428,
+    "endFrame": 2533,
+    "text": "分轮次扮演Reporter报告人，Opponent反方"
   },
   {
     "id": 25,
-    "startFrame": 2379,
-    "endFrame": 2473,
-    "text": "题目难度对标AP Physics或更高"
+    "startFrame": 2533,
+    "endFrame": 2587,
+    "text": "Reviewer评审三种角色"
   },
   {
     "id": 26,
-    "startFrame": 2465,
-    "endFrame": 2533,
-    "text": "ASOP的晋级体系层层递进"
+    "startFrame": 2587,
+    "endFrame": 2688,
+    "text": "整个赛事五轮选拔加一轮决赛，每位队员每场最多发言两次"
   },
   {
     "id": 27,
-    "startFrame": 2533,
-    "endFrame": 2675,
-    "text": "考试高分学生受邀参加澳大利亚国立大学ANU的暑期训练营"
+    "startFrame": 2679,
+    "endFrame": 2735,
+    "text": "IYPT的评分按团队累计积分"
   },
   {
     "id": 28,
-    "startFrame": 2675,
-    "endFrame": 2801,
-    "text": "营地中再选出八人代表澳洲参加APhO亚太物理奥赛"
+    "startFrame": 2735,
+    "endFrame": 2831,
+    "text": "每场Physics Fight中Reporter"
   },
   {
     "id": 29,
-    "startFrame": 2801,
-    "endFrame": 2906,
-    "text": "最终五人代表澳洲参加IPhO国际物理奥赛"
+    "startFrame": 2831,
+    "endFrame": 2939,
+    "text": "Opponent，Reviewer三个角色都有独立评分"
   },
   {
     "id": 30,
-    "startFrame": 2906,
-    "endFrame": 3001,
-    "text": "从ASOP到IPhO是清晰的晋级路径"
+    "startFrame": 2939,
+    "endFrame": 2975,
+    "text": "加权后形成本场得分"
   },
   {
     "id": 31,
-    "startFrame": 2993,
-    "endFrame": 3077,
-    "text": "ASOP主要面向澳洲高中学生开放"
+    "startFrame": 2975,
+    "endFrame": 3103,
+    "text": "整个赛事所有Physics Fight得分汇总后形成最终团队排名"
   },
   {
     "id": 32,
-    "startFrame": 3077,
-    "endFrame": 3166,
-    "text": "由学校代表学生在ASI官网注册参赛"
+    "startFrame": 3103,
+    "endFrame": 3195,
+    "text": "Top代表团队获Gold金牌，Silver银牌"
   },
   {
     "id": 33,
-    "startFrame": 3166,
-    "endFrame": 3244,
-    "text": "国际学生在澳洲就读期间可以参加"
+    "startFrame": 3195,
+    "endFrame": 3227,
+    "text": "Bronze铜牌"
   },
   {
     "id": 34,
-    "startFrame": 3244,
-    "endFrame": 3375,
-    "text": "考试时间通常在每年五月四日到十五日之间的某个工作日"
+    "startFrame": 3216,
+    "endFrame": 3317,
+    "text": "IYPT的参赛资格通过各国国家队选拔"
   },
   {
     "id": 35,
-    "startFrame": 3375,
-    "endFrame": 3412,
-    "text": "由学校自行选择"
+    "startFrame": 3317,
+    "endFrame": 3452,
+    "text": "中国队由中国本土IYPT国家队选拔赛CYPT决出"
   },
   {
     "id": 36,
-    "startFrame": 3402,
-    "endFrame": 3546,
-    "text": "对中国家长而言，ASOP的价值首先在澳洲方向：墨尔本大学"
+    "startFrame": 3452,
+    "endFrame": 3519,
+    "text": "CYPT每年由各高中报名"
   },
   {
     "id": 37,
-    "startFrame": 3546,
-    "endFrame": 3695,
-    "text": "悉尼大学，ANU等澳洲八大物理工程申请中是认可的物理学背景"
+    "startFrame": 3519,
+    "endFrame": 3665,
+    "text": "全国高中赛区选拔出顶尖团队代表中国出征IYPT国际赛"
   },
   {
     "id": 38,
-    "startFrame": 3695,
-    "endFrame": 3844,
-    "text": "其次是国际通道：APhO代表队是亚太地区物理顶尖选手集中地"
+    "startFrame": 3665,
+    "endFrame": 3749,
+    "text": "每队五名队员加一到两位指导教练"
   },
   {
     "id": 39,
-    "startFrame": 3844,
-    "endFrame": 3973,
-    "text": "第三是路径价值：通向IPhO国际物理奥赛的官方入口"
+    "startFrame": 3741,
+    "endFrame": 3839,
+    "text": "对中国家长而言，IYPT的价值在四方面"
   },
   {
     "id": 40,
-    "startFrame": 3964,
-    "endFrame": 4154,
-    "text": "ASOP和F等于ma是澳洲和美国通往各自IPhO国家队的入口考试"
+    "startFrame": 3839,
+    "endFrame": 3983,
+    "text": "第一是科研能力：一年的开放性研究最接近真正的科学研究过程"
   },
   {
     "id": 41,
-    "startFrame": 4154,
-    "endFrame": 4332,
-    "text": "ASOP由ASI主办，限定澳洲学生，F等于ma由AAPT主办"
+    "startFrame": 3983,
+    "endFrame": 4081,
+    "text": "第二是团队协作：五人长期合作的团队信号"
   },
   {
     "id": 42,
-    "startFrame": 4332,
-    "endFrame": 4368,
-    "text": "限定美国学生"
+    "startFrame": 4081,
+    "endFrame": 4179,
+    "text": "第三是学术辩论：英文展示和科学辩论能力"
   },
   {
     "id": 43,
-    "startFrame": 4368,
-    "endFrame": 4481,
-    "text": "两者考试形式有差异：ASOP是纸笔考试"
+    "startFrame": 4179,
+    "endFrame": 4293,
+    "text": "第四是申请认可：MIT，Caltech，剑桥"
   },
   {
     "id": 44,
-    "startFrame": 4481,
-    "endFrame": 4546,
-    "text": "F等于ma是线上选择题"
+    "startFrame": 4293,
+    "endFrame": 4417,
+    "text": "ETH等顶尖大学认可IYPT是高度差异化的硬背景"
   },
   {
     "id": 45,
-    "startFrame": 4546,
-    "endFrame": 4623,
-    "text": "两者的国际终点都是IPhO"
+    "startFrame": 4408,
+    "endFrame": 4554,
+    "text": "IYPT和IPhO是两种完全不同维度的国际物理顶级赛事"
   },
   {
     "id": 46,
-    "startFrame": 4613,
-    "endFrame": 4695,
-    "text": "ASOP二零二六赛季时间已经公布"
+    "startFrame": 4554,
+    "endFrame": 4657,
+    "text": "IPhO是个人考试型奥赛，限时做物理题"
   },
   {
     "id": 47,
-    "startFrame": 4695,
-    "endFrame": 4838,
-    "text": "考试期间为五月四日到十五日，由学校自行选择某个工作日组织"
+    "startFrame": 4657,
+    "endFrame": 4787,
+    "text": "IYPT是团队研究型锦标赛，一年时间做开放性研究"
   },
   {
     "id": 48,
-    "startFrame": 4838,
-    "endFrame": 4951,
-    "text": "两周后批改完成，受邀学生进入ANU暑期训练营"
+    "startFrame": 4787,
+    "endFrame": 4949,
+    "text": "IPhO侧重做题速度和精度；IYPT侧重科研、团队和辩论能力"
   },
   {
     "id": 49,
-    "startFrame": 4951,
-    "endFrame": 5099,
-    "text": "八人代表赴五月十七到二十五日韩国釜山的APhO亚太物理奥赛"
+    "startFrame": 4940,
+    "endFrame": 5016,
+    "text": "IYPT每年通常在七月份举办"
   },
   {
     "id": 50,
-    "startFrame": 5090,
-    "endFrame": 5236,
-    "text": "在澳洲就读的物理学生路径建议是先以学校物理课程作为基础"
+    "startFrame": 5016,
+    "endFrame": 5147,
+    "text": "二零二六年第三十九届国际锦标赛将在瑞士苏黎世举行"
   },
   {
     "id": 51,
-    "startFrame": 5236,
-    "endFrame": 5360,
-    "text": "参加ASOP奥林匹克考试，进入ANU暑期训练营"
+    "startFrame": 5147,
+    "endFrame": 5251,
+    "text": "各国选拔赛在前一年下半年到当年春季完成"
   },
   {
     "id": 52,
-    "startFrame": 5360,
-    "endFrame": 5452,
-    "text": "竞争APhO亚太物理奥赛代表队席位"
+    "startFrame": 5251,
+    "endFrame": 5387,
+    "text": "中国队伍通过CYPT中国青年物理学家锦标赛进行选拔"
   },
   {
     "id": 53,
-    "startFrame": 5452,
-    "endFrame": 5560,
-    "text": "最终五人代表澳洲出征IPhO国际物理奥赛"
+    "startFrame": 5387,
+    "endFrame": 5425,
+    "text": "时间通常在六月"
   },
   {
     "id": 54,
-    "startFrame": 5551,
-    "endFrame": 5755,
-    "text": "第一步同步澳洲十一到十二年级物理ATAR课程或剑桥AS A2 Level物理"
+    "startFrame": 5416,
+    "endFrame": 5589,
+    "text": "国内学生的IYPT路径建议是先选定高中阶段对物理科研感兴趣的方向"
   },
   {
     "id": 55,
-    "startFrame": 5755,
-    "endFrame": 5862,
-    "text": "第二步从ASI官网获取近十年ASOP真题"
+    "startFrame": 5589,
+    "endFrame": 5735,
+    "text": "加入学校或机构组建的IYPT团队，完成CYPT中国选拔"
   },
   {
     "id": 56,
-    "startFrame": 5862,
-    "endFrame": 5942,
-    "text": "第三步每周限时两小时做完整套题"
+    "startFrame": 5735,
+    "endFrame": 5854,
+    "text": "进入CYPT国家队代表中国出征IYPT国际赛"
   },
   {
     "id": 57,
-    "startFrame": 5942,
-    "endFrame": 6081,
-    "text": "第四步重点训练电磁学和量子力学，是ASOP高难度板块"
+    "startFrame": 5854,
+    "endFrame": 5919,
+    "text": "整个过程是真实的科研经历"
   },
   {
     "id": 58,
-    "startFrame": 6081,
-    "endFrame": 6151,
-    "text": "第五步赛前两周冲刺真题模考"
+    "startFrame": 5919,
+    "endFrame": 6022,
+    "text": "与做题型奥赛形成完全不同的能力培养路径"
   },
   {
     "id": 59,
-    "startFrame": 6142,
-    "endFrame": 6279,
-    "text": "ASOP是澳大利亚科学创新机构ASI主办的高中物理奥林匹克"
+    "startFrame": 6013,
+    "endFrame": 6170,
+    "text": "第一步是组队和选题，从十七道开放题中选定五到八道作为深耕方向"
   },
   {
     "id": 60,
-    "startFrame": 6279,
-    "endFrame": 6430,
-    "text": "是通往APhO亚太物理奥赛和IPhO国际物理奥赛的澳洲国家队入口"
+    "startFrame": 6170,
+    "endFrame": 6254,
+    "text": "第二步设计实验装置，反复验证数据"
   },
   {
     "id": 61,
-    "startFrame": 6430,
-    "endFrame": 6567,
-    "text": "对在澳大利亚就读高中的物理学生家庭来说，ASOP是核心赛道"
+    "startFrame": 6254,
+    "endFrame": 6364,
+    "text": "第三步建立理论模型，用物理推导对接实验结果"
   },
   {
     "id": 62,
-    "startFrame": 6567,
-    "endFrame": 6642,
+    "startFrame": 6364,
+    "endFrame": 6442,
+    "text": "第四步撰写报告并制作答辩PPT"
+  },
+  {
+    "id": 63,
+    "startFrame": 6442,
+    "endFrame": 6547,
+    "text": "第五步反复模拟Physics Fight"
+  },
+  {
+    "id": 64,
+    "startFrame": 6547,
+    "endFrame": 6610,
+    "text": "重点训练英文学术辩论能力"
+  },
+  {
+    "id": 65,
+    "startFrame": 6600,
+    "endFrame": 6686,
+    "text": "IYPT是国际青年物理学家锦标赛"
+  },
+  {
+    "id": 66,
+    "startFrame": 6686,
+    "endFrame": 6820,
+    "text": "每年由全球三十多个国家代表队进行团队科研和物理辩论"
+  },
+  {
+    "id": 67,
+    "startFrame": 6820,
+    "endFrame": 6981,
+    "text": "对家有高中阶段，有志于物理科研，追求差异化背景的学生家庭来说"
+  },
+  {
+    "id": 68,
+    "startFrame": 6981,
+    "endFrame": 7061,
+    "text": "IYPT是最特别的物理赛事之一"
+  },
+  {
+    "id": 69,
+    "startFrame": 7061,
+    "endFrame": 7147,
     "text": "关注翰林有方获取更多国际竞赛信息"
   }
 ]
