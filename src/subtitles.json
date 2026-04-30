@@ -2,384 +2,378 @@
   {
     "id": 1,
     "startFrame": 0,
-    "endFrame": 107,
-    "text": "每天介绍一个国际竞赛，今天要介绍的是AMO"
+    "endFrame": 125,
+    "text": "每天介绍一个国际竞赛，今天要介绍的是MPFG"
   },
   {
     "id": 2,
-    "startFrame": 107,
-    "endFrame": 153,
-    "text": "美国数学思维挑战赛"
+    "startFrame": 125,
+    "endFrame": 176,
+    "text": "麻省理工女生数学奖"
   },
   {
     "id": 3,
-    "startFrame": 144,
-    "endFrame": 157,
-    "text": "AMO"
+    "startFrame": 167,
+    "endFrame": 265,
+    "text": "MPFG，全称Math Prize for Girls"
   },
   {
     "id": 4,
-    "startFrame": 157,
-    "endFrame": 290,
-    "text": "全称American Mathematics Olympiad"
+    "startFrame": 265,
+    "endFrame": 312,
+    "text": "中文译为麻省理工女生数学奖"
   },
   {
     "id": 5,
-    "startFrame": 290,
-    "endFrame": 346,
-    "text": "中文译为美国数学思维挑战赛"
+    "startFrame": 312,
+    "endFrame": 486,
+    "text": "是由美国Advantage Testing Foundation和Jane Street联合赞助"
   },
   {
     "id": 6,
-    "startFrame": 346,
-    "endFrame": 487,
-    "text": "由新加坡国际数学竞赛中心SIMCC联合美国南伊利诺伊大学SIU主办"
+    "startFrame": 486,
+    "endFrame": 558,
+    "text": "在麻省理工学院校园举办的女生专属数学竞赛"
   },
   {
     "id": 7,
-    "startFrame": 487,
-    "endFrame": 581,
-    "text": "每年吸引来自约三十个国家，近十五万名学生参加"
+    "startFrame": 558,
+    "endFrame": 598,
+    "text": "每年仅约三百人受邀参加"
   },
   {
     "id": 8,
-    "startFrame": 571,
-    "endFrame": 718,
-    "text": "AMO的命题依据美国Common Core State Standards"
+    "startFrame": 589,
+    "endFrame": 660,
+    "text": "MPFG的稀缺性来自三方面"
   },
   {
     "id": 9,
-    "startFrame": 718,
-    "endFrame": 790,
-    "text": "覆盖小学二年级到高中十二年级的全学段"
+    "startFrame": 660,
+    "endFrame": 808,
+    "text": "它是北美最高奖金的女生数学专项赛事，一等奖五万美金现金"
   },
   {
     "id": 10,
-    "startFrame": 790,
-    "endFrame": 870,
-    "text": "是国内学生最早可以接触的国际数学竞赛之一"
+    "startFrame": 808,
+    "endFrame": 901,
+    "text": "它在麻省理工校园举办，自带名校加成"
   },
   {
     "id": 11,
-    "startFrame": 870,
-    "endFrame": 958,
-    "text": "它由阿思丹在国内承办，参赛流程对中国学生友好"
+    "startFrame": 901,
+    "endFrame": 1027,
+    "text": "它仅向北美高中以下女生开放，是真正的精选邀请赛"
   },
   {
     "id": 12,
-    "startFrame": 948,
-    "endFrame": 1046,
-    "text": "AMO的核心定位是数学思维标准化测评"
+    "startFrame": 1018,
+    "endFrame": 1119,
+    "text": "MPFG的核心定位是女生限定的高难度数学邀请赛"
   },
   {
     "id": 13,
-    "startFrame": 1046,
-    "endFrame": 1171,
-    "text": "题目按学段分级，从小学到高中各有不同的难度梯度"
+    "startFrame": 1119,
+    "endFrame": 1233,
+    "text": "每年约三百名表现优秀的高中女生受邀来到MIT校园参赛"
   },
   {
     "id": 14,
-    "startFrame": 1171,
-    "endFrame": 1274,
-    "text": "题型以选择题和填空题为主，限时九十分钟"
+    "startFrame": 1233,
+    "endFrame": 1299,
+    "text": "比赛只考一天，二十道高难度问题"
   },
   {
     "id": 15,
-    "startFrame": 1274,
-    "endFrame": 1377,
-    "text": "强调数学思考能力的应用，不依赖技巧训练"
+    "startFrame": 1299,
+    "endFrame": 1475,
+    "text": "是Advantage Testing Foundation的旗舰女生STEM项目"
   },
   {
     "id": 16,
-    "startFrame": 1369,
-    "endFrame": 1420,
-    "text": "AMO由两家机构联合主办"
+    "startFrame": 1466,
+    "endFrame": 1597,
+    "text": "MPFG由Advantage Testing Foundation主办"
   },
   {
     "id": 17,
-    "startFrame": 1420,
-    "endFrame": 1635,
-    "text": "SIMCC全称Singapore International Math Contests Centre"
+    "startFrame": 1597,
+    "endFrame": 1725,
+    "text": "是美国知名考试辅导机构Advantage Testing的非营利分支"
   },
   {
     "id": 18,
-    "startFrame": 1635,
-    "endFrame": 1703,
-    "text": "是亚太区域最大的数学竞赛组织之一"
+    "startFrame": 1725,
+    "endFrame": 1819,
+    "text": "著名量化基金Jane Street长期作为冠名赞助"
   },
   {
     "id": 19,
-    "startFrame": 1703,
-    "endFrame": 1809,
-    "text": "SIU是美国南伊利诺伊大学，负责命题学术权威性背书"
+    "startFrame": 1819,
+    "endFrame": 1879,
+    "text": "比赛承办地常年在麻省理工学院校园"
   },
   {
     "id": 20,
-    "startFrame": 1809,
-    "endFrame": 1919,
-    "text": "这种合作让AMO同时具有美国学术标准和国际化运营能力"
+    "startFrame": 1879,
+    "endFrame": 1947,
+    "text": "强化了MIT和女生STEM教育的关联"
   },
   {
     "id": 21,
-    "startFrame": 1909,
-    "endFrame": 2031,
-    "text": "AMO按年级分十一个级别，从二年级一路到十二年级"
+    "startFrame": 1937,
+    "endFrame": 1997,
+    "text": "MPFG的考试格式独特"
   },
   {
     "id": 22,
-    "startFrame": 2031,
-    "endFrame": 2112,
-    "text": "每个级别有独立的题目和独立的排名"
+    "startFrame": 1997,
+    "endFrame": 2084,
+    "text": "整套试卷二十道题，限时两个半小时"
   },
   {
     "id": 23,
-    "startFrame": 2112,
-    "endFrame": 2259,
-    "text": "这种细分级别让低年级学生不会和高年级学生在同一个池子里竞争"
+    "startFrame": 2084,
+    "endFrame": 2231,
+    "text": "前十道题每题三到四点五分，后十道题每题四点五到七点五分"
   },
   {
     "id": 24,
-    "startFrame": 2259,
-    "endFrame": 2295,
-    "text": "奖项产出更精准"
+    "startFrame": 2231,
+    "endFrame": 2389,
+    "text": "题目难度对标AMC 10和AIME之间，非常考验耐力和精度"
   },
   {
     "id": 25,
-    "startFrame": 2286,
-    "endFrame": 2340,
-    "text": "AMO的考试格式标准化"
+    "startFrame": 2380,
+    "endFrame": 2501,
+    "text": "MPFG的奖金体系是数学竞赛中最丰厚的之一"
   },
   {
     "id": 26,
-    "startFrame": 2340,
-    "endFrame": 2454,
-    "text": "每场考试限时九十分钟，题型以选择题和填空题为主"
+    "startFrame": 2501,
+    "endFrame": 2656,
+    "text": "一等奖单人五万美金现金，二等奖两万美金，三等奖一万美金"
   },
   {
     "id": 27,
-    "startFrame": 2454,
-    "endFrame": 2489,
-    "text": "按级别难度递增"
+    "startFrame": 2656,
+    "endFrame": 2719,
+    "text": "四到十名各一千五百美金"
   },
   {
     "id": 28,
-    "startFrame": 2489,
-    "endFrame": 2593,
-    "text": "所有题目按Common Core知识点出题"
+    "startFrame": 2719,
+    "endFrame": 2880,
+    "text": "整个奖金池十万美金，全部以现金支票形式颁发给获奖学生本人"
   },
   {
     "id": 29,
-    "startFrame": 2593,
-    "endFrame": 2667,
-    "text": "覆盖代数几何概率统计的主要板块"
+    "startFrame": 2872,
+    "endFrame": 2940,
+    "text": "MPFG有严格的参赛门槛"
   },
   {
     "id": 30,
-    "startFrame": 2657,
-    "endFrame": 2759,
-    "text": "AMO的奖项体系按全球同级别排名颁发"
+    "startFrame": 2940,
+    "endFrame": 3002,
+    "text": "第一性别要求是女生身份"
   },
   {
     "id": 31,
-    "startFrame": 2759,
-    "endFrame": 2867,
-    "text": "每个级别评出金银铜三个等级，并颁发证书"
+    "startFrame": 3002,
+    "endFrame": 3081,
+    "text": "第二居住地必须是美国或加拿大"
   },
   {
     "id": 32,
-    "startFrame": 2867,
-    "endFrame": 3015,
-    "text": "全球前列学生还可以获得SIMCC的奖学金，暑期学术营"
+    "startFrame": 3081,
+    "endFrame": 3210,
+    "text": "第三年级要求是申请截止日为止仍在十一年级或以下"
   },
   {
     "id": 33,
-    "startFrame": 3015,
-    "endFrame": 3135,
-    "text": "国际青年荣誉学会IJHS会员资格等附加权益"
+    "startFrame": 3210,
+    "endFrame": 3373,
+    "text": "第四需要通过申请筛选，不是直接报名就能参加，每年约三百名额"
   },
   {
     "id": 34,
-    "startFrame": 3126,
-    "endFrame": 3222,
-    "text": "AMO对全球二年级到十二年级学生开放"
+    "startFrame": 3364,
+    "endFrame": 3483,
+    "text": "对中国家长而言，MPFG的价值首先在稀缺性"
   },
   {
     "id": 35,
-    "startFrame": 3222,
-    "endFrame": 3371,
-    "text": "国内学生通过阿思丹官方代理报名，参赛地点遍布全国主要城市"
+    "startFrame": 3483,
+    "endFrame": 3568,
+    "text": "全球女生数学奖金最高的专项赛事"
   },
   {
     "id": 36,
-    "startFrame": 3371,
-    "endFrame": 3456,
-    "text": "报名以个人为单位，不需要团队组队"
+    "startFrame": 3568,
+    "endFrame": 3726,
+    "text": "其次在校园经验，受邀者将进入MIT校园参与比赛和现场颁奖"
   },
   {
     "id": 37,
-    "startFrame": 3456,
-    "endFrame": 3520,
-    "text": "每个级别参赛费用相对友好"
+    "startFrame": 3726,
+    "endFrame": 3766,
+    "text": "第三在申请背景"
   },
   {
     "id": 38,
-    "startFrame": 3512,
-    "endFrame": 3620,
-    "text": "对中国家长而言，AMO的价值体现在三方面"
+    "startFrame": 3766,
+    "endFrame": 3924,
+    "text": "MPFG是顶尖大学招生官非常熟悉的女生STEM标志性背景"
   },
   {
     "id": 39,
-    "startFrame": 3620,
-    "endFrame": 3782,
-    "text": "第一是竞赛起步：从二年级就能参加，是最早可量化的数学竞赛背景"
+    "startFrame": 3915,
+    "endFrame": 4059,
+    "text": "MPFG和AIME是两种完全不同维度的高水平数学赛事"
   },
   {
     "id": 40,
-    "startFrame": 3782,
-    "endFrame": 3858,
-    "text": "第二是国际化：覆盖全球三十国"
+    "startFrame": 4059,
+    "endFrame": 4186,
+    "text": "MPFG限定女生身份和居住地，邀请制，奖金导向"
   },
   {
     "id": 41,
-    "startFrame": 3858,
-    "endFrame": 3950,
-    "text": "证明孩子在国际同龄人池里的相对水平"
+    "startFrame": 4186,
+    "endFrame": 4341,
+    "text": "AIME是AMC 10和12晋级而来的选拔赛，无性别要求"
   },
   {
     "id": 42,
-    "startFrame": 3950,
-    "endFrame": 4128,
-    "text": "第三是奖学金通道：全球前列学生可以拿到SIMCC的实质性奖学金资源"
+    "startFrame": 4341,
+    "endFrame": 4391,
+    "text": "是USAMO的过渡"
   },
   {
     "id": 43,
-    "startFrame": 4119,
-    "endFrame": 4276,
-    "text": "AMO和AMC 8是中国家长经常被放在一起比的美国体系数学赛"
+    "startFrame": 4391,
+    "endFrame": 4474,
+    "text": "两者很多顶尖女生选手会同时参加"
   },
   {
     "id": 44,
-    "startFrame": 4276,
-    "endFrame": 4381,
-    "text": "AMO覆盖二到十二年级，有十一个级别细分"
+    "startFrame": 4465,
+    "endFrame": 4532,
+    "text": "MPFG每年的时间节奏固定"
   },
   {
     "id": 45,
-    "startFrame": 4381,
-    "endFrame": 4491,
-    "text": "AMC 8只面向八年级及以下的学生，不分级"
+    "startFrame": 4532,
+    "endFrame": 4615,
+    "text": "申请通常二月开放，五月底申请截止"
   },
   {
     "id": 46,
-    "startFrame": 4491,
-    "endFrame": 4633,
-    "text": "AMO题型更标准化、AMC 8难度更高、含金量公认更强"
+    "startFrame": 4615,
+    "endFrame": 4656,
+    "text": "九月公布受邀名单"
   },
   {
     "id": 47,
-    "startFrame": 4624,
-    "endFrame": 4719,
-    "text": "AMO每年通常分春季和秋季两个赛季"
+    "startFrame": 4656,
+    "endFrame": 4759,
+    "text": "十月第二个周末在MIT校园举办比赛和颁奖"
   },
   {
     "id": 48,
-    "startFrame": 4719,
-    "endFrame": 4848,
-    "text": "春季赛季报名通常在二到三月，考试在三到四月进行"
+    "startFrame": 4759,
+    "endFrame": 4842,
+    "text": "二零二六年比赛已确定为十月十一日"
   },
   {
     "id": 49,
-    "startFrame": 4848,
-    "endFrame": 4971,
-    "text": "秋季赛季报名在八到九月，考试在十到十一月进行"
+    "startFrame": 4833,
+    "endFrame": 4882,
+    "text": "对北美高中女生而言"
   },
   {
     "id": 50,
-    "startFrame": 4971,
-    "endFrame": 5049,
-    "text": "具体日期以阿思丹官方公告为准"
+    "startFrame": 4882,
+    "endFrame": 5033,
+    "text": "路径建议是先冲AMC 10和AMC 12积累数学竞赛背景"
   },
   {
     "id": 51,
-    "startFrame": 5040,
-    "endFrame": 5173,
-    "text": "国内学生建议小学阶段从AMO低年级级别入手培养竞赛意识"
+    "startFrame": 5033,
+    "endFrame": 5125,
+    "text": "同时申请MPFG获得MIT现场经验"
   },
   {
     "id": 52,
-    "startFrame": 5173,
-    "endFrame": 5286,
-    "text": "初中阶段过渡到AMC 8和MathCounts"
+    "startFrame": 5125,
+    "endFrame": 5244,
+    "text": "进入大学后参加Putnam等大学级别数学竞赛"
   },
   {
     "id": 53,
-    "startFrame": 5286,
-    "endFrame": 5370,
-    "text": "初二之后参加AMC 10，AIME"
+    "startFrame": 5244,
+    "endFrame": 5374,
+    "text": "MPFG在简历上是非常有辨识度的女生STEM背景"
   },
   {
     "id": 54,
-    "startFrame": 5370,
-    "endFrame": 5479,
-    "text": "高中后期向更专业的高级数学赛和USAMO推进"
+    "startFrame": 5365,
+    "endFrame": 5478,
+    "text": "第一步是申请材料：成绩单加推荐信加竞赛记录"
   },
   {
     "id": 55,
-    "startFrame": 5470,
-    "endFrame": 5622,
-    "text": "第一步通过阿思丹官方或SIMCC官网获取近几年AMO真题"
+    "startFrame": 5478,
+    "endFrame": 5629,
+    "text": "第二步通过AMC 10和AMC 12真题训练数学竞赛思维"
   },
   {
     "id": 56,
-    "startFrame": 5622,
-    "endFrame": 5774,
-    "text": "第二步按对应学段同步学习Common Core数学知识点"
+    "startFrame": 5629,
+    "endFrame": 5791,
+    "text": "第三步从MPFG官网获取历届二十道题真题，限时两个半小时模拟"
   },
   {
     "id": 57,
-    "startFrame": 5774,
-    "endFrame": 5861,
-    "text": "第三步每周限时九十分钟做完整套题"
+    "startFrame": 5791,
+    "endFrame": 5926,
+    "text": "第四步重点训练几何题和组合题，是MPFG的失分大户"
   },
   {
     "id": 58,
-    "startFrame": 5861,
-    "endFrame": 5937,
-    "text": "第四步重点训练应用题和文字题"
+    "startFrame": 5926,
+    "endFrame": 6012,
+    "text": "第五步保持AIME水平的解题速度"
   },
   {
     "id": 59,
-    "startFrame": 5937,
-    "endFrame": 6019,
-    "text": "第五步考前一周限时全真模考一次"
+    "startFrame": 6004,
+    "endFrame": 6107,
+    "text": "MPFG是北美高中女生数学竞赛中奖金最高"
   },
   {
     "id": 60,
-    "startFrame": 6010,
-    "endFrame": 6200,
-    "text": "AMO是新加坡国际数学竞赛中心和美国南伊利诺伊大学联合主办的全球数学竞赛"
+    "startFrame": 6107,
+    "endFrame": 6240,
+    "text": "影响力最大的邀请赛之一，每年约三百人在MIT现场参赛"
   },
   {
     "id": 61,
-    "startFrame": 6200,
-    "endFrame": 6242,
-    "text": "覆盖二到十二年级"
+    "startFrame": 6240,
+    "endFrame": 6358,
+    "text": "对家有北美居住，对数学有兴趣的高中女生家庭来说"
   },
   {
     "id": 62,
-    "startFrame": 6242,
-    "endFrame": 6348,
-    "text": "对希望孩子早期接触国际数学竞赛的家长而言"
+    "startFrame": 6358,
+    "endFrame": 6409,
+    "text": "MPFG值得重点关注"
   },
   {
     "id": 63,
-    "startFrame": 6348,
-    "endFrame": 6406,
-    "text": "AMO是常见的入门选择"
-  },
-  {
-    "id": 64,
-    "startFrame": 6406,
+    "startFrame": 6409,
     "endFrame": 6491,
     "text": "关注翰林有方获取更多国际竞赛信息"
   }
