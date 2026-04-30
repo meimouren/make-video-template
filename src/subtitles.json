@@ -2,379 +2,385 @@
   {
     "id": 1,
     "startFrame": 0,
-    "endFrame": 118,
-    "text": "每天介绍一个国际竞赛，今天要介绍的是CAP"
+    "endFrame": 120,
+    "text": "每天介绍一个国际竞赛，今天要介绍的是BAAO"
   },
   {
     "id": 2,
-    "startFrame": 118,
-    "endFrame": 168,
-    "text": "加拿大物理奥林匹克"
+    "startFrame": 120,
+    "endFrame": 202,
+    "text": "英国天文学和天体物理学奥林匹克"
   },
   {
     "id": 3,
-    "startFrame": 159,
-    "endFrame": 171,
-    "text": "CAP"
+    "startFrame": 193,
+    "endFrame": 206,
+    "text": "BAAO"
   },
   {
     "id": 4,
-    "startFrame": 171,
-    "endFrame": 283,
-    "text": "全称CAP High School Prize Exam"
+    "startFrame": 206,
+    "endFrame": 354,
+    "text": "全称British Astronomy and Astrophysics Olympiad"
   },
   {
     "id": 5,
-    "startFrame": 283,
-    "endFrame": 502,
-    "text": "由加拿大物理学家协会Canadian Association of Physicists主办的高中物理奥林匹克"
+    "startFrame": 354,
+    "endFrame": 417,
+    "text": "中文译为英国天文学和天体物理学奥林匹克"
   },
   {
     "id": 6,
-    "startFrame": 502,
-    "endFrame": 570,
-    "text": "它是加拿大物理国家队选拔的入口考试"
+    "startFrame": 417,
+    "endFrame": 549,
+    "text": "由牛津大学物理系British Physics Olympiad Trust运营"
   },
   {
     "id": 7,
-    "startFrame": 570,
-    "endFrame": 634,
-    "text": "每年挑选前十五名进入UBC夏令营"
+    "startFrame": 549,
+    "endFrame": 638,
+    "text": "是英国通往IOAA国际天文与天体物理奥赛的官方选拔通道"
   },
   {
     "id": 8,
-    "startFrame": 634,
-    "endFrame": 726,
-    "text": "最终决出五人代表加拿大出征IPhO国际物理奥赛"
+    "startFrame": 629,
+    "endFrame": 694,
+    "text": "BAAO的稀缺性来自三方面"
   },
   {
     "id": 9,
-    "startFrame": 716,
-    "endFrame": 779,
-    "text": "CAP的稀缺性来自三方面"
+    "startFrame": 694,
+    "endFrame": 819,
+    "text": "第一是赛道独特：天文物理是物理学中较稀缺的细分方向"
   },
   {
     "id": 10,
-    "startFrame": 779,
-    "endFrame": 968,
-    "text": "第一是加拿大物理国家队入口：晋级到UBC夏令营是加拿大顶尖物理学生的标志"
+    "startFrame": 819,
+    "endFrame": 849,
+    "text": "简历差异化强"
   },
   {
     "id": 11,
-    "startFrame": 968,
-    "endFrame": 1131,
-    "text": "第二是申请价值：在加拿大顶尖工程类大学申请中是最硬的物理学背景"
+    "startFrame": 849,
+    "endFrame": 984,
+    "text": "第二是牛津背书：BPhO Trust运营，权威认可度高"
   },
   {
     "id": 12,
-    "startFrame": 1131,
-    "endFrame": 1236,
-    "text": "第三是国际通道：通向IPhO国际物理奥赛"
+    "startFrame": 984,
+    "endFrame": 1129,
+    "text": "第三是国家队通道：通向IOAA国际天文奥赛，五人代表英国队"
   },
   {
     "id": 13,
-    "startFrame": 1228,
-    "endFrame": 1366,
-    "text": "CAP的核心定位是加拿大本土最权威的高中物理奥林匹克"
+    "startFrame": 1119,
+    "endFrame": 1250,
+    "text": "BAAO的核心定位是面向高中后期学生的天文物理选拔赛"
   },
   {
     "id": 14,
-    "startFrame": 1366,
-    "endFrame": 1515,
-    "text": "每年由全国各省加拿大物理学家协会分支组织当地高中举办考试"
+    "startFrame": 1250,
+    "endFrame": 1381,
+    "text": "题目融合物理基础和天文知识，包括观测天文学，轨道力学"
   },
   {
     "id": 15,
-    "startFrame": 1515,
-    "endFrame": 1675,
-    "text": "题目难度对标AP Physics C或更高，覆盖力学，电磁学"
+    "startFrame": 1381,
+    "endFrame": 1446,
+    "text": "恒星物理，宇宙学等专业板块"
   },
   {
     "id": 16,
-    "startFrame": 1675,
-    "endFrame": 1755,
-    "text": "热学，近代物理等高中物理全板块"
+    "startFrame": 1446,
+    "endFrame": 1572,
+    "text": "是BPhO Trust旗下专门面向天体方向的子赛事"
   },
   {
     "id": 17,
-    "startFrame": 1746,
-    "endFrame": 1914,
-    "text": "CAP全称Canadian Association of Physicists"
+    "startFrame": 1562,
+    "endFrame": 1720,
+    "text": "BAAO由British Physics Olympiad Trust运营"
   },
   {
     "id": 18,
-    "startFrame": 1914,
-    "endFrame": 2034,
-    "text": "加拿大物理学家协会，是加拿大物理学界最具权威性的学术组织"
+    "startFrame": 1720,
+    "endFrame": 1775,
+    "text": "与BPhO是同一个母体组织"
   },
   {
     "id": 19,
-    "startFrame": 2034,
-    "endFrame": 2146,
-    "text": "CAP高中物理奖学金考试是该协会面向中学生的旗舰项目"
+    "startFrame": 1775,
+    "endFrame": 1852,
+    "text": "BPhO Trust成立于一九七九年"
   },
   {
     "id": 20,
-    "startFrame": 2146,
-    "endFrame": 2283,
-    "text": "UBC不列颠哥伦比亚大学物理与天文学系负责承办夏令营和国家队训练"
+    "startFrame": 1852,
+    "endFrame": 1920,
+    "text": "已运营英国物理类奥林匹克四十多年"
   },
   {
     "id": 21,
-    "startFrame": 2274,
-    "endFrame": 2400,
-    "text": "CAP的考试由各地学校在校内组织，监考由教师承担"
+    "startFrame": 1920,
+    "endFrame": 2040,
+    "text": "BAAO作为天体物理分支专门面向IOAA国际天文奥赛选拔"
   },
   {
     "id": 22,
-    "startFrame": 2400,
-    "endFrame": 2473,
-    "text": "每年通常在四月初的某个工作日"
+    "startFrame": 2031,
+    "endFrame": 2116,
+    "text": "BAAO的考试结构由三部分组成"
   },
   {
     "id": 23,
-    "startFrame": 2473,
-    "endFrame": 2609,
-    "text": "题型包含选择题和自由响应题两部分，覆盖高中物理全板块"
+    "startFrame": 2116,
+    "endFrame": 2241,
+    "text": "十道选择题，覆盖观测天文、近期天文新闻等基础"
   },
   {
     "id": 24,
-    "startFrame": 2609,
-    "endFrame": 2656,
-    "text": "考试通常一天内完成"
+    "startFrame": 2241,
+    "endFrame": 2275,
+    "text": "两道五分短题"
   },
   {
     "id": 25,
-    "startFrame": 2648,
-    "endFrame": 2704,
-    "text": "CAP的晋级路径清晰"
+    "startFrame": 2275,
+    "endFrame": 2377,
+    "text": "再加一道十分长题，从两题中二选一作答"
   },
   {
     "id": 26,
-    "startFrame": 2704,
-    "endFrame": 2861,
-    "text": "考试结束两周后批改完成，前十五名学生收到UBC训练营邀请"
+    "startFrame": 2377,
+    "endFrame": 2485,
+    "text": "整套试卷综合考察天体物理直觉和深度推理"
   },
   {
     "id": 27,
-    "startFrame": 2861,
-    "endFrame": 2979,
-    "text": "训练营在五月十七到二十三日在UBC校园举行"
+    "startFrame": 2476,
+    "endFrame": 2549,
+    "text": "BAAO的成绩按全球排名颁发"
   },
   {
     "id": 28,
-    "startFrame": 2979,
-    "endFrame": 3097,
-    "text": "营地最后一天选出五人代表加拿大出征IPhO"
+    "startFrame": 2549,
+    "endFrame": 2695,
+    "text": "Gold金奖、Silver银奖、Bronze铜奖三级证书"
   },
   {
     "id": 29,
-    "startFrame": 3097,
-    "endFrame": 3148,
-    "text": "该路径每年稳定运作"
+    "startFrame": 2695,
+    "endFrame": 2825,
+    "text": "表现突出的高分选手会受邀参加复活节训练营在牛津举行"
   },
   {
     "id": 30,
-    "startFrame": 3139,
-    "endFrame": 3198,
-    "text": "CAP的参赛资格相对严格"
+    "startFrame": 2825,
+    "endFrame": 2976,
+    "text": "最终选出五名学生代表英国出征IOAA国际天文与天体物理奥赛"
   },
   {
     "id": 31,
-    "startFrame": 3198,
-    "endFrame": 3317,
-    "text": "学生必须是加拿大全日制高中或CEGEP的在读学生"
+    "startFrame": 2968,
+    "endFrame": 3111,
+    "text": "BAAO主要面向英国Year 12和Year 13学生开放"
   },
   {
     "id": 32,
-    "startFrame": 3317,
-    "endFrame": 3436,
-    "text": "加拿大公民或永久居民，IPhO竞赛日前未满二十岁"
+    "startFrame": 3111,
+    "endFrame": 3160,
+    "text": "相当于高三和高二阶段"
   },
   {
     "id": 33,
-    "startFrame": 3436,
-    "endFrame": 3580,
-    "text": "这意味着国内学生需要在加拿大就读高中才能参加CAP正式选拔"
+    "startFrame": 3160,
+    "endFrame": 3288,
+    "text": "GCSE阶段的学生也可以挑战，但题目难度对低年级偏高"
   },
   {
     "id": 34,
-    "startFrame": 3571,
-    "endFrame": 3608,
-    "text": "对中国家长而言"
+    "startFrame": 3288,
+    "endFrame": 3426,
+    "text": "考试不假设学生学过专门的天文模块，所有问题从基础物理推导"
   },
   {
     "id": 35,
-    "startFrame": 3608,
-    "endFrame": 3766,
-    "text": "CAP的价值首先在加拿大方向：CAP奖项在多伦多大学，UBC"
+    "startFrame": 3417,
+    "endFrame": 3454,
+    "text": "对中国家长而言"
   },
   {
     "id": 36,
-    "startFrame": 3766,
-    "endFrame": 3908,
-    "text": "麦吉尔等加拿大顶尖大学物理工程申请中是最硬的物理学背景"
+    "startFrame": 3454,
+    "endFrame": 3659,
+    "text": "BAAO的价值首先在赛道稀缺：天文物理在国内学生申请背景中明显少于纯物理或数学"
   },
   {
     "id": 37,
-    "startFrame": 3908,
-    "endFrame": 4045,
-    "text": "其次是国家队潜力：晋级前十五是加拿大顶尖物理学生标志"
+    "startFrame": 3659,
+    "endFrame": 3764,
+    "text": "其次是牛剑认可：BPhO Trust运营"
   },
   {
     "id": 38,
-    "startFrame": 4045,
-    "endFrame": 4197,
-    "text": "第三是IPhO通道：从CAP到国家队再到国际奥赛的清晰路径"
+    "startFrame": 3764,
+    "endFrame": 3858,
+    "text": "在英国G5物理工程申请中获得高度认可"
   },
   {
     "id": 39,
-    "startFrame": 4187,
-    "endFrame": 4326,
-    "text": "CAP和F等于ma是加美两国通往物理国家队的入口考试"
+    "startFrame": 3858,
+    "endFrame": 3994,
+    "text": "第三是IOAA通道：是通往国际天文奥赛的英国官方路径"
   },
   {
     "id": 40,
-    "startFrame": 4326,
-    "endFrame": 4460,
-    "text": "CAP由加拿大物理学家协会主办，限定加拿大学生参加"
+    "startFrame": 3985,
+    "endFrame": 4158,
+    "text": "BAAO和BPhO Round 1是BPhO Trust旗下两个并列的高级竞赛"
   },
   {
     "id": 41,
-    "startFrame": 4460,
-    "endFrame": 4572,
-    "text": "F等于ma由AAPT主办，限定美国学生参加"
+    "startFrame": 4158,
+    "endFrame": 4278,
+    "text": "BPhO Round 1覆盖物理全板块，为IPhO选拔"
   },
   {
     "id": 42,
-    "startFrame": 4572,
-    "endFrame": 4722,
-    "text": "两者的晋级路径都通向各自国家的IPhO国家队，但完全独立"
+    "startFrame": 4278,
+    "endFrame": 4358,
+    "text": "BAAO专注天文物理，为IOAA选拔"
   },
   {
     "id": 43,
-    "startFrame": 4712,
-    "endFrame": 4795,
-    "text": "CAP二零二六赛季时间已经确定"
+    "startFrame": 4358,
+    "endFrame": 4465,
+    "text": "两者都面向Year 12-13学生，可以同时参加"
   },
   {
     "id": 44,
-    "startFrame": 4795,
-    "endFrame": 4895,
-    "text": "考试日为四月八日，由各高中在校内组织"
+    "startFrame": 4456,
+    "endFrame": 4546,
+    "text": "BAAO二零二五到二零二六赛季时间已经公布"
   },
   {
     "id": 45,
-    "startFrame": 4895,
-    "endFrame": 5017,
-    "text": "两周后即四月二十二日前后公布前十五名晋级名单"
+    "startFrame": 4546,
+    "endFrame": 4691,
+    "text": "Astro Challenge入门挑战在二零二五年九月到十二月十三日"
   },
   {
     "id": 46,
-    "startFrame": 5017,
-    "endFrame": 5100,
-    "text": "UBC夏令营五月十七到二十三日"
+    "startFrame": 4691,
+    "endFrame": 4781,
+    "text": "Round 1正式赛在二零二五年十二月二日"
   },
   {
     "id": 47,
-    "startFrame": 5100,
-    "endFrame": 5233,
-    "text": "IPhO在七月四到十二日于哥伦比亚布卡拉曼加举行"
+    "startFrame": 4781,
+    "endFrame": 4875,
+    "text": "Round 2进阶赛在二零二六年一月二十七日"
   },
   {
     "id": 48,
-    "startFrame": 5223,
-    "endFrame": 5379,
-    "text": "国内在加拿大就读的物理学生路径建议是先以SIN作为高中入门测评"
+    "startFrame": 4875,
+    "endFrame": 4956,
+    "text": "复活节训练营在二零二六年四月在牛津举行"
   },
   {
     "id": 49,
-    "startFrame": 5379,
-    "endFrame": 5500,
-    "text": "进而冲CAP奖学金考试，前十五名进入UBC训练营"
+    "startFrame": 4946,
+    "endFrame": 5085,
+    "text": "国内学生进入天体物理竞赛体系建议是先打好A-Level或IB物理基础"
   },
   {
     "id": 50,
-    "startFrame": 5500,
-    "endFrame": 5606,
-    "text": "最终五人代表加拿大出征IPhO国际物理奥赛"
+    "startFrame": 5085,
+    "endFrame": 5183,
+    "text": "参加BAAO Astro Challenge入门"
   },
   {
     "id": 51,
-    "startFrame": 5606,
-    "endFrame": 5656,
-    "text": "整条路径每年稳定运作"
+    "startFrame": 5183,
+    "endFrame": 5297,
+    "text": "再冲BAAO Round 1选拔，进入Round 2进阶"
   },
   {
     "id": 52,
-    "startFrame": 5647,
-    "endFrame": 5796,
-    "text": "第一步同步AP Physics C或加拿大十二年级物理课程"
+    "startFrame": 5297,
+    "endFrame": 5407,
+    "text": "最终竞争IOAA国际天文与天体物理奥赛的英国国家队席位"
   },
   {
     "id": 53,
-    "startFrame": 5796,
-    "endFrame": 5878,
-    "text": "第二步从CAP官网获取近十年真题"
+    "startFrame": 5399,
+    "endFrame": 5548,
+    "text": "第一步阅读天体物理入门教材，重点是开普勒定律，轨道力学"
   },
   {
     "id": 54,
-    "startFrame": 5878,
-    "endFrame": 5980,
-    "text": "第三步每周做一套完整真题，限时与考试一致"
+    "startFrame": 5548,
+    "endFrame": 5603,
+    "text": "恒星演化，宇宙学基础"
   },
   {
     "id": 55,
-    "startFrame": 5980,
-    "endFrame": 6041,
-    "text": "第四步重点训练自由响应题"
+    "startFrame": 5603,
+    "endFrame": 5719,
+    "text": "第二步从BPhO官网下载近五年BAAO真题"
   },
   {
     "id": 56,
-    "startFrame": 6041,
-    "endFrame": 6184,
-    "text": "是CAP和Physics Bowl这类纯选择题最大的不同"
+    "startFrame": 5719,
+    "endFrame": 5785,
+    "text": "第三步每周做一套限时模拟"
   },
   {
     "id": 57,
-    "startFrame": 6184,
-    "endFrame": 6281,
-    "text": "第五步赛前两周加强电磁学和近代物理板块"
+    "startFrame": 5785,
+    "endFrame": 5912,
+    "text": "第四步重点训练长题和论述题，是BAAO拉分大户"
   },
   {
     "id": 58,
-    "startFrame": 6273,
-    "endFrame": 6398,
-    "text": "CAP是加拿大物理学家协会主办的高中物理奥林匹克"
+    "startFrame": 5912,
+    "endFrame": 5995,
+    "text": "第五步赛前两周关注当年天文新闻"
   },
   {
     "id": 59,
-    "startFrame": 6398,
-    "endFrame": 6481,
-    "text": "是加拿大物理国家队选拔的入门考试"
+    "startFrame": 5985,
+    "endFrame": 6082,
+    "text": "BAAO是英国最权威的高中天体物理选拔赛"
   },
   {
     "id": 60,
-    "startFrame": 6481,
-    "endFrame": 6580,
-    "text": "通往UBC夏令营和IPhO国际物理奥赛"
+    "startFrame": 6082,
+    "endFrame": 6155,
+    "text": "由BPhO Trust牛津运营"
   },
   {
     "id": 61,
-    "startFrame": 6580,
-    "endFrame": 6710,
-    "text": "对在加拿大就读高中，志在物理工程方向的学生家庭来说"
+    "startFrame": 6155,
+    "endFrame": 6276,
+    "text": "是英国通往IOAA国际天文与天体物理奥赛的官方通道"
   },
   {
     "id": 62,
-    "startFrame": 6710,
-    "endFrame": 6747,
-    "text": "CAP是必选项"
+    "startFrame": 6276,
+    "endFrame": 6417,
+    "text": "对希望在物理领域走天体方向，积累稀缺申请背景的学生家庭来说"
   },
   {
     "id": 63,
-    "startFrame": 6747,
-    "endFrame": 6830,
+    "startFrame": 6417,
+    "endFrame": 6466,
+    "text": "BAAO值得重点关注"
+  },
+  {
+    "id": 64,
+    "startFrame": 6466,
+    "endFrame": 6544,
     "text": "关注翰林有方获取更多国际竞赛信息"
   }
 ]
