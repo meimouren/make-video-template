@@ -2,415 +2,421 @@
   {
     "id": 1,
     "startFrame": 0,
-    "endFrame": 115,
-    "text": "每天介绍一个国际竞赛，今天要介绍的是IYPT"
+    "endFrame": 118,
+    "text": "每天介绍一个国际竞赛，今天要介绍的是IAAC"
   },
   {
     "id": 2,
-    "startFrame": 115,
-    "endFrame": 173,
-    "text": "国际青年物理学家锦标赛"
+    "startFrame": 118,
+    "endFrame": 187,
+    "text": "国际天文学和天体物理学挑战"
   },
   {
     "id": 3,
-    "startFrame": 164,
-    "endFrame": 180,
-    "text": "IYPT"
+    "startFrame": 178,
+    "endFrame": 195,
+    "text": "IAAC"
   },
   {
     "id": 4,
-    "startFrame": 180,
-    "endFrame": 352,
-    "text": "全称International Young Physicists Tournament"
+    "startFrame": 195,
+    "endFrame": 420,
+    "text": "全称International Astronomy and Astrophysics Competition"
   },
   {
     "id": 5,
-    "startFrame": 352,
-    "endFrame": 412,
-    "text": "中文译为国际青年物理学家锦标赛"
+    "startFrame": 420,
+    "endFrame": 491,
+    "text": "中文译为国际天文学和天体物理学挑战"
   },
   {
     "id": 6,
-    "startFrame": 412,
-    "endFrame": 480,
-    "text": "是一项面向高中生的团队物理研究竞赛"
+    "startFrame": 491,
+    "endFrame": 599,
+    "text": "这是一项纯线上的全球性天文奥赛，对中学和大学生都开放"
   },
   {
     "id": 7,
-    "startFrame": 480,
-    "endFrame": 548,
-    "text": "由国际青年物理学家锦标赛理事会主办"
+    "startFrame": 599,
+    "endFrame": 661,
+    "text": "由国际天文与天体物理委员会运营"
   },
   {
     "id": 8,
-    "startFrame": 548,
-    "endFrame": 648,
-    "text": "每年三十多个国家代表队进行真正的科学辩论和研究展示"
+    "startFrame": 661,
+    "endFrame": 732,
+    "text": "每年吸引来自一百多个国家的学生参加"
   },
   {
     "id": 9,
-    "startFrame": 640,
-    "endFrame": 710,
-    "text": "IYPT的稀缺性来自三方面"
+    "startFrame": 722,
+    "endFrame": 789,
+    "text": "IAAC的稀缺性来自三方面"
   },
   {
     "id": 10,
-    "startFrame": 710,
-    "endFrame": 856,
-    "text": "第一是赛制独特：不是考试，而是真实的物理研究和学术辩论"
+    "startFrame": 789,
+    "endFrame": 932,
+    "text": "第一是入门友好：纯线上，按年级分Junior，Youth"
   },
   {
     "id": 11,
-    "startFrame": 856,
-    "endFrame": 1012,
-    "text": "第二是团队科研：每队五人围绕开放性物理问题做实验和理论探索"
+    "startFrame": 932,
+    "endFrame": 1004,
+    "text": "Senior三档，参赛门槛低"
   },
   {
     "id": 12,
-    "startFrame": 1012,
-    "endFrame": 1168,
-    "text": "第三是申请价值：在顶尖大学申请中是体现科研能力的非常硬背景"
+    "startFrame": 1004,
+    "endFrame": 1091,
+    "text": "第二是国际化：来自一百多国学生同台"
   },
   {
     "id": 13,
-    "startFrame": 1168,
-    "endFrame": 1244,
-    "text": "与传统考试型奥赛形成强差异化"
+    "startFrame": 1091,
+    "endFrame": 1183,
+    "text": "第三是奖项含金量：总奖金两千五百美金"
   },
   {
     "id": 14,
-    "startFrame": 1235,
-    "endFrame": 1351,
-    "text": "IYPT的核心定位是高中阶段最具科研感的物理竞赛"
+    "startFrame": 1183,
+    "endFrame": 1270,
+    "text": "包括宇航员和诺贝尔奖得主签名望远镜"
   },
   {
     "id": 15,
-    "startFrame": 1351,
-    "endFrame": 1462,
-    "text": "每年由国际理事会IOC公布十七道开放性物理问题"
+    "startFrame": 1261,
+    "endFrame": 1391,
+    "text": "IAAC的核心定位是纯线上的全球性天文与天体物理竞赛"
   },
   {
     "id": 16,
-    "startFrame": 1462,
-    "endFrame": 1573,
-    "text": "团队需要花一整年时间做实验，推导理论，撰写报告"
+    "startFrame": 1391,
+    "endFrame": 1526,
+    "text": "按年龄分Junior十四岁以下，Youth十四到十八岁"
   },
   {
     "id": 17,
-    "startFrame": 1573,
-    "endFrame": 1723,
-    "text": "最终在Physics Fight物理辩论中向其他队伍展示和挑战"
+    "startFrame": 1526,
+    "endFrame": 1651,
+    "text": "Senior十八岁以上三档，每档独立题目和独立排名"
   },
   {
     "id": 18,
-    "startFrame": 1714,
-    "endFrame": 1843,
-    "text": "IYPT由国际青年物理学家锦标赛理事会IOC主办"
+    "startFrame": 1651,
+    "endFrame": 1756,
+    "text": "覆盖天文学、天体物理学、宇宙学的核心知识点"
   },
   {
     "id": 19,
-    "startFrame": 1843,
-    "endFrame": 1950,
-    "text": "是一个由各国物理学界代表组成的非营利组织"
+    "startFrame": 1746,
+    "endFrame": 1858,
+    "text": "IAAC由国际天文与天体物理委员会IAAC运营"
   },
   {
     "id": 20,
-    "startFrame": 1950,
-    "endFrame": 2100,
-    "text": "每年由理事会公布次年的十七道问题，由各成员国组织本国选拔"
+    "startFrame": 1858,
+    "endFrame": 1951,
+    "text": "是一个由各国天文教育者组成的非营利组织"
   },
   {
     "id": 21,
-    "startFrame": 2100,
-    "endFrame": 2234,
-    "text": "第三十九届二零二六年IYPT决赛将在瑞士苏黎世举行"
+    "startFrame": 1951,
+    "endFrame": 2083,
+    "text": "该组织专注于推广天文物理科普教育，IAAC是其旗舰赛事"
   },
   {
     "id": 22,
-    "startFrame": 2226,
-    "endFrame": 2335,
-    "text": "IYPT的比赛由Physics Fight物理辩论赛组成"
+    "startFrame": 2083,
+    "endFrame": 2298,
+    "text": "比赛获奖者有机会获得宇航员Frank De Winne和诺贝尔奖得主签名的望远镜实物奖品"
   },
   {
     "id": 23,
-    "startFrame": 2335,
-    "endFrame": 2428,
-    "text": "每场Physics Fight有三到四个队伍参与"
+    "startFrame": 2289,
+    "endFrame": 2338,
+    "text": "IAAC的赛制由三轮组成"
   },
   {
     "id": 24,
-    "startFrame": 2428,
-    "endFrame": 2533,
-    "text": "分轮次扮演Reporter报告人，Opponent反方"
+    "startFrame": 2338,
+    "endFrame": 2452,
+    "text": "资格赛Qualification Round是五道天文题"
   },
   {
     "id": 25,
-    "startFrame": 2533,
-    "endFrame": 2587,
-    "text": "Reviewer评审三种角色"
+    "startFrame": 2452,
+    "endFrame": 2583,
+    "text": "通过后进入准决赛Pre-Final Round约四到五天答题窗口"
   },
   {
     "id": 26,
-    "startFrame": 2587,
-    "endFrame": 2688,
-    "text": "整个赛事五轮选拔加一轮决赛，每位队员每场最多发言两次"
+    "startFrame": 2583,
+    "endFrame": 2673,
+    "text": "最后是决赛Final Round二十道选择题"
   },
   {
     "id": 27,
-    "startFrame": 2679,
-    "endFrame": 2735,
-    "text": "IYPT的评分按团队累计积分"
+    "startFrame": 2673,
+    "endFrame": 2722,
+    "text": "由学校教师监考的线上考试"
   },
   {
     "id": 28,
-    "startFrame": 2735,
-    "endFrame": 2831,
-    "text": "每场Physics Fight中Reporter"
+    "startFrame": 2722,
+    "endFrame": 2763,
+    "text": "整个赛事完全在线进行"
   },
   {
     "id": 29,
-    "startFrame": 2831,
-    "endFrame": 2939,
-    "text": "Opponent，Reviewer三个角色都有独立评分"
+    "startFrame": 2754,
+    "endFrame": 2829,
+    "text": "IAAC的晋级机制按档次设置门槛"
   },
   {
     "id": 30,
-    "startFrame": 2939,
-    "endFrame": 2975,
-    "text": "加权后形成本场得分"
+    "startFrame": 2829,
+    "endFrame": 2956,
+    "text": "Junior需在资格赛拿到至少十五分，Youth十七分"
   },
   {
     "id": 31,
-    "startFrame": 2975,
-    "endFrame": 3103,
-    "text": "整个赛事所有Physics Fight得分汇总后形成最终团队排名"
+    "startFrame": 2956,
+    "endFrame": 3022,
+    "text": "Senior二十分晋级准决赛"
   },
   {
     "id": 32,
-    "startFrame": 3103,
-    "endFrame": 3195,
-    "text": "Top代表团队获Gold金牌，Silver银牌"
+    "startFrame": 3022,
+    "endFrame": 3069,
+    "text": "准决赛通过后进入决赛"
   },
   {
     "id": 33,
-    "startFrame": 3195,
-    "endFrame": 3227,
-    "text": "Bronze铜牌"
+    "startFrame": 3069,
+    "endFrame": 3163,
+    "text": "最终全球前列学生获奖金、签名望远镜及证书"
   },
   {
     "id": 34,
-    "startFrame": 3216,
-    "endFrame": 3317,
-    "text": "IYPT的参赛资格通过各国国家队选拔"
+    "startFrame": 3153,
+    "endFrame": 3212,
+    "text": "IAAC按年龄分三档参赛"
   },
   {
     "id": 35,
-    "startFrame": 3317,
-    "endFrame": 3452,
-    "text": "中国队由中国本土IYPT国家队选拔赛CYPT决出"
+    "startFrame": 3212,
+    "endFrame": 3344,
+    "text": "Junior面向十四岁以下学生，对应国内小学和初中阶段"
   },
   {
     "id": 36,
-    "startFrame": 3452,
-    "endFrame": 3519,
-    "text": "CYPT每年由各高中报名"
+    "startFrame": 3344,
+    "endFrame": 3452,
+    "text": "Youth面向十四到十八岁，对应国内高中阶段"
   },
   {
     "id": 37,
-    "startFrame": 3519,
-    "endFrame": 3665,
-    "text": "全国高中赛区选拔出顶尖团队代表中国出征IYPT国际赛"
+    "startFrame": 3452,
+    "endFrame": 3560,
+    "text": "Senior面向十八岁以上，包括大学和研究生"
   },
   {
     "id": 38,
-    "startFrame": 3665,
-    "endFrame": 3749,
-    "text": "每队五名队员加一到两位指导教练"
+    "startFrame": 3560,
+    "endFrame": 3633,
+    "text": "每档独立题目，按年龄段公平比较"
   },
   {
     "id": 39,
-    "startFrame": 3741,
-    "endFrame": 3839,
-    "text": "对中国家长而言，IYPT的价值在四方面"
+    "startFrame": 3624,
+    "endFrame": 3722,
+    "text": "对中国家长而言，IAAC的价值在三方面"
   },
   {
     "id": 40,
-    "startFrame": 3839,
-    "endFrame": 3983,
-    "text": "第一是科研能力：一年的开放性研究最接近真正的科学研究过程"
+    "startFrame": 3722,
+    "endFrame": 3871,
+    "text": "第一是天文兴趣的可量化证明：是国内最容易接触的天文奥赛之一"
   },
   {
     "id": 41,
-    "startFrame": 3983,
-    "endFrame": 4081,
-    "text": "第二是团队协作：五人长期合作的团队信号"
+    "startFrame": 3871,
+    "endFrame": 3974,
+    "text": "第二是国际化背景：和一百多国学生同台对标"
   },
   {
     "id": 42,
-    "startFrame": 4081,
-    "endFrame": 4179,
-    "text": "第三是学术辩论：英文展示和科学辩论能力"
+    "startFrame": 3974,
+    "endFrame": 4144,
+    "text": "第三是奖品稀缺性：宇航员和诺奖得主签名望远镜在中学生奖项中极为罕见"
   },
   {
     "id": 43,
-    "startFrame": 4179,
-    "endFrame": 4293,
-    "text": "第四是申请认可：MIT，Caltech，剑桥"
+    "startFrame": 4144,
+    "endFrame": 4201,
+    "text": "是有故事感的申请加分点"
   },
   {
     "id": 44,
-    "startFrame": 4293,
-    "endFrame": 4417,
-    "text": "ETH等顶尖大学认可IYPT是高度差异化的硬背景"
+    "startFrame": 4192,
+    "endFrame": 4307,
+    "text": "IAAC和BAAO是两种不同性质的天文物理赛事"
   },
   {
     "id": 45,
-    "startFrame": 4408,
-    "endFrame": 4554,
-    "text": "IYPT和IPhO是两种完全不同维度的国际物理顶级赛事"
+    "startFrame": 4307,
+    "endFrame": 4407,
+    "text": "IAAC由国际天文物理委员会运营，纯线上"
   },
   {
     "id": 46,
-    "startFrame": 4554,
-    "endFrame": 4657,
-    "text": "IPhO是个人考试型奥赛，限时做物理题"
+    "startFrame": 4407,
+    "endFrame": 4502,
+    "text": "面向全球Junior到Senior多档"
   },
   {
     "id": 47,
-    "startFrame": 4657,
-    "endFrame": 4787,
-    "text": "IYPT是团队研究型锦标赛，一年时间做开放性研究"
+    "startFrame": 4502,
+    "endFrame": 4597,
+    "text": "BAAO由牛津BPhO Trust运营"
   },
   {
     "id": 48,
-    "startFrame": 4787,
-    "endFrame": 4949,
-    "text": "IPhO侧重做题速度和精度；IYPT侧重科研、团队和辩论能力"
+    "startFrame": 4597,
+    "endFrame": 4722,
+    "text": "面向英国Year 12-13，是IOAA国家队选拔"
   },
   {
     "id": 49,
-    "startFrame": 4940,
-    "endFrame": 5016,
-    "text": "IYPT每年通常在七月份举办"
+    "startFrame": 4722,
+    "endFrame": 4822,
+    "text": "两者目标受众和申请价值不同，可以并行参加"
   },
   {
     "id": 50,
-    "startFrame": 5016,
-    "endFrame": 5147,
-    "text": "二零二六年第三十九届国际锦标赛将在瑞士苏黎世举行"
+    "startFrame": 4812,
+    "endFrame": 4898,
+    "text": "IAAC二零二六赛季时间已公布"
   },
   {
     "id": 51,
-    "startFrame": 5147,
-    "endFrame": 5251,
-    "text": "各国选拔赛在前一年下半年到当年春季完成"
+    "startFrame": 4898,
+    "endFrame": 5047,
+    "text": "资格赛截止日为四月十七日UTC时间下午十一点五十九分"
   },
   {
     "id": 52,
-    "startFrame": 5251,
-    "endFrame": 5387,
-    "text": "中国队伍通过CYPT中国青年物理学家锦标赛进行选拔"
+    "startFrame": 5047,
+    "endFrame": 5167,
+    "text": "准决赛在五月二十九日发题，到六月二日前完成"
   },
   {
     "id": 53,
-    "startFrame": 5387,
-    "endFrame": 5425,
-    "text": "时间通常在六月"
+    "startFrame": 5167,
+    "endFrame": 5247,
+    "text": "决赛在五月底六月初由学校监考"
   },
   {
     "id": 54,
-    "startFrame": 5416,
-    "endFrame": 5589,
-    "text": "国内学生的IYPT路径建议是先选定高中阶段对物理科研感兴趣的方向"
+    "startFrame": 5247,
+    "endFrame": 5304,
+    "text": "最终成绩在六月底公布"
   },
   {
     "id": 55,
-    "startFrame": 5589,
-    "endFrame": 5735,
-    "text": "加入学校或机构组建的IYPT团队，完成CYPT中国选拔"
+    "startFrame": 5295,
+    "endFrame": 5449,
+    "text": "国内学生的天文物理路径建议是先以IAAC作为入门兴趣赛积累天文基础"
   },
   {
     "id": 56,
-    "startFrame": 5735,
-    "endFrame": 5854,
-    "text": "进入CYPT国家队代表中国出征IYPT国际赛"
+    "startFrame": 5449,
+    "endFrame": 5593,
+    "text": "进而向系统化的BAAO BPhO Round 1等深度挑战推进"
   },
   {
     "id": 57,
-    "startFrame": 5854,
-    "endFrame": 5919,
-    "text": "整个过程是真实的科研经历"
+    "startFrame": 5593,
+    "endFrame": 5733,
+    "text": "最终冲刺IOAA国际天文与天体物理奥赛和IPhO国际物理奥赛"
   },
   {
     "id": 58,
-    "startFrame": 5919,
-    "endFrame": 6022,
-    "text": "与做题型奥赛形成完全不同的能力培养路径"
+    "startFrame": 5733,
+    "endFrame": 5831,
+    "text": "IAAC的入门门槛低，是天文兴趣的最好起点"
   },
   {
     "id": 59,
-    "startFrame": 6013,
-    "endFrame": 6170,
-    "text": "第一步是组队和选题，从十七道开放题中选定五到八道作为深耕方向"
+    "startFrame": 5821,
+    "endFrame": 5993,
+    "text": "第一步阅读基础天文学和天体物理学入门教材，重点是开普勒定律"
   },
   {
     "id": 60,
-    "startFrame": 6170,
-    "endFrame": 6254,
-    "text": "第二步设计实验装置，反复验证数据"
+    "startFrame": 5993,
+    "endFrame": 6058,
+    "text": "恒星演化，星系，宇宙学"
   },
   {
     "id": 61,
-    "startFrame": 6254,
-    "endFrame": 6364,
-    "text": "第三步建立理论模型，用物理推导对接实验结果"
+    "startFrame": 6058,
+    "endFrame": 6176,
+    "text": "第二步从IAAC官网获取近三年资格赛真题"
   },
   {
     "id": 62,
-    "startFrame": 6364,
-    "endFrame": 6442,
-    "text": "第四步撰写报告并制作答辩PPT"
+    "startFrame": 6176,
+    "endFrame": 6235,
+    "text": "第三步限时做完整套题"
   },
   {
     "id": 63,
-    "startFrame": 6442,
-    "endFrame": 6547,
-    "text": "第五步反复模拟Physics Fight"
+    "startFrame": 6235,
+    "endFrame": 6312,
+    "text": "第四步关注当年天文新闻热点"
   },
   {
     "id": 64,
-    "startFrame": 6547,
-    "endFrame": 6610,
-    "text": "重点训练英文学术辩论能力"
+    "startFrame": 6312,
+    "endFrame": 6419,
+    "text": "第五步注意时区，IAAC按UTC时间"
   },
   {
     "id": 65,
-    "startFrame": 6600,
-    "endFrame": 6686,
-    "text": "IYPT是国际青年物理学家锦标赛"
+    "startFrame": 6419,
+    "endFrame": 6490,
+    "text": "国内对应北京时间提前安排"
   },
   {
     "id": 66,
-    "startFrame": 6686,
-    "endFrame": 6820,
-    "text": "每年由全球三十多个国家代表队进行团队科研和物理辩论"
+    "startFrame": 6481,
+    "endFrame": 6633,
+    "text": "IAAC是国际天文与天体物理委员会运营的全球性纯线上挑战赛"
   },
   {
     "id": 67,
-    "startFrame": 6820,
-    "endFrame": 6981,
-    "text": "对家有高中阶段，有志于物理科研，追求差异化背景的学生家庭来说"
+    "startFrame": 6633,
+    "endFrame": 6732,
+    "text": "按年龄分三档面向中小学到大学全阶段学生"
   },
   {
     "id": 68,
-    "startFrame": 6981,
-    "endFrame": 7061,
-    "text": "IYPT是最特别的物理赛事之一"
+    "startFrame": 6732,
+    "endFrame": 6816,
+    "text": "对家有对天文物理感兴趣的孩子来说"
   },
   {
     "id": 69,
-    "startFrame": 7061,
-    "endFrame": 7147,
+    "startFrame": 6816,
+    "endFrame": 6915,
+    "text": "IAAC是最容易接触的国际天文奥赛入口"
+  },
+  {
+    "id": 70,
+    "startFrame": 6915,
+    "endFrame": 6999,
     "text": "关注翰林有方获取更多国际竞赛信息"
   }
 ]
