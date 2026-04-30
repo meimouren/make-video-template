@@ -15,12 +15,26 @@ import {
   tokenToStyle,
 } from '../theme/typography';
 
+interface OpeningStatOverride {
+  /** Middle stat label, e.g. "运营年份" (default: derived first-last year range) */
+  midLabel?: string;
+  /** Middle stat value, e.g. "47 年" (default: `${participationData.length} 届`) */
+  midValue?: string;
+  /** Growth stat value override (default: auto-calculated from data) */
+  growthValue?: string;
+  /** Scale stat value override (default: last data point) */
+  scaleValue?: string;
+  /** Scale stat label override */
+  scaleLabel?: string;
+}
+
 interface OpeningSceneProps {
   title: string;
   subtitle: string;
   participationTitle: string;
   participationData: Array<{ year: string; value: number }>;
   participationUnit: string;
+  openingStats?: OpeningStatOverride;
 }
 
 const AnimatedGrowthValue: React.FC = () => {
@@ -41,6 +55,7 @@ export const OpeningScene: React.FC<OpeningSceneProps> = ({
   participationTitle,
   participationData,
   participationUnit,
+  openingStats,
 }) => {
   const titleAnim = useFrom({
     delay: 0.1,
@@ -155,14 +170,14 @@ export const OpeningScene: React.FC<OpeningSceneProps> = ({
         <StatBlock
           index={1}
           delay={0.5}
-          label={`${firstYear} - ${lastYear}`}
-          value={`${participationData.length} 届`}
+          label={openingStats?.midLabel ?? `${firstYear} - ${lastYear}`}
+          value={openingStats?.midValue ?? `${participationData.length} 届`}
         />
         <StatBlock
           index={2}
           delay={0.5}
-          label="二零二六参赛规模"
-          value={`${lastValue.toLocaleString()}+`}
+          label={openingStats?.scaleLabel ?? "二零二六参赛规模"}
+          value={openingStats?.scaleValue ?? `${lastValue.toLocaleString()}+`}
           emphasis
         />
       </div>

@@ -59,6 +59,7 @@ export const AMCVideo: React.FC<AMCVideoProps> = ({ sceneDurations }) => {
             participationTitle={COMPETITION.participationTitle}
             participationData={COMPETITION.participationData}
             participationUnit={COMPETITION.participationUnit}
+            openingStats={scene.openingStats}
           />
         );
       case "opening-stats":

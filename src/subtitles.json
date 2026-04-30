@@ -2,475 +2,385 @@
   {
     "id": 1,
     "startFrame": 0,
-    "endFrame": 122,
-    "text": "每天介绍一个国际竞赛，今天要介绍的是EMCC"
+    "endFrame": 141,
+    "text": "每天介绍一个国际竞赛，今天要介绍的是MOEMS"
   },
   {
     "id": 2,
-    "startFrame": 122,
-    "endFrame": 189,
-    "text": "埃克塞特数学俱乐部挑战赛"
+    "startFrame": 141,
+    "endFrame": 209,
+    "text": "美国中小学数学奥林匹克"
   },
   {
     "id": 3,
-    "startFrame": 180,
-    "endFrame": 280,
-    "text": "EMCC中文译为埃克塞特数学俱乐部挑战赛"
+    "startFrame": 200,
+    "endFrame": 425,
+    "text": "MOEMS全称是Math Olympiads for Elementary and Middle Schools"
   },
   {
     "id": 4,
-    "startFrame": 280,
-    "endFrame": 405,
-    "text": "由美国顶级寄宿高中菲利普斯埃克塞特的数学俱乐部主办"
+    "startFrame": 425,
+    "endFrame": 469,
+    "text": "美国中小学数学奥林匹克"
   },
   {
     "id": 5,
-    "startFrame": 405,
-    "endFrame": 530,
-    "text": "面向全球初中生，二零一一年首届举办，至今已超过十届"
+    "startFrame": 469,
+    "endFrame": 590,
+    "text": "一九七九年正式开赛，至今运营已超过四十年，是美国本土历史较久"
   },
   {
     "id": 6,
-    "startFrame": 521,
-    "endFrame": 611,
-    "text": "如果你的孩子正在冲刺埃克塞特，安多福"
+    "startFrame": 590,
+    "endFrame": 662,
+    "text": "覆盖面较广的小学初中阶段数学竞赛之一"
   },
   {
     "id": 7,
-    "startFrame": 611,
-    "endFrame": 686,
-    "text": "迪尔菲尔德这些美国顶级寄宿高中"
+    "startFrame": 653,
+    "endFrame": 788,
+    "text": "MOEMS每年吸引来自三十九个国家、约十二万名学生参加"
   },
   {
     "id": 8,
-    "startFrame": 686,
-    "endFrame": 791,
-    "text": "EMCC几乎是最有直接加分效果的初中数学赛"
+    "startFrame": 788,
+    "endFrame": 898,
+    "text": "它是美国小学和初中阶段最早建立的数学竞赛之一"
   },
   {
     "id": 9,
-    "startFrame": 791,
-    "endFrame": 936,
-    "text": "它由埃克塞特学生亲自命题，埃克塞特招生官自己就认识这项赛事"
+    "startFrame": 898,
+    "endFrame": 1003,
+    "text": "也是国际学生开始接触数学竞赛的常见入门选择"
   },
   {
     "id": 10,
-    "startFrame": 928,
-    "endFrame": 1076,
-    "text": "EMCC是一项面向全球八年级及以下中学生的数学团队赛"
+    "startFrame": 994,
+    "endFrame": 1140,
+    "text": "MOEMS的核心定位是培养小学到初中阶段学生的数学思维"
   },
   {
     "id": 11,
-    "startFrame": 1076,
-    "endFrame": 1201,
-    "text": "四人一队，学生可以组学校队、校外队或者跨国队"
+    "startFrame": 1140,
+    "endFrame": 1286,
+    "text": "题目不依赖技巧或公式记忆，而是强调用数学方式去思考问题"
   },
   {
     "id": 12,
-    "startFrame": 1201,
-    "endFrame": 1303,
-    "text": "比赛由埃克塞特在校学生亲自命题和组织"
+    "startFrame": 1286,
+    "endFrame": 1378,
+    "text": "两个组别分别面向小学高年级和初中生"
   },
   {
     "id": 13,
-    "startFrame": 1303,
-    "endFrame": 1388,
-    "text": "是该校数学俱乐部的年度重磅活动"
+    "startFrame": 1368,
+    "endFrame": 1529,
+    "text": "MOEMS由美国数学教育家George Lenchner创办于一九七九年"
   },
   {
     "id": 14,
-    "startFrame": 1379,
-    "endFrame": 1493,
-    "text": "菲利普斯埃克塞特是美国历史最悠久的寄宿高中之一"
+    "startFrame": 1529,
+    "endFrame": 1618,
+    "text": "Lenchner长期从事小学初中数学教学"
   },
   {
     "id": 15,
-    "startFrame": 1493,
-    "endFrame": 1607,
-    "text": "马克·扎克伯格和前总统富兰克林·皮尔斯都是校友"
+    "startFrame": 1618,
+    "endFrame": 1685,
+    "text": "编写过多本面向中小学的解题书籍"
   },
   {
     "id": 16,
-    "startFrame": 1607,
-    "endFrame": 1755,
-    "text": "EMCC由该校数学俱乐部Exeter Math Club承办"
+    "startFrame": 1685,
+    "endFrame": 1774,
+    "text": "是美国基础数学教育领域有影响力的学者之一"
   },
   {
     "id": 17,
-    "startFrame": 1755,
-    "endFrame": 1864,
-    "text": "完全由学生运营，代表学校最顶尖的数学学术传统"
+    "startFrame": 1765,
+    "endFrame": 1816,
+    "text": "MOEMS分两个组别"
   },
   {
     "id": 18,
-    "startFrame": 1854,
-    "endFrame": 1928,
-    "text": "EMCC完整赛制由四个环节组成"
+    "startFrame": 1816,
+    "endFrame": 1913,
+    "text": "Division E面向小学四到六年级"
   },
   {
     "id": 19,
-    "startFrame": 1928,
-    "endFrame": 2062,
-    "text": "Speed快速轮比速度，Accuracy精准轮比稳定度"
+    "startFrame": 1913,
+    "endFrame": 2020,
+    "text": "Division M面向六到八年级的初中生"
   },
   {
     "id": 20,
-    "startFrame": 2062,
-    "endFrame": 2211,
-    "text": "Team团队轮比合作，Guts疯狂轮是全场最有看点的收官环节"
+    "startFrame": 2020,
+    "endFrame": 2137,
+    "text": "允许低年级学生参加更高一级组别，但不允许反过来"
   },
   {
     "id": 21,
-    "startFrame": 2211,
-    "endFrame": 2270,
-    "text": "四个轮加在一起决定总排名"
+    "startFrame": 2137,
+    "endFrame": 2213,
+    "text": "两个组别题目不同、难度阶梯不同"
   },
   {
     "id": 22,
-    "startFrame": 2261,
-    "endFrame": 2338,
-    "text": "Speed快速轮是第一轮个人赛"
+    "startFrame": 2204,
+    "endFrame": 2319,
+    "text": "MOEMS的赛季从十一月开始，到次年三月结束"
   },
   {
     "id": 23,
-    "startFrame": 2338,
-    "endFrame": 2466,
-    "text": "二十五分钟内独立完成二十道题，平均每题只有一分多钟"
+    "startFrame": 2319,
+    "endFrame": 2397,
+    "text": "每月一场考试，整个赛季总共五场"
   },
   {
     "id": 24,
-    "startFrame": 2466,
-    "endFrame": 2569,
-    "text": "题目难度循序递增，前几题送分，后几题拉分"
+    "startFrame": 2397,
+    "endFrame": 2470,
+    "text": "每场考试五道题，限时三十分钟"
   },
   {
     "id": 25,
-    "startFrame": 2569,
-    "endFrame": 2656,
-    "text": "这一轮考察的是学生基础扎实度和手速"
+    "startFrame": 2470,
+    "endFrame": 2605,
+    "text": "考试由学校或注册机构现场组织，所有学生在同一时间作答"
   },
   {
     "id": 26,
-    "startFrame": 2647,
-    "endFrame": 2742,
-    "text": "Accuracy精准轮是第二轮个人赛"
+    "startFrame": 2596,
+    "endFrame": 2698,
+    "text": "MOEMS的评分按整个赛季二十五道题累计"
   },
   {
     "id": 27,
-    "startFrame": 2742,
-    "endFrame": 2901,
-    "text": "四十五分钟内只做十道题，题目明显更难，要求学生静下心慢慢推理"
+    "startFrame": 2698,
+    "endFrame": 2800,
+    "text": "个人方面：累计得分前百分之五十获参赛徽章"
   },
   {
     "id": 28,
-    "startFrame": 2901,
-    "endFrame": 3018,
-    "text": "每道题权重大，算错一题就会对总分产生明显影响"
+    "startFrame": 2800,
+    "endFrame": 2917,
+    "text": "前百分之三到十获银牌徽章，前百分之二获金牌徽章"
   },
   {
     "id": 29,
-    "startFrame": 3018,
-    "endFrame": 3071,
-    "text": "考察的是精度和稳定性"
+    "startFrame": 2917,
+    "endFrame": 3034,
+    "text": "满分者获George Lenchner纪念徽章"
   },
   {
     "id": 30,
-    "startFrame": 3062,
+    "startFrame": 3034,
     "endFrame": 3166,
-    "text": "Team团队轮是整场比赛里纯粹的协作环节"
+    "text": "团队方面：前百分之十获奖牌，前百分之十一到二十获证书"
   },
   {
     "id": 31,
-    "startFrame": 3166,
-    "endFrame": 3312,
-    "text": "一小时内队内四人共同完成十五道题，队员可以自由讨论，分工"
+    "startFrame": 3156,
+    "endFrame": 3287,
+    "text": "MOEMS对全球小学四年级到初中八年级学生开放"
   },
   {
     "id": 32,
-    "startFrame": 3312,
-    "endFrame": 3333,
-    "text": "相互验证"
+    "startFrame": 3287,
+    "endFrame": 3361,
+    "text": "报名通过学校或注册机构进行"
   },
   {
     "id": 33,
-    "startFrame": 3333,
-    "endFrame": 3484,
-    "text": "这一轮考的是团队分工能力和战术选择，也是EMCC的精髓之一"
+    "startFrame": 3361,
+    "endFrame": 3532,
+    "text": "需要先注册成为MOEMS的会员学校或团队，再以团队为单位参赛"
   },
   {
     "id": 34,
-    "startFrame": 3476,
-    "endFrame": 3583,
-    "text": "Guts疯狂轮是EMCC最具有观赏性的环节"
+    "startFrame": 3532,
+    "endFrame": 3612,
+    "text": "每个团队至少需要一名指导教师"
   },
   {
     "id": 35,
-    "startFrame": 3583,
-    "endFrame": 3690,
-    "text": "七十五分钟内分六组、每组四道题依次拿题作答"
+    "startFrame": 3604,
+    "endFrame": 3641,
+    "text": "对中国家长而言"
   },
   {
     "id": 36,
-    "startFrame": 3690,
-    "endFrame": 3782,
-    "text": "前一组答完才能拿下一组，时间卡得极紧"
+    "startFrame": 3641,
+    "endFrame": 3767,
+    "text": "MOEMS的价值首先在覆盖面：运营已经超过四十年"
   },
   {
     "id": 37,
-    "startFrame": 3782,
-    "endFrame": 3879,
-    "text": "最后还有Bonus加分环节，是收官之战"
+    "startFrame": 3767,
+    "endFrame": 3856,
+    "text": "参赛网络遍及全美和海外三十九个国家"
   },
   {
     "id": 38,
-    "startFrame": 3871,
-    "endFrame": 4018,
-    "text": "EMCC所有题目最终答案都是介于零到一百万之间的非负整数"
+    "startFrame": 3856,
+    "endFrame": 3966,
+    "text": "其次在题目设计：强调用数学思考而非依赖技巧"
   },
   {
     "id": 39,
-    "startFrame": 4018,
-    "endFrame": 4076,
-    "text": "不设选择题，不设过程分"
+    "startFrame": 3966,
+    "endFrame": 4055,
+    "text": "第三在申请价值：对申请美国寄宿初中"
   },
   {
     "id": 40,
-    "startFrame": 4076,
-    "endFrame": 4134,
-    "text": "答对得满分，答错不倒扣"
+    "startFrame": 4055,
+    "endFrame": 4123,
+    "text": "Day School的孩子"
   },
   {
     "id": 41,
-    "startFrame": 4134,
-    "endFrame": 4287,
-    "text": "这种格式类似AIME和MOAA，考察的是严密推理和精确计算"
+    "startFrame": 4123,
+    "endFrame": 4249,
+    "text": "MOEMS是简历上最早可产出的可量化数学竞赛背景"
   },
   {
     "id": 42,
-    "startFrame": 4278,
-    "endFrame": 4426,
-    "text": "EMCC面向全球八年级及以下的中学生开放，国际学生完全平等"
+    "startFrame": 4240,
+    "endFrame": 4420,
+    "text": "MOEMS和AMC 8是中国家长最常被问到的两个美国初中阶段数学竞赛"
   },
   {
     "id": 43,
-    "startFrame": 4426,
-    "endFrame": 4549,
-    "text": "一支队伍固定四人，既可以是同校队，也可以跨校组队"
+    "startFrame": 4420,
+    "endFrame": 4568,
+    "text": "MOEMS赛季长五个月，有团队赛，AMC 8一年只有一场"
   },
   {
     "id": 44,
-    "startFrame": 4549,
-    "endFrame": 4703,
-    "text": "国际赛场多数由阿思丹赛事组织承办，国内选手可以在国内直接参赛"
+    "startFrame": 4568,
+    "endFrame": 4589,
+    "text": "纯个人赛"
   },
   {
     "id": 45,
-    "startFrame": 4694,
-    "endFrame": 4766,
-    "text": "EMCC同时提供两种参赛方式"
+    "startFrame": 4589,
+    "endFrame": 4695,
+    "text": "MOEMS适合更早接触竞赛，注重团队合作"
   },
   {
     "id": 46,
-    "startFrame": 4766,
-    "endFrame": 4916,
-    "text": "线下在菲利普斯埃克塞特校园的Phillips Hall举行"
+    "startFrame": 4695,
+    "endFrame": 4769,
+    "text": "AMC 8偏向高强度个人测评"
   },
   {
     "id": 47,
-    "startFrame": 4916,
-    "endFrame": 4993,
-    "text": "体验最原汁原味的藤校级赛事氛围"
+    "startFrame": 4761,
+    "endFrame": 4887,
+    "text": "MOEMS的二零二六到二零二七赛季时间已经全部公布"
   },
   {
     "id": 48,
-    "startFrame": 4993,
-    "endFrame": 5122,
-    "text": "线上考试通过官方平台进行，全球学生同一时区窗口开考"
+    "startFrame": 4887,
+    "endFrame": 5028,
+    "text": "第一场考试十一月九日到三十日，第二场十二月七日到二十八日"
   },
   {
     "id": 49,
-    "startFrame": 5122,
-    "endFrame": 5163,
-    "text": "评审标准完全一致"
+    "startFrame": 5028,
+    "endFrame": 5164,
+    "text": "第三场次年一月四日到二十五日，第四场二月一日到二十二日"
   },
   {
     "id": 50,
-    "startFrame": 5155,
-    "endFrame": 5213,
-    "text": "EMCC奖项体系包含三档"
+    "startFrame": 5164,
+    "endFrame": 5234,
+    "text": "第五场三月一日到二十九日收官"
   },
   {
     "id": 51,
-    "startFrame": 5213,
-    "endFrame": 5338,
-    "text": "个人赛方面Speed和Accuracy分别评选高分奖"
+    "startFrame": 5224,
+    "endFrame": 5383,
+    "text": "国内小学高年级和初中学生建议从MOEMS入手积累数学思维和竞赛意识"
   },
   {
     "id": 52,
-    "startFrame": 5338,
-    "endFrame": 5443,
-    "text": "团队赛方面Team和Guts分别颁团队高分奖"
+    "startFrame": 5383,
+    "endFrame": 5523,
+    "text": "初中阶段过渡到MathCounts和AMC 8进行个人测评"
   },
   {
     "id": 53,
-    "startFrame": 5443,
-    "endFrame": 5572,
-    "text": "总榜前几名另外颁发Grand Champion大满贯奖"
+    "startFrame": 5523,
+    "endFrame": 5605,
+    "text": "初二之后进入AMC 10，AIME"
   },
   {
     "id": 54,
-    "startFrame": 5572,
-    "endFrame": 5639,
-    "text": "每位获奖选手都有官方证书邮寄"
+    "startFrame": 5605,
+    "endFrame": 5682,
+    "text": "再向更专业的高中级别数学竞赛发展"
   },
   {
     "id": 55,
-    "startFrame": 5630,
-    "endFrame": 5777,
-    "text": "参考往年时间安排，EMCC在每年一月下旬的周末举办一届"
+    "startFrame": 5673,
+    "endFrame": 5849,
+    "text": "第一步通过MOEMS官方Resources或代理机构获取历届真题"
   },
   {
     "id": 56,
-    "startFrame": 5777,
-    "endFrame": 5864,
-    "text": "今年二零二六的比赛已经在一月完成"
+    "startFrame": 5849,
+    "endFrame": 5992,
+    "text": "第二步每周固定做一套真题，时长按真实考试三十分钟限制"
   },
   {
     "id": 57,
-    "startFrame": 5864,
-    "endFrame": 6011,
-    "text": "明年二零二七报名通常在十一月开启，十二月中下旬报名截止"
+    "startFrame": 5992,
+    "endFrame": 6108,
+    "text": "第三步重点训练数学思维型题目，不要只刷套路"
   },
   {
     "id": 58,
-    "startFrame": 6011,
-    "endFrame": 6104,
-    "text": "明年一月下旬开考，国内赛场同步开放"
+    "startFrame": 6108,
+    "endFrame": 6218,
+    "text": "第四步以学校或机构团队形式做完整赛季模拟"
   },
   {
     "id": 59,
-    "startFrame": 6096,
-    "endFrame": 6231,
-    "text": "EMCC和MOAA是两场经常被放在一起比的初中数学赛"
+    "startFrame": 6218,
+    "endFrame": 6284,
+    "text": "第五步每场考完做错题归类"
   },
   {
     "id": 60,
-    "startFrame": 6231,
-    "endFrame": 6387,
-    "text": "EMCC由菲利普斯埃克塞特主办，MOAA由菲利普斯安多福主办"
+    "startFrame": 6276,
+    "endFrame": 6416,
+    "text": "MOEMS是美国本土最早建立的小学初中数学竞赛之一"
   },
   {
     "id": 61,
-    "startFrame": 6387,
-    "endFrame": 6512,
-    "text": "两所顶尖寄宿高中，各自用赛事为未来学生做出预筛选"
+    "startFrame": 6416,
+    "endFrame": 6461,
+    "text": "运营已超过四十年"
   },
   {
     "id": 62,
-    "startFrame": 6502,
-    "endFrame": 6629,
-    "text": "EMCC最核心的价值在于美国顶级寄宿高中申请"
+    "startFrame": 6461,
+    "endFrame": 6551,
+    "text": "对小学高年级和初中阶段的孩子来说"
   },
   {
     "id": 63,
-    "startFrame": 6629,
-    "endFrame": 6802,
-    "text": "埃克塞特，安多福，迪尔菲尔德，乔特罗斯玛丽这些寄宿名校招生官"
+    "startFrame": 6551,
+    "endFrame": 6669,
+    "text": "MOEMS是开始接触数学竞赛的常见入门选择"
   },
   {
     "id": 64,
-    "startFrame": 6802,
-    "endFrame": 6854,
-    "text": "都非常熟悉EMCC"
-  },
-  {
-    "id": 65,
-    "startFrame": 6854,
-    "endFrame": 7009,
-    "text": "对冲刺这些学校的孩子来说，EMCC获奖是直接有效的加分"
-  },
-  {
-    "id": 66,
-    "startFrame": 6999,
-    "endFrame": 7138,
-    "text": "国内初中学生建议先从AMC 8和MathCounts打底"
-  },
-  {
-    "id": 67,
-    "startFrame": 7138,
-    "endFrame": 7262,
-    "text": "春季参加EMCC和MOAA两场寄宿高中主办的团队赛"
-  },
-  {
-    "id": 68,
-    "startFrame": 7262,
-    "endFrame": 7396,
-    "text": "积累国际赛成绩，九年级之后过渡到AMC 10，AIME"
-  },
-  {
-    "id": 69,
-    "startFrame": 7396,
-    "endFrame": 7486,
-    "text": "HMMT和MIT主办的高中级别数学赛"
-  },
-  {
-    "id": 70,
-    "startFrame": 7478,
-    "endFrame": 7624,
-    "text": "第一步从EMCC官网下载历届真题，题库可以追溯到二零一一年"
-  },
-  {
-    "id": 71,
-    "startFrame": 7624,
-    "endFrame": 7720,
-    "text": "第二步提前两个月组建四人队伍，磨合分工"
-  },
-  {
-    "id": 72,
-    "startFrame": 7720,
-    "endFrame": 7836,
-    "text": "第三步分Speed，Accuracy，Team"
-  },
-  {
-    "id": 73,
-    "startFrame": 7836,
-    "endFrame": 7906,
-    "text": "Guts四个轮分别做专项训练"
-  },
-  {
-    "id": 74,
-    "startFrame": 7906,
-    "endFrame": 7971,
-    "text": "第四步限时全真模拟完整四轮"
-  },
-  {
-    "id": 75,
-    "startFrame": 7962,
-    "endFrame": 8081,
-    "text": "EMCC是菲利普斯埃克塞特学生主办的初中数学锦标赛"
-  },
-  {
-    "id": 76,
-    "startFrame": 8081,
-    "endFrame": 8186,
-    "text": "是冲刺美国顶级寄宿高中最直接的数学加分赛之一"
-  },
-  {
-    "id": 77,
-    "startFrame": 8186,
-    "endFrame": 8324,
-    "text": "想让孩子申请埃克塞特，安多福，Ten Schools的家长"
-  },
-  {
-    "id": 78,
-    "startFrame": 8324,
-    "endFrame": 8353,
-    "text": "可以重点关注"
-  },
-  {
-    "id": 79,
-    "startFrame": 8353,
-    "endFrame": 8410,
-    "text": "关注翰林有方获取更多信息"
+    "startFrame": 6669,
+    "endFrame": 6759,
+    "text": "关注翰林有方获取更多国际竞赛信息"
   }
 ]
