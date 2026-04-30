@@ -2,385 +2,427 @@
   {
     "id": 1,
     "startFrame": 0,
-    "endFrame": 120,
-    "text": "每天介绍一个国际竞赛，今天要介绍的是BAAO"
+    "endFrame": 35,
+    "text": "每天介绍一个国际竞赛"
   },
   {
     "id": 2,
-    "startFrame": 120,
-    "endFrame": 202,
-    "text": "英国天文学和天体物理学奥林匹克"
+    "startFrame": 35,
+    "endFrame": 162,
+    "text": "今天要介绍的是BPhO Junior Physics Challenge"
   },
   {
     "id": 3,
-    "startFrame": 193,
-    "endFrame": 206,
-    "text": "BAAO"
+    "startFrame": 162,
+    "endFrame": 183,
+    "text": "初级物理挑战"
   },
   {
     "id": 4,
-    "startFrame": 206,
-    "endFrame": 354,
-    "text": "全称British Astronomy and Astrophysics Olympiad"
+    "startFrame": 175,
+    "endFrame": 300,
+    "text": "JPC，全称Junior Physics Challenge"
   },
   {
     "id": 5,
-    "startFrame": 354,
-    "endFrame": 417,
-    "text": "中文译为英国天文学和天体物理学奥林匹克"
+    "startFrame": 300,
+    "endFrame": 342,
+    "text": "中文译为初级物理挑战"
   },
   {
     "id": 6,
-    "startFrame": 417,
-    "endFrame": 549,
-    "text": "由牛津大学物理系British Physics Olympiad Trust运营"
+    "startFrame": 342,
+    "endFrame": 430,
+    "text": "是英国物理奥林匹克BPhO体系最入门的层级"
   },
   {
     "id": 7,
-    "startFrame": 549,
-    "endFrame": 638,
-    "text": "是英国通往IOAA国际天文与天体物理奥赛的官方选拔通道"
+    "startFrame": 430,
+    "endFrame": 501,
+    "text": "由牛津大学BPhO Trust运营"
   },
   {
     "id": 8,
-    "startFrame": 629,
-    "endFrame": 694,
-    "text": "BAAO的稀缺性来自三方面"
+    "startFrame": 501,
+    "endFrame": 576,
+    "text": "专门面向Year 9即九年级的初中生"
   },
   {
     "id": 9,
-    "startFrame": 694,
-    "endFrame": 819,
-    "text": "第一是赛道独特：天文物理是物理学中较稀缺的细分方向"
+    "startFrame": 576,
+    "endFrame": 659,
+    "text": "是国内学生最早可以接触BPhO体系的入口"
   },
   {
     "id": 10,
-    "startFrame": 819,
-    "endFrame": 849,
-    "text": "简历差异化强"
+    "startFrame": 650,
+    "endFrame": 710,
+    "text": "JPC的稀缺性来自三方面"
   },
   {
     "id": 11,
-    "startFrame": 849,
-    "endFrame": 984,
-    "text": "第二是牛津背书：BPhO Trust运营，权威认可度高"
+    "startFrame": 710,
+    "endFrame": 834,
+    "text": "第一是牛津背书：BPhO Trust旗下最入门级别"
   },
   {
     "id": 12,
-    "startFrame": 984,
-    "endFrame": 1129,
-    "text": "第三是国家队通道：通向IOAA国际天文奥赛，五人代表英国队"
+    "startFrame": 834,
+    "endFrame": 933,
+    "text": "第二是初中入门：Year 9学生即可参赛"
   },
   {
     "id": 13,
-    "startFrame": 1119,
-    "endFrame": 1250,
-    "text": "BAAO的核心定位是面向高中后期学生的天文物理选拔赛"
+    "startFrame": 933,
+    "endFrame": 1032,
+    "text": "是国内学生最早可拿BPhO相关证书的赛事"
   },
   {
     "id": 14,
-    "startFrame": 1250,
-    "endFrame": 1381,
-    "text": "题目融合物理基础和天文知识，包括观测天文学，轨道力学"
+    "startFrame": 1032,
+    "endFrame": 1136,
+    "text": "第三是体系起点：JPC是通往IPC，SPC"
   },
   {
     "id": 15,
-    "startFrame": 1381,
-    "endFrame": 1446,
-    "text": "恒星物理，宇宙学等专业板块"
+    "startFrame": 1136,
+    "endFrame": 1231,
+    "text": "BPhO Round 1的清晰阶梯起点"
   },
   {
     "id": 16,
-    "startFrame": 1446,
-    "endFrame": 1572,
-    "text": "是BPhO Trust旗下专门面向天体方向的子赛事"
+    "startFrame": 1223,
+    "endFrame": 1385,
+    "text": "JPC的核心定位是BPhO体系下针对九年级学生的物理入门测评"
   },
   {
     "id": 17,
-    "startFrame": 1562,
-    "endFrame": 1720,
-    "text": "BAAO由British Physics Olympiad Trust运营"
+    "startFrame": 1385,
+    "endFrame": 1547,
+    "text": "题目基于IGCSE课程标准，但加入一些日常生活相关的物理常识"
   },
   {
     "id": 18,
-    "startFrame": 1720,
-    "endFrame": 1775,
-    "text": "与BPhO是同一个母体组织"
+    "startFrame": 1547,
+    "endFrame": 1687,
+    "text": "覆盖动力学，电学，光学，热学，波动等高中物理基础板块"
   },
   {
     "id": 19,
-    "startFrame": 1775,
-    "endFrame": 1852,
-    "text": "BPhO Trust成立于一九七九年"
+    "startFrame": 1687,
+    "endFrame": 1719,
+    "text": "加少量天文学"
   },
   {
     "id": 20,
-    "startFrame": 1852,
-    "endFrame": 1920,
-    "text": "已运营英国物理类奥林匹克四十多年"
+    "startFrame": 1711,
+    "endFrame": 1857,
+    "text": "JPC由British Physics Olympiad Trust运营"
   },
   {
     "id": 21,
-    "startFrame": 1920,
-    "endFrame": 2040,
-    "text": "BAAO作为天体物理分支专门面向IOAA国际天文奥赛选拔"
+    "startFrame": 1857,
+    "endFrame": 1951,
+    "text": "与高级BPhO Round 1是同一个母体组织"
   },
   {
     "id": 22,
-    "startFrame": 2031,
-    "endFrame": 2116,
-    "text": "BAAO的考试结构由三部分组成"
+    "startFrame": 1951,
+    "endFrame": 2024,
+    "text": "BPhO Trust成立于一九七九年"
   },
   {
     "id": 23,
-    "startFrame": 2116,
-    "endFrame": 2241,
-    "text": "十道选择题，覆盖观测天文、近期天文新闻等基础"
+    "startFrame": 2024,
+    "endFrame": 2105,
+    "text": "旗下囊括从入门到国家队的所有英国物理竞赛"
   },
   {
     "id": 24,
-    "startFrame": 2241,
-    "endFrame": 2275,
-    "text": "两道五分短题"
+    "startFrame": 2105,
+    "endFrame": 2194,
+    "text": "JPC作为体系入门，是体系一以贯之的初中起点"
   },
   {
     "id": 25,
-    "startFrame": 2275,
-    "endFrame": 2377,
-    "text": "再加一道十分长题，从两题中二选一作答"
+    "startFrame": 2186,
+    "endFrame": 2255,
+    "text": "JPC的考试格式简洁友好"
   },
   {
     "id": 26,
-    "startFrame": 2377,
-    "endFrame": 2485,
-    "text": "整套试卷综合考察天体物理直觉和深度推理"
+    "startFrame": 2255,
+    "endFrame": 2335,
+    "text": "题型为多选选择题，限时一小时"
   },
   {
     "id": 27,
-    "startFrame": 2476,
-    "endFrame": 2549,
-    "text": "BAAO的成绩按全球排名颁发"
+    "startFrame": 2335,
+    "endFrame": 2467,
+    "text": "考试由学校教师在校内组织监考，时间一般在三月份"
   },
   {
     "id": 28,
-    "startFrame": 2549,
-    "endFrame": 2695,
-    "text": "Gold金奖、Silver银奖、Bronze铜奖三级证书"
+    "startFrame": 2467,
+    "endFrame": 2542,
+    "text": "由于难度对标IGCSE课程"
   },
   {
     "id": 29,
-    "startFrame": 2695,
-    "endFrame": 2825,
-    "text": "表现突出的高分选手会受邀参加复活节训练营在牛津举行"
+    "startFrame": 2542,
+    "endFrame": 2662,
+    "text": "对在英美澳加学习的国际课程学生来说门槛较低"
   },
   {
     "id": 30,
-    "startFrame": 2825,
-    "endFrame": 2976,
-    "text": "最终选出五名学生代表英国出征IOAA国际天文与天体物理奥赛"
+    "startFrame": 2653,
+    "endFrame": 2731,
+    "text": "JPC的奖项体系按全球同年级排名颁发"
   },
   {
     "id": 31,
-    "startFrame": 2968,
-    "endFrame": 3111,
-    "text": "BAAO主要面向英国Year 12和Year 13学生开放"
+    "startFrame": 2731,
+    "endFrame": 2853,
+    "text": "Top Gold顶级金奖，Gold金奖，Silver银奖"
   },
   {
     "id": 32,
-    "startFrame": 3111,
-    "endFrame": 3160,
-    "text": "相当于高三和高二阶段"
+    "startFrame": 2853,
+    "endFrame": 2970,
+    "text": "Bronze铜奖，Commendation表扬五个层级"
   },
   {
     "id": 33,
-    "startFrame": 3160,
-    "endFrame": 3288,
-    "text": "GCSE阶段的学生也可以挑战，但题目难度对低年级偏高"
+    "startFrame": 2970,
+    "endFrame": 3070,
+    "text": "所有获奖证书由BPhO Trust牛津官方发放"
   },
   {
     "id": 34,
-    "startFrame": 3288,
-    "endFrame": 3426,
-    "text": "考试不假设学生学过专门的天文模块，所有问题从基础物理推导"
+    "startFrame": 3070,
+    "endFrame": 3174,
+    "text": "是英国课程体系下学生简历上最早可获得的物理学背景"
   },
   {
     "id": 35,
-    "startFrame": 3417,
-    "endFrame": 3454,
-    "text": "对中国家长而言"
+    "startFrame": 3165,
+    "endFrame": 3310,
+    "text": "JPC主要面向英国Year 9即九年级学生，对应国内初二阶段"
   },
   {
     "id": 36,
-    "startFrame": 3454,
-    "endFrame": 3659,
-    "text": "BAAO的价值首先在赛道稀缺：天文物理在国内学生申请背景中明显少于纯物理或数学"
+    "startFrame": 3310,
+    "endFrame": 3436,
+    "text": "低于Year 9的学生也可以挑战，但题目难度可能偏高"
   },
   {
     "id": 37,
-    "startFrame": 3659,
-    "endFrame": 3764,
-    "text": "其次是牛剑认可：BPhO Trust运营"
+    "startFrame": 3436,
+    "endFrame": 3509,
+    "text": "考试在学校或机构组织的考点进行"
   },
   {
     "id": 38,
-    "startFrame": 3764,
-    "endFrame": 3858,
-    "text": "在英国G5物理工程申请中获得高度认可"
+    "startFrame": 3509,
+    "endFrame": 3606,
+    "text": "国内学生通过阿思丹官方代理在国内赛区参赛"
   },
   {
     "id": 39,
-    "startFrame": 3858,
-    "endFrame": 3994,
-    "text": "第三是IOAA通道：是通往国际天文奥赛的英国官方路径"
+    "startFrame": 3597,
+    "endFrame": 3689,
+    "text": "对中国家长而言，JPC的价值在三方面"
   },
   {
     "id": 40,
-    "startFrame": 3985,
-    "endFrame": 4158,
-    "text": "BAAO和BPhO Round 1是BPhO Trust旗下两个并列的高级竞赛"
+    "startFrame": 3689,
+    "endFrame": 3812,
+    "text": "第一是初中入门：是初二阶段就能参加的国际物理竞赛"
   },
   {
     "id": 41,
-    "startFrame": 4158,
-    "endFrame": 4278,
-    "text": "BPhO Round 1覆盖物理全板块，为IPhO选拔"
+    "startFrame": 3812,
+    "endFrame": 3843,
+    "text": "时间窗口提前"
   },
   {
     "id": 42,
-    "startFrame": 4278,
-    "endFrame": 4358,
-    "text": "BAAO专注天文物理，为IOAA选拔"
+    "startFrame": 3843,
+    "endFrame": 4057,
+    "text": "第二是体系起点：从JPC到IPC再到BPhO Round 1是清晰的英国物理竞赛阶梯"
   },
   {
     "id": 43,
-    "startFrame": 4358,
-    "endFrame": 4465,
-    "text": "两者都面向Year 12-13学生，可以同时参加"
+    "startFrame": 4057,
+    "endFrame": 4108,
+    "text": "连续参赛形成完整背景"
   },
   {
     "id": 44,
-    "startFrame": 4456,
-    "endFrame": 4546,
-    "text": "BAAO二零二五到二零二六赛季时间已经公布"
+    "startFrame": 4108,
+    "endFrame": 4271,
+    "text": "第三是英国方向加分：在英国寄宿初中和G5物理工程申请中是有效背景"
   },
   {
     "id": 45,
-    "startFrame": 4546,
-    "endFrame": 4691,
-    "text": "Astro Challenge入门挑战在二零二五年九月到十二月十三日"
+    "startFrame": 4262,
+    "endFrame": 4341,
+    "text": "JPC和IPC是BPhO体系中相邻的两个级别"
   },
   {
     "id": 46,
-    "startFrame": 4691,
-    "endFrame": 4781,
-    "text": "Round 1正式赛在二零二五年十二月二日"
+    "startFrame": 4341,
+    "endFrame": 4445,
+    "text": "JPC全称Junior Physics Challenge"
   },
   {
     "id": 47,
-    "startFrame": 4781,
-    "endFrame": 4875,
-    "text": "Round 2进阶赛在二零二六年一月二十七日"
+    "startFrame": 4445,
+    "endFrame": 4474,
+    "text": "面向Year 9"
   },
   {
     "id": 48,
-    "startFrame": 4875,
-    "endFrame": 4956,
-    "text": "复活节训练营在二零二六年四月在牛津举行"
+    "startFrame": 4474,
+    "endFrame": 4600,
+    "text": "IPC全称Intermediate Physics Challenge"
   },
   {
     "id": 49,
-    "startFrame": 4946,
-    "endFrame": 5085,
-    "text": "国内学生进入天体物理竞赛体系建议是先打好A-Level或IB物理基础"
+    "startFrame": 4600,
+    "endFrame": 4632,
+    "text": "面向Year 10"
   },
   {
     "id": 50,
-    "startFrame": 5085,
-    "endFrame": 5183,
-    "text": "参加BAAO Astro Challenge入门"
+    "startFrame": 4632,
+    "endFrame": 4700,
+    "text": "难度循序渐进，国内学生可以连续两年参加"
   },
   {
     "id": 51,
-    "startFrame": 5183,
-    "endFrame": 5297,
-    "text": "再冲BAAO Round 1选拔，进入Round 2进阶"
+    "startFrame": 4700,
+    "endFrame": 4776,
+    "text": "逐步进入BPhO体系核心赛事Round 1"
   },
   {
     "id": 52,
-    "startFrame": 5297,
-    "endFrame": 5407,
-    "text": "最终竞争IOAA国际天文与天体物理奥赛的英国国家队席位"
+    "startFrame": 4768,
+    "endFrame": 4835,
+    "text": "JPC每年通常在三月份举办"
   },
   {
     "id": 53,
-    "startFrame": 5399,
-    "endFrame": 5548,
-    "text": "第一步阅读天体物理入门教材，重点是开普勒定律，轨道力学"
+    "startFrame": 4835,
+    "endFrame": 4963,
+    "text": "具体日期由BPhO Trust官方在前一年年底公告"
   },
   {
     "id": 54,
-    "startFrame": 5548,
-    "endFrame": 5603,
-    "text": "恒星演化，宇宙学基础"
+    "startFrame": 4963,
+    "endFrame": 5112,
+    "text": "学校或机构提前一两个月报名，考试日各地学校自行选择监考时间"
   },
   {
     "id": 55,
-    "startFrame": 5603,
-    "endFrame": 5719,
-    "text": "第二步从BPhO官网下载近五年BAAO真题"
+    "startFrame": 5112,
+    "endFrame": 5184,
+    "text": "国内赛区时间和阿思丹官方同步"
   },
   {
     "id": 56,
-    "startFrame": 5719,
-    "endFrame": 5785,
-    "text": "第三步每周做一套限时模拟"
+    "startFrame": 5175,
+    "endFrame": 5331,
+    "text": "国内学生进入英国物理竞赛体系建议是初二Year 9阶段从JPC入门"
   },
   {
     "id": 57,
-    "startFrame": 5785,
-    "endFrame": 5912,
-    "text": "第四步重点训练长题和论述题，是BAAO拉分大户"
+    "startFrame": 5331,
+    "endFrame": 5468,
+    "text": "初三Year 10进入IPC，高一Year 11参加SPC"
   },
   {
     "id": 58,
-    "startFrame": 5912,
-    "endFrame": 5995,
-    "text": "第五步赛前两周关注当年天文新闻"
+    "startFrame": 5468,
+    "endFrame": 5624,
+    "text": "高二高三Year 12-13冲BPhO Round 1获取金奖证书"
   },
   {
     "id": 59,
-    "startFrame": 5985,
-    "endFrame": 6082,
-    "text": "BAAO是英国最权威的高中天体物理选拔赛"
+    "startFrame": 5624,
+    "endFrame": 5676,
+    "text": "最终竞争IPhO国家队"
   },
   {
     "id": 60,
-    "startFrame": 6082,
-    "endFrame": 6155,
-    "text": "由BPhO Trust牛津运营"
+    "startFrame": 5676,
+    "endFrame": 5714,
+    "text": "整套路径稳定连贯"
   },
   {
     "id": 61,
-    "startFrame": 6155,
-    "endFrame": 6276,
-    "text": "是英国通往IOAA国际天文与天体物理奥赛的官方通道"
+    "startFrame": 5706,
+    "endFrame": 5827,
+    "text": "第一步同步IGCSE Physics基础课程"
   },
   {
     "id": 62,
-    "startFrame": 6276,
-    "endFrame": 6417,
-    "text": "对希望在物理领域走天体方向，积累稀缺申请背景的学生家庭来说"
+    "startFrame": 5827,
+    "endFrame": 5937,
+    "text": "第二步从BPhO官网获取近五年JPC真题"
   },
   {
     "id": 63,
-    "startFrame": 6417,
-    "endFrame": 6466,
-    "text": "BAAO值得重点关注"
+    "startFrame": 5937,
+    "endFrame": 6019,
+    "text": "第三步每周限时一小时做一套真题"
   },
   {
     "id": 64,
-    "startFrame": 6466,
-    "endFrame": 6544,
+    "startFrame": 6019,
+    "endFrame": 6112,
+    "text": "第四步重点训练光学，电学，波动板块"
+  },
+  {
+    "id": 65,
+    "startFrame": 6112,
+    "endFrame": 6183,
+    "text": "是初中阶段较容易失分的板块"
+  },
+  {
+    "id": 66,
+    "startFrame": 6183,
+    "endFrame": 6254,
+    "text": "第五步赛前一周保持速度训练"
+  },
+  {
+    "id": 67,
+    "startFrame": 6246,
+    "endFrame": 6365,
+    "text": "JPC是英国BPhO体系最入门的初中物理挑战赛"
+  },
+  {
+    "id": 68,
+    "startFrame": 6365,
+    "endFrame": 6464,
+    "text": "由牛津大学BPhO Trust官方运营"
+  },
+  {
+    "id": 69,
+    "startFrame": 6464,
+    "endFrame": 6599,
+    "text": "对家有初二阶段，计划走英国留学方向的物理学生家庭来说"
+  },
+  {
+    "id": 70,
+    "startFrame": 6599,
+    "endFrame": 6698,
+    "text": "JPC是开启BPhO竞赛体系的最早起点"
+  },
+  {
+    "id": 71,
+    "startFrame": 6698,
+    "endFrame": 6781,
     "text": "关注翰林有方获取更多国际竞赛信息"
   }
 ]
