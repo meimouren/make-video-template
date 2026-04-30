@@ -2,367 +2,373 @@
   {
     "id": 1,
     "startFrame": 0,
-    "endFrame": 121,
-    "text": "每天介绍一个国际竞赛，今天要介绍的是PUPC"
+    "endFrame": 126,
+    "text": "每天介绍一个国际竞赛，今天要介绍的是SIN"
   },
   {
     "id": 2,
-    "startFrame": 121,
-    "endFrame": 182,
-    "text": "普林斯顿大学物理挑战赛"
+    "startFrame": 126,
+    "endFrame": 180,
+    "text": "滑铁卢牛顿物理挑战"
   },
   {
     "id": 3,
-    "startFrame": 173,
-    "endFrame": 188,
-    "text": "PUPC"
+    "startFrame": 171,
+    "endFrame": 293,
+    "text": "SIN，全称Sir Isaac Newton Exam"
   },
   {
     "id": 4,
-    "startFrame": 188,
-    "endFrame": 343,
-    "text": "全称Princeton University Physics Competition"
+    "startFrame": 293,
+    "endFrame": 419,
+    "text": "中文译为牛顿物理挑战，由加拿大滑铁卢大学物理与天文系主办"
   },
   {
     "id": 5,
-    "startFrame": 343,
-    "endFrame": 398,
-    "text": "中文译为普林斯顿大学物理挑战赛"
+    "startFrame": 419,
+    "endFrame": 545,
+    "text": "是面向北美和全球高中生的物理测评赛，以基础经典力学为主线"
   },
   {
     "id": 6,
-    "startFrame": 398,
-    "endFrame": 461,
-    "text": "最初由普林斯顿大学物理学生社团主办"
+    "startFrame": 545,
+    "endFrame": 572,
+    "text": "每年五月举办"
   },
   {
     "id": 7,
-    "startFrame": 461,
-    "endFrame": 590,
-    "text": "现由普林斯顿校友创立的非营利组织Physics Unlimited运营"
+    "startFrame": 563,
+    "endFrame": 633,
+    "text": "SIN的稀缺性来自三方面"
   },
   {
     "id": 8,
-    "startFrame": 590,
-    "endFrame": 642,
-    "text": "是面向全球高中生的物理挑战赛"
+    "startFrame": 633,
+    "endFrame": 778,
+    "text": "第一是滑铁卢大学背书：滑铁卢是北美最强工程学院之一"
   },
   {
     "id": 9,
-    "startFrame": 632,
-    "endFrame": 699,
-    "text": "PUPC的稀缺性在三方面"
+    "startFrame": 778,
+    "endFrame": 848,
+    "text": "名声在国内家长圈非常熟悉"
   },
   {
     "id": 10,
-    "startFrame": 699,
-    "endFrame": 810,
-    "text": "第一是藤校品牌，普林斯顿主办自带学术权威"
+    "startFrame": 848,
+    "endFrame": 987,
+    "text": "第二是适合入门：题型基础经典，对高中物理学生友好"
   },
   {
     "id": 11,
-    "startFrame": 810,
-    "endFrame": 910,
-    "text": "第二是题型创新，强调物理直觉而非套路"
+    "startFrame": 987,
+    "endFrame": 1120,
+    "text": "第三是申请加分：滑铁卢工程系直接认可SIN成绩"
   },
   {
     "id": 12,
-    "startFrame": 910,
-    "endFrame": 1060,
-    "text": "第三是双轨赛制，团队赛加个人赛，培养协作和深度思考能力"
+    "startFrame": 1111,
+    "endFrame": 1233,
+    "text": "SIN的核心定位是面向高中阶段学生的物理入门挑战"
   },
   {
     "id": 13,
-    "startFrame": 1050,
-    "endFrame": 1170,
-    "text": "PUPC的核心定位是面向高中阶段物理顶尖学生的挑战赛"
+    "startFrame": 1233,
+    "endFrame": 1375,
+    "text": "题目基于安大略省高中物理课程标准，强调经典力学和物理直觉"
   },
   {
     "id": 14,
-    "startFrame": 1170,
-    "endFrame": 1280,
-    "text": "题目难度对标AP Physics C，但题型新颖"
+    "startFrame": 1375,
+    "endFrame": 1492,
+    "text": "题型为选择题，难度对高中物理基础扎实的学生友好"
   },
   {
     "id": 15,
-    "startFrame": 1280,
-    "endFrame": 1390,
-    "text": "强调创造性思维，常常超出经典力学进入广义物理范畴"
+    "startFrame": 1492,
+    "endFrame": 1614,
+    "text": "比起F等于ma和BPhO Round 1门槛更低"
   },
   {
     "id": 16,
-    "startFrame": 1390,
-    "endFrame": 1583,
-    "text": "比赛分Online Round线上团队赛和Onsite Round线下个人赛两个部分"
+    "startFrame": 1605,
+    "endFrame": 1809,
+    "text": "SIN由加拿大滑铁卢大学Department of Physics and Astronomy主办"
   },
   {
     "id": 17,
-    "startFrame": 1575,
-    "endFrame": 1673,
-    "text": "PUPC现在由Physics Unlimited主办"
+    "startFrame": 1809,
+    "endFrame": 1930,
+    "text": "滑铁卢是北美工程领域顶尖大学之一，特别在量子计算，应用物理"
   },
   {
     "id": 18,
-    "startFrame": 1673,
-    "endFrame": 1760,
-    "text": "这是一家由普林斯顿大学物理校友成立的非营利组织"
+    "startFrame": 1930,
+    "endFrame": 1980,
+    "text": "计算机工程等专业全球知名"
   },
   {
     "id": 19,
-    "startFrame": 1760,
-    "endFrame": 1877,
-    "text": "Physics Unlimited专注于推广中学物理教育和竞赛"
+    "startFrame": 1980,
+    "endFrame": 2097,
+    "text": "SIN的命题风格延续了滑铁卢理工教学的特色：题目设计有趣"
   },
   {
     "id": 20,
-    "startFrame": 1877,
-    "endFrame": 2006,
-    "text": "旗下还运营着Online Physics Olympiad等其他赛事"
+    "startFrame": 2097,
+    "endFrame": 2147,
+    "text": "有时甚至加入一点幽默元素"
   },
   {
     "id": 21,
-    "startFrame": 2006,
-    "endFrame": 2104,
-    "text": "普林斯顿大学物理学生社团PSPS担任PUPC的协办方"
+    "startFrame": 2137,
+    "endFrame": 2200,
+    "text": "SIN的考试格式标准化"
   },
   {
     "id": 22,
-    "startFrame": 2096,
-    "endFrame": 2147,
-    "text": "PUPC的赛制分两部分"
+    "startFrame": 2200,
+    "endFrame": 2285,
+    "text": "所有题目均为多选题，限时两小时"
   },
   {
     "id": 23,
-    "startFrame": 2147,
-    "endFrame": 2282,
-    "text": "Online Round线上团队赛持续约一周，每队三到五人"
+    "startFrame": 2285,
+    "endFrame": 2410,
+    "text": "计分规则：答对加四分，留空零分，答错倒扣一分"
   },
   {
     "id": 24,
-    "startFrame": 2282,
-    "endFrame": 2342,
-    "text": "可以协作研究开放性物理题目"
+    "startFrame": 2410,
+    "endFrame": 2512,
+    "text": "倒扣机制鼓励学生只在有把握的题目作答"
   },
   {
     "id": 25,
-    "startFrame": 2342,
-    "endFrame": 2444,
-    "text": "Onsite Round线下个人赛限时两小时"
+    "startFrame": 2512,
+    "endFrame": 2620,
+    "text": "考试通过线上平台进行，学校统一组织监考"
   },
   {
     "id": 26,
-    "startFrame": 2444,
-    "endFrame": 2490,
-    "text": "主要考察经典力学板块"
+    "startFrame": 2612,
+    "endFrame": 2681,
+    "text": "SIN的成绩按全球排名颁发奖项"
   },
   {
     "id": 27,
-    "startFrame": 2490,
-    "endFrame": 2546,
-    "text": "两部分独立评分，独立颁奖"
+    "startFrame": 2681,
+    "endFrame": 2824,
+    "text": "前五名获得Sir Isaac Newton Plaque纪念牌"
   },
   {
     "id": 28,
-    "startFrame": 2538,
-    "endFrame": 2679,
-    "text": "PUPC的评分按Online Round和Onsite Round分别排名"
+    "startFrame": 2824,
+    "endFrame": 2870,
+    "text": "其后获得证书和奖学金"
   },
   {
     "id": 29,
-    "startFrame": 2679,
-    "endFrame": 2782,
-    "text": "团队榜评出全球前列团队奖项，个人榜评出全球前列个人奖项"
+    "startFrame": 2870,
+    "endFrame": 3027,
+    "text": "表现优异的学生在申请滑铁卢大学物理工程相关专业时会受到招生官重点关注"
   },
   {
     "id": 30,
-    "startFrame": 2782,
-    "endFrame": 2939,
-    "text": "表现优异者会获得Physics Unlimited的官方证书和普林斯顿物理系的认证"
+    "startFrame": 3018,
+    "endFrame": 3149,
+    "text": "SIN对全球高中生开放，必须由教师代表学校组织报名"
   },
   {
     "id": 31,
-    "startFrame": 2930,
-    "endFrame": 2998,
-    "text": "PUPC对全球高中阶段学生开放"
+    "startFrame": 3149,
+    "endFrame": 3196,
+    "text": "不接受个人单独报名"
   },
   {
     "id": 32,
-    "startFrame": 2998,
-    "endFrame": 3124,
-    "text": "国内学生通过阿思丹官方代理报名，参赛地点遍布国内主要城市"
+    "startFrame": 3196,
+    "endFrame": 3301,
+    "text": "国内学生通过阿思丹官方代理在国内赛区参赛"
   },
   {
     "id": 33,
-    "startFrame": 3124,
-    "endFrame": 3219,
-    "text": "Online Round完全线上，全球同步"
+    "startFrame": 3301,
+    "endFrame": 3437,
+    "text": "考试为线上形式，由学校监考老师在本地学校教室组织进行"
   },
   {
     "id": 34,
-    "startFrame": 3219,
-    "endFrame": 3314,
-    "text": "Onsite Round在国内赛区线下举办"
+    "startFrame": 3427,
+    "endFrame": 3523,
+    "text": "对中国家长而言，SIN的价值在三方面"
   },
   {
     "id": 35,
-    "startFrame": 3304,
-    "endFrame": 3341,
-    "text": "对中国家长而言"
+    "startFrame": 3523,
+    "endFrame": 3673,
+    "text": "第一是滑铁卢大学申请加分：物理工程系招生官认可SIN成绩"
   },
   {
     "id": 36,
-    "startFrame": 3341,
-    "endFrame": 3563,
-    "text": "PUPC的价值首先在普林斯顿藤校品牌：在美国理工科顶尖大学申请中是有辨识度的物理背景"
+    "startFrame": 3673,
+    "endFrame": 3801,
+    "text": "第二是物理竞赛入门：门槛低于F等于ma和BPhO"
   },
   {
     "id": 37,
-    "startFrame": 3563,
-    "endFrame": 3701,
-    "text": "其次是题型独特：和AMC AIME类的标准化测评不同"
+    "startFrame": 3801,
+    "endFrame": 3876,
+    "text": "适合刚开始接触物理竞赛的学生"
   },
   {
     "id": 38,
-    "startFrame": 3701,
-    "endFrame": 3833,
-    "text": "PUPC强调物理直觉和创造性，是物理思维深度的体现"
+    "startFrame": 3876,
+    "endFrame": 3983,
+    "text": "第三是加拿大方向：作为加拿大本土物理竞赛"
   },
   {
     "id": 39,
-    "startFrame": 3833,
-    "endFrame": 3944,
-    "text": "第三是双轨赛制：团队和个人协作能力都被检验"
+    "startFrame": 3983,
+    "endFrame": 4074,
+    "text": "对申请加拿大工程类大学有针对性认证"
   },
   {
     "id": 40,
-    "startFrame": 3935,
-    "endFrame": 4072,
-    "text": "PUPC和F等于ma是两种不同维度的高水平物理赛事"
+    "startFrame": 4065,
+    "endFrame": 4200,
+    "text": "SIN和Physics Bowl是加美两大高中物理入门测评赛"
   },
   {
     "id": 41,
-    "startFrame": 4072,
-    "endFrame": 4220,
-    "text": "PUPC由普林斯顿运营，强调创造性思维，团队加个人双轨"
+    "startFrame": 4200,
+    "endFrame": 4272,
+    "text": "SIN由滑铁卢大学主办，答错倒扣"
   },
   {
     "id": 42,
-    "startFrame": 4220,
-    "endFrame": 4357,
-    "text": "F等于ma是USAPhO选拔赛，纯个人，纯力学专项"
+    "startFrame": 4272,
+    "endFrame": 4384,
+    "text": "Physics Bowl由AAPT主办，答错不倒扣"
   },
   {
     "id": 43,
-    "startFrame": 4357,
-    "endFrame": 4466,
-    "text": "两者侧重的物理能力维度不同，可以并行参加"
+    "startFrame": 4384,
+    "endFrame": 4514,
+    "text": "SIN偏重经典力学；Physics Bowl覆盖物理全板块"
   },
   {
     "id": 44,
-    "startFrame": 4456,
-    "endFrame": 4526,
-    "text": "PUPC每年通常在秋季十月到十一月举办"
+    "startFrame": 4514,
+    "endFrame": 4563,
+    "text": "两者面向不同的留学方向"
   },
   {
     "id": 45,
-    "startFrame": 4526,
-    "endFrame": 4637,
-    "text": "分Online Round和Onsite Round两个阶段"
+    "startFrame": 4554,
+    "endFrame": 4626,
+    "text": "SIN每年通常在五月初举办"
   },
   {
     "id": 46,
-    "startFrame": 4637,
-    "endFrame": 4741,
-    "text": "具体时间每年由Physics Unlimited官方公告"
+    "startFrame": 4626,
+    "endFrame": 4704,
+    "text": "二零二六年报名截止四月十七日"
   },
   {
     "id": 47,
-    "startFrame": 4741,
+    "startFrame": 4704,
     "endFrame": 4793,
-    "text": "国内赛区时间和阿思丹官方同步"
+    "text": "考试在五月由学校自行选定时间组织"
   },
   {
     "id": 48,
-    "startFrame": 4784,
-    "endFrame": 4926,
-    "text": "国内高中物理学生路径建议是先以AP Physics 1或2作为基础"
+    "startFrame": 4793,
+    "endFrame": 4887,
+    "text": "下届二零二七年预计同样在五月初进行"
   },
   {
     "id": 49,
-    "startFrame": 4926,
-    "endFrame": 5012,
-    "text": "参加Physics Bowl作为入门测评"
+    "startFrame": 4887,
+    "endFrame": 4993,
+    "text": "报名通道由滑铁卢大学官网在每年三月开放"
   },
   {
     "id": 50,
-    "startFrame": 5012,
-    "endFrame": 5094,
-    "text": "进而冲F等于ma或PUPC作为进阶挑战"
+    "startFrame": 4984,
+    "endFrame": 5131,
+    "text": "国内学生进入加拿大物理竞赛体系建议是先以SIN作为高中入门测评"
   },
   {
     "id": 51,
-    "startFrame": 5094,
-    "endFrame": 5214,
-    "text": "PUPC的团队赛部分尤其适合作为申请简历上的协作能力背景"
+    "startFrame": 5131,
+    "endFrame": 5249,
+    "text": "进而冲CAP加拿大物理奥赛进入加拿大物理国家队选拔"
   },
   {
     "id": 52,
-    "startFrame": 5205,
-    "endFrame": 5307,
-    "text": "第一步同步AP Physics C或更高级别课程"
+    "startFrame": 5249,
+    "endFrame": 5410,
+    "text": "同时可以并行参加美国Physics Bowl和F等于ma作为多线积累"
   },
   {
     "id": 53,
-    "startFrame": 5307,
-    "endFrame": 5452,
-    "text": "第二步从Physics Unlimited官网获取近五年PUPC真题"
+    "startFrame": 5401,
+    "endFrame": 5578,
+    "text": "第一步同步AP Physics 1或安大略省高中物理课程的力学板块"
   },
   {
     "id": 54,
-    "startFrame": 5452,
-    "endFrame": 5580,
-    "text": "第三步组队三到五人，分工协作训练Online Round题型"
+    "startFrame": 5578,
+    "endFrame": 5691,
+    "text": "第二步从滑铁卢大学SIN官网获取近五年真题"
   },
   {
     "id": 55,
-    "startFrame": 5580,
-    "endFrame": 5678,
-    "text": "第四步限时两小时做Onsite Round模拟"
+    "startFrame": 5691,
+    "endFrame": 5772,
+    "text": "第三步每周限时两小时做完整套题"
   },
   {
     "id": 56,
-    "startFrame": 5678,
-    "endFrame": 5746,
-    "text": "第五步赛前一周完整跑一遍两段赛制"
+    "startFrame": 5772,
+    "endFrame": 5901,
+    "text": "第四步重点训练倒扣策略：模糊题宁愿留空也不要乱猜"
   },
   {
     "id": 57,
-    "startFrame": 5738,
-    "endFrame": 5909,
-    "text": "PUPC是普林斯顿大学物理学生社团和校友共同主办的全球高中物理挑战赛"
+    "startFrame": 5901,
+    "endFrame": 5965,
+    "text": "第五步赛前一周做全真模考"
   },
   {
     "id": 58,
-    "startFrame": 5909,
-    "endFrame": 5970,
-    "text": "强调创造性思维和团队协作"
+    "startFrame": 5956,
+    "endFrame": 6096,
+    "text": "SIN是加拿大滑铁卢大学物理与天文系主办的高中物理挑战赛"
   },
   {
     "id": 59,
-    "startFrame": 5970,
-    "endFrame": 6081,
-    "text": "对希望积累藤校相关物理背景的高中学生家庭来说"
+    "startFrame": 6096,
+    "endFrame": 6176,
+    "text": "是加拿大物理竞赛体系的入门级测评"
   },
   {
     "id": 60,
-    "startFrame": 6081,
-    "endFrame": 6131,
-    "text": "PUPC值得重点关注"
+    "startFrame": 6176,
+    "endFrame": 6311,
+    "text": "对计划走加拿大留学方向，特别是滑铁卢工程申请的学生家庭"
   },
   {
     "id": 61,
-    "startFrame": 6131,
-    "endFrame": 6212,
+    "startFrame": 6311,
+    "endFrame": 6356,
+    "text": "SIN值得重点关注"
+  },
+  {
+    "id": 62,
+    "startFrame": 6356,
+    "endFrame": 6436,
     "text": "关注翰林有方获取更多国际竞赛信息"
   }
 ]
