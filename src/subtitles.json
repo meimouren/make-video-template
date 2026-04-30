@@ -2,391 +2,367 @@
   {
     "id": 1,
     "startFrame": 0,
-    "endFrame": 116,
-    "text": "每天介绍一个国际竞赛，今天要介绍的是GiM"
+    "endFrame": 124,
+    "text": "每天介绍一个国际竞赛，今天要介绍的是CLMC"
   },
   {
     "id": 2,
-    "startFrame": 116,
-    "endFrame": 194,
-    "text": "耶鲁大学全球高中女子数学挑战"
+    "startFrame": 124,
+    "endFrame": 175,
+    "text": "加拿大数学测评中级"
   },
   {
     "id": 3,
-    "startFrame": 185,
-    "endFrame": 308,
-    "text": "GiM，全称Girls in Math at Yale"
+    "startFrame": 166,
+    "endFrame": 183,
+    "text": "CLMC"
   },
   {
     "id": 4,
-    "startFrame": 308,
-    "endFrame": 390,
-    "text": "中文译为耶鲁大学全球高中女子数学挑战"
+    "startFrame": 183,
+    "endFrame": 341,
+    "text": "全称Canada Lynx Mathematical Competition"
   },
   {
     "id": 5,
-    "startFrame": 390,
-    "endFrame": 449,
-    "text": "由耶鲁大学数学竞赛组织主办"
+    "startFrame": 341,
+    "endFrame": 453,
+    "text": "中文译为加拿大数学测评中级，由加拿大数学学会CMS主办"
   },
   {
     "id": 6,
-    "startFrame": 449,
-    "endFrame": 563,
-    "text": "是面向全球高中女生及性别少数群体学生的团队数学竞赛"
+    "startFrame": 453,
+    "endFrame": 519,
+    "text": "这是面向中学阶段学生的数学测评赛"
   },
   {
     "id": 7,
-    "startFrame": 563,
-    "endFrame": 649,
-    "text": "也是耶鲁数学竞赛组织的两大旗舰赛事之一"
+    "startFrame": 519,
+    "endFrame": 577,
+    "text": "由加拿大数学学会作为官方背书"
   },
   {
     "id": 8,
-    "startFrame": 640,
-    "endFrame": 705,
-    "text": "GiM的稀缺性来自三方面"
+    "startFrame": 568,
+    "endFrame": 638,
+    "text": "CLMC的稀缺性来自三方面"
   },
   {
     "id": 9,
-    "startFrame": 705,
-    "endFrame": 781,
-    "text": "第一是耶鲁主办，藤校品牌加成"
+    "startFrame": 638,
+    "endFrame": 751,
+    "text": "第一是加拿大数学学会CMS官方主办，背书强"
   },
   {
     "id": 10,
-    "startFrame": 781,
-    "endFrame": 896,
-    "text": "第二是女生定位，是国际化的女生STEM赛事"
+    "startFrame": 751,
+    "endFrame": 880,
+    "text": "第二是命题难度对中学生友好，是入门级国际数学测评"
   },
   {
     "id": 11,
-    "startFrame": 896,
-    "endFrame": 978,
-    "text": "第三是团队赛形式，培养协作能力"
+    "startFrame": 880,
+    "endFrame": 1025,
+    "text": "第三是申请加拿大顶尖大学的相关认可度高，包括滑铁卢大学"
   },
   {
     "id": 12,
-    "startFrame": 978,
-    "endFrame": 1098,
-    "text": "国内学生通过阿思丹官方代理可以在上海赛区参赛"
+    "startFrame": 1025,
+    "endFrame": 1073,
+    "text": "多伦多大学，UBC"
   },
   {
     "id": 13,
-    "startFrame": 1089,
-    "endFrame": 1268,
-    "text": "GiM的核心定位是面向高中阶段女生和性别少数群体学生的团队数学挑战赛"
+    "startFrame": 1065,
+    "endFrame": 1217,
+    "text": "CLMC的核心定位是面向七到十一年级中学生的数学测评赛"
   },
   {
     "id": 14,
-    "startFrame": 1268,
-    "endFrame": 1420,
-    "text": "每队四到六人，比赛通过多个回合形式进行，包括个人轮，团队轮"
+    "startFrame": 1217,
+    "endFrame": 1307,
+    "text": "题目基于加拿大中学课程核心知识点"
   },
   {
     "id": 15,
-    "startFrame": 1420,
-    "endFrame": 1441,
-    "text": "抢答轮等"
+    "startFrame": 1307,
+    "endFrame": 1403,
+    "text": "涵盖代数几何概率初步等基础数学板块"
   },
   {
     "id": 16,
-    "startFrame": 1441,
+    "startFrame": 1403,
     "endFrame": 1567,
-    "text": "是为STEM领域中代表性不足的群体专门设计的赛事"
+    "text": "难度对应中学课程要求，适合作为加拿大数学竞赛体系的入门门槛"
   },
   {
     "id": 17,
     "startFrame": 1558,
-    "endFrame": 1715,
-    "text": "GiM由耶鲁数学竞赛组织Yale Math Competition主办"
+    "endFrame": 1712,
+    "text": "CMS全称Canadian Mathematical Society"
   },
   {
     "id": 18,
-    "startFrame": 1715,
-    "endFrame": 1787,
-    "text": "是一个由耶鲁本科生运营的学生组织"
+    "startFrame": 1712,
+    "endFrame": 1820,
+    "text": "加拿大数学学会，是加拿大数学领域最权威的学术组织"
   },
   {
     "id": 19,
-    "startFrame": 1787,
-    "endFrame": 1863,
-    "text": "该组织还主办另一项赛事MMATHS"
+    "startFrame": 1820,
+    "endFrame": 1937,
+    "text": "CMS旗下还主办着加拿大数学奥赛CMO等其他权威赛事"
   },
   {
     "id": 20,
-    "startFrame": 1863,
-    "endFrame": 2073,
-    "text": "GiM的初心是为STEM领域中代表性不足的女生和性别少数学生提供一个友好和高质量的数学竞赛平台"
+    "startFrame": 1937,
+    "endFrame": 2014,
+    "text": "CLMC作为CMS的中学生入门赛事"
   },
   {
     "id": 21,
-    "startFrame": 2064,
-    "endFrame": 2114,
-    "text": "GiM的比赛分四个轮次"
+    "startFrame": 2014,
+    "endFrame": 2100,
+    "text": "承担着加拿大数学竞赛体系最早入口的角色"
   },
   {
     "id": 22,
-    "startFrame": 2114,
-    "endFrame": 2242,
-    "text": "个人轮十二道题限时七十五分钟，团队轮十道题限时四十五分钟"
+    "startFrame": 2091,
+    "endFrame": 2161,
+    "text": "CLMC的考试格式标准化"
   },
   {
     "id": 23,
-    "startFrame": 2242,
-    "endFrame": 2342,
-    "text": "然后是Tiebreaker决胜轮，前八名进入"
+    "startFrame": 2161,
+    "endFrame": 2329,
+    "text": "整套试卷十五道选择题，限时九十分钟，平均每题六分钟思考时间"
   },
   {
     "id": 24,
-    "startFrame": 2342,
-    "endFrame": 2447,
-    "text": "最后是Lightning Finals闪电决赛"
+    "startFrame": 2329,
+    "endFrame": 2468,
+    "text": "题型为四选一选择题，难度循序渐进，前几题基础送分"
   },
   {
     "id": 25,
-    "startFrame": 2447,
-    "endFrame": 2488,
-    "text": "一对一形式角逐冠军"
+    "startFrame": 2468,
+    "endFrame": 2520,
+    "text": "后几题需要灵活思考"
   },
   {
     "id": 26,
-    "startFrame": 2479,
-    "endFrame": 2530,
-    "text": "GiM的奖项分两条线"
+    "startFrame": 2511,
+    "endFrame": 2601,
+    "text": "CLMC评分按全球同年级排名颁奖"
   },
   {
     "id": 27,
-    "startFrame": 2530,
-    "endFrame": 2677,
-    "text": "个人方面：全球前八名Top 8个人奖，再分高荣誉前百分之十"
+    "startFrame": 2601,
+    "endFrame": 2752,
+    "text": "金奖颁给前百分之十的选手，银奖颁给前百分之十一到二十五"
   },
   {
     "id": 28,
-    "startFrame": 2677,
-    "endFrame": 2809,
-    "text": "荣誉前百分之二十五，Credit前百分之四十三个层级"
+    "startFrame": 2752,
+    "endFrame": 2830,
+    "text": "铜奖颁给前百分之二十六到五十"
   },
   {
     "id": 29,
-    "startFrame": 2809,
-    "endFrame": 2865,
-    "text": "团队方面：前三名团队奖"
+    "startFrame": 2830,
+    "endFrame": 2925,
+    "text": "所有完成考试的学生都会获得参赛证书"
   },
   {
     "id": 30,
-    "startFrame": 2865,
-    "endFrame": 2992,
-    "text": "国内赛区还有阿思丹EPQ奖学金，金奖三千，银奖两千"
+    "startFrame": 2925,
+    "endFrame": 3031,
+    "text": "所有奖项由加拿大数学学会CMS官方颁发"
   },
   {
     "id": 31,
-    "startFrame": 2992,
-    "endFrame": 3028,
-    "text": "铜奖一千人民币"
+    "startFrame": 3023,
+    "endFrame": 3129,
+    "text": "CLMC对全球七到十一年级在读学生开放"
   },
   {
     "id": 32,
-    "startFrame": 3018,
-    "endFrame": 3079,
-    "text": "GiM的参赛资格定位明确"
+    "startFrame": 3129,
+    "endFrame": 3302,
+    "text": "国内学生通过加拿大教育考试中心ICAE或代理机构在国内考点参加"
   },
   {
     "id": 33,
-    "startFrame": 3079,
-    "endFrame": 3197,
-    "text": "高中阶段在读，女生身份或性别少数群体（含非二元"
+    "startFrame": 3302,
+    "endFrame": 3436,
+    "text": "考试时间根据时区分两天进行，加拿大和美洲在第一天"
   },
   {
     "id": 34,
-    "startFrame": 3197,
-    "endFrame": 3258,
-    "text": "跨性别等）的学生均可报名"
+    "startFrame": 3436,
+    "endFrame": 3481,
+    "text": "亚太地区在第二天"
   },
   {
     "id": 35,
-    "startFrame": 3258,
-    "endFrame": 3360,
-    "text": "国内学生通过阿思丹官方代理在上海赛区参赛"
-  },
-  {
-    "id": 36,
-    "startFrame": 3360,
-    "endFrame": 3437,
-    "text": "每队四到六人，需要一名指导教师"
-  },
-  {
-    "id": 37,
-    "startFrame": 3429,
-    "endFrame": 3465,
+    "startFrame": 3472,
+    "endFrame": 3508,
     "text": "对中国家长而言"
   },
   {
+    "id": 36,
+    "startFrame": 3508,
+    "endFrame": 3740,
+    "text": "CLMC的价值首先在加拿大留学方向：加拿大数学学会主办的赛事在加拿大顶尖大学申请中获得认可"
+  },
+  {
+    "id": 37,
+    "startFrame": 3740,
+    "endFrame": 3915,
+    "text": "其次是数学竞赛入门：90分钟15题的格式适合刚开始接触数学竞赛的学生"
+  },
+  {
     "id": 38,
-    "startFrame": 3465,
-    "endFrame": 3603,
-    "text": "GiM的价值首先在藤校品牌：耶鲁主办本身就是高质量信号"
+    "startFrame": 3915,
+    "endFrame": 4070,
+    "text": "第三是奖项含金量：CMS官方颁发的证书在简历上有清晰来源背书"
   },
   {
     "id": 39,
-    "startFrame": 3603,
-    "endFrame": 3741,
-    "text": "其次是性别 STEM 视角：女生数学背景对申请非常稀缺"
+    "startFrame": 4061,
+    "endFrame": 4217,
+    "text": "CLMC和CSMC是加拿大数学学会和滑铁卢大学CEMC旗下两个不同的中学数学赛"
   },
   {
     "id": 40,
-    "startFrame": 3741,
-    "endFrame": 3874,
-    "text": "第三是团队赛形式：体现协作能力是申请背景里少有的角度"
+    "startFrame": 4217,
+    "endFrame": 4305,
+    "text": "CLMC由CMS主办，是数学学会的中学入门赛"
   },
   {
     "id": 41,
-    "startFrame": 3874,
-    "endFrame": 3966,
-    "text": "第四是国际化：和全球高中女生同台竞技"
+    "startFrame": 4305,
+    "endFrame": 4541,
+    "text": "CSMC全称Canadian Senior and Intermediate Mathematics Contests"
   },
   {
     "id": 42,
-    "startFrame": 3958,
-    "endFrame": 4075,
-    "text": "GiM和MPFG是国际女生数学赛事的两大代表"
+    "startFrame": 4541,
+    "endFrame": 4645,
+    "text": "由滑铁卢大学CEMC主办，是另一条加拿大数学竞赛体系"
   },
   {
     "id": 43,
-    "startFrame": 4075,
-    "endFrame": 4218,
-    "text": "MPFG限定北美居住，邀请制，奖金导向，GiM全球开放"
+    "startFrame": 4637,
+    "endFrame": 4764,
+    "text": "CLMC每年通常在九月底或十月初举办，分两天进行"
   },
   {
     "id": 44,
-    "startFrame": 4218,
-    "endFrame": 4266,
-    "text": "报名制，奖学金导向"
+    "startFrame": 4764,
+    "endFrame": 4875,
+    "text": "二零二五赛季于十月二日和三日举办，已经结束"
   },
   {
     "id": 45,
-    "startFrame": 4266,
-    "endFrame": 4372,
-    "text": "MPFG侧重个人选拔，GiM侧重团队挑战"
+    "startFrame": 4875,
+    "endFrame": 4975,
+    "text": "下届二零二六赛季预计在九月底十月初进行"
   },
   {
     "id": 46,
-    "startFrame": 4372,
-    "endFrame": 4467,
-    "text": "两者面向的目标人群和申请价值各有不同"
+    "startFrame": 4975,
+    "endFrame": 5038,
+    "text": "具体日期由CMS官方公告"
   },
   {
     "id": 47,
-    "startFrame": 4458,
-    "endFrame": 4533,
-    "text": "GiM二零二六年春季赛已确定"
+    "startFrame": 5029,
+    "endFrame": 5060,
+    "text": "对国内学生而言"
   },
   {
     "id": 48,
-    "startFrame": 4533,
-    "endFrame": 4655,
-    "text": "报名截止三月六日，比赛日期三月二十一到二十二日"
+    "startFrame": 5060,
+    "endFrame": 5179,
+    "text": "加拿大数学竞赛路径建议是先参加CLMC作为中学阶段入门"
   },
   {
     "id": 49,
-    "startFrame": 4655,
-    "endFrame": 4692,
-    "text": "国内赛区在上海"
+    "startFrame": 5179,
+    "endFrame": 5284,
+    "text": "初中后期参加滑铁卢大学CEMC旗下的Pascal"
   },
   {
     "id": 50,
-    "startFrame": 4692,
-    "endFrame": 4820,
-    "text": "每年比赛集中在春季三月份举办，与耶鲁学期节奏一致"
+    "startFrame": 5284,
+    "endFrame": 5407,
+    "text": "Cayley，Fermat三联赛事，高中阶段参加CSMC"
   },
   {
     "id": 51,
-    "startFrame": 4811,
-    "endFrame": 4858,
-    "text": "对国内高中女生而言"
+    "startFrame": 5407,
+    "endFrame": 5499,
+    "text": "Euclid，最终冲刺CMO加拿大数学奥赛"
   },
   {
     "id": 52,
-    "startFrame": 4858,
-    "endFrame": 5006,
-    "text": "路径建议是先以AMC 10和AMC 12积累个人数学背景"
+    "startFrame": 5490,
+    "endFrame": 5600,
+    "text": "第一步同步加拿大七到十一年级中学数学课纲"
   },
   {
     "id": 53,
-    "startFrame": 5006,
-    "endFrame": 5080,
-    "text": "同时参加GiM获得团队赛背景"
+    "startFrame": 5600,
+    "endFrame": 5660,
+    "text": "重点是代数几何概率初步"
   },
   {
     "id": 54,
-    "startFrame": 5080,
-    "endFrame": 5164,
-    "text": "对北美居住学生还可以申请MPFG"
+    "startFrame": 5660,
+    "endFrame": 5770,
+    "text": "第二步从CMS官网获取近五年CLMC真题"
   },
   {
     "id": 55,
-    "startFrame": 5164,
-    "endFrame": 5328,
-    "text": "这三个赛事组合是高中女生申请理工科顶尖大学最常见的数学背景组合"
+    "startFrame": 5770,
+    "endFrame": 5858,
+    "text": "第三步每周限时九十分钟做完整一套"
   },
   {
     "id": 56,
-    "startFrame": 5319,
-    "endFrame": 5456,
-    "text": "第一步是组队，提前一到两个月找到四到六位水平接近的队友"
+    "startFrame": 5858,
+    "endFrame": 5995,
+    "text": "第四步重点训练应用题和文字题，是CLMC的失分大户"
   },
   {
     "id": 57,
-    "startFrame": 5456,
-    "endFrame": 5583,
-    "text": "第二步以AMC 10和AMC 12真题作为基础练习"
+    "startFrame": 5995,
+    "endFrame": 6061,
+    "text": "第五步赛前两周做全真模考"
   },
   {
     "id": 58,
-    "startFrame": 5583,
-    "endFrame": 5725,
-    "text": "第三步限时七十五分钟做个人轮模拟、四十五分钟做团队轮模拟"
+    "startFrame": 6052,
+    "endFrame": 6190,
+    "text": "CLMC是加拿大数学学会CMS主办的中学生数学测评赛"
   },
   {
     "id": 59,
-    "startFrame": 5725,
-    "endFrame": 5877,
-    "text": "第四步专门训练抢答类题目应对Lightning Finals"
+    "startFrame": 6190,
+    "endFrame": 6312,
+    "text": "是国内学生进入加拿大数学竞赛体系的常见入门起点"
   },
   {
     "id": 60,
-    "startFrame": 5877,
-    "endFrame": 5958,
-    "text": "第五步赛前一周做完整四轮全真模考"
+    "startFrame": 6312,
+    "endFrame": 6471,
+    "text": "对计划走加拿大留学路径的中学生家庭来说，CLMC值得重点关注"
   },
   {
     "id": 61,
-    "startFrame": 5950,
-    "endFrame": 6106,
-    "text": "GiM是耶鲁大学数学竞赛组织主办的全球高中女生数学挑战赛"
-  },
-  {
-    "id": 62,
-    "startFrame": 6106,
-    "endFrame": 6178,
-    "text": "国内学生可以在上海赛区参赛"
-  },
-  {
-    "id": 63,
-    "startFrame": 6178,
-    "endFrame": 6306,
-    "text": "对家有高中女生，希望积累藤校相关背景的家庭来说"
-  },
-  {
-    "id": 64,
-    "startFrame": 6306,
-    "endFrame": 6356,
-    "text": "GiM值得重点关注"
-  },
-  {
-    "id": 65,
-    "startFrame": 6356,
-    "endFrame": 6445,
+    "startFrame": 6471,
+    "endFrame": 6556,
     "text": "关注翰林有方获取更多国际竞赛信息"
   }
 ]
