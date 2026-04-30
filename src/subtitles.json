@@ -2,421 +2,427 @@
   {
     "id": 1,
     "startFrame": 0,
-    "endFrame": 118,
-    "text": "每天介绍一个国际竞赛，今天要介绍的是IAAC"
+    "endFrame": 44,
+    "text": "每天介绍一个国际竞赛"
   },
   {
     "id": 2,
-    "startFrame": 118,
-    "endFrame": 187,
-    "text": "国际天文学和天体物理学挑战"
+    "startFrame": 44,
+    "endFrame": 169,
+    "text": "今天要介绍的是Isaac Physics，剑桥物理马拉松"
   },
   {
     "id": 3,
-    "startFrame": 178,
-    "endFrame": 195,
-    "text": "IAAC"
+    "startFrame": 160,
+    "endFrame": 382,
+    "text": "Isaac Physics是英国剑桥大学卡文迪许实验室Cavendish Laboratory主办的物理学习与竞赛平台"
   },
   {
     "id": 4,
-    "startFrame": 195,
-    "endFrame": 420,
-    "text": "全称International Astronomy and Astrophysics Competition"
+    "startFrame": 382,
+    "endFrame": 412,
+    "text": "由英国教育部资助"
   },
   {
     "id": 5,
-    "startFrame": 420,
-    "endFrame": 491,
-    "text": "中文译为国际天文学和天体物理学挑战"
+    "startFrame": 412,
+    "endFrame": 521,
+    "text": "面向十六到十九岁的高中物理学生，平台累计服务超过五万名学生"
   },
   {
     "id": 6,
-    "startFrame": 491,
-    "endFrame": 599,
-    "text": "这是一项纯线上的全球性天文奥赛，对中学和大学生都开放"
+    "startFrame": 521,
+    "endFrame": 544,
+    "text": "四千多所学校"
   },
   {
     "id": 7,
-    "startFrame": 599,
-    "endFrame": 661,
-    "text": "由国际天文与天体物理委员会运营"
+    "startFrame": 544,
+    "endFrame": 668,
+    "text": "Senior Physics Challenge是平台旗舰选拔活动"
   },
   {
     "id": 8,
-    "startFrame": 661,
-    "endFrame": 732,
-    "text": "每年吸引来自一百多个国家的学生参加"
+    "startFrame": 660,
+    "endFrame": 757,
+    "text": "Isaac Physics的稀缺性来自三方面"
   },
   {
     "id": 9,
-    "startFrame": 722,
-    "endFrame": 789,
-    "text": "IAAC的稀缺性来自三方面"
+    "startFrame": 757,
+    "endFrame": 889,
+    "text": "第一是剑桥背书：卡文迪许实验室是物理学历史最悠久的实验室之一"
   },
   {
     "id": 10,
-    "startFrame": 789,
-    "endFrame": 932,
-    "text": "第一是入门友好：纯线上，按年级分Junior，Youth"
+    "startFrame": 889,
+    "endFrame": 982,
+    "text": "第二是长期积累机制：在平台上长时间解题积分"
   },
   {
     "id": 11,
-    "startFrame": 932,
-    "endFrame": 1004,
-    "text": "Senior三档，参赛门槛低"
+    "startFrame": 982,
+    "endFrame": 1031,
+    "text": "形成持续输出的学术轨迹"
   },
   {
     "id": 12,
-    "startFrame": 1004,
-    "endFrame": 1091,
-    "text": "第二是国际化：来自一百多国学生同台"
+    "startFrame": 1031,
+    "endFrame": 1243,
+    "text": "第三是Senior Physics Challenge：年度剑桥校园营地是顶尖物理学生的集中体验"
   },
   {
     "id": 13,
-    "startFrame": 1091,
-    "endFrame": 1183,
-    "text": "第三是奖项含金量：总奖金两千五百美金"
+    "startFrame": 1233,
+    "endFrame": 1376,
+    "text": "Isaac Physics的核心定位是双轨制：日常是免费物理学习平台"
   },
   {
     "id": 14,
-    "startFrame": 1183,
-    "endFrame": 1270,
-    "text": "包括宇航员和诺贝尔奖得主签名望远镜"
+    "startFrame": 1376,
+    "endFrame": 1414,
+    "text": "提供海量题目和指导"
   },
   {
     "id": 15,
-    "startFrame": 1261,
-    "endFrame": 1391,
-    "text": "IAAC的核心定位是纯线上的全球性天文与天体物理竞赛"
+    "startFrame": 1414,
+    "endFrame": 1549,
+    "text": "年度是Senior Physics Challenge选拔型营地"
   },
   {
     "id": 16,
-    "startFrame": 1391,
-    "endFrame": 1526,
-    "text": "按年龄分Junior十四岁以下，Youth十四到十八岁"
+    "startFrame": 1549,
+    "endFrame": 1642,
+    "text": "从平台最活跃的解题用户中选拔参加剑桥校园集训"
   },
   {
     "id": 17,
-    "startFrame": 1526,
-    "endFrame": 1651,
-    "text": "Senior十八岁以上三档，每档独立题目和独立排名"
+    "startFrame": 1642,
+    "endFrame": 1705,
+    "text": "是英国物理教育的国家级公益项目"
   },
   {
     "id": 18,
-    "startFrame": 1651,
-    "endFrame": 1756,
-    "text": "覆盖天文学、天体物理学、宇宙学的核心知识点"
+    "startFrame": 1696,
+    "endFrame": 1796,
+    "text": "卡文迪许实验室是剑桥大学物理系主体实验室"
   },
   {
     "id": 19,
-    "startFrame": 1746,
-    "endFrame": 1858,
-    "text": "IAAC由国际天文与天体物理委员会IAAC运营"
+    "startFrame": 1796,
+    "endFrame": 1937,
+    "text": "自一八七四年成立以来诞生了三十位诺贝尔物理学和化学奖得主"
   },
   {
     "id": 20,
-    "startFrame": 1858,
-    "endFrame": 1951,
-    "text": "是一个由各国天文教育者组成的非营利组织"
+    "startFrame": 1937,
+    "endFrame": 2032,
+    "text": "包括麦克斯韦，卢瑟福，汤姆森等历史巨匠"
   },
   {
     "id": 21,
-    "startFrame": 1951,
-    "endFrame": 2083,
-    "text": "该组织专注于推广天文物理科普教育，IAAC是其旗舰赛事"
+    "startFrame": 2032,
+    "endFrame": 2127,
+    "text": "Isaac Physics由实验室运营"
   },
   {
     "id": 22,
-    "startFrame": 2083,
-    "endFrame": 2298,
-    "text": "比赛获奖者有机会获得宇航员Frank De Winne和诺贝尔奖得主签名的望远镜实物奖品"
+    "startFrame": 2127,
+    "endFrame": 2232,
+    "text": "承载剑桥物理教育对全英中学生的学术推广使命"
   },
   {
     "id": 23,
-    "startFrame": 2289,
-    "endFrame": 2338,
-    "text": "IAAC的赛制由三轮组成"
+    "startFrame": 2224,
+    "endFrame": 2329,
+    "text": "Isaac Physics的赛制由两阶段组成"
   },
   {
     "id": 24,
-    "startFrame": 2338,
-    "endFrame": 2452,
-    "text": "资格赛Qualification Round是五道天文题"
+    "startFrame": 2329,
+    "endFrame": 2381,
+    "text": "第一阶段是平台日常积分"
   },
   {
     "id": 25,
-    "startFrame": 2452,
-    "endFrame": 2583,
-    "text": "通过后进入准决赛Pre-Final Round约四到五天答题窗口"
+    "startFrame": 2381,
+    "endFrame": 2510,
+    "text": "学生在isaacphysics.org上完成大量物理题"
   },
   {
     "id": 26,
-    "startFrame": 2583,
-    "endFrame": 2673,
-    "text": "最后是决赛Final Round二十道选择题"
+    "startFrame": 2510,
+    "endFrame": 2558,
+    "text": "按完成数量和难度积分"
   },
   {
     "id": 27,
-    "startFrame": 2673,
-    "endFrame": 2722,
-    "text": "由学校教师监考的线上考试"
+    "startFrame": 2558,
+    "endFrame": 2601,
+    "text": "第二阶段是年度选拔"
   },
   {
     "id": 28,
-    "startFrame": 2722,
-    "endFrame": 2763,
-    "text": "整个赛事完全在线进行"
+    "startFrame": 2601,
+    "endFrame": 2720,
+    "text": "平台最活跃用户在四月份做线上测试加提交手写解题过程"
   },
   {
     "id": 29,
-    "startFrame": 2754,
-    "endFrame": 2829,
-    "text": "IAAC的晋级机制按档次设置门槛"
+    "startFrame": 2720,
+    "endFrame": 2930,
+    "text": "被选中的学生受邀参加在剑桥校园举行的Senior Physics Challenge营地"
   },
   {
     "id": 30,
-    "startFrame": 2829,
-    "endFrame": 2956,
-    "text": "Junior需在资格赛拿到至少十五分，Youth十七分"
+    "startFrame": 2921,
+    "endFrame": 3020,
+    "text": "Isaac Physics的选拔综合考察三方面"
   },
   {
     "id": 31,
-    "startFrame": 2956,
-    "endFrame": 3022,
-    "text": "Senior二十分晋级准决赛"
+    "startFrame": 3020,
+    "endFrame": 3102,
+    "text": "第一是做题数量：在平台上完成的题目总数"
   },
   {
     "id": 32,
-    "startFrame": 3022,
-    "endFrame": 3069,
-    "text": "准决赛通过后进入决赛"
+    "startFrame": 3102,
+    "endFrame": 3192,
+    "text": "第二是难度梯度：完成更多高难度题目权重更高"
   },
   {
     "id": 33,
-    "startFrame": 3069,
-    "endFrame": 3163,
-    "text": "最终全球前列学生获奖金、签名望远镜及证书"
+    "startFrame": 3192,
+    "endFrame": 3299,
+    "text": "第三是笔试质量：四月线上测试和手写解题过程的清晰度"
   },
   {
     "id": 34,
-    "startFrame": 3153,
-    "endFrame": 3212,
-    "text": "IAAC按年龄分三档参赛"
+    "startFrame": 3299,
+    "endFrame": 3449,
+    "text": "被选中学生收到Senior Physics Challenge入营邀请"
   },
   {
     "id": 35,
-    "startFrame": 3212,
-    "endFrame": 3344,
-    "text": "Junior面向十四岁以下学生，对应国内小学和初中阶段"
+    "startFrame": 3440,
+    "endFrame": 3559,
+    "text": "Isaac Physics平台对全球十六到十九岁学生免费开放"
   },
   {
     "id": 36,
-    "startFrame": 3344,
-    "endFrame": 3452,
-    "text": "Youth面向十四到十八岁，对应国内高中阶段"
+    "startFrame": 3559,
+    "endFrame": 3619,
+    "text": "注册即用，没有报名费或材料门槛"
   },
   {
     "id": 37,
-    "startFrame": 3452,
-    "endFrame": 3560,
-    "text": "Senior面向十八岁以上，包括大学和研究生"
+    "startFrame": 3619,
+    "endFrame": 3782,
+    "text": "Senior Physics Challenge营地选拔同样对所有平台活跃用户开放"
   },
   {
     "id": 38,
-    "startFrame": 3560,
-    "endFrame": 3633,
-    "text": "每档独立题目，按年龄段公平比较"
+    "startFrame": 3782,
+    "endFrame": 3846,
+    "text": "国内学生可以通过平台账号正常参与"
   },
   {
     "id": 39,
-    "startFrame": 3624,
-    "endFrame": 3722,
-    "text": "对中国家长而言，IAAC的价值在三方面"
+    "startFrame": 3837,
+    "endFrame": 3963,
+    "text": "对中国家长而言，Isaac Physics的价值在三方面"
   },
   {
     "id": 40,
-    "startFrame": 3722,
-    "endFrame": 3871,
-    "text": "第一是天文兴趣的可量化证明：是国内最容易接触的天文奥赛之一"
+    "startFrame": 3963,
+    "endFrame": 4093,
+    "text": "第一是剑桥品牌背书：平台账号和SPC邀请直接关联剑桥物理系"
   },
   {
     "id": 41,
-    "startFrame": 3871,
-    "endFrame": 3974,
-    "text": "第二是国际化背景：和一百多国学生同台对标"
+    "startFrame": 4093,
+    "endFrame": 4228,
+    "text": "第二是长期学习轨迹：在平台上的累计积分体现持续的物理学习投入"
   },
   {
     "id": 42,
-    "startFrame": 3974,
-    "endFrame": 4144,
-    "text": "第三是奖品稀缺性：宇航员和诺奖得主签名望远镜在中学生奖项中极为罕见"
+    "startFrame": 4228,
+    "endFrame": 4426,
+    "text": "第三是校园体验：Senior Physics Challenge营地直接进入剑桥校园上课"
   },
   {
     "id": 43,
-    "startFrame": 4144,
-    "endFrame": 4201,
-    "text": "是有故事感的申请加分点"
+    "startFrame": 4426,
+    "endFrame": 4511,
+    "text": "互动，是申请剑桥物理工程的真实学术经历"
   },
   {
     "id": 44,
-    "startFrame": 4192,
-    "endFrame": 4307,
-    "text": "IAAC和BAAO是两种不同性质的天文物理赛事"
+    "startFrame": 4502,
+    "endFrame": 4676,
+    "text": "Isaac Physics和BPhO Round 1是英国物理学习路径上互补的两个赛道"
   },
   {
     "id": 45,
-    "startFrame": 4307,
-    "endFrame": 4407,
-    "text": "IAAC由国际天文物理委员会运营，纯线上"
+    "startFrame": 4676,
+    "endFrame": 4777,
+    "text": "Isaac Physics是长期平台积分加营地选拔"
   },
   {
     "id": 46,
-    "startFrame": 4407,
-    "endFrame": 4502,
-    "text": "面向全球Junior到Senior多档"
+    "startFrame": 4777,
+    "endFrame": 4858,
+    "text": "BPhO Round 1是单次高强度笔试"
   },
   {
     "id": 47,
-    "startFrame": 4502,
-    "endFrame": 4597,
-    "text": "BAAO由牛津BPhO Trust运营"
+    "startFrame": 4858,
+    "endFrame": 4963,
+    "text": "Isaac考察持续学习能力；BPhO考察临场解题能力"
   },
   {
     "id": 48,
-    "startFrame": 4597,
-    "endFrame": 4722,
-    "text": "面向英国Year 12-13，是IOAA国家队选拔"
+    "startFrame": 4963,
+    "endFrame": 4995,
+    "text": "两者并行参与最佳"
   },
   {
     "id": 49,
-    "startFrame": 4722,
-    "endFrame": 4822,
-    "text": "两者目标受众和申请价值不同，可以并行参加"
+    "startFrame": 4987,
+    "endFrame": 5100,
+    "text": "Isaac Physics的节奏是全年平台累计积分"
   },
   {
     "id": 50,
-    "startFrame": 4812,
-    "endFrame": 4898,
-    "text": "IAAC二零二六赛季时间已公布"
+    "startFrame": 5100,
+    "endFrame": 5258,
+    "text": "每年四月份开放Senior Physics Challenge选拔通道"
   },
   {
     "id": 51,
-    "startFrame": 4898,
-    "endFrame": 5047,
-    "text": "资格赛截止日为四月十七日UTC时间下午十一点五十九分"
+    "startFrame": 5258,
+    "endFrame": 5326,
+    "text": "需要在线提交线上测试加手写解题"
   },
   {
     "id": 52,
-    "startFrame": 5047,
-    "endFrame": 5167,
-    "text": "准决赛在五月二十九日发题，到六月二日前完成"
+    "startFrame": 5326,
+    "endFrame": 5394,
+    "text": "被选中学生收到剑桥营地入营邀请"
   },
   {
     "id": 53,
-    "startFrame": 5167,
-    "endFrame": 5247,
-    "text": "决赛在五月底六月初由学校监考"
+    "startFrame": 5394,
+    "endFrame": 5466,
+    "text": "营地通常在七月暑期举行，为期数天"
   },
   {
     "id": 54,
-    "startFrame": 5247,
-    "endFrame": 5304,
-    "text": "最终成绩在六月底公布"
+    "startFrame": 5458,
+    "endFrame": 5505,
+    "text": "在英国物理竞赛体系中"
   },
   {
     "id": 55,
-    "startFrame": 5295,
-    "endFrame": 5449,
-    "text": "国内学生的天文物理路径建议是先以IAAC作为入门兴趣赛积累天文基础"
+    "startFrame": 5505,
+    "endFrame": 5598,
+    "text": "Isaac Physics是日常学习平台"
   },
   {
     "id": 56,
-    "startFrame": 5449,
-    "endFrame": 5593,
-    "text": "进而向系统化的BAAO BPhO Round 1等深度挑战推进"
+    "startFrame": 5598,
+    "endFrame": 5738,
+    "text": "BPhO Round 1是高强度选拔考试，IPhO是国际终点"
   },
   {
     "id": 57,
-    "startFrame": 5593,
-    "endFrame": 5733,
-    "text": "最终冲刺IOAA国际天文与天体物理奥赛和IPhO国际物理奥赛"
+    "startFrame": 5738,
+    "endFrame": 5859,
+    "text": "三者互补：Isaac积累、BPhO检验、IPhO终点"
   },
   {
     "id": 58,
-    "startFrame": 5733,
-    "endFrame": 5831,
-    "text": "IAAC的入门门槛低，是天文兴趣的最好起点"
+    "startFrame": 5859,
+    "endFrame": 5990,
+    "text": "国内学生可以同时使用Isaac平台学习+参加BPhO考试"
   },
   {
     "id": 59,
-    "startFrame": 5821,
-    "endFrame": 5993,
-    "text": "第一步阅读基础天文学和天体物理学入门教材，重点是开普勒定律"
+    "startFrame": 5990,
+    "endFrame": 6018,
+    "text": "形成完整路径"
   },
   {
     "id": 60,
-    "startFrame": 5993,
-    "endFrame": 6058,
-    "text": "恒星演化，星系，宇宙学"
+    "startFrame": 6009,
+    "endFrame": 6150,
+    "text": "第一步注册isaacphysics.org账号，开始日常做题"
   },
   {
     "id": 61,
-    "startFrame": 6058,
-    "endFrame": 6176,
-    "text": "第二步从IAAC官网获取近三年资格赛真题"
+    "startFrame": 6150,
+    "endFrame": 6249,
+    "text": "第二步制定每周计划，平均每周完成五到十道题"
   },
   {
     "id": 62,
-    "startFrame": 6176,
-    "endFrame": 6235,
-    "text": "第三步限时做完整套题"
+    "startFrame": 6249,
+    "endFrame": 6362,
+    "text": "第三步主动挑战高难度题目，难题完成度对选拔权重高"
   },
   {
     "id": 63,
-    "startFrame": 6235,
-    "endFrame": 6312,
-    "text": "第四步关注当年天文新闻热点"
+    "startFrame": 6362,
+    "endFrame": 6456,
+    "text": "第四步保留手写解题过程，四月份提交时使用"
   },
   {
     "id": 64,
-    "startFrame": 6312,
-    "endFrame": 6419,
-    "text": "第五步注意时区，IAAC按UTC时间"
+    "startFrame": 6456,
+    "endFrame": 6522,
+    "text": "第五步关注Isaac平台公告"
   },
   {
     "id": 65,
-    "startFrame": 6419,
-    "endFrame": 6490,
-    "text": "国内对应北京时间提前安排"
+    "startFrame": 6522,
+    "endFrame": 6653,
+    "text": "及时申请Senior Physics Challenge"
   },
   {
     "id": 66,
-    "startFrame": 6481,
-    "endFrame": 6633,
-    "text": "IAAC是国际天文与天体物理委员会运营的全球性纯线上挑战赛"
+    "startFrame": 6643,
+    "endFrame": 6902,
+    "text": "Isaac Physics是剑桥大学卡文迪许实验室主办的物理学习平台和Senior Physics Challenge选拔营地"
   },
   {
     "id": 67,
-    "startFrame": 6633,
-    "endFrame": 6732,
-    "text": "按年龄分三档面向中小学到大学全阶段学生"
+    "startFrame": 6902,
+    "endFrame": 6964,
+    "text": "免费向全球十六到十九岁学生开放"
   },
   {
     "id": 68,
-    "startFrame": 6732,
-    "endFrame": 6816,
-    "text": "对家有对天文物理感兴趣的孩子来说"
+    "startFrame": 6964,
+    "endFrame": 7013,
+    "text": "对计划走英国物理工程方向"
   },
   {
     "id": 69,
-    "startFrame": 6816,
-    "endFrame": 6915,
-    "text": "IAAC是最容易接触的国际天文奥赛入口"
+    "startFrame": 7013,
+    "endFrame": 7091,
+    "text": "希望积累长期物理学习轨迹的学生家庭来说"
   },
   {
     "id": 70,
-    "startFrame": 6915,
-    "endFrame": 6999,
+    "startFrame": 7091,
+    "endFrame": 7194,
+    "text": "Isaac Physics是值得长期投入的国际平台"
+  },
+  {
+    "id": 71,
+    "startFrame": 7194,
+    "endFrame": 7260,
     "text": "关注翰林有方获取更多国际竞赛信息"
   }
 ]
