@@ -2,403 +2,385 @@
   {
     "id": 1,
     "startFrame": 0,
-    "endFrame": 116,
-    "text": "每天介绍一个国际竞赛，今天要介绍的是Physics Bowl"
+    "endFrame": 107,
+    "text": "每天介绍一个国际竞赛，今天要介绍的是AMO"
   },
   {
     "id": 2,
-    "startFrame": 116,
-    "endFrame": 128,
-    "text": "物理碗"
+    "startFrame": 107,
+    "endFrame": 153,
+    "text": "美国数学思维挑战赛"
   },
   {
     "id": 3,
-    "startFrame": 119,
-    "endFrame": 209,
-    "text": "Physics Bowl，中文译名物理碗"
+    "startFrame": 144,
+    "endFrame": 157,
+    "text": "AMO"
   },
   {
     "id": 4,
-    "startFrame": 209,
-    "endFrame": 322,
-    "text": "是由美国物理教师协会AAPT主办的全球高中物理竞赛"
+    "startFrame": 157,
+    "endFrame": 290,
+    "text": "全称American Mathematics Olympiad"
   },
   {
     "id": 5,
-    "startFrame": 322,
-    "endFrame": 444,
-    "text": "一九八三年作为评估工具创立，一九八五年开始全国正式举办"
+    "startFrame": 290,
+    "endFrame": 346,
+    "text": "中文译为美国数学思维挑战赛"
   },
   {
     "id": 6,
-    "startFrame": 444,
-    "endFrame": 539,
-    "text": "一九九零年正式更名Physics Bowl"
+    "startFrame": 346,
+    "endFrame": 487,
+    "text": "由新加坡国际数学竞赛中心SIMCC联合美国南伊利诺伊大学SIU主办"
   },
   {
     "id": 7,
-    "startFrame": 539,
-    "endFrame": 602,
-    "text": "至今每年吸引约一万名学生参赛"
+    "startFrame": 487,
+    "endFrame": 581,
+    "text": "每年吸引来自约三十个国家，近十五万名学生参加"
   },
   {
     "id": 8,
-    "startFrame": 593,
-    "endFrame": 726,
-    "text": "Physics Bowl是中国家长非常熟悉的高中物理入门竞赛"
+    "startFrame": 571,
+    "endFrame": 718,
+    "text": "AMO的命题依据美国Common Core State Standards"
   },
   {
     "id": 9,
-    "startFrame": 726,
-    "endFrame": 802,
-    "text": "它衔接AP Physics课程体系"
+    "startFrame": 718,
+    "endFrame": 790,
+    "text": "覆盖小学二年级到高中十二年级的全学段"
   },
   {
     "id": 10,
-    "startFrame": 802,
-    "endFrame": 895,
-    "text": "是冲刺F等于ma和USAPhO的过渡训练台"
+    "startFrame": 790,
+    "endFrame": 870,
+    "text": "是国内学生最早可以接触的国际数学竞赛之一"
   },
   {
     "id": 11,
-    "startFrame": 895,
-    "endFrame": 984,
-    "text": "也是申请美国理工科专业的可量化物理学背景"
+    "startFrame": 870,
+    "endFrame": 958,
+    "text": "它由阿思丹在国内承办，参赛流程对中国学生友好"
   },
   {
     "id": 12,
-    "startFrame": 975,
-    "endFrame": 1108,
-    "text": "Physics Bowl的核心定位是高中物理标准化测评赛"
+    "startFrame": 948,
+    "endFrame": 1046,
+    "text": "AMO的核心定位是数学思维标准化测评"
   },
   {
     "id": 13,
-    "startFrame": 1108,
-    "endFrame": 1246,
-    "text": "题目覆盖力学，电磁学，热学，光学，近代物理等高中物理全板块"
+    "startFrame": 1046,
+    "endFrame": 1171,
+    "text": "题目按学段分级，从小学到高中各有不同的难度梯度"
   },
   {
     "id": 14,
-    "startFrame": 1246,
-    "endFrame": 1341,
-    "text": "难度对标美国 AP Physics 课程"
+    "startFrame": 1171,
+    "endFrame": 1274,
+    "text": "题型以选择题和填空题为主，限时九十分钟"
   },
   {
     "id": 15,
-    "startFrame": 1341,
-    "endFrame": 1455,
-    "text": "比赛分两个组别，分别面向第一年和第二年物理学习者"
+    "startFrame": 1274,
+    "endFrame": 1377,
+    "text": "强调数学思考能力的应用，不依赖技巧训练"
   },
   {
     "id": 16,
-    "startFrame": 1445,
-    "endFrame": 1607,
-    "text": "AAPT全称American Association of Physics Teachers"
+    "startFrame": 1369,
+    "endFrame": 1420,
+    "text": "AMO由两家机构联合主办"
   },
   {
     "id": 17,
-    "startFrame": 1607,
-    "endFrame": 1698,
-    "text": "美国物理教师协会，是美国最具权威性的物理教育组织之一"
+    "startFrame": 1420,
+    "endFrame": 1635,
+    "text": "SIMCC全称Singapore International Math Contests Centre"
   },
   {
     "id": 18,
-    "startFrame": 1698,
-    "endFrame": 1800,
-    "text": "Physics Bowl是AAPT旗下面向中学生的核心赛事"
+    "startFrame": 1635,
+    "endFrame": 1703,
+    "text": "是亚太区域最大的数学竞赛组织之一"
   },
   {
     "id": 19,
-    "startFrame": 1800,
-    "endFrame": 1849,
-    "text": "每年由全球十四个赛区分别承办"
+    "startFrame": 1703,
+    "endFrame": 1809,
+    "text": "SIU是美国南伊利诺伊大学，负责命题学术权威性背书"
   },
   {
     "id": 20,
-    "startFrame": 1840,
-    "endFrame": 1902,
-    "text": "Physics Bowl分两个组别"
+    "startFrame": 1809,
+    "endFrame": 1919,
+    "text": "这种合作让AMO同时具有美国学术标准和国际化运营能力"
   },
   {
     "id": 21,
-    "startFrame": 1902,
-    "endFrame": 1982,
-    "text": "Division 1面向第一年学习物理的学生"
+    "startFrame": 1909,
+    "endFrame": 2031,
+    "text": "AMO按年级分十一个级别，从二年级一路到十二年级"
   },
   {
     "id": 22,
-    "startFrame": 1982,
-    "endFrame": 2065,
-    "text": "对应AP Physics 1或国内高一物理水平"
+    "startFrame": 2031,
+    "endFrame": 2112,
+    "text": "每个级别有独立的题目和独立的排名"
   },
   {
     "id": 23,
-    "startFrame": 2065,
-    "endFrame": 2152,
-    "text": "Division 2面向第二年及以上的物理学习者"
+    "startFrame": 2112,
+    "endFrame": 2259,
+    "text": "这种细分级别让低年级学生不会和高年级学生在同一个池子里竞争"
   },
   {
     "id": 24,
-    "startFrame": 2152,
-    "endFrame": 2203,
-    "text": "对应AP Physics 2"
+    "startFrame": 2259,
+    "endFrame": 2295,
+    "text": "奖项产出更精准"
   },
   {
     "id": 25,
-    "startFrame": 2203,
-    "endFrame": 2265,
-    "text": "AP Physics C或更高难度"
+    "startFrame": 2286,
+    "endFrame": 2340,
+    "text": "AMO的考试格式标准化"
   },
   {
     "id": 26,
-    "startFrame": 2265,
-    "endFrame": 2301,
-    "text": "两个组别题目部分共享"
+    "startFrame": 2340,
+    "endFrame": 2454,
+    "text": "每场考试限时九十分钟，题型以选择题和填空题为主"
   },
   {
     "id": 27,
-    "startFrame": 2292,
-    "endFrame": 2391,
-    "text": "Physics Bowl的考试格式非常标准"
+    "startFrame": 2454,
+    "endFrame": 2489,
+    "text": "按级别难度递增"
   },
   {
     "id": 28,
-    "startFrame": 2391,
-    "endFrame": 2527,
-    "text": "整套试卷一共五十道题，Division 1做第一到第四十题"
+    "startFrame": 2489,
+    "endFrame": 2593,
+    "text": "所有题目按Common Core知识点出题"
   },
   {
     "id": 29,
-    "startFrame": 2527,
-    "endFrame": 2616,
-    "text": "Division 2做第十一到第五十题"
+    "startFrame": 2593,
+    "endFrame": 2667,
+    "text": "覆盖代数几何概率统计的主要板块"
   },
   {
     "id": 30,
-    "startFrame": 2616,
-    "endFrame": 2719,
-    "text": "选择题，每题四十五秒平均时长，限时四十五分钟"
+    "startFrame": 2657,
+    "endFrame": 2759,
+    "text": "AMO的奖项体系按全球同级别排名颁发"
   },
   {
     "id": 31,
-    "startFrame": 2719,
-    "endFrame": 2780,
-    "text": "每题答对得一分，答错不倒扣"
+    "startFrame": 2759,
+    "endFrame": 2867,
+    "text": "每个级别评出金银铜三个等级，并颁发证书"
   },
   {
     "id": 32,
-    "startFrame": 2771,
-    "endFrame": 2882,
-    "text": "Physics Bowl的评分按个人和团队两条线"
+    "startFrame": 2867,
+    "endFrame": 3015,
+    "text": "全球前列学生还可以获得SIMCC的奖学金，暑期学术营"
   },
   {
     "id": 33,
-    "startFrame": 2882,
-    "endFrame": 2984,
-    "text": "个人方面：每个Division评出全球前十名"
+    "startFrame": 3015,
+    "endFrame": 3135,
+    "text": "国际青年荣誉学会IJHS会员资格等附加权益"
   },
   {
     "id": 34,
-    "startFrame": 2984,
-    "endFrame": 3086,
-    "text": "团队方面：每所学校的前五名分数累加为团队成绩"
+    "startFrame": 3126,
+    "endFrame": 3222,
+    "text": "AMO对全球二年级到十二年级学生开放"
   },
   {
     "id": 35,
-    "startFrame": 3086,
-    "endFrame": 3188,
-    "text": "此外每个赛区评出第一第二名团队，颁发地区荣誉"
+    "startFrame": 3222,
+    "endFrame": 3371,
+    "text": "国内学生通过阿思丹官方代理报名，参赛地点遍布全国主要城市"
   },
   {
     "id": 36,
-    "startFrame": 3178,
-    "endFrame": 3290,
-    "text": "Physics Bowl对全球高中阶段学生开放"
+    "startFrame": 3371,
+    "endFrame": 3456,
+    "text": "报名以个人为单位，不需要团队组队"
   },
   {
     "id": 37,
-    "startFrame": 3290,
-    "endFrame": 3393,
-    "text": "国内学生可以通过国际赛区或代理机构报名参加"
+    "startFrame": 3456,
+    "endFrame": 3520,
+    "text": "每个级别参赛费用相对友好"
   },
   {
     "id": 38,
-    "startFrame": 3393,
-    "endFrame": 3515,
-    "text": "报名以学校或培训机构为单位组队，每个团队由教师指导"
+    "startFrame": 3512,
+    "endFrame": 3620,
+    "text": "对中国家长而言，AMO的价值体现在三方面"
   },
   {
     "id": 39,
-    "startFrame": 3515,
-    "endFrame": 3637,
-    "text": "报名通过AAPT官网完成，截止日期通常在二月中下旬"
+    "startFrame": 3620,
+    "endFrame": 3782,
+    "text": "第一是竞赛起步：从二年级就能参加，是最早可量化的数学竞赛背景"
   },
   {
     "id": 40,
-    "startFrame": 3628,
-    "endFrame": 3658,
-    "text": "对中国家长而言"
+    "startFrame": 3782,
+    "endFrame": 3858,
+    "text": "第二是国际化：覆盖全球三十国"
   },
   {
     "id": 41,
-    "startFrame": 3658,
-    "endFrame": 3905,
-    "text": "Physics Bowl的价值首先在它和AP Physics课程的高度同步：物理碗成绩可以作为AP学习成果的客观验证"
+    "startFrame": 3858,
+    "endFrame": 3950,
+    "text": "证明孩子在国际同龄人池里的相对水平"
   },
   {
     "id": 42,
-    "startFrame": 3905,
-    "endFrame": 3994,
-    "text": "其次是申请价值：在美国理工科顶尖项目申请中"
+    "startFrame": 3950,
+    "endFrame": 4128,
+    "text": "第三是奖学金通道：全球前列学生可以拿到SIMCC的实质性奖学金资源"
   },
   {
     "id": 43,
-    "startFrame": 3994,
-    "endFrame": 4100,
-    "text": "Physics Bowl成绩是物理能力的可量化证据"
+    "startFrame": 4119,
+    "endFrame": 4276,
+    "text": "AMO和AMC 8是中国家长经常被放在一起比的美国体系数学赛"
   },
   {
     "id": 44,
-    "startFrame": 4100,
-    "endFrame": 4223,
-    "text": "第三是路径价值：是通往F等于ma和USAPhO的常见过渡赛"
+    "startFrame": 4276,
+    "endFrame": 4381,
+    "text": "AMO覆盖二到十二年级，有十一个级别细分"
   },
   {
     "id": 45,
-    "startFrame": 4215,
-    "endFrame": 4402,
-    "text": "Physics Bowl和F等于ma是国内家长经常被放在一起比较的两个高中物理赛事"
+    "startFrame": 4381,
+    "endFrame": 4491,
+    "text": "AMC 8只面向八年级及以下的学生，不分级"
   },
   {
     "id": 46,
-    "startFrame": 4402,
-    "endFrame": 4530,
-    "text": "Physics Bowl更偏标准化测评，门槛低，覆盖面广"
+    "startFrame": 4491,
+    "endFrame": 4633,
+    "text": "AMO题型更标准化、AMC 8难度更高、含金量公认更强"
   },
   {
     "id": 47,
-    "startFrame": 4530,
-    "endFrame": 4635,
-    "text": "F等于ma是USAPhO的选拔赛，难度明显更高"
+    "startFrame": 4624,
+    "endFrame": 4719,
+    "text": "AMO每年通常分春季和秋季两个赛季"
   },
   {
     "id": 48,
-    "startFrame": 4635,
-    "endFrame": 4672,
-    "text": "面向顶尖物理选手"
+    "startFrame": 4719,
+    "endFrame": 4848,
+    "text": "春季赛季报名通常在二到三月，考试在三到四月进行"
   },
   {
     "id": 49,
-    "startFrame": 4672,
-    "endFrame": 4713,
-    "text": "两者通常分阶段参加"
+    "startFrame": 4848,
+    "endFrame": 4971,
+    "text": "秋季赛季报名在八到九月，考试在十到十一月进行"
   },
   {
     "id": 50,
-    "startFrame": 4704,
-    "endFrame": 4826,
-    "text": "Physics Bowl的二零二六赛季时间表已公布"
+    "startFrame": 4971,
+    "endFrame": 5049,
+    "text": "具体日期以阿思丹官方公告为准"
   },
   {
     "id": 51,
-    "startFrame": 4826,
-    "endFrame": 4948,
-    "text": "报名截止二月二十五日，考试窗口三月十八日到四月三日"
+    "startFrame": 5040,
+    "endFrame": 5173,
+    "text": "国内学生建议小学阶段从AMO低年级级别入手培养竞赛意识"
   },
   {
     "id": 52,
-    "startFrame": 4948,
-    "endFrame": 5036,
-    "text": "全球各赛区在窗口期内任选一日组织考试"
+    "startFrame": 5173,
+    "endFrame": 5286,
+    "text": "初中阶段过渡到AMC 8和MathCounts"
   },
   {
     "id": 53,
-    "startFrame": 5036,
-    "endFrame": 5109,
-    "text": "AAPT官方在五月公布全球榜单"
+    "startFrame": 5286,
+    "endFrame": 5370,
+    "text": "初二之后参加AMC 10，AIME"
   },
   {
     "id": 54,
-    "startFrame": 5101,
-    "endFrame": 5207,
-    "text": "国内高中学生建议先完成AP Physics 1的学习"
+    "startFrame": 5370,
+    "endFrame": 5479,
+    "text": "高中后期向更专业的高级数学赛和USAMO推进"
   },
   {
     "id": 55,
-    "startFrame": 5207,
-    "endFrame": 5334,
-    "text": "参加Physics Bowl Division 1作为入门测评"
+    "startFrame": 5470,
+    "endFrame": 5622,
+    "text": "第一步通过阿思丹官方或SIMCC官网获取近几年AMO真题"
   },
   {
     "id": 56,
-    "startFrame": 5334,
-    "endFrame": 5461,
-    "text": "第二年AP Physics 2或C阶段进入Division 2"
+    "startFrame": 5622,
+    "endFrame": 5774,
+    "text": "第二步按对应学段同步学习Common Core数学知识点"
   },
   {
     "id": 57,
-    "startFrame": 5461,
-    "endFrame": 5510,
-    "text": "同步冲刺F等于ma的选拔"
+    "startFrame": 5774,
+    "endFrame": 5861,
+    "text": "第三步每周限时九十分钟做完整套题"
   },
   {
     "id": 58,
-    "startFrame": 5510,
-    "endFrame": 5604,
-    "text": "进而向USAPhO甚至IPhO国际物理奥赛迈进"
+    "startFrame": 5861,
+    "endFrame": 5937,
+    "text": "第四步重点训练应用题和文字题"
   },
   {
     "id": 59,
-    "startFrame": 5594,
-    "endFrame": 5713,
-    "text": "第一步同步学习AP Physics 1或2作为基础"
+    "startFrame": 5937,
+    "endFrame": 6019,
+    "text": "第五步考前一周限时全真模考一次"
   },
   {
     "id": 60,
-    "startFrame": 5713,
-    "endFrame": 5875,
-    "text": "第二步在AAPT官网或代理机构获取近五年Physics Bowl真题"
+    "startFrame": 6010,
+    "endFrame": 6200,
+    "text": "AMO是新加坡国际数学竞赛中心和美国南伊利诺伊大学联合主办的全球数学竞赛"
   },
   {
     "id": 61,
-    "startFrame": 5875,
-    "endFrame": 5966,
-    "text": "第三步每周限时四十五分钟做一套完整真题"
+    "startFrame": 6200,
+    "endFrame": 6242,
+    "text": "覆盖二到十二年级"
   },
   {
     "id": 62,
-    "startFrame": 5966,
-    "endFrame": 6071,
-    "text": "第四步重点刷电磁学和近代物理板块，是失分大户"
+    "startFrame": 6242,
+    "endFrame": 6348,
+    "text": "对希望孩子早期接触国际数学竞赛的家长而言"
   },
   {
     "id": 63,
-    "startFrame": 6071,
-    "endFrame": 6167,
-    "text": "第五步赛前一周做完整模考，按区分错误类型"
+    "startFrame": 6348,
+    "endFrame": 6406,
+    "text": "AMO是常见的入门选择"
   },
   {
     "id": 64,
-    "startFrame": 6158,
-    "endFrame": 6305,
-    "text": "Physics Bowl是美国物理教师协会主办的高中物理测评赛"
-  },
-  {
-    "id": 65,
-    "startFrame": 6305,
-    "endFrame": 6442,
-    "text": "运营已超过四十年，是国内学生进入高中物理竞赛体系的常见起点"
-  },
-  {
-    "id": 66,
-    "startFrame": 6442,
-    "endFrame": 6551,
-    "text": "想给孩子规划理工科申请路径的家长，可以重点关注"
-  },
-  {
-    "id": 67,
-    "startFrame": 6551,
-    "endFrame": 6627,
+    "startFrame": 6406,
+    "endFrame": 6491,
     "text": "关注翰林有方获取更多国际竞赛信息"
   }
 ]
