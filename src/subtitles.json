@@ -2,379 +2,391 @@
   {
     "id": 1,
     "startFrame": 0,
-    "endFrame": 125,
-    "text": "每天介绍一个国际竞赛，今天要介绍的是MPFG"
+    "endFrame": 116,
+    "text": "每天介绍一个国际竞赛，今天要介绍的是GiM"
   },
   {
     "id": 2,
-    "startFrame": 125,
-    "endFrame": 176,
-    "text": "麻省理工女生数学奖"
+    "startFrame": 116,
+    "endFrame": 194,
+    "text": "耶鲁大学全球高中女子数学挑战"
   },
   {
     "id": 3,
-    "startFrame": 167,
-    "endFrame": 265,
-    "text": "MPFG，全称Math Prize for Girls"
+    "startFrame": 185,
+    "endFrame": 308,
+    "text": "GiM，全称Girls in Math at Yale"
   },
   {
     "id": 4,
-    "startFrame": 265,
-    "endFrame": 312,
-    "text": "中文译为麻省理工女生数学奖"
+    "startFrame": 308,
+    "endFrame": 390,
+    "text": "中文译为耶鲁大学全球高中女子数学挑战"
   },
   {
     "id": 5,
-    "startFrame": 312,
-    "endFrame": 486,
-    "text": "是由美国Advantage Testing Foundation和Jane Street联合赞助"
+    "startFrame": 390,
+    "endFrame": 449,
+    "text": "由耶鲁大学数学竞赛组织主办"
   },
   {
     "id": 6,
-    "startFrame": 486,
-    "endFrame": 558,
-    "text": "在麻省理工学院校园举办的女生专属数学竞赛"
+    "startFrame": 449,
+    "endFrame": 563,
+    "text": "是面向全球高中女生及性别少数群体学生的团队数学竞赛"
   },
   {
     "id": 7,
-    "startFrame": 558,
-    "endFrame": 598,
-    "text": "每年仅约三百人受邀参加"
+    "startFrame": 563,
+    "endFrame": 649,
+    "text": "也是耶鲁数学竞赛组织的两大旗舰赛事之一"
   },
   {
     "id": 8,
-    "startFrame": 589,
-    "endFrame": 660,
-    "text": "MPFG的稀缺性来自三方面"
+    "startFrame": 640,
+    "endFrame": 705,
+    "text": "GiM的稀缺性来自三方面"
   },
   {
     "id": 9,
-    "startFrame": 660,
-    "endFrame": 808,
-    "text": "它是北美最高奖金的女生数学专项赛事，一等奖五万美金现金"
+    "startFrame": 705,
+    "endFrame": 781,
+    "text": "第一是耶鲁主办，藤校品牌加成"
   },
   {
     "id": 10,
-    "startFrame": 808,
-    "endFrame": 901,
-    "text": "它在麻省理工校园举办，自带名校加成"
+    "startFrame": 781,
+    "endFrame": 896,
+    "text": "第二是女生定位，是国际化的女生STEM赛事"
   },
   {
     "id": 11,
-    "startFrame": 901,
-    "endFrame": 1027,
-    "text": "它仅向北美高中以下女生开放，是真正的精选邀请赛"
+    "startFrame": 896,
+    "endFrame": 978,
+    "text": "第三是团队赛形式，培养协作能力"
   },
   {
     "id": 12,
-    "startFrame": 1018,
-    "endFrame": 1119,
-    "text": "MPFG的核心定位是女生限定的高难度数学邀请赛"
+    "startFrame": 978,
+    "endFrame": 1098,
+    "text": "国内学生通过阿思丹官方代理可以在上海赛区参赛"
   },
   {
     "id": 13,
-    "startFrame": 1119,
-    "endFrame": 1233,
-    "text": "每年约三百名表现优秀的高中女生受邀来到MIT校园参赛"
+    "startFrame": 1089,
+    "endFrame": 1268,
+    "text": "GiM的核心定位是面向高中阶段女生和性别少数群体学生的团队数学挑战赛"
   },
   {
     "id": 14,
-    "startFrame": 1233,
-    "endFrame": 1299,
-    "text": "比赛只考一天，二十道高难度问题"
+    "startFrame": 1268,
+    "endFrame": 1420,
+    "text": "每队四到六人，比赛通过多个回合形式进行，包括个人轮，团队轮"
   },
   {
     "id": 15,
-    "startFrame": 1299,
-    "endFrame": 1475,
-    "text": "是Advantage Testing Foundation的旗舰女生STEM项目"
+    "startFrame": 1420,
+    "endFrame": 1441,
+    "text": "抢答轮等"
   },
   {
     "id": 16,
-    "startFrame": 1466,
-    "endFrame": 1597,
-    "text": "MPFG由Advantage Testing Foundation主办"
+    "startFrame": 1441,
+    "endFrame": 1567,
+    "text": "是为STEM领域中代表性不足的群体专门设计的赛事"
   },
   {
     "id": 17,
-    "startFrame": 1597,
-    "endFrame": 1725,
-    "text": "是美国知名考试辅导机构Advantage Testing的非营利分支"
+    "startFrame": 1558,
+    "endFrame": 1715,
+    "text": "GiM由耶鲁数学竞赛组织Yale Math Competition主办"
   },
   {
     "id": 18,
-    "startFrame": 1725,
-    "endFrame": 1819,
-    "text": "著名量化基金Jane Street长期作为冠名赞助"
+    "startFrame": 1715,
+    "endFrame": 1787,
+    "text": "是一个由耶鲁本科生运营的学生组织"
   },
   {
     "id": 19,
-    "startFrame": 1819,
-    "endFrame": 1879,
-    "text": "比赛承办地常年在麻省理工学院校园"
+    "startFrame": 1787,
+    "endFrame": 1863,
+    "text": "该组织还主办另一项赛事MMATHS"
   },
   {
     "id": 20,
-    "startFrame": 1879,
-    "endFrame": 1947,
-    "text": "强化了MIT和女生STEM教育的关联"
+    "startFrame": 1863,
+    "endFrame": 2073,
+    "text": "GiM的初心是为STEM领域中代表性不足的女生和性别少数学生提供一个友好和高质量的数学竞赛平台"
   },
   {
     "id": 21,
-    "startFrame": 1937,
-    "endFrame": 1997,
-    "text": "MPFG的考试格式独特"
+    "startFrame": 2064,
+    "endFrame": 2114,
+    "text": "GiM的比赛分四个轮次"
   },
   {
     "id": 22,
-    "startFrame": 1997,
-    "endFrame": 2084,
-    "text": "整套试卷二十道题，限时两个半小时"
+    "startFrame": 2114,
+    "endFrame": 2242,
+    "text": "个人轮十二道题限时七十五分钟，团队轮十道题限时四十五分钟"
   },
   {
     "id": 23,
-    "startFrame": 2084,
-    "endFrame": 2231,
-    "text": "前十道题每题三到四点五分，后十道题每题四点五到七点五分"
+    "startFrame": 2242,
+    "endFrame": 2342,
+    "text": "然后是Tiebreaker决胜轮，前八名进入"
   },
   {
     "id": 24,
-    "startFrame": 2231,
-    "endFrame": 2389,
-    "text": "题目难度对标AMC 10和AIME之间，非常考验耐力和精度"
+    "startFrame": 2342,
+    "endFrame": 2447,
+    "text": "最后是Lightning Finals闪电决赛"
   },
   {
     "id": 25,
-    "startFrame": 2380,
-    "endFrame": 2501,
-    "text": "MPFG的奖金体系是数学竞赛中最丰厚的之一"
+    "startFrame": 2447,
+    "endFrame": 2488,
+    "text": "一对一形式角逐冠军"
   },
   {
     "id": 26,
-    "startFrame": 2501,
-    "endFrame": 2656,
-    "text": "一等奖单人五万美金现金，二等奖两万美金，三等奖一万美金"
+    "startFrame": 2479,
+    "endFrame": 2530,
+    "text": "GiM的奖项分两条线"
   },
   {
     "id": 27,
-    "startFrame": 2656,
-    "endFrame": 2719,
-    "text": "四到十名各一千五百美金"
+    "startFrame": 2530,
+    "endFrame": 2677,
+    "text": "个人方面：全球前八名Top 8个人奖，再分高荣誉前百分之十"
   },
   {
     "id": 28,
-    "startFrame": 2719,
-    "endFrame": 2880,
-    "text": "整个奖金池十万美金，全部以现金支票形式颁发给获奖学生本人"
+    "startFrame": 2677,
+    "endFrame": 2809,
+    "text": "荣誉前百分之二十五，Credit前百分之四十三个层级"
   },
   {
     "id": 29,
-    "startFrame": 2872,
-    "endFrame": 2940,
-    "text": "MPFG有严格的参赛门槛"
+    "startFrame": 2809,
+    "endFrame": 2865,
+    "text": "团队方面：前三名团队奖"
   },
   {
     "id": 30,
-    "startFrame": 2940,
-    "endFrame": 3002,
-    "text": "第一性别要求是女生身份"
+    "startFrame": 2865,
+    "endFrame": 2992,
+    "text": "国内赛区还有阿思丹EPQ奖学金，金奖三千，银奖两千"
   },
   {
     "id": 31,
-    "startFrame": 3002,
-    "endFrame": 3081,
-    "text": "第二居住地必须是美国或加拿大"
+    "startFrame": 2992,
+    "endFrame": 3028,
+    "text": "铜奖一千人民币"
   },
   {
     "id": 32,
-    "startFrame": 3081,
-    "endFrame": 3210,
-    "text": "第三年级要求是申请截止日为止仍在十一年级或以下"
+    "startFrame": 3018,
+    "endFrame": 3079,
+    "text": "GiM的参赛资格定位明确"
   },
   {
     "id": 33,
-    "startFrame": 3210,
-    "endFrame": 3373,
-    "text": "第四需要通过申请筛选，不是直接报名就能参加，每年约三百名额"
+    "startFrame": 3079,
+    "endFrame": 3197,
+    "text": "高中阶段在读，女生身份或性别少数群体（含非二元"
   },
   {
     "id": 34,
-    "startFrame": 3364,
-    "endFrame": 3483,
-    "text": "对中国家长而言，MPFG的价值首先在稀缺性"
+    "startFrame": 3197,
+    "endFrame": 3258,
+    "text": "跨性别等）的学生均可报名"
   },
   {
     "id": 35,
-    "startFrame": 3483,
-    "endFrame": 3568,
-    "text": "全球女生数学奖金最高的专项赛事"
+    "startFrame": 3258,
+    "endFrame": 3360,
+    "text": "国内学生通过阿思丹官方代理在上海赛区参赛"
   },
   {
     "id": 36,
-    "startFrame": 3568,
-    "endFrame": 3726,
-    "text": "其次在校园经验，受邀者将进入MIT校园参与比赛和现场颁奖"
+    "startFrame": 3360,
+    "endFrame": 3437,
+    "text": "每队四到六人，需要一名指导教师"
   },
   {
     "id": 37,
-    "startFrame": 3726,
-    "endFrame": 3766,
-    "text": "第三在申请背景"
+    "startFrame": 3429,
+    "endFrame": 3465,
+    "text": "对中国家长而言"
   },
   {
     "id": 38,
-    "startFrame": 3766,
-    "endFrame": 3924,
-    "text": "MPFG是顶尖大学招生官非常熟悉的女生STEM标志性背景"
+    "startFrame": 3465,
+    "endFrame": 3603,
+    "text": "GiM的价值首先在藤校品牌：耶鲁主办本身就是高质量信号"
   },
   {
     "id": 39,
-    "startFrame": 3915,
-    "endFrame": 4059,
-    "text": "MPFG和AIME是两种完全不同维度的高水平数学赛事"
+    "startFrame": 3603,
+    "endFrame": 3741,
+    "text": "其次是性别 STEM 视角：女生数学背景对申请非常稀缺"
   },
   {
     "id": 40,
-    "startFrame": 4059,
-    "endFrame": 4186,
-    "text": "MPFG限定女生身份和居住地，邀请制，奖金导向"
+    "startFrame": 3741,
+    "endFrame": 3874,
+    "text": "第三是团队赛形式：体现协作能力是申请背景里少有的角度"
   },
   {
     "id": 41,
-    "startFrame": 4186,
-    "endFrame": 4341,
-    "text": "AIME是AMC 10和12晋级而来的选拔赛，无性别要求"
+    "startFrame": 3874,
+    "endFrame": 3966,
+    "text": "第四是国际化：和全球高中女生同台竞技"
   },
   {
     "id": 42,
-    "startFrame": 4341,
-    "endFrame": 4391,
-    "text": "是USAMO的过渡"
+    "startFrame": 3958,
+    "endFrame": 4075,
+    "text": "GiM和MPFG是国际女生数学赛事的两大代表"
   },
   {
     "id": 43,
-    "startFrame": 4391,
-    "endFrame": 4474,
-    "text": "两者很多顶尖女生选手会同时参加"
+    "startFrame": 4075,
+    "endFrame": 4218,
+    "text": "MPFG限定北美居住，邀请制，奖金导向，GiM全球开放"
   },
   {
     "id": 44,
-    "startFrame": 4465,
-    "endFrame": 4532,
-    "text": "MPFG每年的时间节奏固定"
+    "startFrame": 4218,
+    "endFrame": 4266,
+    "text": "报名制，奖学金导向"
   },
   {
     "id": 45,
-    "startFrame": 4532,
-    "endFrame": 4615,
-    "text": "申请通常二月开放，五月底申请截止"
+    "startFrame": 4266,
+    "endFrame": 4372,
+    "text": "MPFG侧重个人选拔，GiM侧重团队挑战"
   },
   {
     "id": 46,
-    "startFrame": 4615,
-    "endFrame": 4656,
-    "text": "九月公布受邀名单"
+    "startFrame": 4372,
+    "endFrame": 4467,
+    "text": "两者面向的目标人群和申请价值各有不同"
   },
   {
     "id": 47,
-    "startFrame": 4656,
-    "endFrame": 4759,
-    "text": "十月第二个周末在MIT校园举办比赛和颁奖"
+    "startFrame": 4458,
+    "endFrame": 4533,
+    "text": "GiM二零二六年春季赛已确定"
   },
   {
     "id": 48,
-    "startFrame": 4759,
-    "endFrame": 4842,
-    "text": "二零二六年比赛已确定为十月十一日"
+    "startFrame": 4533,
+    "endFrame": 4655,
+    "text": "报名截止三月六日，比赛日期三月二十一到二十二日"
   },
   {
     "id": 49,
-    "startFrame": 4833,
-    "endFrame": 4882,
-    "text": "对北美高中女生而言"
+    "startFrame": 4655,
+    "endFrame": 4692,
+    "text": "国内赛区在上海"
   },
   {
     "id": 50,
-    "startFrame": 4882,
-    "endFrame": 5033,
-    "text": "路径建议是先冲AMC 10和AMC 12积累数学竞赛背景"
+    "startFrame": 4692,
+    "endFrame": 4820,
+    "text": "每年比赛集中在春季三月份举办，与耶鲁学期节奏一致"
   },
   {
     "id": 51,
-    "startFrame": 5033,
-    "endFrame": 5125,
-    "text": "同时申请MPFG获得MIT现场经验"
+    "startFrame": 4811,
+    "endFrame": 4858,
+    "text": "对国内高中女生而言"
   },
   {
     "id": 52,
-    "startFrame": 5125,
-    "endFrame": 5244,
-    "text": "进入大学后参加Putnam等大学级别数学竞赛"
+    "startFrame": 4858,
+    "endFrame": 5006,
+    "text": "路径建议是先以AMC 10和AMC 12积累个人数学背景"
   },
   {
     "id": 53,
-    "startFrame": 5244,
-    "endFrame": 5374,
-    "text": "MPFG在简历上是非常有辨识度的女生STEM背景"
+    "startFrame": 5006,
+    "endFrame": 5080,
+    "text": "同时参加GiM获得团队赛背景"
   },
   {
     "id": 54,
-    "startFrame": 5365,
-    "endFrame": 5478,
-    "text": "第一步是申请材料：成绩单加推荐信加竞赛记录"
+    "startFrame": 5080,
+    "endFrame": 5164,
+    "text": "对北美居住学生还可以申请MPFG"
   },
   {
     "id": 55,
-    "startFrame": 5478,
-    "endFrame": 5629,
-    "text": "第二步通过AMC 10和AMC 12真题训练数学竞赛思维"
+    "startFrame": 5164,
+    "endFrame": 5328,
+    "text": "这三个赛事组合是高中女生申请理工科顶尖大学最常见的数学背景组合"
   },
   {
     "id": 56,
-    "startFrame": 5629,
-    "endFrame": 5791,
-    "text": "第三步从MPFG官网获取历届二十道题真题，限时两个半小时模拟"
+    "startFrame": 5319,
+    "endFrame": 5456,
+    "text": "第一步是组队，提前一到两个月找到四到六位水平接近的队友"
   },
   {
     "id": 57,
-    "startFrame": 5791,
-    "endFrame": 5926,
-    "text": "第四步重点训练几何题和组合题，是MPFG的失分大户"
+    "startFrame": 5456,
+    "endFrame": 5583,
+    "text": "第二步以AMC 10和AMC 12真题作为基础练习"
   },
   {
     "id": 58,
-    "startFrame": 5926,
-    "endFrame": 6012,
-    "text": "第五步保持AIME水平的解题速度"
+    "startFrame": 5583,
+    "endFrame": 5725,
+    "text": "第三步限时七十五分钟做个人轮模拟、四十五分钟做团队轮模拟"
   },
   {
     "id": 59,
-    "startFrame": 6004,
-    "endFrame": 6107,
-    "text": "MPFG是北美高中女生数学竞赛中奖金最高"
+    "startFrame": 5725,
+    "endFrame": 5877,
+    "text": "第四步专门训练抢答类题目应对Lightning Finals"
   },
   {
     "id": 60,
-    "startFrame": 6107,
-    "endFrame": 6240,
-    "text": "影响力最大的邀请赛之一，每年约三百人在MIT现场参赛"
+    "startFrame": 5877,
+    "endFrame": 5958,
+    "text": "第五步赛前一周做完整四轮全真模考"
   },
   {
     "id": 61,
-    "startFrame": 6240,
-    "endFrame": 6358,
-    "text": "对家有北美居住，对数学有兴趣的高中女生家庭来说"
+    "startFrame": 5950,
+    "endFrame": 6106,
+    "text": "GiM是耶鲁大学数学竞赛组织主办的全球高中女生数学挑战赛"
   },
   {
     "id": 62,
-    "startFrame": 6358,
-    "endFrame": 6409,
-    "text": "MPFG值得重点关注"
+    "startFrame": 6106,
+    "endFrame": 6178,
+    "text": "国内学生可以在上海赛区参赛"
   },
   {
     "id": 63,
-    "startFrame": 6409,
-    "endFrame": 6491,
+    "startFrame": 6178,
+    "endFrame": 6306,
+    "text": "对家有高中女生，希望积累藤校相关背景的家庭来说"
+  },
+  {
+    "id": 64,
+    "startFrame": 6306,
+    "endFrame": 6356,
+    "text": "GiM值得重点关注"
+  },
+  {
+    "id": 65,
+    "startFrame": 6356,
+    "endFrame": 6445,
     "text": "关注翰林有方获取更多国际竞赛信息"
   }
 ]
