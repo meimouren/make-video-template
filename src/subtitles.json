@@ -2,409 +2,439 @@
   {
     "id": 1,
     "startFrame": 0,
-    "endFrame": 169,
-    "text": "每天介绍一个国际竞赛，今天要介绍的是F=ma，美国物理选拔赛"
+    "endFrame": 132,
+    "text": "每天介绍一个国际竞赛，今天要介绍的是BPhO"
   },
   {
     "id": 2,
-    "startFrame": 160,
-    "endFrame": 299,
-    "text": "F等于ma，是美国物理奥林匹克USAPhO的初选考试"
+    "startFrame": 132,
+    "endFrame": 180,
+    "text": "英国物理奥林匹克"
   },
   {
     "id": 3,
-    "startFrame": 299,
-    "endFrame": 390,
-    "text": "也是通往美国物理国家队的第一道门槛"
+    "startFrame": 171,
+    "endFrame": 187,
+    "text": "BPhO"
   },
   {
     "id": 4,
-    "startFrame": 390,
-    "endFrame": 534,
-    "text": "由美国物理教师协会AAPT和美国物理学会AIP联合主办"
+    "startFrame": 187,
+    "endFrame": 290,
+    "text": "全称British Physics Olympiad"
   },
   {
     "id": 5,
-    "startFrame": 534,
-    "endFrame": 683,
-    "text": "每年约六千名顶尖学生参加，前四百名晋级USAPhO半决赛"
+    "startFrame": 290,
+    "endFrame": 401,
+    "text": "中文译为英国物理奥林匹克，是英国最权威的高中物理竞赛体系"
   },
   {
     "id": 6,
-    "startFrame": 674,
-    "endFrame": 804,
-    "text": "F等于ma是国内学生进入美国物理国家队的标志性赛事"
+    "startFrame": 401,
+    "endFrame": 441,
+    "text": "由牛津大学物理系运营"
   },
   {
     "id": 7,
-    "startFrame": 804,
-    "endFrame": 861,
-    "text": "它是USAPhO的初选"
+    "startFrame": 441,
+    "endFrame": 659,
+    "text": "旗下涵盖从初级Junior Physics Challenge到Round 1再到BAAO天体物理奥赛多个层级"
   },
   {
     "id": 8,
-    "startFrame": 861,
-    "endFrame": 1001,
-    "text": "USAPhO又是IPhO国际物理奥赛美国国家队的选拔赛"
+    "startFrame": 659,
+    "endFrame": 738,
+    "text": "是英国通往IPhO国际物理奥赛的官方通道"
   },
   {
     "id": 9,
-    "startFrame": 1001,
-    "endFrame": 1173,
-    "text": "F等于ma的成绩在顶尖大学物理和工程专业申请中是非常硬的物理学背景"
+    "startFrame": 729,
+    "endFrame": 851,
+    "text": "BPhO是冲刺牛津剑桥物理工程专业的核心加分项"
   },
   {
     "id": 10,
-    "startFrame": 1164,
-    "endFrame": 1283,
-    "text": "F等于ma的核心定位是基于代数的力学高难度选拔赛"
+    "startFrame": 851,
+    "endFrame": 936,
+    "text": "作为英国本土最权威的高中物理赛事"
   },
   {
     "id": 11,
-    "startFrame": 1283,
-    "endFrame": 1426,
-    "text": "所有题目集中在牛顿力学板块，包括运动学，动力学，能量，动量"
+    "startFrame": 936,
+    "endFrame": 1031,
+    "text": "它在英国和G5大学申请中的认可度极高"
   },
   {
     "id": 12,
-    "startFrame": 1426,
-    "endFrame": 1490,
-    "text": "转动，振动等核心力学知识点"
+    "startFrame": 1031,
+    "endFrame": 1126,
+    "text": "同时它是IPhO英国国家队的选拔通道"
   },
   {
     "id": 13,
-    "startFrame": 1490,
-    "endFrame": 1589,
-    "text": "难度对标AP Physics 1甚至更高"
+    "startFrame": 1126,
+    "endFrame": 1205,
+    "text": "含金量在国际物理竞赛中名列前茅"
   },
   {
     "id": 14,
-    "startFrame": 1589,
-    "endFrame": 1678,
-    "text": "是物理竞赛体系中最严肃的入门门槛之一"
+    "startFrame": 1196,
+    "endFrame": 1309,
+    "text": "BPhO的核心定位是英国权威的高中物理竞赛体系"
   },
   {
     "id": 15,
-    "startFrame": 1669,
-    "endFrame": 1747,
-    "text": "F等于ma由两家美国物理学界顶级机构联合主办"
+    "startFrame": 1309,
+    "endFrame": 1447,
+    "text": "题目难度分层细致，覆盖Year 9到Year 13全学段"
   },
   {
     "id": 16,
-    "startFrame": 1747,
-    "endFrame": 1906,
-    "text": "AAPT是American Association of Physics Teachers"
+    "startFrame": 1447,
+    "endFrame": 1526,
+    "text": "命题强调物理思维深度和解题创造性"
   },
   {
     "id": 17,
-    "startFrame": 1906,
-    "endFrame": 1934,
-    "text": "美国物理教师协会"
+    "startFrame": 1526,
+    "endFrame": 1615,
+    "text": "与牛剑物理面试和入学考试逻辑高度同步"
   },
   {
     "id": 18,
-    "startFrame": 1934,
-    "endFrame": 2050,
-    "text": "AIP是American Institute of Physics"
+    "startFrame": 1605,
+    "endFrame": 1767,
+    "text": "BPhO由牛津大学物理系成立的British Physics Olympiad Trust运营"
   },
   {
     "id": 19,
-    "startFrame": 2050,
-    "endFrame": 2071,
-    "text": "美国物理学会"
+    "startFrame": 1767,
+    "endFrame": 1843,
+    "text": "是英国唯一被国际物理奥赛认证的国家队选拔机构"
   },
   {
     "id": 20,
-    "startFrame": 2071,
-    "endFrame": 2219,
-    "text": "美国物理国家队Project U.S. Physics Team自一九八六年开始运作"
+    "startFrame": 1843,
+    "endFrame": 1870,
+    "text": "除了BPhO本身"
   },
   {
     "id": 21,
-    "startFrame": 2219,
-    "endFrame": 2275,
-    "text": "F等于ma是其选拔体系的入门考试"
+    "startFrame": 1870,
+    "endFrame": 2038,
+    "text": "Trust还运营BAAO天体物理奥赛和与剑桥合作的Senior Physics Challenge"
   },
   {
     "id": 22,
-    "startFrame": 2267,
-    "endFrame": 2361,
-    "text": "F等于ma的考试格式经多年迭代后稳定"
+    "startFrame": 2029,
+    "endFrame": 2070,
+    "text": "BPhO体系按学段分多个层级"
   },
   {
     "id": 23,
-    "startFrame": 2361,
-    "endFrame": 2502,
-    "text": "整套试卷二十五道选择题，限时七十五分钟，平均每题三分钟"
+    "startFrame": 2070,
+    "endFrame": 2176,
+    "text": "Junior Physics Challenge面向Year 9学生入门"
   },
   {
     "id": 24,
-    "startFrame": 2502,
-    "endFrame": 2601,
-    "text": "题目均为多选题中的单选形式，答错不倒扣"
+    "startFrame": 2176,
+    "endFrame": 2291,
+    "text": "Intermediate Physics Challenge面向Year 10"
   },
   {
     "id": 25,
-    "startFrame": 2601,
-    "endFrame": 2716,
-    "text": "从二零一五年起取消倒扣机制，鼓励学生大胆作答"
+    "startFrame": 2291,
+    "endFrame": 2388,
+    "text": "Senior Physics Challenge面向Year 11"
   },
   {
     "id": 26,
-    "startFrame": 2706,
-    "endFrame": 2781,
-    "text": "F等于ma的核心机制是晋级制"
+    "startFrame": 2388,
+    "endFrame": 2497,
+    "text": "BPhO Round 1是核心Olympiad考试面向Year 12和13"
   },
   {
     "id": 27,
-    "startFrame": 2781,
-    "endFrame": 2926,
-    "text": "每年得分前四百名学生晋级USAPhO美国物理奥赛半决赛"
+    "startFrame": 2497,
+    "endFrame": 2556,
+    "text": "BAAO天体物理面向Year 12和13"
   },
   {
     "id": 28,
-    "startFrame": 2926,
-    "endFrame": 3055,
-    "text": "USAPhO中的前二十名进入美国物理国家队夏令营"
+    "startFrame": 2547,
+    "endFrame": 2648,
+    "text": "BPhO Round 1的考试格式是两段制"
   },
   {
     "id": 29,
-    "startFrame": 3055,
-    "endFrame": 3195,
-    "text": "夏令营中再选出五人代表美国队出征IPhO国际物理奥赛"
+    "startFrame": 2648,
+    "endFrame": 2768,
+    "text": "Section A是短答题集合，限时一小时二十分钟"
   },
   {
     "id": 30,
-    "startFrame": 3195,
-    "endFrame": 3265,
-    "text": "F等于ma是这条路径的入口"
+    "startFrame": 2768,
+    "endFrame": 2845,
+    "text": "Section B是主题长题选答"
   },
   {
     "id": 31,
-    "startFrame": 3257,
-    "endFrame": 3325,
-    "text": "F等于ma的参赛资格相对严格"
+    "startFrame": 2845,
+    "endFrame": 2917,
+    "text": "限时一小时二十分钟加五分钟阅读"
   },
   {
     "id": 32,
-    "startFrame": 3325,
-    "endFrame": 3369,
-    "text": "学生必须是美国公民"
+    "startFrame": 2917,
+    "endFrame": 2979,
+    "text": "两段可以分别在不同时间作答"
   },
   {
     "id": 33,
-    "startFrame": 3369,
-    "endFrame": 3472,
-    "text": "绿卡持有者或目前正在美国学校就读的国际学生"
+    "startFrame": 2979,
+    "endFrame": 3037,
+    "text": "题目深度大，强调物理直觉"
   },
   {
     "id": 34,
-    "startFrame": 3472,
-    "endFrame": 3614,
-    "text": "从二零二六年开始，F等于ma和USAPhO全部改为线上考试"
+    "startFrame": 3028,
+    "endFrame": 3142,
+    "text": "BPhO Round 1的奖项分Top Gold，Gold"
   },
   {
     "id": 35,
-    "startFrame": 3614,
-    "endFrame": 3731,
-    "text": "通过Educational Vistas平台进行"
+    "startFrame": 3142,
+    "endFrame": 3217,
+    "text": "Silver，Bronze一二三个层级"
   },
   {
     "id": 36,
-    "startFrame": 3731,
-    "endFrame": 3770,
-    "text": "不再发放纸质试卷"
+    "startFrame": 3217,
+    "endFrame": 3319,
+    "text": "获得Gold以上奖项是申请牛剑物理工程专业的硬性参考"
   },
   {
     "id": 37,
-    "startFrame": 3761,
-    "endFrame": 3797,
-    "text": "对中国家长而言"
+    "startFrame": 3319,
+    "endFrame": 3425,
+    "text": "Top Gold获得者还可能受邀参加BPhO选拔训练营"
   },
   {
     "id": 38,
-    "startFrame": 3797,
-    "endFrame": 3932,
-    "text": "F等于ma的价值首先在物理学背景含金量：即使没有晋级"
+    "startFrame": 3425,
+    "endFrame": 3488,
+    "text": "进一步竞争IPhO英国国家队席位"
   },
   {
     "id": 39,
-    "startFrame": 3932,
-    "endFrame": 4030,
-    "text": "参赛和成绩本身就是高水平物理能力的证明"
+    "startFrame": 3478,
+    "endFrame": 3543,
+    "text": "BPhO对全球高中生开放"
   },
   {
     "id": 40,
-    "startFrame": 4030,
-    "endFrame": 4196,
-    "text": "其次是国家队路径：晋级到USAPhO甚至国家队夏令营是申请MIT"
+    "startFrame": 3543,
+    "endFrame": 3652,
+    "text": "国内学生通过阿思丹官方在国内赛区报名参赛"
   },
   {
     "id": 41,
-    "startFrame": 4196,
-    "endFrame": 4232,
-    "text": "Caltech"
+    "startFrame": 3652,
+    "endFrame": 3777,
+    "text": "考试通常在学校或机构组织的考点进行，由教师监考"
   },
   {
     "id": 42,
-    "startFrame": 4232,
-    "endFrame": 4356,
-    "text": "普林斯顿等顶尖理工大学物理或工程专业的重量级背景"
+    "startFrame": 3777,
+    "endFrame": 3864,
+    "text": "国内赛区分布于主要城市，覆盖广泛"
   },
   {
     "id": 43,
-    "startFrame": 4348,
-    "endFrame": 4541,
-    "text": "F等于ma和Physics Bowl是国内家长经常被放在一起比较的两个美国物理赛事"
+    "startFrame": 3855,
+    "endFrame": 3955,
+    "text": "对中国家长而言，BPhO的价值体现在三方面"
   },
   {
     "id": 44,
-    "startFrame": 4541,
-    "endFrame": 4668,
-    "text": "Physics Bowl是入门级测评，覆盖面广，门槛低"
+    "startFrame": 3955,
+    "endFrame": 4141,
+    "text": "第一是英国方向：BPhO金奖在英国G5大学物理工程专业申请中是最硬的物理学背景"
   },
   {
     "id": 45,
-    "startFrame": 4668,
-    "endFrame": 4804,
-    "text": "F等于ma是高难度选拔，晋级USAPhO，面向顶尖物理选手"
+    "startFrame": 4141,
+    "endFrame": 4308,
+    "text": "第二是路径价值：通往BPhO Round 2和最终IPhO的国家队选拔"
   },
   {
     "id": 46,
-    "startFrame": 4804,
-    "endFrame": 4922,
-    "text": "两者通常分阶段参加，先Physics Bowl打底"
+    "startFrame": 4308,
+    "endFrame": 4370,
+    "text": "第三是与英国课程的高度同步"
   },
   {
     "id": 47,
-    "startFrame": 4922,
-    "endFrame": 4955,
-    "text": "再冲F等于ma"
+    "startFrame": 4370,
+    "endFrame": 4465,
+    "text": "A-Level和IB物理学生可以无缝过渡"
   },
   {
     "id": 48,
-    "startFrame": 4946,
-    "endFrame": 5042,
-    "text": "F等于ma每年通常在二月初举办考试"
+    "startFrame": 4457,
+    "endFrame": 4589,
+    "text": "BPhO和F等于ma是英美两大高中物理竞赛体系的代表"
   },
   {
     "id": 49,
-    "startFrame": 5042,
-    "endFrame": 5178,
-    "text": "二零二六年的考试日已经举办完毕，时间是二月十二日"
+    "startFrame": 4589,
+    "endFrame": 4706,
+    "text": "BPhO题型多样（短答加长答），覆盖物理全板块"
   },
   {
     "id": 50,
-    "startFrame": 5178,
-    "endFrame": 5240,
-    "text": "下午一点到四点东部时间"
+    "startFrame": 4706,
+    "endFrame": 4762,
+    "text": "F等于ma只考代数力学"
   },
   {
     "id": 51,
-    "startFrame": 5240,
-    "endFrame": 5336,
-    "text": "下届二零二七年预计同样在二月初进行"
+    "startFrame": 4762,
+    "endFrame": 4909,
+    "text": "BPhO面向Year 9到13多层级；F等于ma只面向高中"
   },
   {
     "id": 52,
-    "startFrame": 5336,
-    "endFrame": 5426,
-    "text": "报名通道由AAPT在每年一月开放"
+    "startFrame": 4909,
+    "endFrame": 4980,
+    "text": "两者通常分别对应英美申请方向"
   },
   {
     "id": 53,
-    "startFrame": 5417,
-    "endFrame": 5551,
-    "text": "国内物理竞赛路径建议是先完成AP Physics课程基础"
+    "startFrame": 4971,
+    "endFrame": 5013,
+    "text": "BPhO的赛季每年从九月开始"
   },
   {
     "id": 54,
-    "startFrame": 5551,
-    "endFrame": 5646,
-    "text": "参加Physics Bowl作为入门测评"
+    "startFrame": 5013,
+    "endFrame": 5103,
+    "text": "Junior Physics Challenge通常三月举办"
   },
   {
     "id": 55,
-    "startFrame": 5646,
-    "endFrame": 5732,
-    "text": "进而冲F等于ma挑战晋级USAPhO"
+    "startFrame": 5103,
+    "endFrame": 5211,
+    "text": "Intermediate Physics Challenge通常二月举办"
   },
   {
     "id": 56,
-    "startFrame": 5732,
-    "endFrame": 5804,
-    "text": "前四百名进入USAPhO半决赛"
+    "startFrame": 5211,
+    "endFrame": 5301,
+    "text": "Senior Physics Challenge通常二月举办"
   },
   {
     "id": 57,
-    "startFrame": 5804,
-    "endFrame": 5880,
-    "text": "前二十名进入美国物理国家队夏令营"
+    "startFrame": 5301,
+    "endFrame": 5358,
+    "text": "BPhO Round 1通常十一月举办"
   },
   {
     "id": 58,
-    "startFrame": 5880,
-    "endFrame": 5975,
-    "text": "最终五人代表美国出征IPhO国际物理奥赛"
+    "startFrame": 5358,
+    "endFrame": 5439,
+    "text": "BAAO Round 1十二月，Round 2次年一月"
   },
   {
     "id": 59,
-    "startFrame": 5966,
-    "endFrame": 6134,
-    "text": "第一步同步AP Physics 1或Physics C的力学板块"
+    "startFrame": 5428,
+    "endFrame": 5598,
+    "text": "国内学生进入BPhO体系建议是从Year 9起从Junior Physics Challenge入门"
   },
   {
     "id": 60,
-    "startFrame": 6134,
-    "endFrame": 6249,
-    "text": "第二步从AAPT官网获取近十年F等于ma真题"
+    "startFrame": 5598,
+    "endFrame": 5666,
+    "text": "Year 10进Intermediate"
   },
   {
     "id": 61,
-    "startFrame": 6249,
-    "endFrame": 6349,
-    "text": "第三步每周限时七十五分钟做完整一套真题"
+    "startFrame": 5666,
+    "endFrame": 5782,
+    "text": "Year 11进Senior Physics Challenge打底"
   },
   {
     "id": 62,
-    "startFrame": 6349,
-    "endFrame": 6459,
-    "text": "第四步重点训练能量、动量、转动力学三大板块"
+    "startFrame": 5782,
+    "endFrame": 5881,
+    "text": "Year 12和13冲BPhO Round 1获取金奖证书"
   },
   {
     "id": 63,
-    "startFrame": 6459,
-    "endFrame": 6585,
-    "text": "第五步冲刺阶段以速度训练为主，平均每题三分钟做完"
+    "startFrame": 5881,
+    "endFrame": 5925,
+    "text": "最终竞争IPhO国家队席位"
   },
   {
     "id": 64,
-    "startFrame": 6576,
-    "endFrame": 6712,
-    "text": "F等于ma是美国物理教师协会主办的USAPhO选拔考试"
+    "startFrame": 5925,
+    "endFrame": 5976,
+    "text": "也可以并行参加BAAO天体物理"
   },
   {
     "id": 65,
-    "startFrame": 6712,
-    "endFrame": 6832,
-    "text": "是通往美国物理国家队和IPhO国际物理奥赛的入口"
+    "startFrame": 5968,
+    "endFrame": 6051,
+    "text": "第一步从BPhO官网下载近十年真题"
   },
   {
     "id": 66,
-    "startFrame": 6832,
-    "endFrame": 6937,
-    "text": "对志在顶尖理工科申请的高中物理学生家庭来说"
+    "startFrame": 6051,
+    "endFrame": 6154,
+    "text": "第二步同步A-Level或IB物理课程进度"
   },
   {
     "id": 67,
-    "startFrame": 6937,
-    "endFrame": 7027,
-    "text": "F等于ma是最值得规划的物理竞赛之一"
+    "startFrame": 6154,
+    "endFrame": 6262,
+    "text": "第三步每周限时做一套Section A短答题"
   },
   {
     "id": 68,
-    "startFrame": 7027,
-    "endFrame": 7107,
+    "startFrame": 6262,
+    "endFrame": 6394,
+    "text": "第四步重点训练Section B长题，培养完整推导能力"
+  },
+  {
+    "id": 69,
+    "startFrame": 6394,
+    "endFrame": 6482,
+    "text": "第五步赛前一个月做完整两段制全真模考"
+  },
+  {
+    "id": 70,
+    "startFrame": 6474,
+    "endFrame": 6607,
+    "text": "BPhO是英国权威的高中物理竞赛体系，由牛津大学主办"
+  },
+  {
+    "id": 71,
+    "startFrame": 6607,
+    "endFrame": 6704,
+    "text": "在牛剑等英国G5大学申请中获得高度认可"
+  },
+  {
+    "id": 72,
+    "startFrame": 6704,
+    "endFrame": 6837,
+    "text": "对走英国留学方向的物理学生家庭来说，BPhO是必选项"
+  },
+  {
+    "id": 73,
+    "startFrame": 6837,
+    "endFrame": 6919,
     "text": "关注翰林有方获取更多国际竞赛信息"
   }
 ]
