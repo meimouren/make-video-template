@@ -2,385 +2,403 @@
   {
     "id": 1,
     "startFrame": 0,
-    "endFrame": 141,
-    "text": "每天介绍一个国际竞赛，今天要介绍的是MOEMS"
+    "endFrame": 116,
+    "text": "每天介绍一个国际竞赛，今天要介绍的是Physics Bowl"
   },
   {
     "id": 2,
-    "startFrame": 141,
-    "endFrame": 209,
-    "text": "美国中小学数学奥林匹克"
+    "startFrame": 116,
+    "endFrame": 128,
+    "text": "物理碗"
   },
   {
     "id": 3,
-    "startFrame": 200,
-    "endFrame": 425,
-    "text": "MOEMS全称是Math Olympiads for Elementary and Middle Schools"
+    "startFrame": 119,
+    "endFrame": 209,
+    "text": "Physics Bowl，中文译名物理碗"
   },
   {
     "id": 4,
-    "startFrame": 425,
-    "endFrame": 469,
-    "text": "美国中小学数学奥林匹克"
+    "startFrame": 209,
+    "endFrame": 322,
+    "text": "是由美国物理教师协会AAPT主办的全球高中物理竞赛"
   },
   {
     "id": 5,
-    "startFrame": 469,
-    "endFrame": 590,
-    "text": "一九七九年正式开赛，至今运营已超过四十年，是美国本土历史较久"
+    "startFrame": 322,
+    "endFrame": 444,
+    "text": "一九八三年作为评估工具创立，一九八五年开始全国正式举办"
   },
   {
     "id": 6,
-    "startFrame": 590,
-    "endFrame": 662,
-    "text": "覆盖面较广的小学初中阶段数学竞赛之一"
+    "startFrame": 444,
+    "endFrame": 539,
+    "text": "一九九零年正式更名Physics Bowl"
   },
   {
     "id": 7,
-    "startFrame": 653,
-    "endFrame": 788,
-    "text": "MOEMS每年吸引来自三十九个国家、约十二万名学生参加"
+    "startFrame": 539,
+    "endFrame": 602,
+    "text": "至今每年吸引约一万名学生参赛"
   },
   {
     "id": 8,
-    "startFrame": 788,
-    "endFrame": 898,
-    "text": "它是美国小学和初中阶段最早建立的数学竞赛之一"
+    "startFrame": 593,
+    "endFrame": 726,
+    "text": "Physics Bowl是中国家长非常熟悉的高中物理入门竞赛"
   },
   {
     "id": 9,
-    "startFrame": 898,
-    "endFrame": 1003,
-    "text": "也是国际学生开始接触数学竞赛的常见入门选择"
+    "startFrame": 726,
+    "endFrame": 802,
+    "text": "它衔接AP Physics课程体系"
   },
   {
     "id": 10,
-    "startFrame": 994,
-    "endFrame": 1140,
-    "text": "MOEMS的核心定位是培养小学到初中阶段学生的数学思维"
+    "startFrame": 802,
+    "endFrame": 895,
+    "text": "是冲刺F等于ma和USAPhO的过渡训练台"
   },
   {
     "id": 11,
-    "startFrame": 1140,
-    "endFrame": 1286,
-    "text": "题目不依赖技巧或公式记忆，而是强调用数学方式去思考问题"
+    "startFrame": 895,
+    "endFrame": 984,
+    "text": "也是申请美国理工科专业的可量化物理学背景"
   },
   {
     "id": 12,
-    "startFrame": 1286,
-    "endFrame": 1378,
-    "text": "两个组别分别面向小学高年级和初中生"
+    "startFrame": 975,
+    "endFrame": 1108,
+    "text": "Physics Bowl的核心定位是高中物理标准化测评赛"
   },
   {
     "id": 13,
-    "startFrame": 1368,
-    "endFrame": 1529,
-    "text": "MOEMS由美国数学教育家George Lenchner创办于一九七九年"
+    "startFrame": 1108,
+    "endFrame": 1246,
+    "text": "题目覆盖力学，电磁学，热学，光学，近代物理等高中物理全板块"
   },
   {
     "id": 14,
-    "startFrame": 1529,
-    "endFrame": 1618,
-    "text": "Lenchner长期从事小学初中数学教学"
+    "startFrame": 1246,
+    "endFrame": 1341,
+    "text": "难度对标美国 AP Physics 课程"
   },
   {
     "id": 15,
-    "startFrame": 1618,
-    "endFrame": 1685,
-    "text": "编写过多本面向中小学的解题书籍"
+    "startFrame": 1341,
+    "endFrame": 1455,
+    "text": "比赛分两个组别，分别面向第一年和第二年物理学习者"
   },
   {
     "id": 16,
-    "startFrame": 1685,
-    "endFrame": 1774,
-    "text": "是美国基础数学教育领域有影响力的学者之一"
+    "startFrame": 1445,
+    "endFrame": 1607,
+    "text": "AAPT全称American Association of Physics Teachers"
   },
   {
     "id": 17,
-    "startFrame": 1765,
-    "endFrame": 1816,
-    "text": "MOEMS分两个组别"
+    "startFrame": 1607,
+    "endFrame": 1698,
+    "text": "美国物理教师协会，是美国最具权威性的物理教育组织之一"
   },
   {
     "id": 18,
-    "startFrame": 1816,
-    "endFrame": 1913,
-    "text": "Division E面向小学四到六年级"
+    "startFrame": 1698,
+    "endFrame": 1800,
+    "text": "Physics Bowl是AAPT旗下面向中学生的核心赛事"
   },
   {
     "id": 19,
-    "startFrame": 1913,
-    "endFrame": 2020,
-    "text": "Division M面向六到八年级的初中生"
+    "startFrame": 1800,
+    "endFrame": 1849,
+    "text": "每年由全球十四个赛区分别承办"
   },
   {
     "id": 20,
-    "startFrame": 2020,
-    "endFrame": 2137,
-    "text": "允许低年级学生参加更高一级组别，但不允许反过来"
+    "startFrame": 1840,
+    "endFrame": 1902,
+    "text": "Physics Bowl分两个组别"
   },
   {
     "id": 21,
-    "startFrame": 2137,
-    "endFrame": 2213,
-    "text": "两个组别题目不同、难度阶梯不同"
+    "startFrame": 1902,
+    "endFrame": 1982,
+    "text": "Division 1面向第一年学习物理的学生"
   },
   {
     "id": 22,
-    "startFrame": 2204,
-    "endFrame": 2319,
-    "text": "MOEMS的赛季从十一月开始，到次年三月结束"
+    "startFrame": 1982,
+    "endFrame": 2065,
+    "text": "对应AP Physics 1或国内高一物理水平"
   },
   {
     "id": 23,
-    "startFrame": 2319,
-    "endFrame": 2397,
-    "text": "每月一场考试，整个赛季总共五场"
+    "startFrame": 2065,
+    "endFrame": 2152,
+    "text": "Division 2面向第二年及以上的物理学习者"
   },
   {
     "id": 24,
-    "startFrame": 2397,
-    "endFrame": 2470,
-    "text": "每场考试五道题，限时三十分钟"
+    "startFrame": 2152,
+    "endFrame": 2203,
+    "text": "对应AP Physics 2"
   },
   {
     "id": 25,
-    "startFrame": 2470,
-    "endFrame": 2605,
-    "text": "考试由学校或注册机构现场组织，所有学生在同一时间作答"
+    "startFrame": 2203,
+    "endFrame": 2265,
+    "text": "AP Physics C或更高难度"
   },
   {
     "id": 26,
-    "startFrame": 2596,
-    "endFrame": 2698,
-    "text": "MOEMS的评分按整个赛季二十五道题累计"
+    "startFrame": 2265,
+    "endFrame": 2301,
+    "text": "两个组别题目部分共享"
   },
   {
     "id": 27,
-    "startFrame": 2698,
-    "endFrame": 2800,
-    "text": "个人方面：累计得分前百分之五十获参赛徽章"
+    "startFrame": 2292,
+    "endFrame": 2391,
+    "text": "Physics Bowl的考试格式非常标准"
   },
   {
     "id": 28,
-    "startFrame": 2800,
-    "endFrame": 2917,
-    "text": "前百分之三到十获银牌徽章，前百分之二获金牌徽章"
+    "startFrame": 2391,
+    "endFrame": 2527,
+    "text": "整套试卷一共五十道题，Division 1做第一到第四十题"
   },
   {
     "id": 29,
-    "startFrame": 2917,
-    "endFrame": 3034,
-    "text": "满分者获George Lenchner纪念徽章"
+    "startFrame": 2527,
+    "endFrame": 2616,
+    "text": "Division 2做第十一到第五十题"
   },
   {
     "id": 30,
-    "startFrame": 3034,
-    "endFrame": 3166,
-    "text": "团队方面：前百分之十获奖牌，前百分之十一到二十获证书"
+    "startFrame": 2616,
+    "endFrame": 2719,
+    "text": "选择题，每题四十五秒平均时长，限时四十五分钟"
   },
   {
     "id": 31,
-    "startFrame": 3156,
-    "endFrame": 3287,
-    "text": "MOEMS对全球小学四年级到初中八年级学生开放"
+    "startFrame": 2719,
+    "endFrame": 2780,
+    "text": "每题答对得一分，答错不倒扣"
   },
   {
     "id": 32,
-    "startFrame": 3287,
-    "endFrame": 3361,
-    "text": "报名通过学校或注册机构进行"
+    "startFrame": 2771,
+    "endFrame": 2882,
+    "text": "Physics Bowl的评分按个人和团队两条线"
   },
   {
     "id": 33,
-    "startFrame": 3361,
-    "endFrame": 3532,
-    "text": "需要先注册成为MOEMS的会员学校或团队，再以团队为单位参赛"
+    "startFrame": 2882,
+    "endFrame": 2984,
+    "text": "个人方面：每个Division评出全球前十名"
   },
   {
     "id": 34,
-    "startFrame": 3532,
-    "endFrame": 3612,
-    "text": "每个团队至少需要一名指导教师"
+    "startFrame": 2984,
+    "endFrame": 3086,
+    "text": "团队方面：每所学校的前五名分数累加为团队成绩"
   },
   {
     "id": 35,
-    "startFrame": 3604,
-    "endFrame": 3641,
-    "text": "对中国家长而言"
+    "startFrame": 3086,
+    "endFrame": 3188,
+    "text": "此外每个赛区评出第一第二名团队，颁发地区荣誉"
   },
   {
     "id": 36,
-    "startFrame": 3641,
-    "endFrame": 3767,
-    "text": "MOEMS的价值首先在覆盖面：运营已经超过四十年"
+    "startFrame": 3178,
+    "endFrame": 3290,
+    "text": "Physics Bowl对全球高中阶段学生开放"
   },
   {
     "id": 37,
-    "startFrame": 3767,
-    "endFrame": 3856,
-    "text": "参赛网络遍及全美和海外三十九个国家"
+    "startFrame": 3290,
+    "endFrame": 3393,
+    "text": "国内学生可以通过国际赛区或代理机构报名参加"
   },
   {
     "id": 38,
-    "startFrame": 3856,
-    "endFrame": 3966,
-    "text": "其次在题目设计：强调用数学思考而非依赖技巧"
+    "startFrame": 3393,
+    "endFrame": 3515,
+    "text": "报名以学校或培训机构为单位组队，每个团队由教师指导"
   },
   {
     "id": 39,
-    "startFrame": 3966,
-    "endFrame": 4055,
-    "text": "第三在申请价值：对申请美国寄宿初中"
+    "startFrame": 3515,
+    "endFrame": 3637,
+    "text": "报名通过AAPT官网完成，截止日期通常在二月中下旬"
   },
   {
     "id": 40,
-    "startFrame": 4055,
-    "endFrame": 4123,
-    "text": "Day School的孩子"
+    "startFrame": 3628,
+    "endFrame": 3658,
+    "text": "对中国家长而言"
   },
   {
     "id": 41,
-    "startFrame": 4123,
-    "endFrame": 4249,
-    "text": "MOEMS是简历上最早可产出的可量化数学竞赛背景"
+    "startFrame": 3658,
+    "endFrame": 3905,
+    "text": "Physics Bowl的价值首先在它和AP Physics课程的高度同步：物理碗成绩可以作为AP学习成果的客观验证"
   },
   {
     "id": 42,
-    "startFrame": 4240,
-    "endFrame": 4420,
-    "text": "MOEMS和AMC 8是中国家长最常被问到的两个美国初中阶段数学竞赛"
+    "startFrame": 3905,
+    "endFrame": 3994,
+    "text": "其次是申请价值：在美国理工科顶尖项目申请中"
   },
   {
     "id": 43,
-    "startFrame": 4420,
-    "endFrame": 4568,
-    "text": "MOEMS赛季长五个月，有团队赛，AMC 8一年只有一场"
+    "startFrame": 3994,
+    "endFrame": 4100,
+    "text": "Physics Bowl成绩是物理能力的可量化证据"
   },
   {
     "id": 44,
-    "startFrame": 4568,
-    "endFrame": 4589,
-    "text": "纯个人赛"
+    "startFrame": 4100,
+    "endFrame": 4223,
+    "text": "第三是路径价值：是通往F等于ma和USAPhO的常见过渡赛"
   },
   {
     "id": 45,
-    "startFrame": 4589,
-    "endFrame": 4695,
-    "text": "MOEMS适合更早接触竞赛，注重团队合作"
+    "startFrame": 4215,
+    "endFrame": 4402,
+    "text": "Physics Bowl和F等于ma是国内家长经常被放在一起比较的两个高中物理赛事"
   },
   {
     "id": 46,
-    "startFrame": 4695,
-    "endFrame": 4769,
-    "text": "AMC 8偏向高强度个人测评"
+    "startFrame": 4402,
+    "endFrame": 4530,
+    "text": "Physics Bowl更偏标准化测评，门槛低，覆盖面广"
   },
   {
     "id": 47,
-    "startFrame": 4761,
-    "endFrame": 4887,
-    "text": "MOEMS的二零二六到二零二七赛季时间已经全部公布"
+    "startFrame": 4530,
+    "endFrame": 4635,
+    "text": "F等于ma是USAPhO的选拔赛，难度明显更高"
   },
   {
     "id": 48,
-    "startFrame": 4887,
-    "endFrame": 5028,
-    "text": "第一场考试十一月九日到三十日，第二场十二月七日到二十八日"
+    "startFrame": 4635,
+    "endFrame": 4672,
+    "text": "面向顶尖物理选手"
   },
   {
     "id": 49,
-    "startFrame": 5028,
-    "endFrame": 5164,
-    "text": "第三场次年一月四日到二十五日，第四场二月一日到二十二日"
+    "startFrame": 4672,
+    "endFrame": 4713,
+    "text": "两者通常分阶段参加"
   },
   {
     "id": 50,
-    "startFrame": 5164,
-    "endFrame": 5234,
-    "text": "第五场三月一日到二十九日收官"
+    "startFrame": 4704,
+    "endFrame": 4826,
+    "text": "Physics Bowl的二零二六赛季时间表已公布"
   },
   {
     "id": 51,
-    "startFrame": 5224,
-    "endFrame": 5383,
-    "text": "国内小学高年级和初中学生建议从MOEMS入手积累数学思维和竞赛意识"
+    "startFrame": 4826,
+    "endFrame": 4948,
+    "text": "报名截止二月二十五日，考试窗口三月十八日到四月三日"
   },
   {
     "id": 52,
-    "startFrame": 5383,
-    "endFrame": 5523,
-    "text": "初中阶段过渡到MathCounts和AMC 8进行个人测评"
+    "startFrame": 4948,
+    "endFrame": 5036,
+    "text": "全球各赛区在窗口期内任选一日组织考试"
   },
   {
     "id": 53,
-    "startFrame": 5523,
-    "endFrame": 5605,
-    "text": "初二之后进入AMC 10，AIME"
+    "startFrame": 5036,
+    "endFrame": 5109,
+    "text": "AAPT官方在五月公布全球榜单"
   },
   {
     "id": 54,
-    "startFrame": 5605,
-    "endFrame": 5682,
-    "text": "再向更专业的高中级别数学竞赛发展"
+    "startFrame": 5101,
+    "endFrame": 5207,
+    "text": "国内高中学生建议先完成AP Physics 1的学习"
   },
   {
     "id": 55,
-    "startFrame": 5673,
-    "endFrame": 5849,
-    "text": "第一步通过MOEMS官方Resources或代理机构获取历届真题"
+    "startFrame": 5207,
+    "endFrame": 5334,
+    "text": "参加Physics Bowl Division 1作为入门测评"
   },
   {
     "id": 56,
-    "startFrame": 5849,
-    "endFrame": 5992,
-    "text": "第二步每周固定做一套真题，时长按真实考试三十分钟限制"
+    "startFrame": 5334,
+    "endFrame": 5461,
+    "text": "第二年AP Physics 2或C阶段进入Division 2"
   },
   {
     "id": 57,
-    "startFrame": 5992,
-    "endFrame": 6108,
-    "text": "第三步重点训练数学思维型题目，不要只刷套路"
+    "startFrame": 5461,
+    "endFrame": 5510,
+    "text": "同步冲刺F等于ma的选拔"
   },
   {
     "id": 58,
-    "startFrame": 6108,
-    "endFrame": 6218,
-    "text": "第四步以学校或机构团队形式做完整赛季模拟"
+    "startFrame": 5510,
+    "endFrame": 5604,
+    "text": "进而向USAPhO甚至IPhO国际物理奥赛迈进"
   },
   {
     "id": 59,
-    "startFrame": 6218,
-    "endFrame": 6284,
-    "text": "第五步每场考完做错题归类"
+    "startFrame": 5594,
+    "endFrame": 5713,
+    "text": "第一步同步学习AP Physics 1或2作为基础"
   },
   {
     "id": 60,
-    "startFrame": 6276,
-    "endFrame": 6416,
-    "text": "MOEMS是美国本土最早建立的小学初中数学竞赛之一"
+    "startFrame": 5713,
+    "endFrame": 5875,
+    "text": "第二步在AAPT官网或代理机构获取近五年Physics Bowl真题"
   },
   {
     "id": 61,
-    "startFrame": 6416,
-    "endFrame": 6461,
-    "text": "运营已超过四十年"
+    "startFrame": 5875,
+    "endFrame": 5966,
+    "text": "第三步每周限时四十五分钟做一套完整真题"
   },
   {
     "id": 62,
-    "startFrame": 6461,
-    "endFrame": 6551,
-    "text": "对小学高年级和初中阶段的孩子来说"
+    "startFrame": 5966,
+    "endFrame": 6071,
+    "text": "第四步重点刷电磁学和近代物理板块，是失分大户"
   },
   {
     "id": 63,
-    "startFrame": 6551,
-    "endFrame": 6669,
-    "text": "MOEMS是开始接触数学竞赛的常见入门选择"
+    "startFrame": 6071,
+    "endFrame": 6167,
+    "text": "第五步赛前一周做完整模考，按区分错误类型"
   },
   {
     "id": 64,
-    "startFrame": 6669,
-    "endFrame": 6759,
+    "startFrame": 6158,
+    "endFrame": 6305,
+    "text": "Physics Bowl是美国物理教师协会主办的高中物理测评赛"
+  },
+  {
+    "id": 65,
+    "startFrame": 6305,
+    "endFrame": 6442,
+    "text": "运营已超过四十年，是国内学生进入高中物理竞赛体系的常见起点"
+  },
+  {
+    "id": 66,
+    "startFrame": 6442,
+    "endFrame": 6551,
+    "text": "想给孩子规划理工科申请路径的家长，可以重点关注"
+  },
+  {
+    "id": 67,
+    "startFrame": 6551,
+    "endFrame": 6627,
     "text": "关注翰林有方获取更多国际竞赛信息"
   }
 ]
