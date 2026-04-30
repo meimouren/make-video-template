@@ -2,439 +2,367 @@
   {
     "id": 1,
     "startFrame": 0,
-    "endFrame": 132,
-    "text": "每天介绍一个国际竞赛，今天要介绍的是BPhO"
+    "endFrame": 121,
+    "text": "每天介绍一个国际竞赛，今天要介绍的是PUPC"
   },
   {
     "id": 2,
-    "startFrame": 132,
-    "endFrame": 180,
-    "text": "英国物理奥林匹克"
+    "startFrame": 121,
+    "endFrame": 182,
+    "text": "普林斯顿大学物理挑战赛"
   },
   {
     "id": 3,
-    "startFrame": 171,
-    "endFrame": 187,
-    "text": "BPhO"
+    "startFrame": 173,
+    "endFrame": 188,
+    "text": "PUPC"
   },
   {
     "id": 4,
-    "startFrame": 187,
-    "endFrame": 290,
-    "text": "全称British Physics Olympiad"
+    "startFrame": 188,
+    "endFrame": 343,
+    "text": "全称Princeton University Physics Competition"
   },
   {
     "id": 5,
-    "startFrame": 290,
-    "endFrame": 401,
-    "text": "中文译为英国物理奥林匹克，是英国最权威的高中物理竞赛体系"
+    "startFrame": 343,
+    "endFrame": 398,
+    "text": "中文译为普林斯顿大学物理挑战赛"
   },
   {
     "id": 6,
-    "startFrame": 401,
-    "endFrame": 441,
-    "text": "由牛津大学物理系运营"
+    "startFrame": 398,
+    "endFrame": 461,
+    "text": "最初由普林斯顿大学物理学生社团主办"
   },
   {
     "id": 7,
-    "startFrame": 441,
-    "endFrame": 659,
-    "text": "旗下涵盖从初级Junior Physics Challenge到Round 1再到BAAO天体物理奥赛多个层级"
+    "startFrame": 461,
+    "endFrame": 590,
+    "text": "现由普林斯顿校友创立的非营利组织Physics Unlimited运营"
   },
   {
     "id": 8,
-    "startFrame": 659,
-    "endFrame": 738,
-    "text": "是英国通往IPhO国际物理奥赛的官方通道"
+    "startFrame": 590,
+    "endFrame": 642,
+    "text": "是面向全球高中生的物理挑战赛"
   },
   {
     "id": 9,
-    "startFrame": 729,
-    "endFrame": 851,
-    "text": "BPhO是冲刺牛津剑桥物理工程专业的核心加分项"
+    "startFrame": 632,
+    "endFrame": 699,
+    "text": "PUPC的稀缺性在三方面"
   },
   {
     "id": 10,
-    "startFrame": 851,
-    "endFrame": 936,
-    "text": "作为英国本土最权威的高中物理赛事"
+    "startFrame": 699,
+    "endFrame": 810,
+    "text": "第一是藤校品牌，普林斯顿主办自带学术权威"
   },
   {
     "id": 11,
-    "startFrame": 936,
-    "endFrame": 1031,
-    "text": "它在英国和G5大学申请中的认可度极高"
+    "startFrame": 810,
+    "endFrame": 910,
+    "text": "第二是题型创新，强调物理直觉而非套路"
   },
   {
     "id": 12,
-    "startFrame": 1031,
-    "endFrame": 1126,
-    "text": "同时它是IPhO英国国家队的选拔通道"
+    "startFrame": 910,
+    "endFrame": 1060,
+    "text": "第三是双轨赛制，团队赛加个人赛，培养协作和深度思考能力"
   },
   {
     "id": 13,
-    "startFrame": 1126,
-    "endFrame": 1205,
-    "text": "含金量在国际物理竞赛中名列前茅"
+    "startFrame": 1050,
+    "endFrame": 1170,
+    "text": "PUPC的核心定位是面向高中阶段物理顶尖学生的挑战赛"
   },
   {
     "id": 14,
-    "startFrame": 1196,
-    "endFrame": 1309,
-    "text": "BPhO的核心定位是英国权威的高中物理竞赛体系"
+    "startFrame": 1170,
+    "endFrame": 1280,
+    "text": "题目难度对标AP Physics C，但题型新颖"
   },
   {
     "id": 15,
-    "startFrame": 1309,
-    "endFrame": 1447,
-    "text": "题目难度分层细致，覆盖Year 9到Year 13全学段"
+    "startFrame": 1280,
+    "endFrame": 1390,
+    "text": "强调创造性思维，常常超出经典力学进入广义物理范畴"
   },
   {
     "id": 16,
-    "startFrame": 1447,
-    "endFrame": 1526,
-    "text": "命题强调物理思维深度和解题创造性"
+    "startFrame": 1390,
+    "endFrame": 1583,
+    "text": "比赛分Online Round线上团队赛和Onsite Round线下个人赛两个部分"
   },
   {
     "id": 17,
-    "startFrame": 1526,
-    "endFrame": 1615,
-    "text": "与牛剑物理面试和入学考试逻辑高度同步"
+    "startFrame": 1575,
+    "endFrame": 1673,
+    "text": "PUPC现在由Physics Unlimited主办"
   },
   {
     "id": 18,
-    "startFrame": 1605,
-    "endFrame": 1767,
-    "text": "BPhO由牛津大学物理系成立的British Physics Olympiad Trust运营"
+    "startFrame": 1673,
+    "endFrame": 1760,
+    "text": "这是一家由普林斯顿大学物理校友成立的非营利组织"
   },
   {
     "id": 19,
-    "startFrame": 1767,
-    "endFrame": 1843,
-    "text": "是英国唯一被国际物理奥赛认证的国家队选拔机构"
+    "startFrame": 1760,
+    "endFrame": 1877,
+    "text": "Physics Unlimited专注于推广中学物理教育和竞赛"
   },
   {
     "id": 20,
-    "startFrame": 1843,
-    "endFrame": 1870,
-    "text": "除了BPhO本身"
+    "startFrame": 1877,
+    "endFrame": 2006,
+    "text": "旗下还运营着Online Physics Olympiad等其他赛事"
   },
   {
     "id": 21,
-    "startFrame": 1870,
-    "endFrame": 2038,
-    "text": "Trust还运营BAAO天体物理奥赛和与剑桥合作的Senior Physics Challenge"
+    "startFrame": 2006,
+    "endFrame": 2104,
+    "text": "普林斯顿大学物理学生社团PSPS担任PUPC的协办方"
   },
   {
     "id": 22,
-    "startFrame": 2029,
-    "endFrame": 2070,
-    "text": "BPhO体系按学段分多个层级"
+    "startFrame": 2096,
+    "endFrame": 2147,
+    "text": "PUPC的赛制分两部分"
   },
   {
     "id": 23,
-    "startFrame": 2070,
-    "endFrame": 2176,
-    "text": "Junior Physics Challenge面向Year 9学生入门"
+    "startFrame": 2147,
+    "endFrame": 2282,
+    "text": "Online Round线上团队赛持续约一周，每队三到五人"
   },
   {
     "id": 24,
-    "startFrame": 2176,
-    "endFrame": 2291,
-    "text": "Intermediate Physics Challenge面向Year 10"
+    "startFrame": 2282,
+    "endFrame": 2342,
+    "text": "可以协作研究开放性物理题目"
   },
   {
     "id": 25,
-    "startFrame": 2291,
-    "endFrame": 2388,
-    "text": "Senior Physics Challenge面向Year 11"
+    "startFrame": 2342,
+    "endFrame": 2444,
+    "text": "Onsite Round线下个人赛限时两小时"
   },
   {
     "id": 26,
-    "startFrame": 2388,
-    "endFrame": 2497,
-    "text": "BPhO Round 1是核心Olympiad考试面向Year 12和13"
+    "startFrame": 2444,
+    "endFrame": 2490,
+    "text": "主要考察经典力学板块"
   },
   {
     "id": 27,
-    "startFrame": 2497,
-    "endFrame": 2556,
-    "text": "BAAO天体物理面向Year 12和13"
+    "startFrame": 2490,
+    "endFrame": 2546,
+    "text": "两部分独立评分，独立颁奖"
   },
   {
     "id": 28,
-    "startFrame": 2547,
-    "endFrame": 2648,
-    "text": "BPhO Round 1的考试格式是两段制"
+    "startFrame": 2538,
+    "endFrame": 2679,
+    "text": "PUPC的评分按Online Round和Onsite Round分别排名"
   },
   {
     "id": 29,
-    "startFrame": 2648,
-    "endFrame": 2768,
-    "text": "Section A是短答题集合，限时一小时二十分钟"
+    "startFrame": 2679,
+    "endFrame": 2782,
+    "text": "团队榜评出全球前列团队奖项，个人榜评出全球前列个人奖项"
   },
   {
     "id": 30,
-    "startFrame": 2768,
-    "endFrame": 2845,
-    "text": "Section B是主题长题选答"
+    "startFrame": 2782,
+    "endFrame": 2939,
+    "text": "表现优异者会获得Physics Unlimited的官方证书和普林斯顿物理系的认证"
   },
   {
     "id": 31,
-    "startFrame": 2845,
-    "endFrame": 2917,
-    "text": "限时一小时二十分钟加五分钟阅读"
+    "startFrame": 2930,
+    "endFrame": 2998,
+    "text": "PUPC对全球高中阶段学生开放"
   },
   {
     "id": 32,
-    "startFrame": 2917,
-    "endFrame": 2979,
-    "text": "两段可以分别在不同时间作答"
+    "startFrame": 2998,
+    "endFrame": 3124,
+    "text": "国内学生通过阿思丹官方代理报名，参赛地点遍布国内主要城市"
   },
   {
     "id": 33,
-    "startFrame": 2979,
-    "endFrame": 3037,
-    "text": "题目深度大，强调物理直觉"
+    "startFrame": 3124,
+    "endFrame": 3219,
+    "text": "Online Round完全线上，全球同步"
   },
   {
     "id": 34,
-    "startFrame": 3028,
-    "endFrame": 3142,
-    "text": "BPhO Round 1的奖项分Top Gold，Gold"
+    "startFrame": 3219,
+    "endFrame": 3314,
+    "text": "Onsite Round在国内赛区线下举办"
   },
   {
     "id": 35,
-    "startFrame": 3142,
-    "endFrame": 3217,
-    "text": "Silver，Bronze一二三个层级"
+    "startFrame": 3304,
+    "endFrame": 3341,
+    "text": "对中国家长而言"
   },
   {
     "id": 36,
-    "startFrame": 3217,
-    "endFrame": 3319,
-    "text": "获得Gold以上奖项是申请牛剑物理工程专业的硬性参考"
+    "startFrame": 3341,
+    "endFrame": 3563,
+    "text": "PUPC的价值首先在普林斯顿藤校品牌：在美国理工科顶尖大学申请中是有辨识度的物理背景"
   },
   {
     "id": 37,
-    "startFrame": 3319,
-    "endFrame": 3425,
-    "text": "Top Gold获得者还可能受邀参加BPhO选拔训练营"
+    "startFrame": 3563,
+    "endFrame": 3701,
+    "text": "其次是题型独特：和AMC AIME类的标准化测评不同"
   },
   {
     "id": 38,
-    "startFrame": 3425,
-    "endFrame": 3488,
-    "text": "进一步竞争IPhO英国国家队席位"
+    "startFrame": 3701,
+    "endFrame": 3833,
+    "text": "PUPC强调物理直觉和创造性，是物理思维深度的体现"
   },
   {
     "id": 39,
-    "startFrame": 3478,
-    "endFrame": 3543,
-    "text": "BPhO对全球高中生开放"
+    "startFrame": 3833,
+    "endFrame": 3944,
+    "text": "第三是双轨赛制：团队和个人协作能力都被检验"
   },
   {
     "id": 40,
-    "startFrame": 3543,
-    "endFrame": 3652,
-    "text": "国内学生通过阿思丹官方在国内赛区报名参赛"
+    "startFrame": 3935,
+    "endFrame": 4072,
+    "text": "PUPC和F等于ma是两种不同维度的高水平物理赛事"
   },
   {
     "id": 41,
-    "startFrame": 3652,
-    "endFrame": 3777,
-    "text": "考试通常在学校或机构组织的考点进行，由教师监考"
+    "startFrame": 4072,
+    "endFrame": 4220,
+    "text": "PUPC由普林斯顿运营，强调创造性思维，团队加个人双轨"
   },
   {
     "id": 42,
-    "startFrame": 3777,
-    "endFrame": 3864,
-    "text": "国内赛区分布于主要城市，覆盖广泛"
+    "startFrame": 4220,
+    "endFrame": 4357,
+    "text": "F等于ma是USAPhO选拔赛，纯个人，纯力学专项"
   },
   {
     "id": 43,
-    "startFrame": 3855,
-    "endFrame": 3955,
-    "text": "对中国家长而言，BPhO的价值体现在三方面"
+    "startFrame": 4357,
+    "endFrame": 4466,
+    "text": "两者侧重的物理能力维度不同，可以并行参加"
   },
   {
     "id": 44,
-    "startFrame": 3955,
-    "endFrame": 4141,
-    "text": "第一是英国方向：BPhO金奖在英国G5大学物理工程专业申请中是最硬的物理学背景"
+    "startFrame": 4456,
+    "endFrame": 4526,
+    "text": "PUPC每年通常在秋季十月到十一月举办"
   },
   {
     "id": 45,
-    "startFrame": 4141,
-    "endFrame": 4308,
-    "text": "第二是路径价值：通往BPhO Round 2和最终IPhO的国家队选拔"
+    "startFrame": 4526,
+    "endFrame": 4637,
+    "text": "分Online Round和Onsite Round两个阶段"
   },
   {
     "id": 46,
-    "startFrame": 4308,
-    "endFrame": 4370,
-    "text": "第三是与英国课程的高度同步"
+    "startFrame": 4637,
+    "endFrame": 4741,
+    "text": "具体时间每年由Physics Unlimited官方公告"
   },
   {
     "id": 47,
-    "startFrame": 4370,
-    "endFrame": 4465,
-    "text": "A-Level和IB物理学生可以无缝过渡"
+    "startFrame": 4741,
+    "endFrame": 4793,
+    "text": "国内赛区时间和阿思丹官方同步"
   },
   {
     "id": 48,
-    "startFrame": 4457,
-    "endFrame": 4589,
-    "text": "BPhO和F等于ma是英美两大高中物理竞赛体系的代表"
+    "startFrame": 4784,
+    "endFrame": 4926,
+    "text": "国内高中物理学生路径建议是先以AP Physics 1或2作为基础"
   },
   {
     "id": 49,
-    "startFrame": 4589,
-    "endFrame": 4706,
-    "text": "BPhO题型多样（短答加长答），覆盖物理全板块"
+    "startFrame": 4926,
+    "endFrame": 5012,
+    "text": "参加Physics Bowl作为入门测评"
   },
   {
     "id": 50,
-    "startFrame": 4706,
-    "endFrame": 4762,
-    "text": "F等于ma只考代数力学"
+    "startFrame": 5012,
+    "endFrame": 5094,
+    "text": "进而冲F等于ma或PUPC作为进阶挑战"
   },
   {
     "id": 51,
-    "startFrame": 4762,
-    "endFrame": 4909,
-    "text": "BPhO面向Year 9到13多层级；F等于ma只面向高中"
+    "startFrame": 5094,
+    "endFrame": 5214,
+    "text": "PUPC的团队赛部分尤其适合作为申请简历上的协作能力背景"
   },
   {
     "id": 52,
-    "startFrame": 4909,
-    "endFrame": 4980,
-    "text": "两者通常分别对应英美申请方向"
+    "startFrame": 5205,
+    "endFrame": 5307,
+    "text": "第一步同步AP Physics C或更高级别课程"
   },
   {
     "id": 53,
-    "startFrame": 4971,
-    "endFrame": 5013,
-    "text": "BPhO的赛季每年从九月开始"
+    "startFrame": 5307,
+    "endFrame": 5452,
+    "text": "第二步从Physics Unlimited官网获取近五年PUPC真题"
   },
   {
     "id": 54,
-    "startFrame": 5013,
-    "endFrame": 5103,
-    "text": "Junior Physics Challenge通常三月举办"
+    "startFrame": 5452,
+    "endFrame": 5580,
+    "text": "第三步组队三到五人，分工协作训练Online Round题型"
   },
   {
     "id": 55,
-    "startFrame": 5103,
-    "endFrame": 5211,
-    "text": "Intermediate Physics Challenge通常二月举办"
+    "startFrame": 5580,
+    "endFrame": 5678,
+    "text": "第四步限时两小时做Onsite Round模拟"
   },
   {
     "id": 56,
-    "startFrame": 5211,
-    "endFrame": 5301,
-    "text": "Senior Physics Challenge通常二月举办"
+    "startFrame": 5678,
+    "endFrame": 5746,
+    "text": "第五步赛前一周完整跑一遍两段赛制"
   },
   {
     "id": 57,
-    "startFrame": 5301,
-    "endFrame": 5358,
-    "text": "BPhO Round 1通常十一月举办"
+    "startFrame": 5738,
+    "endFrame": 5909,
+    "text": "PUPC是普林斯顿大学物理学生社团和校友共同主办的全球高中物理挑战赛"
   },
   {
     "id": 58,
-    "startFrame": 5358,
-    "endFrame": 5439,
-    "text": "BAAO Round 1十二月，Round 2次年一月"
+    "startFrame": 5909,
+    "endFrame": 5970,
+    "text": "强调创造性思维和团队协作"
   },
   {
     "id": 59,
-    "startFrame": 5428,
-    "endFrame": 5598,
-    "text": "国内学生进入BPhO体系建议是从Year 9起从Junior Physics Challenge入门"
+    "startFrame": 5970,
+    "endFrame": 6081,
+    "text": "对希望积累藤校相关物理背景的高中学生家庭来说"
   },
   {
     "id": 60,
-    "startFrame": 5598,
-    "endFrame": 5666,
-    "text": "Year 10进Intermediate"
+    "startFrame": 6081,
+    "endFrame": 6131,
+    "text": "PUPC值得重点关注"
   },
   {
     "id": 61,
-    "startFrame": 5666,
-    "endFrame": 5782,
-    "text": "Year 11进Senior Physics Challenge打底"
-  },
-  {
-    "id": 62,
-    "startFrame": 5782,
-    "endFrame": 5881,
-    "text": "Year 12和13冲BPhO Round 1获取金奖证书"
-  },
-  {
-    "id": 63,
-    "startFrame": 5881,
-    "endFrame": 5925,
-    "text": "最终竞争IPhO国家队席位"
-  },
-  {
-    "id": 64,
-    "startFrame": 5925,
-    "endFrame": 5976,
-    "text": "也可以并行参加BAAO天体物理"
-  },
-  {
-    "id": 65,
-    "startFrame": 5968,
-    "endFrame": 6051,
-    "text": "第一步从BPhO官网下载近十年真题"
-  },
-  {
-    "id": 66,
-    "startFrame": 6051,
-    "endFrame": 6154,
-    "text": "第二步同步A-Level或IB物理课程进度"
-  },
-  {
-    "id": 67,
-    "startFrame": 6154,
-    "endFrame": 6262,
-    "text": "第三步每周限时做一套Section A短答题"
-  },
-  {
-    "id": 68,
-    "startFrame": 6262,
-    "endFrame": 6394,
-    "text": "第四步重点训练Section B长题，培养完整推导能力"
-  },
-  {
-    "id": 69,
-    "startFrame": 6394,
-    "endFrame": 6482,
-    "text": "第五步赛前一个月做完整两段制全真模考"
-  },
-  {
-    "id": 70,
-    "startFrame": 6474,
-    "endFrame": 6607,
-    "text": "BPhO是英国权威的高中物理竞赛体系，由牛津大学主办"
-  },
-  {
-    "id": 71,
-    "startFrame": 6607,
-    "endFrame": 6704,
-    "text": "在牛剑等英国G5大学申请中获得高度认可"
-  },
-  {
-    "id": 72,
-    "startFrame": 6704,
-    "endFrame": 6837,
-    "text": "对走英国留学方向的物理学生家庭来说，BPhO是必选项"
-  },
-  {
-    "id": 73,
-    "startFrame": 6837,
-    "endFrame": 6919,
+    "startFrame": 6131,
+    "endFrame": 6212,
     "text": "关注翰林有方获取更多国际竞赛信息"
   }
 ]
