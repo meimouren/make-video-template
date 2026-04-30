@@ -3,16 +3,15 @@
 // IBM Plex Serif: refined readable body serif
 // Chinese: Source Han Serif / Songti — editorial-grade Chinese
 // FONT_FAMILY_* re-exports preserved for backwards compatibility with legacy components.
-
-import { loadFont as loadCormorant } from '@remotion/google-fonts/CormorantGaramond';
-import { loadFont as loadPlexSerif } from '@remotion/google-fonts/IBMPlexSerif';
-import { loadFont as loadBaskerville } from '@remotion/google-fonts/LibreBaskerville';
-import { loadFont as loadFranklin } from '@remotion/google-fonts/LibreFranklin';
-
-loadCormorant();
-loadPlexSerif();
-loadBaskerville(); // legacy fallback
-loadFranklin(); // legacy fallback
+//
+// NOTE 2026-04-30 evening: Google Fonts CDN unstable from this network during
+// batch renders. Disabling loadFont() calls — browser falls back to system serif/
+// sans-serif via the family stacks below. Re-enable when network is stable:
+//   import { loadFont as loadCormorant } from '@remotion/google-fonts/CormorantGaramond';
+//   import { loadFont as loadPlexSerif } from '@remotion/google-fonts/IBMPlexSerif';
+//   import { loadFont as loadBaskerville } from '@remotion/google-fonts/LibreBaskerville';
+//   import { loadFont as loadFranklin } from '@remotion/google-fonts/LibreFranklin';
+//   loadCormorant(); loadPlexSerif(); loadBaskerville(); loadFranklin();
 
 // New canonical aliases (Academic Editorial)
 export const FONT_HEAD_EN = '"Cormorant Garamond", "Libre Baskerville", serif';
