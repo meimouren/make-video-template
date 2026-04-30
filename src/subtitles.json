@@ -2,373 +2,379 @@
   {
     "id": 1,
     "startFrame": 0,
-    "endFrame": 126,
-    "text": "每天介绍一个国际竞赛，今天要介绍的是SIN"
+    "endFrame": 118,
+    "text": "每天介绍一个国际竞赛，今天要介绍的是CAP"
   },
   {
     "id": 2,
-    "startFrame": 126,
-    "endFrame": 180,
-    "text": "滑铁卢牛顿物理挑战"
+    "startFrame": 118,
+    "endFrame": 168,
+    "text": "加拿大物理奥林匹克"
   },
   {
     "id": 3,
-    "startFrame": 171,
-    "endFrame": 293,
-    "text": "SIN，全称Sir Isaac Newton Exam"
+    "startFrame": 159,
+    "endFrame": 171,
+    "text": "CAP"
   },
   {
     "id": 4,
-    "startFrame": 293,
-    "endFrame": 419,
-    "text": "中文译为牛顿物理挑战，由加拿大滑铁卢大学物理与天文系主办"
+    "startFrame": 171,
+    "endFrame": 283,
+    "text": "全称CAP High School Prize Exam"
   },
   {
     "id": 5,
-    "startFrame": 419,
-    "endFrame": 545,
-    "text": "是面向北美和全球高中生的物理测评赛，以基础经典力学为主线"
+    "startFrame": 283,
+    "endFrame": 502,
+    "text": "由加拿大物理学家协会Canadian Association of Physicists主办的高中物理奥林匹克"
   },
   {
     "id": 6,
-    "startFrame": 545,
-    "endFrame": 572,
-    "text": "每年五月举办"
+    "startFrame": 502,
+    "endFrame": 570,
+    "text": "它是加拿大物理国家队选拔的入口考试"
   },
   {
     "id": 7,
-    "startFrame": 563,
-    "endFrame": 633,
-    "text": "SIN的稀缺性来自三方面"
+    "startFrame": 570,
+    "endFrame": 634,
+    "text": "每年挑选前十五名进入UBC夏令营"
   },
   {
     "id": 8,
-    "startFrame": 633,
-    "endFrame": 778,
-    "text": "第一是滑铁卢大学背书：滑铁卢是北美最强工程学院之一"
+    "startFrame": 634,
+    "endFrame": 726,
+    "text": "最终决出五人代表加拿大出征IPhO国际物理奥赛"
   },
   {
     "id": 9,
-    "startFrame": 778,
-    "endFrame": 848,
-    "text": "名声在国内家长圈非常熟悉"
+    "startFrame": 716,
+    "endFrame": 779,
+    "text": "CAP的稀缺性来自三方面"
   },
   {
     "id": 10,
-    "startFrame": 848,
-    "endFrame": 987,
-    "text": "第二是适合入门：题型基础经典，对高中物理学生友好"
+    "startFrame": 779,
+    "endFrame": 968,
+    "text": "第一是加拿大物理国家队入口：晋级到UBC夏令营是加拿大顶尖物理学生的标志"
   },
   {
     "id": 11,
-    "startFrame": 987,
-    "endFrame": 1120,
-    "text": "第三是申请加分：滑铁卢工程系直接认可SIN成绩"
+    "startFrame": 968,
+    "endFrame": 1131,
+    "text": "第二是申请价值：在加拿大顶尖工程类大学申请中是最硬的物理学背景"
   },
   {
     "id": 12,
-    "startFrame": 1111,
-    "endFrame": 1233,
-    "text": "SIN的核心定位是面向高中阶段学生的物理入门挑战"
+    "startFrame": 1131,
+    "endFrame": 1236,
+    "text": "第三是国际通道：通向IPhO国际物理奥赛"
   },
   {
     "id": 13,
-    "startFrame": 1233,
-    "endFrame": 1375,
-    "text": "题目基于安大略省高中物理课程标准，强调经典力学和物理直觉"
+    "startFrame": 1228,
+    "endFrame": 1366,
+    "text": "CAP的核心定位是加拿大本土最权威的高中物理奥林匹克"
   },
   {
     "id": 14,
-    "startFrame": 1375,
-    "endFrame": 1492,
-    "text": "题型为选择题，难度对高中物理基础扎实的学生友好"
+    "startFrame": 1366,
+    "endFrame": 1515,
+    "text": "每年由全国各省加拿大物理学家协会分支组织当地高中举办考试"
   },
   {
     "id": 15,
-    "startFrame": 1492,
-    "endFrame": 1614,
-    "text": "比起F等于ma和BPhO Round 1门槛更低"
+    "startFrame": 1515,
+    "endFrame": 1675,
+    "text": "题目难度对标AP Physics C或更高，覆盖力学，电磁学"
   },
   {
     "id": 16,
-    "startFrame": 1605,
-    "endFrame": 1809,
-    "text": "SIN由加拿大滑铁卢大学Department of Physics and Astronomy主办"
+    "startFrame": 1675,
+    "endFrame": 1755,
+    "text": "热学，近代物理等高中物理全板块"
   },
   {
     "id": 17,
-    "startFrame": 1809,
-    "endFrame": 1930,
-    "text": "滑铁卢是北美工程领域顶尖大学之一，特别在量子计算，应用物理"
+    "startFrame": 1746,
+    "endFrame": 1914,
+    "text": "CAP全称Canadian Association of Physicists"
   },
   {
     "id": 18,
-    "startFrame": 1930,
-    "endFrame": 1980,
-    "text": "计算机工程等专业全球知名"
+    "startFrame": 1914,
+    "endFrame": 2034,
+    "text": "加拿大物理学家协会，是加拿大物理学界最具权威性的学术组织"
   },
   {
     "id": 19,
-    "startFrame": 1980,
-    "endFrame": 2097,
-    "text": "SIN的命题风格延续了滑铁卢理工教学的特色：题目设计有趣"
+    "startFrame": 2034,
+    "endFrame": 2146,
+    "text": "CAP高中物理奖学金考试是该协会面向中学生的旗舰项目"
   },
   {
     "id": 20,
-    "startFrame": 2097,
-    "endFrame": 2147,
-    "text": "有时甚至加入一点幽默元素"
+    "startFrame": 2146,
+    "endFrame": 2283,
+    "text": "UBC不列颠哥伦比亚大学物理与天文学系负责承办夏令营和国家队训练"
   },
   {
     "id": 21,
-    "startFrame": 2137,
-    "endFrame": 2200,
-    "text": "SIN的考试格式标准化"
+    "startFrame": 2274,
+    "endFrame": 2400,
+    "text": "CAP的考试由各地学校在校内组织，监考由教师承担"
   },
   {
     "id": 22,
-    "startFrame": 2200,
-    "endFrame": 2285,
-    "text": "所有题目均为多选题，限时两小时"
+    "startFrame": 2400,
+    "endFrame": 2473,
+    "text": "每年通常在四月初的某个工作日"
   },
   {
     "id": 23,
-    "startFrame": 2285,
-    "endFrame": 2410,
-    "text": "计分规则：答对加四分，留空零分，答错倒扣一分"
+    "startFrame": 2473,
+    "endFrame": 2609,
+    "text": "题型包含选择题和自由响应题两部分，覆盖高中物理全板块"
   },
   {
     "id": 24,
-    "startFrame": 2410,
-    "endFrame": 2512,
-    "text": "倒扣机制鼓励学生只在有把握的题目作答"
+    "startFrame": 2609,
+    "endFrame": 2656,
+    "text": "考试通常一天内完成"
   },
   {
     "id": 25,
-    "startFrame": 2512,
-    "endFrame": 2620,
-    "text": "考试通过线上平台进行，学校统一组织监考"
+    "startFrame": 2648,
+    "endFrame": 2704,
+    "text": "CAP的晋级路径清晰"
   },
   {
     "id": 26,
-    "startFrame": 2612,
-    "endFrame": 2681,
-    "text": "SIN的成绩按全球排名颁发奖项"
+    "startFrame": 2704,
+    "endFrame": 2861,
+    "text": "考试结束两周后批改完成，前十五名学生收到UBC训练营邀请"
   },
   {
     "id": 27,
-    "startFrame": 2681,
-    "endFrame": 2824,
-    "text": "前五名获得Sir Isaac Newton Plaque纪念牌"
+    "startFrame": 2861,
+    "endFrame": 2979,
+    "text": "训练营在五月十七到二十三日在UBC校园举行"
   },
   {
     "id": 28,
-    "startFrame": 2824,
-    "endFrame": 2870,
-    "text": "其后获得证书和奖学金"
+    "startFrame": 2979,
+    "endFrame": 3097,
+    "text": "营地最后一天选出五人代表加拿大出征IPhO"
   },
   {
     "id": 29,
-    "startFrame": 2870,
-    "endFrame": 3027,
-    "text": "表现优异的学生在申请滑铁卢大学物理工程相关专业时会受到招生官重点关注"
+    "startFrame": 3097,
+    "endFrame": 3148,
+    "text": "该路径每年稳定运作"
   },
   {
     "id": 30,
-    "startFrame": 3018,
-    "endFrame": 3149,
-    "text": "SIN对全球高中生开放，必须由教师代表学校组织报名"
+    "startFrame": 3139,
+    "endFrame": 3198,
+    "text": "CAP的参赛资格相对严格"
   },
   {
     "id": 31,
-    "startFrame": 3149,
-    "endFrame": 3196,
-    "text": "不接受个人单独报名"
+    "startFrame": 3198,
+    "endFrame": 3317,
+    "text": "学生必须是加拿大全日制高中或CEGEP的在读学生"
   },
   {
     "id": 32,
-    "startFrame": 3196,
-    "endFrame": 3301,
-    "text": "国内学生通过阿思丹官方代理在国内赛区参赛"
+    "startFrame": 3317,
+    "endFrame": 3436,
+    "text": "加拿大公民或永久居民，IPhO竞赛日前未满二十岁"
   },
   {
     "id": 33,
-    "startFrame": 3301,
-    "endFrame": 3437,
-    "text": "考试为线上形式，由学校监考老师在本地学校教室组织进行"
+    "startFrame": 3436,
+    "endFrame": 3580,
+    "text": "这意味着国内学生需要在加拿大就读高中才能参加CAP正式选拔"
   },
   {
     "id": 34,
-    "startFrame": 3427,
-    "endFrame": 3523,
-    "text": "对中国家长而言，SIN的价值在三方面"
+    "startFrame": 3571,
+    "endFrame": 3608,
+    "text": "对中国家长而言"
   },
   {
     "id": 35,
-    "startFrame": 3523,
-    "endFrame": 3673,
-    "text": "第一是滑铁卢大学申请加分：物理工程系招生官认可SIN成绩"
+    "startFrame": 3608,
+    "endFrame": 3766,
+    "text": "CAP的价值首先在加拿大方向：CAP奖项在多伦多大学，UBC"
   },
   {
     "id": 36,
-    "startFrame": 3673,
-    "endFrame": 3801,
-    "text": "第二是物理竞赛入门：门槛低于F等于ma和BPhO"
+    "startFrame": 3766,
+    "endFrame": 3908,
+    "text": "麦吉尔等加拿大顶尖大学物理工程申请中是最硬的物理学背景"
   },
   {
     "id": 37,
-    "startFrame": 3801,
-    "endFrame": 3876,
-    "text": "适合刚开始接触物理竞赛的学生"
+    "startFrame": 3908,
+    "endFrame": 4045,
+    "text": "其次是国家队潜力：晋级前十五是加拿大顶尖物理学生标志"
   },
   {
     "id": 38,
-    "startFrame": 3876,
-    "endFrame": 3983,
-    "text": "第三是加拿大方向：作为加拿大本土物理竞赛"
+    "startFrame": 4045,
+    "endFrame": 4197,
+    "text": "第三是IPhO通道：从CAP到国家队再到国际奥赛的清晰路径"
   },
   {
     "id": 39,
-    "startFrame": 3983,
-    "endFrame": 4074,
-    "text": "对申请加拿大工程类大学有针对性认证"
+    "startFrame": 4187,
+    "endFrame": 4326,
+    "text": "CAP和F等于ma是加美两国通往物理国家队的入口考试"
   },
   {
     "id": 40,
-    "startFrame": 4065,
-    "endFrame": 4200,
-    "text": "SIN和Physics Bowl是加美两大高中物理入门测评赛"
+    "startFrame": 4326,
+    "endFrame": 4460,
+    "text": "CAP由加拿大物理学家协会主办，限定加拿大学生参加"
   },
   {
     "id": 41,
-    "startFrame": 4200,
-    "endFrame": 4272,
-    "text": "SIN由滑铁卢大学主办，答错倒扣"
+    "startFrame": 4460,
+    "endFrame": 4572,
+    "text": "F等于ma由AAPT主办，限定美国学生参加"
   },
   {
     "id": 42,
-    "startFrame": 4272,
-    "endFrame": 4384,
-    "text": "Physics Bowl由AAPT主办，答错不倒扣"
+    "startFrame": 4572,
+    "endFrame": 4722,
+    "text": "两者的晋级路径都通向各自国家的IPhO国家队，但完全独立"
   },
   {
     "id": 43,
-    "startFrame": 4384,
-    "endFrame": 4514,
-    "text": "SIN偏重经典力学；Physics Bowl覆盖物理全板块"
+    "startFrame": 4712,
+    "endFrame": 4795,
+    "text": "CAP二零二六赛季时间已经确定"
   },
   {
     "id": 44,
-    "startFrame": 4514,
-    "endFrame": 4563,
-    "text": "两者面向不同的留学方向"
+    "startFrame": 4795,
+    "endFrame": 4895,
+    "text": "考试日为四月八日，由各高中在校内组织"
   },
   {
     "id": 45,
-    "startFrame": 4554,
-    "endFrame": 4626,
-    "text": "SIN每年通常在五月初举办"
+    "startFrame": 4895,
+    "endFrame": 5017,
+    "text": "两周后即四月二十二日前后公布前十五名晋级名单"
   },
   {
     "id": 46,
-    "startFrame": 4626,
-    "endFrame": 4704,
-    "text": "二零二六年报名截止四月十七日"
+    "startFrame": 5017,
+    "endFrame": 5100,
+    "text": "UBC夏令营五月十七到二十三日"
   },
   {
     "id": 47,
-    "startFrame": 4704,
-    "endFrame": 4793,
-    "text": "考试在五月由学校自行选定时间组织"
+    "startFrame": 5100,
+    "endFrame": 5233,
+    "text": "IPhO在七月四到十二日于哥伦比亚布卡拉曼加举行"
   },
   {
     "id": 48,
-    "startFrame": 4793,
-    "endFrame": 4887,
-    "text": "下届二零二七年预计同样在五月初进行"
+    "startFrame": 5223,
+    "endFrame": 5379,
+    "text": "国内在加拿大就读的物理学生路径建议是先以SIN作为高中入门测评"
   },
   {
     "id": 49,
-    "startFrame": 4887,
-    "endFrame": 4993,
-    "text": "报名通道由滑铁卢大学官网在每年三月开放"
+    "startFrame": 5379,
+    "endFrame": 5500,
+    "text": "进而冲CAP奖学金考试，前十五名进入UBC训练营"
   },
   {
     "id": 50,
-    "startFrame": 4984,
-    "endFrame": 5131,
-    "text": "国内学生进入加拿大物理竞赛体系建议是先以SIN作为高中入门测评"
+    "startFrame": 5500,
+    "endFrame": 5606,
+    "text": "最终五人代表加拿大出征IPhO国际物理奥赛"
   },
   {
     "id": 51,
-    "startFrame": 5131,
-    "endFrame": 5249,
-    "text": "进而冲CAP加拿大物理奥赛进入加拿大物理国家队选拔"
+    "startFrame": 5606,
+    "endFrame": 5656,
+    "text": "整条路径每年稳定运作"
   },
   {
     "id": 52,
-    "startFrame": 5249,
-    "endFrame": 5410,
-    "text": "同时可以并行参加美国Physics Bowl和F等于ma作为多线积累"
+    "startFrame": 5647,
+    "endFrame": 5796,
+    "text": "第一步同步AP Physics C或加拿大十二年级物理课程"
   },
   {
     "id": 53,
-    "startFrame": 5401,
-    "endFrame": 5578,
-    "text": "第一步同步AP Physics 1或安大略省高中物理课程的力学板块"
+    "startFrame": 5796,
+    "endFrame": 5878,
+    "text": "第二步从CAP官网获取近十年真题"
   },
   {
     "id": 54,
-    "startFrame": 5578,
-    "endFrame": 5691,
-    "text": "第二步从滑铁卢大学SIN官网获取近五年真题"
+    "startFrame": 5878,
+    "endFrame": 5980,
+    "text": "第三步每周做一套完整真题，限时与考试一致"
   },
   {
     "id": 55,
-    "startFrame": 5691,
-    "endFrame": 5772,
-    "text": "第三步每周限时两小时做完整套题"
+    "startFrame": 5980,
+    "endFrame": 6041,
+    "text": "第四步重点训练自由响应题"
   },
   {
     "id": 56,
-    "startFrame": 5772,
-    "endFrame": 5901,
-    "text": "第四步重点训练倒扣策略：模糊题宁愿留空也不要乱猜"
+    "startFrame": 6041,
+    "endFrame": 6184,
+    "text": "是CAP和Physics Bowl这类纯选择题最大的不同"
   },
   {
     "id": 57,
-    "startFrame": 5901,
-    "endFrame": 5965,
-    "text": "第五步赛前一周做全真模考"
+    "startFrame": 6184,
+    "endFrame": 6281,
+    "text": "第五步赛前两周加强电磁学和近代物理板块"
   },
   {
     "id": 58,
-    "startFrame": 5956,
-    "endFrame": 6096,
-    "text": "SIN是加拿大滑铁卢大学物理与天文系主办的高中物理挑战赛"
+    "startFrame": 6273,
+    "endFrame": 6398,
+    "text": "CAP是加拿大物理学家协会主办的高中物理奥林匹克"
   },
   {
     "id": 59,
-    "startFrame": 6096,
-    "endFrame": 6176,
-    "text": "是加拿大物理竞赛体系的入门级测评"
+    "startFrame": 6398,
+    "endFrame": 6481,
+    "text": "是加拿大物理国家队选拔的入门考试"
   },
   {
     "id": 60,
-    "startFrame": 6176,
-    "endFrame": 6311,
-    "text": "对计划走加拿大留学方向，特别是滑铁卢工程申请的学生家庭"
+    "startFrame": 6481,
+    "endFrame": 6580,
+    "text": "通往UBC夏令营和IPhO国际物理奥赛"
   },
   {
     "id": 61,
-    "startFrame": 6311,
-    "endFrame": 6356,
-    "text": "SIN值得重点关注"
+    "startFrame": 6580,
+    "endFrame": 6710,
+    "text": "对在加拿大就读高中，志在物理工程方向的学生家庭来说"
   },
   {
     "id": 62,
-    "startFrame": 6356,
-    "endFrame": 6436,
+    "startFrame": 6710,
+    "endFrame": 6747,
+    "text": "CAP是必选项"
+  },
+  {
+    "id": 63,
+    "startFrame": 6747,
+    "endFrame": 6830,
     "text": "关注翰林有方获取更多国际竞赛信息"
   }
 ]
