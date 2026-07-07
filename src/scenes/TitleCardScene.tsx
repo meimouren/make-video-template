@@ -1,9 +1,9 @@
 import React from 'react';
-import { SceneShell, MetaChip } from '../components/SceneShell';
-import { useStagger } from '../animations/primitives';
-import { back } from '../animations/easings';
-import { BRAND, DATA } from '../theme/colors';
-import { D1_BODY, D2_SUBTITLE, FONT_BODY_EN, FONT_CN, tokenToStyle } from '../theme/typography';
+import { AbsoluteFill } from 'remotion';
+import { useFrom, useStagger } from '../animations/primitives';
+import { power3Out, back } from '../animations/easings';
+import { BRAND, ON_ACCENT } from '../theme/colors';
+import { FONT_HEAD_EN, FONT_CN, FONT_CN_SANS } from '../theme/typography';
 
 interface TitleCardSceneProps {
   title: string;
@@ -11,97 +11,140 @@ interface TitleCardSceneProps {
   highlights: string[];
 }
 
-const palette = [DATA.red, DATA.blue, DATA.green, DATA.orange, BRAND.yellow];
-
-const HighlightTile: React.FC<{ text: string; index: number; delay: number; total: number }> = ({
+/**
+ * Inverted cobalt accent / rhythm page. Full-bleed cobalt background, white
+ * dot halftone + giant ghost watermark for depth, reversed-out serif title as
+ * the core statement, and a row of white outline "pill" chips for highlights.
+ */
+const HighlightPill: React.FC<{ text: string; index: number; delay: number }> = ({
   text,
   index,
   delay,
-  total,
 }) => {
-  const tile = useStagger({
-    stagger: 0.12,
+  const pill = useStagger({
+    stagger: 0.1,
     index,
     delay,
     duration: 0.6,
-    ease: back(1.5).out,
-    from: { y: 18, opacity: 0, scale: 0.88 },
+    ease: back(1.4).out,
+    from: { y: 16, opacity: 0, scale: 0.9 },
   });
-  const accent = palette[index % palette.length];
 
   return (
     <div
       style={{
-        padding: '24px 26px',
-        background: BRAND.cardBg,
-        border: `1px solid ${BRAND.cardBorder}`,
-        borderTop: `4px solid ${accent}`,
-        borderRadius: 12,
-        transform: `translateY(${tile.y}px) scale(${tile.scale})`,
-        opacity: tile.opacity,
-        display: 'flex',
-        flexDirection: 'column',
-        gap: 10,
+        padding: '16px 28px',
+        border: `1px solid ${ON_ACCENT}66`,
+        borderRadius: 8,
+        fontFamily: FONT_CN_SANS,
+        fontSize: 36,
+        fontWeight: 600,
+        color: ON_ACCENT,
+        letterSpacing: '0.02em',
+        whiteSpace: 'nowrap',
+        transform: `translateY(${pill.y}px) scale(${pill.scale})`,
+        opacity: pill.opacity,
       }}
     >
-      <div
-        style={{
-          fontFamily: FONT_BODY_EN,
-          fontSize: 44,
-          fontWeight: 900,
-          color: accent,
-          letterSpacing: '0.02em',
-          lineHeight: 1.0,
-        }}
-      >
-        {String(index + 1).padStart(2, '0')}
-        <span style={{ color: BRAND.textLight, fontWeight: 500, marginLeft: 8, fontSize: 22 }}>
-          / {String(total).padStart(2, '0')}
-        </span>
-      </div>
-      <div
-        style={{
-          ...tokenToStyle(D2_SUBTITLE),
-          fontFamily: FONT_CN,
-          color: BRAND.yellow,
-          fontWeight: 800,
-        }}
-      >
-        {text}
-      </div>
+      {text}
     </div>
   );
 };
 
 export const TitleCardScene: React.FC<TitleCardSceneProps> = ({ title, subtitle, highlights }) => {
-  const metaChips: MetaChip[] = [
-    { label: 'OVERVIEW', value: `${highlights.length} 关键词`, accent: BRAND.yellow },
-    { label: 'AT A GLANCE', value: '核心特征速览', accent: DATA.blue },
-  ];
+  const kickerAnim = useFrom({
+    delay: 0.2,
+    duration: 0.6,
+    ease: power3Out,
+    from: { y: 14, opacity: 0 },
+  });
+
+  const titleAnim = useFrom({
+    delay: 0.4,
+    duration: 0.8,
+    ease: power3Out,
+    from: { y: 40, opacity: 0 },
+  });
 
   return (
-    <SceneShell
-      eyebrow="OVERVIEW · 核心定位"
-      title={title}
-      subtitle={subtitle}
-      metaChips={metaChips}
-      footer="HANLIN · 国际竞赛系列"
-      bodyPanel={false}
-    >
+    <AbsoluteFill style={{ background: BRAND.yellow, overflow: 'hidden' }}>
+      {/* white dot halftone */}
+      <AbsoluteFill
+        style={{
+          backgroundImage: `radial-gradient(${ON_ACCENT}22 1.6px, transparent 1.7px)`,
+          backgroundSize: '40px 40px',
+        }}
+      />
+      {/* giant ghost watermark symbol */}
       <div
         style={{
-          display: 'grid',
-          gridTemplateColumns: 'repeat(3, 1fr)',
-          gridAutoRows: '1fr',
-          gap: 14,
-          flex: 1,
-          minHeight: 0,
+          position: 'absolute',
+          left: -40,
+          bottom: -260,
+          fontFamily: FONT_HEAD_EN,
+          fontSize: 820,
+          fontWeight: 900,
+          lineHeight: 1,
+          color: `${ON_ACCENT}1F`,
+          pointerEvents: 'none',
         }}
       >
-        {highlights.map((h, i) => (
-          <HighlightTile key={h + i} text={h} index={i} delay={1.0} total={highlights.length} />
-        ))}
+        &amp;
       </div>
-    </SceneShell>
+
+      <div
+        style={{
+          position: 'absolute',
+          inset: 0,
+          padding: '170px 70px 290px',
+          display: 'flex',
+          flexDirection: 'column',
+          justifyContent: 'center',
+          color: ON_ACCENT,
+        }}
+      >
+        {/* kicker */}
+        <div
+          style={{
+            fontFamily: FONT_CN_SANS,
+            fontSize: 30,
+            letterSpacing: '0.4em',
+            marginBottom: 40,
+            transform: `translateY(${kickerAnim.y}px)`,
+            opacity: kickerAnim.opacity * 0.85,
+          }}
+        >
+          {subtitle || 'OVERVIEW'}
+        </div>
+
+        {/* giant serif title — the core statement */}
+        <div
+          style={{
+            fontFamily: FONT_CN,
+            fontSize: 118,
+            fontWeight: 700,
+            lineHeight: 1.14,
+            transform: `translateY(${titleAnim.y}px)`,
+            opacity: titleAnim.opacity,
+          }}
+        >
+          {title}
+        </div>
+
+        {/* highlight pills */}
+        <div
+          style={{
+            display: 'flex',
+            flexWrap: 'wrap',
+            gap: 18,
+            marginTop: 64,
+          }}
+        >
+          {highlights.map((h, i) => (
+            <HighlightPill key={h + i} text={h} index={i} delay={0.9} />
+          ))}
+        </div>
+      </div>
+    </AbsoluteFill>
   );
 };

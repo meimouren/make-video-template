@@ -1,17 +1,11 @@
 import React from 'react';
-import { SceneShell, MetaChip } from '../components/SceneShell';
-import { useStagger } from '../animations/primitives';
+import { AbsoluteFill } from 'remotion';
+import { Background } from '../components/Background';
+import { SceneHeader } from '../components/SceneHeader';
+import { useStagger, useFrom } from '../animations/primitives';
 import { back, power3Out } from '../animations/easings';
-import { BRAND, DATA } from '../theme/colors';
-import {
-  D0_CAPTION,
-  D1_BODY,
-  D2_SUBTITLE,
-  D3_TITLE,
-  FONT_BODY_EN,
-  FONT_CN,
-  tokenToStyle,
-} from '../theme/typography';
+import { BRAND } from '../theme/colors';
+import { FONT_HEAD_EN, FONT_CN } from '../theme/typography';
 
 interface CalendarEvent {
   date: string;
@@ -24,119 +18,103 @@ interface CalendarSceneProps {
   events: CalendarEvent[];
 }
 
+const DATE_COL = 260;
+const CONNECTOR_COL = 40;
+const ROW_GAP = 34;
+const ROW_PAD_Y = 40;
+
 const TimelineRow: React.FC<{
   event: CalendarEvent;
   index: number;
   delay: number;
   isLast: boolean;
-  highlight: boolean;
-}> = ({ event, index, delay, isLast, highlight }) => {
+}> = ({ event, index, delay, isLast }) => {
   const dot = useStagger({
-    stagger: 0.18,
+    stagger: 0.16,
     index,
     delay,
-    duration: 0.55,
+    duration: 0.5,
     ease: back(1.5).out,
     from: { scale: 0 },
   });
-  const card = useStagger({
-    stagger: 0.18,
+  const text = useStagger({
+    stagger: 0.16,
     index,
-    delay: delay + 0.1,
+    delay: delay + 0.08,
     duration: 0.55,
     ease: power3Out,
-    from: { x: 18, opacity: 0 },
-  });
-  const line = useStagger({
-    stagger: 0.18,
-    index,
-    delay: delay + 0.2,
-    duration: 0.45,
-    ease: power3Out,
-    from: { scale: 0 },
+    from: { x: 22, opacity: 0 },
   });
 
   return (
-    <div style={{ display: 'flex', gap: 26, position: 'relative', flex: 1, minHeight: 0 }}>
-      {/* Dot + connector */}
-      <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', minWidth: 36 }}>
+    <div
+      style={{
+        display: 'flex',
+        alignItems: 'center',
+        gap: ROW_GAP,
+        borderBottom: isLast ? 'none' : `1.5px solid ${BRAND.divider}`,
+        padding: `${ROW_PAD_Y}px 6px`,
+      }}
+    >
+      {/* Date column — fixed width, single line */}
+      <div
+        style={{
+          width: DATE_COL,
+          flexShrink: 0,
+          display: 'flex',
+          alignItems: 'center',
+          transform: `translateX(${text.x}px)`,
+          opacity: text.opacity,
+        }}
+      >
         <div
           style={{
-            width: 32,
-            height: 32,
-            borderRadius: 999,
-            background: highlight ? BRAND.yellow : BRAND.white,
-            border: highlight ? `4px solid ${BRAND.yellow}` : `4px solid ${BRAND.divider}`,
-            transform: `scale(${dot.scale})`,
-            boxShadow: highlight ? `0 0 24px ${BRAND.yellow}aa` : 'none',
-            marginTop: 6,
+            fontFamily: FONT_HEAD_EN,
+            fontSize: 42,
+            fontWeight: 900,
+            color: BRAND.yellow,
+            letterSpacing: '0.01em',
+            lineHeight: 1.05,
+            whiteSpace: 'nowrap',
           }}
-        />
-        {!isLast && (
-          <div
-            style={{
-              flex: 1,
-              width: 4,
-              background: highlight ? BRAND.yellow : BRAND.divider,
-              opacity: highlight ? 0.6 : 1,
-              marginTop: 8,
-              transform: `scaleY(${line.scale})`,
-              transformOrigin: 'top',
-            }}
-          />
-        )}
+        >
+          {event.date}
+        </div>
       </div>
 
-      {/* Card */}
+      {/* Connector: dot (line drawn as continuous overlay by parent) */}
+      <div
+        style={{
+          width: CONNECTOR_COL,
+          flexShrink: 0,
+          display: 'flex',
+          justifyContent: 'center',
+          position: 'relative',
+          zIndex: 1,
+        }}
+      >
+        <div
+          style={{
+            width: 18,
+            height: 18,
+            borderRadius: 999,
+            background: BRAND.yellow,
+            transform: `scale(${dot.scale})`,
+          }}
+        />
+      </div>
+
+      {/* Event text */}
       <div
         style={{
           flex: 1,
-          padding: '20px 24px',
-          marginBottom: isLast ? 0 : 18,
-          background: highlight ? `${BRAND.yellow}14` : BRAND.cardBg,
-          border: highlight ? `2px solid ${BRAND.yellow}` : `1px solid ${BRAND.cardBorder}`,
-          borderRadius: 12,
-          transform: `translateX(${card.x}px)`,
-          opacity: card.opacity,
+          display: 'flex',
+          alignItems: 'center',
+          transform: `translateX(${text.x}px)`,
+          opacity: text.opacity,
         }}
       >
-        <div style={{ display: 'flex', alignItems: 'baseline', gap: 14, marginBottom: 6 }}>
-          <div
-            style={{
-              fontFamily: FONT_BODY_EN,
-              fontSize: 24,
-              fontWeight: 800,
-              letterSpacing: '0.1em',
-              color: highlight ? BRAND.yellow : BRAND.textLight,
-            }}
-          >
-            {event.date}
-          </div>
-          {highlight && (
-            <div
-              style={{
-                fontFamily: FONT_CN,
-                fontSize: 18,
-                color: BRAND.black,
-                background: BRAND.yellow,
-                fontWeight: 800,
-                padding: '2px 10px',
-                borderRadius: 4,
-                letterSpacing: '0.1em',
-              }}
-            >
-              重点关注
-            </div>
-          )}
-        </div>
-        <div
-          style={{
-            ...tokenToStyle(D1_BODY),
-            fontFamily: FONT_CN,
-            color: BRAND.white,
-            fontWeight: highlight ? 700 : 500,
-          }}
-        >
+        <div style={{ fontFamily: FONT_CN, fontSize: 42, fontWeight: 600, color: BRAND.white, lineHeight: 1.35 }}>
           {event.event}
         </div>
       </div>
@@ -145,36 +123,58 @@ const TimelineRow: React.FC<{
 };
 
 export const CalendarScene: React.FC<CalendarSceneProps> = ({ title, subtitle, events }) => {
-  const total = events.length;
-  const upcoming = events[0]?.event ?? '';
-  const last = events[events.length - 1]?.date ?? '';
-
-  const metaChips: MetaChip[] = [
-    { label: 'EVENTS', value: `${total}`, accent: DATA.blue },
-    { label: 'UPCOMING', value: upcoming.length > 8 ? upcoming.slice(0, 8) + '…' : upcoming, accent: BRAND.yellow },
-    { label: 'PERIOD', value: last, accent: DATA.green },
-  ];
+  const line = useFrom({ delay: 0.9, duration: 0.6, ease: power3Out, from: { scale: 0 } });
+  // Horizontal center of the connector column, measured from the rows' left edge.
+  const lineLeft = DATE_COL + ROW_GAP + CONNECTOR_COL / 2;
 
   return (
-    <SceneShell
-      eyebrow="CALENDAR · 赛事日历"
-      title={title}
-      subtitle={subtitle}
-      metaChips={metaChips}
-      footer="数据来源 · 翰林有方"
-    >
-      <div style={{ display: 'flex', flexDirection: 'column', flex: 1, minHeight: 0 }}>
-        {events.map((e, i) => (
-          <TimelineRow
-            key={e.date + i}
-            event={e}
-            index={i}
-            delay={1.0}
-            isLast={i === events.length - 1}
-            highlight={i === 0}
-          />
-        ))}
+    <AbsoluteFill style={{ background: BRAND.black }}>
+      <Background />
+      <div
+        style={{
+          position: 'absolute',
+          inset: 0,
+          padding: '150px 70px 290px',
+          display: 'flex',
+          flexDirection: 'column',
+        }}
+      >
+        <SceneHeader kicker={subtitle} title={title} />
+
+        <div
+          style={{
+            flex: 1,
+            display: 'flex',
+            flexDirection: 'column',
+            justifyContent: 'center',
+          }}
+        >
+          <div style={{ position: 'relative' }}>
+            {/* Continuous vertical line running through every dot */}
+            <div
+              style={{
+                position: 'absolute',
+                top: ROW_PAD_Y,
+                bottom: ROW_PAD_Y,
+                left: lineLeft - 1,
+                width: 2,
+                background: BRAND.yellow,
+                transform: `scaleY(${line.scale})`,
+                transformOrigin: 'top',
+              }}
+            />
+            {events.map((e, i) => (
+              <TimelineRow
+                key={e.date + i}
+                event={e}
+                index={i}
+                delay={0.8}
+                isLast={i === events.length - 1}
+              />
+            ))}
+          </div>
+        </div>
       </div>
-    </SceneShell>
+    </AbsoluteFill>
   );
 };

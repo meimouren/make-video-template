@@ -2,427 +2,535 @@
   {
     "id": 1,
     "startFrame": 0,
-    "endFrame": 44,
-    "text": "每天介绍一个国际竞赛"
+    "endFrame": 122,
+    "text": "每天介绍一个国际竞赛，今天要介绍的是IEO"
   },
   {
     "id": 2,
-    "startFrame": 44,
-    "endFrame": 169,
-    "text": "今天要介绍的是Isaac Physics，剑桥物理马拉松"
+    "startFrame": 122,
+    "endFrame": 175,
+    "text": "国际经济学奥林匹克"
   },
   {
     "id": 3,
-    "startFrame": 160,
-    "endFrame": 382,
-    "text": "Isaac Physics是英国剑桥大学卡文迪许实验室Cavendish Laboratory主办的物理学习与竞赛平台"
+    "startFrame": 166,
+    "endFrame": 178,
+    "text": "IEO"
   },
   {
     "id": 4,
-    "startFrame": 382,
-    "endFrame": 412,
-    "text": "由英国教育部资助"
+    "startFrame": 178,
+    "endFrame": 315,
+    "text": "全称International Economics Olympiad"
   },
   {
     "id": 5,
-    "startFrame": 412,
-    "endFrame": 521,
-    "text": "面向十六到十九岁的高中物理学生，平台累计服务超过五万名学生"
+    "startFrame": 315,
+    "endFrame": 424,
+    "text": "国际经济学奥林匹克竞赛，由二零零七年诺贝尔经济学奖得主"
   },
   {
     "id": 6,
-    "startFrame": 521,
-    "endFrame": 544,
-    "text": "四千多所学校"
+    "startFrame": 424,
+    "endFrame": 525,
+    "text": "哈佛大学教授Eric Maskin于二零一七年发起"
   },
   {
     "id": 7,
-    "startFrame": 544,
-    "endFrame": 668,
-    "text": "Senior Physics Challenge是平台旗舰选拔活动"
+    "startFrame": 525,
+    "endFrame": 561,
+    "text": "二零一八年首次举办"
   },
   {
     "id": 8,
-    "startFrame": 660,
-    "endFrame": 757,
-    "text": "Isaac Physics的稀缺性来自三方面"
+    "startFrame": 561,
+    "endFrame": 642,
+    "text": "是国际科学奥林匹克体系中唯一的经济学竞赛"
   },
   {
     "id": 9,
-    "startFrame": 757,
-    "endFrame": 889,
-    "text": "第一是剑桥背书：卡文迪许实验室是物理学历史最悠久的实验室之一"
+    "startFrame": 634,
+    "endFrame": 695,
+    "text": "IEO的稀缺性来自三方面"
   },
   {
     "id": 10,
-    "startFrame": 889,
-    "endFrame": 982,
-    "text": "第二是长期积累机制：在平台上长时间解题积分"
+    "startFrame": 695,
+    "endFrame": 858,
+    "text": "第一是诺奖背书：发起人Eric Maskin是诺贝尔经济学奖得主"
   },
   {
     "id": 11,
-    "startFrame": 982,
-    "endFrame": 1031,
-    "text": "形成持续输出的学术轨迹"
+    "startFrame": 858,
+    "endFrame": 975,
+    "text": "第二是唯一性：经济学方向全球唯一的国际科学奥赛"
   },
   {
     "id": 12,
-    "startFrame": 1031,
-    "endFrame": 1243,
-    "text": "第三是Senior Physics Challenge：年度剑桥校园营地是顶尖物理学生的集中体验"
+    "startFrame": 975,
+    "endFrame": 1072,
+    "text": "第三是二零二六年全球决赛由中国深圳主办"
   },
   {
     "id": 13,
-    "startFrame": 1233,
-    "endFrame": 1376,
-    "text": "Isaac Physics的核心定位是双轨制：日常是免费物理学习平台"
+    "startFrame": 1072,
+    "endFrame": 1143,
+    "text": "中国学生本土参赛机会前所未有"
   },
   {
     "id": 14,
-    "startFrame": 1376,
-    "endFrame": 1414,
-    "text": "提供海量题目和指导"
+    "startFrame": 1134,
+    "endFrame": 1257,
+    "text": "IEO的核心定位是经济+金融+商业三轨综合考察"
   },
   {
     "id": 15,
-    "startFrame": 1414,
-    "endFrame": 1549,
-    "text": "年度是Senior Physics Challenge选拔型营地"
+    "startFrame": 1257,
+    "endFrame": 1364,
+    "text": "既考察学术知识，也考察实战能力和团队协作"
   },
   {
     "id": 16,
-    "startFrame": 1549,
-    "endFrame": 1642,
-    "text": "从平台最活跃的解题用户中选拔参加剑桥校园集训"
+    "startFrame": 1364,
+    "endFrame": 1497,
+    "text": "是国际经济学最具权威性的中学生赛事，对标IMO数学"
   },
   {
     "id": 17,
-    "startFrame": 1642,
-    "endFrame": 1705,
-    "text": "是英国物理教育的国家级公益项目"
+    "startFrame": 1497,
+    "endFrame": 1545,
+    "text": "IPhO物理一梯队"
   },
   {
     "id": 18,
-    "startFrame": 1696,
-    "endFrame": 1796,
-    "text": "卡文迪许实验室是剑桥大学物理系主体实验室"
+    "startFrame": 1536,
+    "endFrame": 1693,
+    "text": "IEO由Eric Maskin教授于二零一七年发起并担任理事会主席"
   },
   {
     "id": 19,
-    "startFrame": 1796,
-    "endFrame": 1937,
-    "text": "自一八七四年成立以来诞生了三十位诺贝尔物理学和化学奖得主"
+    "startFrame": 1693,
+    "endFrame": 1826,
+    "text": "是国际科学奥林匹克家族的第十三个成员，与IMO，IPhO"
   },
   {
     "id": 20,
-    "startFrame": 1937,
-    "endFrame": 2032,
-    "text": "包括麦克斯韦，卢瑟福，汤姆森等历史巨匠"
+    "startFrame": 1826,
+    "endFrame": 1878,
+    "text": "IChO，IBO等并列"
   },
   {
     "id": 21,
-    "startFrame": 2032,
-    "endFrame": 2127,
-    "text": "Isaac Physics由实验室运营"
+    "startFrame": 1878,
+    "endFrame": 1935,
+    "text": "八届赛事吸引六十余国参与"
   },
   {
     "id": 22,
-    "startFrame": 2127,
-    "endFrame": 2232,
-    "text": "承载剑桥物理教育对全英中学生的学术推广使命"
+    "startFrame": 1935,
+    "endFrame": 2030,
+    "text": "已成为经济学方向公认的国际顶级中学生赛事"
   },
   {
     "id": 23,
-    "startFrame": 2224,
-    "endFrame": 2329,
-    "text": "Isaac Physics的赛制由两阶段组成"
+    "startFrame": 2022,
+    "endFrame": 2064,
+    "text": "IEO由三个部分组成"
   },
   {
     "id": 24,
-    "startFrame": 2329,
-    "endFrame": 2381,
-    "text": "第一阶段是平台日常积分"
+    "startFrame": 2064,
+    "endFrame": 2156,
+    "text": "第一是Economics经济学考试，个人项目"
   },
   {
     "id": 25,
-    "startFrame": 2381,
-    "endFrame": 2510,
-    "text": "学生在isaacphysics.org上完成大量物理题"
+    "startFrame": 2156,
+    "endFrame": 2269,
+    "text": "第二是Financial Literacy金融素养考试"
   },
   {
     "id": 26,
-    "startFrame": 2510,
-    "endFrame": 2558,
-    "text": "按完成数量和难度积分"
+    "startFrame": 2269,
+    "endFrame": 2286,
+    "text": "个人项目"
   },
   {
     "id": 27,
-    "startFrame": 2558,
-    "endFrame": 2601,
-    "text": "第二阶段是年度选拔"
+    "startFrame": 2286,
+    "endFrame": 2399,
+    "text": "第三是Business Case商业案例分析，团队项目"
   },
   {
     "id": 28,
-    "startFrame": 2601,
-    "endFrame": 2720,
-    "text": "平台最活跃用户在四月份做线上测试加提交手写解题过程"
+    "startFrame": 2399,
+    "endFrame": 2462,
+    "text": "三轨综合成绩决定个人和团队奖项"
   },
   {
     "id": 29,
-    "startFrame": 2720,
-    "endFrame": 2930,
-    "text": "被选中的学生受邀参加在剑桥校园举行的Senior Physics Challenge营地"
+    "startFrame": 2453,
+    "endFrame": 2538,
+    "text": "全球站的经济学考试由两部分组成"
   },
   {
     "id": 30,
-    "startFrame": 2921,
-    "endFrame": 3020,
-    "text": "Isaac Physics的选拔综合考察三方面"
+    "startFrame": 2538,
+    "endFrame": 2668,
+    "text": "第一部分是四十道选择题，时长九十分钟，全部计分"
   },
   {
     "id": 31,
-    "startFrame": 3020,
-    "endFrame": 3102,
-    "text": "第一是做题数量：在平台上完成的题目总数"
+    "startFrame": 2668,
+    "endFrame": 2769,
+    "text": "第二部分是五道开放题，每题最高三十分"
   },
   {
     "id": 32,
-    "startFrame": 3102,
-    "endFrame": 3192,
-    "text": "第二是难度梯度：完成更多高难度题目权重更高"
+    "startFrame": 2769,
+    "endFrame": 2837,
+    "text": "最终取最高的四道计入总分"
   },
   {
     "id": 33,
-    "startFrame": 3192,
-    "endFrame": 3299,
-    "text": "第三是笔试质量：四月线上测试和手写解题过程的清晰度"
+    "startFrame": 2837,
+    "endFrame": 2933,
+    "text": "考察微观、宏观、国际经济等主干内容"
   },
   {
     "id": 34,
-    "startFrame": 3299,
-    "endFrame": 3449,
-    "text": "被选中学生收到Senior Physics Challenge入营邀请"
+    "startFrame": 2923,
+    "endFrame": 3059,
+    "text": "金融部分考察个人理财、投资决策、风险管理等实战能力"
   },
   {
     "id": 35,
-    "startFrame": 3440,
-    "endFrame": 3559,
-    "text": "Isaac Physics平台对全球十六到十九岁学生免费开放"
+    "startFrame": 3059,
+    "endFrame": 3174,
+    "text": "全球站采用一点五小时在线理财模拟游戏的形式"
   },
   {
     "id": 36,
-    "startFrame": 3559,
-    "endFrame": 3619,
-    "text": "注册即用，没有报名费或材料门槛"
+    "startFrame": 3174,
+    "endFrame": 3278,
+    "text": "中国站采用二十五道选择题，时长六十分钟"
   },
   {
     "id": 37,
-    "startFrame": 3619,
-    "endFrame": 3782,
-    "text": "Senior Physics Challenge营地选拔同样对所有平台活跃用户开放"
+    "startFrame": 3278,
+    "endFrame": 3343,
+    "text": "金融部分占比与经济学相当"
   },
   {
     "id": 38,
-    "startFrame": 3782,
-    "endFrame": 3846,
-    "text": "国内学生可以通过平台账号正常参与"
+    "startFrame": 3334,
+    "endFrame": 3449,
+    "text": "Business Case是IEO唯一的团队环节"
   },
   {
     "id": 39,
-    "startFrame": 3837,
-    "endFrame": 3963,
-    "text": "对中国家长而言，Isaac Physics的价值在三方面"
+    "startFrame": 3449,
+    "endFrame": 3560,
+    "text": "每支队伍三到五人，拿到一个真实的经济或商业问题"
   },
   {
     "id": 40,
-    "startFrame": 3963,
-    "endFrame": 4093,
-    "text": "第一是剑桥品牌背书：平台账号和SPC邀请直接关联剑桥物理系"
+    "startFrame": 3560,
+    "endFrame": 3666,
+    "text": "在二十四小时内完成方案分析并向评委做展示答辩"
   },
   {
     "id": 41,
-    "startFrame": 4093,
-    "endFrame": 4228,
-    "text": "第二是长期学习轨迹：在平台上的累计积分体现持续的物理学习投入"
+    "startFrame": 3666,
+    "endFrame": 3752,
+    "text": "考察的是团队协作、商业逻辑和路演能力"
   },
   {
     "id": 42,
-    "startFrame": 4228,
-    "endFrame": 4426,
-    "text": "第三是校园体验：Senior Physics Challenge营地直接进入剑桥校园上课"
+    "startFrame": 3743,
+    "endFrame": 3887,
+    "text": "全球站的资格要求是二零二六年六月三十日时不满二十周岁"
   },
   {
     "id": 43,
-    "startFrame": 4426,
-    "endFrame": 4511,
-    "text": "互动，是申请剑桥物理工程的真实学术经历"
+    "startFrame": 3887,
+    "endFrame": 3992,
+    "text": "且高中毕业日期晚于二零二五年十二月一日"
   },
   {
     "id": 44,
-    "startFrame": 4502,
-    "endFrame": 4676,
-    "text": "Isaac Physics和BPhO Round 1是英国物理学习路径上互补的两个赛道"
+    "startFrame": 3992,
+    "endFrame": 4142,
+    "text": "中国赛区面向G6到G12学生，按年级和语言分为三个组别"
   },
   {
     "id": 45,
-    "startFrame": 4676,
-    "endFrame": 4777,
-    "text": "Isaac Physics是长期平台积分加营地选拔"
+    "startFrame": 4142,
+    "endFrame": 4242,
+    "text": "官方语言英语，部分中国区组别支持中文"
   },
   {
     "id": 46,
-    "startFrame": 4777,
-    "endFrame": 4858,
-    "text": "BPhO Round 1是单次高强度笔试"
+    "startFrame": 4233,
+    "endFrame": 4338,
+    "text": "IEO China按年级和语言把学生分为三档"
   },
   {
     "id": 47,
-    "startFrame": 4858,
-    "endFrame": 4963,
-    "text": "Isaac考察持续学习能力；BPhO考察临场解题能力"
+    "startFrame": 4338,
+    "endFrame": 4453,
+    "text": "Junior-SL面向G6到G9，可选中文或英文"
   },
   {
     "id": 48,
-    "startFrame": 4963,
-    "endFrame": 4995,
-    "text": "两者并行参与最佳"
+    "startFrame": 4453,
+    "endFrame": 4573,
+    "text": "Junior-HL面向G9到G12，可选中文或英文"
   },
   {
     "id": 49,
-    "startFrame": 4987,
-    "endFrame": 5100,
-    "text": "Isaac Physics的节奏是全年平台累计积分"
+    "startFrame": 4573,
+    "endFrame": 4674,
+    "text": "Senior高级组面向G9到G12，全英文"
   },
   {
     "id": 50,
-    "startFrame": 5100,
-    "endFrame": 5258,
-    "text": "每年四月份开放Senior Physics Challenge选拔通道"
+    "startFrame": 4674,
+    "endFrame": 4717,
+    "text": "对接全球站晋级通道"
   },
   {
     "id": 51,
-    "startFrame": 5258,
-    "endFrame": 5326,
-    "text": "需要在线提交线上测试加手写解题"
+    "startFrame": 4708,
+    "endFrame": 4824,
+    "text": "二零二六赛季的报名截止于二零二五年十一月三十日"
   },
   {
     "id": 52,
-    "startFrame": 5326,
-    "endFrame": 5394,
-    "text": "被选中学生收到剑桥营地入营邀请"
+    "startFrame": 4824,
+    "endFrame": 4900,
+    "text": "初赛在二零二五年十二月线上举行"
   },
   {
     "id": 53,
-    "startFrame": 5394,
-    "endFrame": 5466,
-    "text": "营地通常在七月暑期举行，为期数天"
+    "startFrame": 4900,
+    "endFrame": 5026,
+    "text": "中国站决赛在二零二六年三月五号到八号在浙江湖州举办"
   },
   {
     "id": 54,
-    "startFrame": 5458,
-    "endFrame": 5505,
-    "text": "在英国物理竞赛体系中"
+    "startFrame": 5026,
+    "endFrame": 5152,
+    "text": "全球站在二零二六年七月十二号到二十号在中国深圳举行"
   },
   {
     "id": 55,
-    "startFrame": 5505,
-    "endFrame": 5598,
-    "text": "Isaac Physics是日常学习平台"
+    "startFrame": 5144,
+    "endFrame": 5228,
+    "text": "IEO China采用三级晋级制"
   },
   {
     "id": 56,
-    "startFrame": 5598,
-    "endFrame": 5738,
-    "text": "BPhO Round 1是高强度选拔考试，IPhO是国际终点"
+    "startFrame": 5228,
+    "endFrame": 5302,
+    "text": "第一级初选站，线上经济学测评"
   },
   {
     "id": 57,
-    "startFrame": 5738,
-    "endFrame": 5859,
-    "text": "三者互补：Isaac积累、BPhO检验、IPhO终点"
+    "startFrame": 5302,
+    "endFrame": 5402,
+    "text": "第二级中国站，团队总分前百分之二十晋级"
   },
   {
     "id": 58,
-    "startFrame": 5859,
-    "endFrame": 5990,
-    "text": "国内学生可以同时使用Isaac平台学习+参加BPhO考试"
+    "startFrame": 5402,
+    "endFrame": 5560,
+    "text": "第三级全球站，由中国队选拔代表，赴深圳与全球各国队伍同场竞争"
   },
   {
     "id": 59,
-    "startFrame": 5990,
-    "endFrame": 6018,
-    "text": "形成完整路径"
+    "startFrame": 5551,
+    "endFrame": 5622,
+    "text": "中国站的奖项按总分排名分布"
   },
   {
     "id": 60,
-    "startFrame": 6009,
-    "endFrame": 6150,
-    "text": "第一步注册isaacphysics.org账号，开始日常做题"
+    "startFrame": 5622,
+    "endFrame": 5759,
+    "text": "前百分之十五获得金奖，前百分之十六到四十五获得银奖"
   },
   {
     "id": 61,
-    "startFrame": 6150,
-    "endFrame": 6249,
-    "text": "第二步制定每周计划，平均每周完成五到十道题"
+    "startFrame": 5759,
+    "endFrame": 5836,
+    "text": "前百分之四十六到九十获得铜奖"
   },
   {
     "id": 62,
-    "startFrame": 6249,
-    "endFrame": 6362,
-    "text": "第三步主动挑战高难度题目，难题完成度对选拔权重高"
+    "startFrame": 5836,
+    "endFrame": 5918,
+    "text": "所有参赛者均可获得官方参赛证书"
   },
   {
     "id": 63,
-    "startFrame": 6362,
-    "endFrame": 6456,
-    "text": "第四步保留手写解题过程，四月份提交时使用"
+    "startFrame": 5918,
+    "endFrame": 6011,
+    "text": "全球站金银铜总数不超过参赛人数一半"
   },
   {
     "id": 64,
-    "startFrame": 6456,
-    "endFrame": 6522,
-    "text": "第五步关注Isaac平台公告"
+    "startFrame": 6001,
+    "endFrame": 6097,
+    "text": "IEO考察的知识领域大致分为四个板块"
   },
   {
     "id": 65,
-    "startFrame": 6522,
-    "endFrame": 6653,
-    "text": "及时申请Senior Physics Challenge"
+    "startFrame": 6097,
+    "endFrame": 6252,
+    "text": "微观经济学占比最大，约百分之三十五，宏观经济学约百分之三十"
   },
   {
     "id": 66,
-    "startFrame": 6643,
-    "endFrame": 6902,
-    "text": "Isaac Physics是剑桥大学卡文迪许实验室主办的物理学习平台和Senior Physics Challenge选拔营地"
+    "startFrame": 6252,
+    "endFrame": 6380,
+    "text": "金融素养约百分之二十五，商业与国际经济约百分之十"
   },
   {
     "id": 67,
-    "startFrame": 6902,
-    "endFrame": 6964,
-    "text": "免费向全球十六到十九岁学生开放"
+    "startFrame": 6380,
+    "endFrame": 6444,
+    "text": "备考时建议按权重分配时间"
   },
   {
     "id": 68,
-    "startFrame": 6964,
-    "endFrame": 7013,
-    "text": "对计划走英国物理工程方向"
+    "startFrame": 6436,
+    "endFrame": 6582,
+    "text": "IEO和NEC全美经济挑战是经济方向最主流的两个赛事"
   },
   {
     "id": 69,
-    "startFrame": 7013,
-    "endFrame": 7091,
-    "text": "希望积累长期物理学习轨迹的学生家庭来说"
+    "startFrame": 6582,
+    "endFrame": 6722,
+    "text": "IEO是国际科学奥赛体系，权威性最高，覆盖六十多国"
   },
   {
     "id": 70,
-    "startFrame": 7091,
-    "endFrame": 7194,
-    "text": "Isaac Physics是值得长期投入的国际平台"
+    "startFrame": 6722,
+    "endFrame": 6840,
+    "text": "NEC是美国本土赛事，题量更大，规则更稳定"
   },
   {
     "id": 71,
+    "startFrame": 6840,
+    "endFrame": 6913,
+    "text": "两者并行参加，互为申请背书"
+  },
+  {
+    "id": 72,
+    "startFrame": 6904,
+    "endFrame": 7036,
+    "text": "二零二五年七月，第八届IEO在阿塞拜疆首都巴库举行"
+  },
+  {
+    "id": 73,
+    "startFrame": 7036,
+    "endFrame": 7194,
+    "text": "中国队斩获四枚个人金牌、一枚个人铜牌，团队总成绩位列全球第三"
+  },
+  {
+    "id": 74,
     "startFrame": 7194,
-    "endFrame": 7260,
+    "endFrame": 7331,
+    "text": "历届中国金奖得主多被哈佛、斯坦福、芝大经济学专业录取"
+  },
+  {
+    "id": 75,
+    "startFrame": 7322,
+    "endFrame": 7427,
+    "text": "对计划申请经济，金融，商科方向的家庭而言"
+  },
+  {
+    "id": 76,
+    "startFrame": 7427,
+    "endFrame": 7485,
+    "text": "IEO的价值在三个方面"
+  },
+  {
+    "id": 77,
+    "startFrame": 7485,
+    "endFrame": 7564,
+    "text": "第一是国际科学奥赛的最高权威性"
+  },
+  {
+    "id": 78,
+    "startFrame": 7564,
+    "endFrame": 7643,
+    "text": "第二是诺奖发起人背书的稀缺品牌"
+  },
+  {
+    "id": 79,
+    "startFrame": 7643,
+    "endFrame": 7764,
+    "text": "第三是历届金奖去向哈佛、斯坦福等顶校的真实案例"
+  },
+  {
+    "id": 80,
+    "startFrame": 7754,
+    "endFrame": 7894,
+    "text": "第一步选一本经济学原理教材打底，曼昆或克鲁格曼任选"
+  },
+  {
+    "id": 81,
+    "startFrame": 7894,
+    "endFrame": 8028,
+    "text": "第二步刷历年真题，重点把握选择题手感和开放题模板"
+  },
+  {
+    "id": 82,
+    "startFrame": 8028,
+    "endFrame": 8134,
+    "text": "第三步学习金融素养基础，关注理财与投资"
+  },
+  {
+    "id": 83,
+    "startFrame": 8134,
+    "endFrame": 8257,
+    "text": "第四步组建三到五人团队，提前练习商业案例答辩"
+  },
+  {
+    "id": 84,
+    "startFrame": 8257,
+    "endFrame": 8352,
+    "text": "第五步保持英文输入输出，对接全球站"
+  },
+  {
+    "id": 85,
+    "startFrame": 8343,
+    "endFrame": 8420,
+    "text": "IEO是国际经济学奥林匹克竞赛"
+  },
+  {
+    "id": 86,
+    "startFrame": 8420,
+    "endFrame": 8539,
+    "text": "由诺贝尔经济学奖得主Eric Maskin发起"
+  },
+  {
+    "id": 87,
+    "startFrame": 8539,
+    "endFrame": 8632,
+    "text": "是国际科学奥赛体系中唯一的经济学项目"
+  },
+  {
+    "id": 88,
+    "startFrame": 8632,
+    "endFrame": 8782,
+    "text": "二零二六年全球决赛在深圳举行，是中国学生本土参赛的黄金窗口"
+  },
+  {
+    "id": 89,
+    "startFrame": 8782,
+    "endFrame": 8865,
     "text": "关注翰林有方获取更多国际竞赛信息"
   }
 ]

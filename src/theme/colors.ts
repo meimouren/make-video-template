@@ -1,30 +1,34 @@
-// ACADEMIC EDITORIAL palette (frontend-design output, locked 2026-04-29)
-// Aesthetic: Penguin Classics × Oxford academic guidebook × 老课本复古
-// Background: warm parchment cream — designed for long-form comfortable viewing.
-// Primary accent: scholarly burgundy — gravitas without harshness.
+// BOLD EDITORIAL palette (redesign 2026-06-24)
+// Aesthetic: serious magazine × bold display × education-grade clarity.
+// Background: clean near-white paper (NOT cream — deliberately avoids the
+// banned warm beige/oxblood AI-tell). Primary accent: confident cobalt.
+// Token semantic names (black/yellow/white) kept for API stability across
+// all existing components — only the VALUES changed.
 
 export const BRAND = {
-  black: '#F4EFE6',                    // parchment — main bg (semantic name kept for token API stability)
-  yellow: '#8A2832',                   // scholarly burgundy — primary accent
-  white: '#1C1814',                    // deep ink — primary text
-  textLight: '#6B6258',                // muted ink — secondary text
-  divider: '#C7BFB0',                  // soft warm divider
-  cardBg: 'rgba(28,24,20,0.035)',      // subtle warm card bg
-  cardBorder: 'rgba(28,24,20,0.12)',   // editorial ink-tone border
+  black: '#FAFAFA',                    // paper — main bg
+  yellow: '#1D4ED8',                   // cobalt — primary accent
+  white: '#111111',                    // ink — primary text + thick rules
+  textLight: '#5B5B5B',                // neutral muted ink — secondary text
+  divider: '#C4C4C4',                  // divider — visible on paper, still refined
+  cardBg: 'rgba(17,17,17,0.025)',      // very subtle ink-tint card bg
+  cardBorder: 'rgba(17,17,17,0.12)',   // editorial hairline border
 } as const;
 
-// Data palette tuned for parchment background — desaturated, editorial.
+// On-accent contrast color (text/marks sitting on the cobalt accent).
+export const ON_ACCENT = '#FFFFFF';
+
+// Data palette — cobalt-led, editorial, max one warm emphasis.
 export const DATA = {
-  red:    '#8A2832',  // 学院红 — primary chart series
-  blue:   '#1F3D5C',  // 深海军 — second series, headers
-  green:  '#3A6B5F',  // 深 teal — third series, comparative
-  orange: '#C39248',  // 古铜金 — emphasis, callouts
+  red:    '#1D4ED8',  // cobalt — primary chart series (key name kept)
+  blue:   '#111111',  // ink — secondary series, bars
+  green:  '#15803D',  // deep green — tertiary / positive
+  orange: '#B45309',  // ochre — single emphasis callout
 } as const;
 
-// Deep variants kept for callbacks where original v1/v2 values are needed.
 export const DATA_DEEP = {
-  red:    '#A41034',
-  blue:   '#116AB0',
+  red:    '#1E40AF',
+  blue:   '#000000',
 } as const;
 
 export type BrandColor = keyof typeof BRAND;

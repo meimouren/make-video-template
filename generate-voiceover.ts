@@ -1,7 +1,9 @@
 /**
  * 使用阿里百炼 CosyVoice TTS (WebSocket) 生成配音
  * 运行: npx ts-node generate-voiceover.ts
+ * API Key 从 .env 的 DASHSCOPE_API_KEY 读取（见 .env.example）
  */
+import "dotenv/config";
 import WebSocket from "ws";
 import { writeFileSync, existsSync, mkdirSync, createWriteStream } from "fs";
 import { v4 as uuid } from "uuid";

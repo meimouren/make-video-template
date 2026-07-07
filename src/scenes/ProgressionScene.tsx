@@ -1,9 +1,11 @@
 import React from 'react';
-import { SceneShell, MetaChip } from '../components/SceneShell';
-import { useStagger } from '../animations/primitives';
+import { AbsoluteFill } from 'remotion';
+import { Background } from '../components/Background';
+import { SceneHeader } from '../components/SceneHeader';
+import { useStagger, useFrom } from '../animations/primitives';
 import { back, power3Out } from '../animations/easings';
-import { BRAND, DATA } from '../theme/colors';
-import { D0_CAPTION, D1_BODY, D2_SUBTITLE, FONT_BODY_EN, FONT_CN, tokenToStyle } from '../theme/typography';
+import { BRAND } from '../theme/colors';
+import { FONT_HEAD_EN, FONT_CN, FONT_CN_SANS } from '../theme/typography';
 
 interface PathwayStep {
   stage: string;
@@ -17,185 +19,146 @@ interface ProgressionSceneProps {
   pathway: PathwayStep[];
 }
 
-const palette = [DATA.red, DATA.blue, DATA.green, DATA.orange];
+const NUM_COL = 150;
+const ROW_GAP = 40;
+const ROW_PAD_Y = 38;
 
-const StageCard: React.FC<{
+const StageRow: React.FC<{
   step: PathwayStep;
   index: number;
   delay: number;
-  total: number;
   isLast: boolean;
-}> = ({ step, index, delay, total, isLast }) => {
-  const card = useStagger({
+}> = ({ step, index, delay, isLast }) => {
+  const row = useStagger({
     stagger: 0.18,
     index,
     delay,
     duration: 0.6,
-    ease: back(1.5).out,
-    from: { y: 22, opacity: 0, scale: 0.92 },
+    ease: back(1.4).out,
+    from: { x: -28, opacity: 0 },
   });
-  const arrow = useStagger({
-    stagger: 0.18,
-    index,
-    delay: delay + 0.3,
-    duration: 0.45,
-    ease: power3Out,
-    from: { x: -14, opacity: 0 },
-  });
-  const accent = palette[index % palette.length];
+  const num = String(index + 1).padStart(2, '0');
 
   return (
-    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'stretch', flex: 1, minHeight: 0 }}>
+    <div
+      style={{
+        display: 'flex',
+        alignItems: 'center',
+        gap: ROW_GAP,
+        borderBottom: isLast ? 'none' : `1.5px solid ${BRAND.divider}`,
+        padding: `${ROW_PAD_Y}px 6px`,
+        transform: `translateX(${row.x}px)`,
+        opacity: row.opacity,
+      }}
+    >
+      {/* Number (the node) — vertically centered, line drawn as continuous overlay by parent */}
       <div
         style={{
+          width: NUM_COL,
+          flexShrink: 0,
           display: 'flex',
-          gap: 22,
-          padding: '24px 26px',
-          background: BRAND.cardBg,
-          border: `1px solid ${BRAND.cardBorder}`,
-          borderLeft: `5px solid ${accent}`,
-          borderRadius: 12,
-          transform: `translateY(${card.y}px) scale(${card.scale})`,
-          opacity: card.opacity,
-          flex: 1,
-          alignItems: 'center',
+          justifyContent: 'center',
+          position: 'relative',
+          zIndex: 1,
         }}
       >
-        {/* Stage badge */}
         <div
           style={{
-            display: 'flex',
-            flexDirection: 'column',
-            alignItems: 'center',
-            justifyContent: 'center',
-            minWidth: 116,
-            padding: '14px 0',
-            background: `${accent}1a`,
-            border: `1px solid ${accent}66`,
-            borderRadius: 10,
+            fontFamily: FONT_HEAD_EN,
+            fontSize: 92,
+            fontWeight: 900,
+            color: BRAND.yellow,
+            lineHeight: 1,
+            // opaque backing so the continuous line reads as connecting nodes
+            background: BRAND.black,
+            padding: '2px 8px',
           }}
         >
-          <div
-            style={{
-              fontFamily: FONT_BODY_EN,
-              fontSize: 18,
-              color: BRAND.textLight,
-              letterSpacing: '0.22em',
-              fontWeight: 700,
-              marginBottom: 4,
-            }}
-          >
-            STAGE
-          </div>
-          <div
-            style={{
-              fontFamily: FONT_BODY_EN,
-              fontSize: 56,
-              fontWeight: 900,
-              color: accent,
-              lineHeight: 1.0,
-            }}
-          >
-            {String(index + 1).padStart(2, '0')}
-          </div>
-        </div>
-
-        {/* Right side: stage + desc */}
-        <div style={{ flex: 1, display: 'flex', flexDirection: 'column', gap: 8 }}>
-          <div style={{ display: 'flex', alignItems: 'baseline', gap: 16, flexWrap: 'wrap' }}>
-            <div
-              style={{
-                ...tokenToStyle(D2_SUBTITLE),
-                fontFamily: FONT_CN,
-                fontWeight: 800,
-                color: BRAND.yellow,
-              }}
-            >
-              {step.stage}
-            </div>
-            {step.participants && (
-              <div
-                style={{
-                  ...tokenToStyle(D0_CAPTION),
-                  fontFamily: FONT_BODY_EN,
-                  color: accent,
-                  fontWeight: 700,
-                  background: `${accent}22`,
-                  padding: '4px 10px',
-                  borderRadius: 6,
-                  letterSpacing: '0.08em',
-                }}
-              >
-                {step.participants}
-              </div>
-            )}
-          </div>
-          <div
-            style={{
-              ...tokenToStyle(D1_BODY),
-              fontFamily: FONT_CN,
-              color: BRAND.white,
-              fontWeight: 400,
-              opacity: 0.92,
-            }}
-          >
-            {step.desc}
-          </div>
+          {num}
         </div>
       </div>
 
-      {/* Connector arrow to next */}
-      {!isLast && (
-        <div
-          style={{
-            display: 'flex',
-            justifyContent: 'center',
-            padding: '6px 0',
-            color: accent,
-            fontSize: 20,
-            transform: `translateX(${arrow.x}px)`,
-            opacity: arrow.opacity,
-          }}
-        >
-          ↓
+      {/* Stage + participants + desc */}
+      <div style={{ flex: 1, display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
+        <div style={{ display: 'flex', alignItems: 'baseline', gap: 18, flexWrap: 'wrap', marginBottom: 8 }}>
+          <div style={{ fontFamily: FONT_CN, fontSize: 50, fontWeight: 700, color: BRAND.white, lineHeight: 1.1 }}>
+            {step.stage}
+          </div>
+          {step.participants && (
+            <div
+              style={{
+                fontFamily: FONT_CN_SANS,
+                fontSize: 26,
+                fontWeight: 600,
+                color: BRAND.yellow,
+                letterSpacing: '0.06em',
+              }}
+            >
+              {step.participants}
+            </div>
+          )}
         </div>
-      )}
+        <div style={{ fontFamily: FONT_CN, fontSize: 34, color: BRAND.textLight, lineHeight: 1.4 }}>
+          {step.desc}
+        </div>
+      </div>
     </div>
   );
 };
 
 export const ProgressionScene: React.FC<ProgressionSceneProps> = ({ title, subtitle, pathway }) => {
-  const metaChips: MetaChip[] = [
-    { label: 'STAGES', value: `${pathway.length} 阶段`, accent: BRAND.yellow },
-    { label: 'PATHWAY', value: '晋级通道', accent: DATA.blue },
-    { label: 'GOAL', value: '名校 / 国手', accent: DATA.red },
-  ];
+  const line = useFrom({ delay: 0.9, duration: 0.7, ease: power3Out, from: { scale: 0 } });
+  // Horizontal center of the number column, measured from the rows' left edge.
+  const lineLeft = NUM_COL / 2;
 
   return (
-    <SceneShell
-      eyebrow="PATHWAY · 晋级路径"
-      title={title}
-      subtitle={subtitle}
-      metaChips={metaChips}
-      footer="HANLIN · 国际竞赛系列"
-      bodyPanel={false}
-    >
-      <div style={{ display: 'flex', flexDirection: 'column', flex: 1, minHeight: 0 }}>
-        {pathway.map((step, i) => (
-          <div
-            key={step.stage + i}
-            style={{ flex: 1, minHeight: 0, display: 'flex', flexDirection: 'column' }}
-          >
-            <StageCard
-              step={step}
-              index={i}
-              delay={1.0}
-              total={pathway.length}
-              isLast={i === pathway.length - 1}
+    <AbsoluteFill style={{ background: BRAND.black }}>
+      <Background />
+      <div
+        style={{
+          position: 'absolute',
+          inset: 0,
+          padding: '150px 70px 290px',
+          display: 'flex',
+          flexDirection: 'column',
+        }}
+      >
+        <SceneHeader kicker={subtitle} title={title} />
+
+        <div
+          style={{
+            flex: 1,
+            display: 'flex',
+            flexDirection: 'column',
+            justifyContent: 'center',
+          }}
+        >
+          <div style={{ position: 'relative' }}>
+            {/* Continuous vertical line connecting adjacent numbers */}
+            <div
+              style={{
+                position: 'absolute',
+                top: ROW_PAD_Y,
+                bottom: ROW_PAD_Y,
+                left: lineLeft - 1,
+                width: 2,
+                background: BRAND.yellow,
+                transform: `scaleY(${line.scale})`,
+                transformOrigin: 'top',
+              }}
             />
+            {pathway.map((step, i) => (
+              <StageRow
+                key={step.stage + i}
+                step={step}
+                index={i}
+                delay={0.8}
+                isLast={i === pathway.length - 1}
+              />
+            ))}
           </div>
-        ))}
+        </div>
       </div>
-    </SceneShell>
+    </AbsoluteFill>
   );
 };

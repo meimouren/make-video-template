@@ -1,122 +1,134 @@
 import React from 'react';
 import { AbsoluteFill } from 'remotion';
-import { useFrom, useTextReveal } from '../animations/primitives';
-import { power3Out } from '../animations/easings';
-import { BRAND } from '../theme/colors';
-import {
-  D2_SUBTITLE,
-  D4_HEADLINE,
-  FONT_CN,
-  tokenToStyle,
-} from '../theme/typography';
+import { useFrom } from '../animations/primitives';
+import { power3Out, back } from '../animations/easings';
+import { BRAND, ON_ACCENT } from '../theme/colors';
+import { FONT_HEAD_EN, FONT_CN, FONT_CN_SANS } from '../theme/typography';
 
 interface ClosingSceneProps {
   title: string;
-  text: string;
+  text?: string;
 }
 
+/**
+ * Inverted cobalt closing accent page. Full-bleed cobalt background, white dot
+ * halftone + giant ghost quote for depth, reversed-out serif closing statement,
+ * an optional narrower body line, and a bold white CTA block.
+ */
 export const ClosingScene: React.FC<ClosingSceneProps> = ({ title, text }) => {
-  const titleReveal = useTextReveal({
-    text: title,
+  const titleAnim = useFrom({
     delay: 0.3,
-    durationPerChar: 0.06,
-  });
-
-  const accentAnim = useFrom({
-    delay: 0.2,
-    duration: 0.55,
+    duration: 0.8,
     ease: power3Out,
-    from: { scale: 0 },
+    from: { y: 40, opacity: 0 },
   });
 
   const textAnim = useFrom({
-    delay: 0.3 + title.length * 0.06 + 0.2,
+    delay: 0.9,
     duration: 0.7,
     ease: power3Out,
-    from: { y: 20, opacity: 0 },
+    from: { y: 24, opacity: 0 },
   });
 
-  const chipAnim = useFrom({
-    delay: 0.3 + title.length * 0.06 + 0.6,
-    duration: 0.55,
-    ease: power3Out,
-    from: { y: 14, opacity: 0 },
+  const ctaAnim = useFrom({
+    delay: 1.4,
+    duration: 0.6,
+    ease: back(1.6).out,
+    from: { y: 18, opacity: 0, scale: 0.85 },
   });
 
   return (
-    <AbsoluteFill style={{ background: BRAND.black }}>
+    <AbsoluteFill style={{ background: BRAND.yellow, overflow: 'hidden' }}>
+      {/* white dot halftone */}
+      <AbsoluteFill
+        style={{
+          backgroundImage: `radial-gradient(${ON_ACCENT}22 1.6px, transparent 1.7px)`,
+          backgroundSize: '40px 40px',
+        }}
+      />
+      {/* giant ghost quote mark for depth */}
       <div
         style={{
-          width: '100%',
-          height: '100%',
-          padding: '180px 80px 220px',
+          position: 'absolute',
+          right: 20,
+          top: -140,
+          fontFamily: FONT_HEAD_EN,
+          fontSize: 900,
+          fontWeight: 900,
+          lineHeight: 1,
+          color: `${ON_ACCENT}1F`,
+          pointerEvents: 'none',
+        }}
+      >
+        ”
+      </div>
+
+      <div
+        style={{
+          position: 'absolute',
+          inset: 0,
+          padding: '170px 70px 290px',
           display: 'flex',
           flexDirection: 'column',
           justifyContent: 'center',
-          alignItems: 'center',
-          gap: 32,
-          textAlign: 'center',
+          color: ON_ACCENT,
         }}
       >
-        {/* Yellow accent bar (horizontal, centered) */}
+        {/* giant serif closing statement */}
         <div
           style={{
-            width: 140,
-            height: 6,
-            background: BRAND.yellow,
-            borderRadius: 3,
-            transform: `scaleX(${accentAnim.scale})`,
-          }}
-        />
-
-        {/* Title with reveal */}
-        <div
-          style={{
-            ...tokenToStyle(D4_HEADLINE),
             fontFamily: FONT_CN,
-            fontWeight: 800,
-            color: BRAND.yellow,
-            minHeight: D4_HEADLINE.fontSize * D4_HEADLINE.lineHeight,
+            fontSize: 122,
+            fontWeight: 700,
+            lineHeight: 1.14,
+            transform: `translateY(${titleAnim.y}px)`,
+            opacity: titleAnim.opacity,
           }}
         >
-          {titleReveal.visibleText || ' '}
+          {title}
         </div>
 
-        {/* Body text */}
-        <div
-          style={{
-            ...tokenToStyle(D2_SUBTITLE),
-            fontFamily: FONT_CN,
-            color: BRAND.white,
-            fontWeight: 400,
-            opacity: textAnim.opacity,
-            transform: `translateY(${textAnim.y}px)`,
-            maxWidth: 880,
-            marginTop: 12,
-            lineHeight: 1.6,
-          }}
-        >
-          {text}
-        </div>
+        {/* optional body line — narrower, wide leading */}
+        {text ? (
+          <div
+            style={{
+              fontFamily: FONT_CN,
+              fontSize: 42,
+              fontWeight: 400,
+              lineHeight: 1.7,
+              maxWidth: 760,
+              marginTop: 40,
+              opacity: textAnim.opacity * 0.94,
+              transform: `translateY(${textAnim.y}px)`,
+            }}
+          >
+            {text}
+          </div>
+        ) : null}
 
-        {/* Brand chip */}
+        {/* CTA block — white solid, cobalt ink */}
         <div
           style={{
-            marginTop: 36,
-            padding: '14px 32px',
-            background: BRAND.cardBg,
-            border: `1px solid ${BRAND.cardBorder}`,
-            borderRadius: 999,
-            fontFamily: FONT_CN,
-            fontSize: 28,
-            color: BRAND.textLight,
-            letterSpacing: '0.18em',
-            fontWeight: 500,
-            opacity: chipAnim.opacity,
-            transform: `translateY(${chipAnim.y}px)`,
+            marginTop: 72,
+            transform: `translateY(${ctaAnim.y}px) scale(${ctaAnim.scale})`,
+            opacity: ctaAnim.opacity,
           }}
         >
-          翰林有方 · 国际竞赛系列
+          <span
+            style={{
+              display: 'inline-block',
+              padding: '22px 48px',
+              background: ON_ACCENT,
+              color: BRAND.yellow,
+              fontFamily: FONT_CN_SANS,
+              fontSize: 40,
+              fontWeight: 800,
+              letterSpacing: '0.06em',
+              borderRadius: 8,
+            }}
+          >
+            关注翰林有方
+          </span>
         </div>
       </div>
     </AbsoluteFill>

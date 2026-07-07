@@ -1,10 +1,10 @@
 import React from 'react';
 import { AbsoluteFill } from 'remotion';
-import { useFrom, useTextReveal } from '../animations/primitives';
-import { back, power3Out } from '../animations/easings';
+import { Background } from '../components/Background';
+import { Watermark } from '../components/Watermark';
 import { COMPETITION } from '../config';
-import { BRAND } from '../theme/colors';
-import { D2_SUBTITLE, FONT_BODY_EN, FONT_CN, tokenToStyle } from '../theme/typography';
+import { BRAND, ON_ACCENT } from '../theme/colors';
+import { FONT_HEAD_EN, FONT_CN, FONT_CN_SANS } from '../theme/typography';
 
 interface CoverSceneProps {
   seriesName: string;
@@ -13,150 +13,104 @@ interface CoverSceneProps {
   episodeTag: string;
 }
 
-export const CoverScene: React.FC<CoverSceneProps> = ({
-  seriesName,
-  competitionName,
-  episodeTag,
-}) => {
+/**
+ * Cover scene — rendered fully STATIC (complete at frame 0) on purpose:
+ * publishing platforms use the video's first frame as the thumbnail, so the
+ * cover must be fully composed from frame 0 (no entrance animations that would
+ * leave frame 0 blank). Subtle life comes from the background drift only.
+ */
+export const CoverScene: React.FC<CoverSceneProps> = ({ seriesName, competitionName }) => {
   const cnNameFull = COMPETITION.nameCn;
 
-  // Adaptive font sizes
   const enLen = competitionName.length;
-  const enFontSize = enLen <= 3 ? 280 : enLen <= 4 ? 240 : enLen <= 5 ? 200 : 170;
-  const enLetterSpacing = enLen <= 3 ? 16 : enLen <= 4 ? 12 : 8;
+  const enFontSize = enLen <= 3 ? 420 : enLen <= 4 ? 320 : enLen <= 5 ? 250 : 200;
 
   const cnLen = cnNameFull.length;
-  const cnFontSize = cnLen <= 7 ? 80 : cnLen <= 9 ? 72 : cnLen <= 11 ? 64 : 56;
-
-  // Series name on top
-  const seriesAnim = useFrom({
-    delay: 0.1,
-    duration: 0.5,
-    ease: power3Out,
-    from: { y: -20, opacity: 0 },
-  });
-
-  // Big EN name reveal
-  const enReveal = useTextReveal({
-    text: competitionName,
-    delay: 0.4,
-    durationPerChar: 0.07,
-  });
-
-  // Yellow underline bar grows after EN name
-  const underlineAnim = useFrom({
-    delay: 0.4 + competitionName.length * 0.07 + 0.15,
-    duration: 0.55,
-    ease: power3Out,
-    from: { scale: 0 },
-  });
-
-  // CN full name fades in
-  const cnAnim = useFrom({
-    delay: 0.4 + competitionName.length * 0.07 + 0.4,
-    duration: 0.55,
-    ease: power3Out,
-    from: { y: 14, opacity: 0 },
-  });
-
-  // Episode tag chip pops up last
-  const chipAnim = useFrom({
-    delay: 1.5,
-    duration: 0.5,
-    ease: back(1.6).out,
-    from: { y: 16, opacity: 0, scale: 0.85 },
-  });
+  const cnFontSize = cnLen <= 9 ? 86 : cnLen <= 11 ? 74 : 64;
 
   return (
-    <AbsoluteFill
-      style={{
-        background: BRAND.black,
-        display: 'flex',
-        flexDirection: 'column',
-        alignItems: 'center',
-        justifyContent: 'center',
-        gap: 32,
-      }}
-    >
-      {/* Series name */}
+    <AbsoluteFill style={{ background: BRAND.black }}>
+      <Background />
+      <Watermark char="$" color={BRAND.yellow} size={1000} right={-80} bottom={-160} opacity={0.07} />
+
+      {/* top brand bar */}
       <div
         style={{
-          fontFamily: FONT_CN,
-          fontSize: 36,
-          fontWeight: 600,
-          color: BRAND.white,
-          letterSpacing: '0.4em',
-          opacity: seriesAnim.opacity * 0.85,
-          transform: `translateY(${seriesAnim.y}px)`,
+          position: 'absolute',
+          top: 0,
+          left: 0,
+          right: 0,
+          background: BRAND.white,
+          color: BRAND.black,
+          fontFamily: FONT_CN_SANS,
+          fontSize: 26,
+          letterSpacing: '0.32em',
+          padding: '24px 70px',
         }}
       >
-        {seriesName}
+        翰林有方 · 国际竞赛系列
       </div>
 
-      {/* Big EN name with reveal */}
       <div
         style={{
-          fontFamily: FONT_BODY_EN,
-          fontSize: enFontSize,
-          fontWeight: 900,
-          color: BRAND.yellow,
-          letterSpacing: enLetterSpacing,
-          textAlign: 'center',
-          minHeight: enFontSize * 1.0,
-          lineHeight: 1.0,
+          position: 'absolute',
+          inset: 0,
+          padding: '188px 70px 280px',
+          display: 'flex',
+          flexDirection: 'column',
+          justifyContent: 'space-between',
         }}
       >
-        {enReveal.visibleText || ' '}
-      </div>
+        <div
+          style={{
+            alignSelf: 'flex-start',
+            background: BRAND.yellow,
+            color: ON_ACCENT,
+            fontFamily: FONT_CN,
+            fontSize: 36,
+            fontWeight: 700,
+            padding: '12px 28px',
+            letterSpacing: '0.06em',
+          }}
+        >
+          {seriesName}
+        </div>
 
-      {/* Yellow underline */}
-      <div
-        style={{
-          width: enLen * (enFontSize * 0.55),
-          maxWidth: 800,
-          height: 8,
-          background: BRAND.yellow,
-          borderRadius: 4,
-          transform: `scaleX(${underlineAnim.scale})`,
-          transformOrigin: 'center',
-        }}
-      />
+        <div>
+          <div
+            style={{
+              fontFamily: FONT_HEAD_EN,
+              fontSize: enFontSize,
+              fontWeight: 900,
+              color: BRAND.white,
+              lineHeight: 0.82,
+              letterSpacing: '-0.03em',
+            }}
+          >
+            {competitionName}
+          </div>
+          <div style={{ height: 16, width: 360, background: BRAND.yellow, margin: '40px 0 30px' }} />
+          <div
+            style={{
+              fontFamily: FONT_CN,
+              fontSize: cnFontSize,
+              fontWeight: 700,
+              color: BRAND.white,
+              letterSpacing: '0.04em',
+            }}
+          >
+            {cnNameFull}
+          </div>
+        </div>
 
-      {/* CN full name */}
-      <div
-        style={{
-          fontFamily: FONT_CN,
-          fontSize: cnFontSize,
-          fontWeight: 700,
-          color: BRAND.white,
-          letterSpacing: '0.06em',
-          textAlign: 'center',
-          opacity: cnAnim.opacity,
-          transform: `translateY(${cnAnim.y}px)`,
-        }}
-      >
-        {cnNameFull}
-      </div>
-
-      {/* Episode tag chip */}
-      <div
-        style={{
-          marginTop: 28,
-          padding: '12px 28px',
-          background: BRAND.cardBg,
-          border: `1px solid ${BRAND.cardBorder}`,
-          borderRadius: 999,
-          ...tokenToStyle(D2_SUBTITLE),
-          fontFamily: FONT_CN,
-          fontSize: 28,
-          color: BRAND.textLight,
-          letterSpacing: '0.18em',
-          fontWeight: 500,
-          transform: `translateY(${chipAnim.y}px) scale(${chipAnim.scale})`,
-          opacity: chipAnim.opacity,
-        }}
-      >
-        {episodeTag}
+        <div style={{ borderTop: `6px solid ${BRAND.white}`, paddingTop: 30, display: 'flex', alignItems: 'baseline', gap: 20 }}>
+          <span style={{ fontFamily: FONT_HEAD_EN, fontSize: 128, fontWeight: 900, color: BRAND.yellow, lineHeight: 1 }}>
+            60+
+          </span>
+          <span style={{ fontFamily: FONT_CN, fontSize: 40, color: BRAND.textLight }}>
+            国家 · 2018 创办 · 诺奖发起
+          </span>
+        </div>
       </div>
     </AbsoluteFill>
   );

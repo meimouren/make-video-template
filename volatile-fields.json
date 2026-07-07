@@ -1,0 +1,62 @@
+{
+  "_comment": "易变字段机器清单 — 命中这些关键词的数据点必须用当季官网复核（时效闸门）。配套政策见 docs/信息源优先级.md，扫描脚本见 check-sources.ts。",
+  "policyDoc": "docs/信息源优先级.md",
+  "currentSeason": "2026",
+  "volatile": [
+    {
+      "key": "dates",
+      "label": "日期与截止",
+      "verifyAgainst": "当季赛事官网",
+      "keywords": ["报名截止", "截止", "deadline", "赛季", "时间线", "举办", "月", "号"]
+    },
+    {
+      "key": "location",
+      "label": "主办地点",
+      "verifyAgainst": "当季赛事官网",
+      "keywords": ["主办", "地点", "城市", "深圳", "湖州", "线下", "举办地"]
+    },
+    {
+      "key": "fee",
+      "label": "报名费用",
+      "verifyAgainst": "当季赛事官网/官方报名页",
+      "keywords": ["报名费", "费用", "元", "美元", "$", "免费", "fee"]
+    },
+    {
+      "key": "format",
+      "label": "考试格式",
+      "verifyAgainst": "当季官方 syllabus/regulations",
+      "keywords": ["选择题", "开放题", "MCQ", "分钟", "小时", "时长", "满分", "计分", "题"]
+    },
+    {
+      "key": "eligibility",
+      "label": "参赛资格",
+      "verifyAgainst": "当季官方 regulations",
+      "keywords": ["岁", "年龄", "年级", "G6", "G9", "G12", "资格", "学段", "毕业"]
+    },
+    {
+      "key": "awards",
+      "label": "获奖与晋级",
+      "verifyAgainst": "当季官方 regulations",
+      "keywords": ["金奖", "银奖", "铜奖", "获奖", "晋级", "比例", "%", "前", "奖牌"]
+    },
+    {
+      "key": "results",
+      "label": "当年成绩",
+      "verifyAgainst": "当季官方 final report",
+      "keywords": ["排名", "团队第", "成绩", "届", "几金", "夺得", "斩获"]
+    },
+    {
+      "key": "links",
+      "label": "官网链接",
+      "verifyAgainst": "直接访问确认有效",
+      "keywords": ["官网", "网址", ".org", ".com", "http"]
+    }
+  ],
+  "evergreen": [
+    { "key": "founder", "label": "创办人/年份", "keywords": ["创办", "发起", "创立", "Maskin", "主席"] },
+    { "key": "history", "label": "历史沿革", "keywords": ["历史", "沿革", "首届", "起源", "第八届"] },
+    { "key": "nature", "label": "性质/定位", "keywords": ["定位", "性质", "唯一", "体系", "奥林匹克"] },
+    { "key": "domains", "label": "知识领域大类", "keywords": ["领域", "板块", "大类", "微观", "宏观"] },
+    { "key": "value", "label": "升学价值", "keywords": ["价值", "申请", "升学", "认可", "录取"] }
+  ]
+}

@@ -1,9 +1,12 @@
 import React from 'react';
-import { SceneShell, MetaChip } from '../components/SceneShell';
+import { AbsoluteFill } from 'remotion';
+import { Background } from '../components/Background';
+import { SceneHeader } from '../components/SceneHeader';
+import { Icon, IconName } from '../components/icons';
 import { useStagger } from '../animations/primitives';
 import { back } from '../animations/easings';
-import { BRAND, DATA } from '../theme/colors';
-import { D0_CAPTION, D1_BODY, D2_SUBTITLE, FONT_BODY_EN, FONT_CN, tokenToStyle } from '../theme/typography';
+import { BRAND } from '../theme/colors';
+import { FONT_CN } from '../theme/typography';
 
 interface Benefit {
   icon: string;
@@ -17,145 +20,78 @@ interface WhyAMCSceneProps {
   benefits: Benefit[];
 }
 
-const palette = [DATA.red, DATA.blue, DATA.green, DATA.orange, BRAND.yellow];
+const ICON_CYCLE: IconName[] = ['medal', 'seal-check', 'graduation-cap', 'map-pin'];
+const AVAILABLE_ICONS: IconName[] = ['medal', 'seal-check', 'graduation-cap', 'map-pin', 'scales', 'book-open'];
 
-const BenefitTile: React.FC<{ benefit: Benefit; index: number; delay: number; total: number }> = ({
-  benefit,
-  index,
-  delay,
-  total,
-}) => {
-  const card = useStagger({
-    stagger: 0.15,
-    index,
-    delay,
-    duration: 0.6,
-    ease: back(1.5).out,
-    from: { y: 28, opacity: 0, scale: 0.9 },
-  });
-  const accent = palette[index % palette.length];
+const resolveIcon = (icon: string, index: number): IconName =>
+  (AVAILABLE_ICONS as string[]).includes(icon)
+    ? (icon as IconName)
+    : ICON_CYCLE[index % ICON_CYCLE.length];
 
+/** Bold Editorial 2x2 hairline grid: cobalt icon + serif title + muted desc. */
+export const WhyAMCScene: React.FC<WhyAMCSceneProps> = ({ title, subtitle, benefits }) => {
   return (
-    <div
-      style={{
-        position: 'relative',
-        padding: '28px 26px 26px',
-        background: BRAND.cardBg,
-        border: `1px solid ${BRAND.cardBorder}`,
-        borderTop: `4px solid ${accent}`,
-        borderRadius: 14,
-        transform: `translateY(${card.y}px) scale(${card.scale})`,
-        opacity: card.opacity,
-        display: 'flex',
-        flexDirection: 'column',
-        gap: 12,
-        overflow: 'hidden',
-      }}
-    >
-      {/* Accent glow */}
+    <AbsoluteFill style={{ background: BRAND.black }}>
+      <Background />
       <div
         style={{
           position: 'absolute',
-          top: -100,
-          right: -100,
-          width: 200,
-          height: 200,
-          borderRadius: 999,
-          background: `radial-gradient(circle, ${accent}33 0%, transparent 70%)`,
-          pointerEvents: 'none',
+          inset: 0,
+          padding: '150px 70px 290px',
+          display: 'flex',
+          flexDirection: 'column',
         }}
-      />
+      >
+        <SceneHeader kicker={subtitle} title={title} />
 
-      {/* Top: index badge + accent rule */}
-      <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', position: 'relative' }}>
+        {/* 2x2 hairline grid */}
         <div
           style={{
-            fontFamily: FONT_BODY_EN,
-            fontSize: 56,
-            fontWeight: 900,
-            color: accent,
-            letterSpacing: '0.02em',
-            lineHeight: 1.0,
+            flex: 1,
+            marginTop: 56,
+            alignSelf: 'stretch',
+            display: 'grid',
+            gridTemplateColumns: '1fr 1fr',
+            gridTemplateRows: '1fr 1fr',
+            borderTop: `2px solid ${BRAND.white}`,
+            borderLeft: `1.5px solid ${BRAND.divider}`,
           }}
         >
-          {String(index + 1).padStart(2, '0')}
-          <span style={{ color: BRAND.textLight, fontWeight: 500, marginLeft: 8, fontSize: 26 }}>
-            / {String(total).padStart(2, '0')}
-          </span>
+          {benefits.map((b, i) => (
+            <BenefitCell key={b.title + i} benefit={b} index={i} />
+          ))}
         </div>
-        <div
-          style={{
-            width: 60,
-            height: 4,
-            background: accent,
-            borderRadius: 2,
-            opacity: 0.7,
-          }}
-        />
       </div>
-
-      <div
-        style={{
-          ...tokenToStyle(D2_SUBTITLE),
-          fontFamily: FONT_CN,
-          color: BRAND.yellow,
-          fontWeight: 800,
-          position: 'relative',
-        }}
-      >
-        {benefit.title}
-      </div>
-
-      <div
-        style={{
-          ...tokenToStyle(D1_BODY),
-          fontFamily: FONT_CN,
-          color: BRAND.white,
-          fontWeight: 400,
-          opacity: 0.92,
-          lineHeight: 1.55,
-          position: 'relative',
-        }}
-      >
-        {benefit.desc}
-      </div>
-    </div>
+    </AbsoluteFill>
   );
 };
 
-export const WhyAMCScene: React.FC<WhyAMCSceneProps> = ({ title, subtitle, benefits }) => {
-  const cols = benefits.length >= 5 ? 1 : 2;
-  const total = benefits.length;
-
-  const metaChips: MetaChip[] = [
-    { label: 'BENEFITS', value: `${total} 大优势`, accent: BRAND.yellow },
-    { label: 'TARGET', value: '中国家长 / 学生', accent: DATA.blue },
-    { label: 'SCOPE', value: '招生 + 学术', accent: DATA.green },
-  ];
-
+const BenefitCell: React.FC<{ benefit: Benefit; index: number }> = ({ benefit, index }) => {
+  const cell = useStagger({
+    stagger: 0.13,
+    index,
+    delay: 0.6,
+    duration: 0.6,
+    ease: back(1.4).out,
+    from: { y: 26, opacity: 0, scale: 0.94 },
+  });
   return (
-    <SceneShell
-      eyebrow="VALUE · 申请价值"
-      title={title}
-      subtitle={subtitle}
-      metaChips={metaChips}
-      footer="HANLIN · 国际竞赛系列"
-      bodyPanel={false}
+    <div
+      style={{
+        borderRight: `1.5px solid ${BRAND.divider}`,
+        borderBottom: `1.5px solid ${BRAND.divider}`,
+        padding: '44px 44px',
+        display: 'flex',
+        flexDirection: 'column',
+        justifyContent: 'center',
+        gap: 22,
+        transform: `translateY(${cell.y}px) scale(${cell.scale})`,
+        opacity: cell.opacity,
+      }}
     >
-      <div
-        style={{
-          display: 'grid',
-          gridTemplateColumns: cols === 1 ? '1fr' : '1fr 1fr',
-          gridTemplateRows: cols === 1 ? `repeat(${total}, 1fr)` : `repeat(${Math.ceil(total / 2)}, 1fr)`,
-          gap: 16,
-          flex: 1,
-          minHeight: 0,
-        }}
-      >
-        {benefits.map((b, i) => (
-          <BenefitTile key={b.title + i} benefit={b} index={i} delay={1.0} total={total} />
-        ))}
-      </div>
-    </SceneShell>
+      <Icon name={resolveIcon(benefit.icon, index)} size={96} color={BRAND.yellow} />
+      <div style={{ fontFamily: FONT_CN, fontSize: 52, fontWeight: 700, color: BRAND.white }}>{benefit.title}</div>
+      <div style={{ fontFamily: FONT_CN, fontSize: 34, color: BRAND.textLight, lineHeight: 1.4 }}>{benefit.desc}</div>
+    </div>
   );
 };

@@ -1,16 +1,12 @@
 import React from 'react';
 import { AbsoluteFill } from 'remotion';
-import { StatBlock } from '../components/StatBlock';
-import { useFrom } from '../animations/primitives';
+import { Background } from '../components/Background';
+import { SceneHeader } from '../components/SceneHeader';
+import { useStagger } from '../animations/primitives';
 import { useNumberCount } from '../animations/data-hooks';
 import { power3Out } from '../animations/easings';
 import { BRAND } from '../theme/colors';
-import {
-  D2_SUBTITLE,
-  D4_HEADLINE,
-  FONT_CN,
-  tokenToStyle,
-} from '../theme/typography';
+import { FONT_HEAD_EN, FONT_CN } from '../theme/typography';
 
 interface Stat {
   label: string;
@@ -49,7 +45,9 @@ const AnimatedStatValue: React.FC<{ raw: number | string; suffix?: string; delay
     return <>{String(raw)}{extraSuffix ?? ''}</>;
   }
 
-  const isLargeNumber = parsed.numericPart >= 1000;
+  // Only add thousands separators for genuinely large numbers — never for
+  // 4-digit years like 2018 / 2026.
+  const isLargeNumber = parsed.numericPart >= 10000;
   const counted = useNumberCount({
     delay,
     duration: 1.0,
@@ -67,103 +65,80 @@ const AnimatedStatValue: React.FC<{ raw: number | string; suffix?: string; delay
   );
 };
 
-export const StatsScene: React.FC<StatsSceneProps> = ({ title, subtitle, stats }) => {
-  const titleAnim = useFrom({
-    delay: 0.1,
-    duration: 0.7,
-    ease: power3Out,
-    from: { x: -20, opacity: 0 },
-  });
-  const subtitleAnim = useFrom({
-    delay: 0.3,
+const StatCell: React.FC<{ stat: Stat; index: number }> = ({ stat, index }) => {
+  const cell = useStagger({
+    stagger: 0.12,
+    index,
+    delay: 0.5,
     duration: 0.6,
     ease: power3Out,
-    from: { y: -12, opacity: 0 },
+    from: { y: 24, opacity: 0 },
   });
 
   return (
-    <AbsoluteFill
+    <div
       style={{
-        background: BRAND.black,
-        padding: '180px 70px 220px',
+        borderRight: `1.5px solid ${BRAND.divider}`,
+        borderBottom: `1.5px solid ${BRAND.divider}`,
+        padding: '46px 44px',
         display: 'flex',
         flexDirection: 'column',
         justifyContent: 'center',
+        gap: 16,
+        transform: `translateY(${cell.y}px)`,
+        opacity: cell.opacity,
       }}
     >
-      {/* Title block with yellow accent bar */}
-      {title && (
-        <div
-          style={{
-            display: 'flex',
-            alignItems: 'flex-start',
-            gap: 24,
-            transform: `translateX(${titleAnim.x}px)`,
-            opacity: titleAnim.opacity,
-            marginBottom: subtitle ? 18 : 60,
-          }}
-        >
-          <div
-            style={{
-              width: 8,
-              alignSelf: 'stretch',
-              background: BRAND.yellow,
-              borderRadius: 4,
-              marginTop: 8,
-            }}
-          />
-          <div style={{ flex: 1 }}>
-            <div
-              style={{
-                ...tokenToStyle(D4_HEADLINE),
-                fontFamily: FONT_CN,
-                color: BRAND.yellow,
-                fontWeight: 800,
-              }}
-            >
-              {title}
-            </div>
-            {subtitle && (
-              <div
-                style={{
-                  ...tokenToStyle(D2_SUBTITLE),
-                  fontFamily: FONT_CN,
-                  color: BRAND.white,
-                  fontWeight: 400,
-                  marginTop: 12,
-                  transform: `translateY(${subtitleAnim.y}px)`,
-                  opacity: subtitleAnim.opacity,
-                }}
-              >
-                {subtitle}
-              </div>
-            )}
-          </div>
-        </div>
-      )}
-
-      {/* 2x2 stat grid */}
       <div
         style={{
-          display: 'grid',
-          gridTemplateColumns: '1fr 1fr',
-          gap: 24,
-          marginTop: 40,
+          fontFamily: FONT_HEAD_EN,
+          fontSize: 150,
+          fontWeight: 900,
+          color: BRAND.yellow,
+          lineHeight: 0.9,
+          letterSpacing: '-0.03em',
         }}
       >
-        {stats.map((stat, i) => (
-          <StatBlock
-            key={i}
-            index={i}
-            delay={0.6}
-            label={stat.label}
-            value={
-              <AnimatedStatValue raw={stat.value} suffix={stat.suffix} delay={0.6 + i * 0.12 + 0.2} />
-            }
-            // Highlight the last (4th) stat with yellow background
-            emphasis={i === stats.length - 1}
-          />
-        ))}
+        <AnimatedStatValue raw={stat.value} suffix={stat.suffix} delay={0.6 + index * 0.12} />
+      </div>
+      <div style={{ fontFamily: FONT_CN, fontSize: 40, color: BRAND.textLight, lineHeight: 1.3 }}>
+        {stat.label}
+      </div>
+    </div>
+  );
+};
+
+export const StatsScene: React.FC<StatsSceneProps> = ({ title, subtitle, stats }) => {
+  return (
+    <AbsoluteFill style={{ background: BRAND.black }}>
+      <Background />
+      <div
+        style={{
+          position: 'absolute',
+          inset: 0,
+          padding: '150px 70px 290px',
+          display: 'flex',
+          flexDirection: 'column',
+        }}
+      >
+        {title ? <SceneHeader kicker={subtitle} title={title} /> : null}
+
+        <div
+          style={{
+            flex: 1,
+            display: 'grid',
+            gridTemplateColumns: '1fr 1fr',
+            gridAutoRows: '1fr',
+            alignSelf: 'stretch',
+            borderTop: `2px solid ${BRAND.white}`,
+            borderLeft: `1.5px solid ${BRAND.divider}`,
+            marginTop: title ? 56 : 0,
+          }}
+        >
+          {stats.map((stat, i) => (
+            <StatCell key={i} stat={stat} index={i} />
+          ))}
+        </div>
       </div>
     </AbsoluteFill>
   );

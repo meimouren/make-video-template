@@ -1,10 +1,11 @@
 import React from 'react';
 import { AbsoluteFill } from 'remotion';
-import { LevelCard } from '../components/LevelCard';
-import { useFrom } from '../animations/primitives';
+import { Background } from '../components/Background';
+import { SceneHeader } from '../components/SceneHeader';
+import { useStagger } from '../animations/primitives';
 import { power3Out } from '../animations/easings';
-import { BRAND } from '../theme/colors';
-import { D2_SUBTITLE, D4_HEADLINE, FONT_CN, tokenToStyle } from '../theme/typography';
+import { BRAND, ON_ACCENT } from '../theme/colors';
+import { FONT_HEAD_EN, FONT_CN, FONT_CN_SANS } from '../theme/typography';
 
 interface Level {
   name: string;
@@ -23,106 +24,111 @@ interface WhatIsAMCSceneProps {
   levels: Level[];
 }
 
+/** Bold Editorial competition-level breakdown: hairline-divided rows. */
 export const WhatIsAMCScene: React.FC<WhatIsAMCSceneProps> = ({ title, subtitle, levels }) => {
-  const titleAnim = useFrom({
-    delay: 0.1,
-    duration: 0.7,
-    ease: power3Out,
-    from: { x: -20, opacity: 0 },
-  });
-  const subtitleAnim = useFrom({
-    delay: 0.3,
-    duration: 0.6,
-    ease: power3Out,
-    from: { y: -12, opacity: 0 },
-  });
-
-  // Layout: 1 col for >=4 cards or full schema, 2 cols otherwise
-  const useFullSchema = levels.some((l) => l.target || l.questions || l.time || l.scoring);
-  const cols = useFullSchema || levels.length >= 4 ? 1 : 2;
-
   return (
-    <AbsoluteFill
-      style={{
-        background: BRAND.black,
-        padding: '180px 70px 220px',
-        display: 'flex',
-        flexDirection: 'column',
-        justifyContent: 'center',
-      }}
-    >
-      {/* Title block */}
+    <AbsoluteFill style={{ background: BRAND.black }}>
+      <Background />
       <div
         style={{
+          position: 'absolute',
+          inset: 0,
+          padding: '150px 70px 290px',
           display: 'flex',
-          alignItems: 'flex-start',
-          gap: 24,
-          transform: `translateX(${titleAnim.x}px)`,
-          opacity: titleAnim.opacity,
-          marginBottom: 18,
+          flexDirection: 'column',
         }}
       >
+        <SceneHeader kicker={subtitle} title={title} />
+
         <div
           style={{
-            width: 8,
-            alignSelf: 'stretch',
-            background: BRAND.yellow,
-            borderRadius: 4,
-            marginTop: 8,
+            flex: 1,
+            marginTop: 60,
+            display: 'flex',
+            flexDirection: 'column',
+            justifyContent: 'center',
+            borderTop: `2px solid ${BRAND.white}`,
           }}
-        />
-        <div style={{ flex: 1 }}>
-          <div
-            style={{
-              ...tokenToStyle(D4_HEADLINE),
-              fontFamily: FONT_CN,
-              color: BRAND.yellow,
-              fontWeight: 800,
-            }}
-          >
-            {title}
-          </div>
-          <div
-            style={{
-              ...tokenToStyle(D2_SUBTITLE),
-              fontFamily: FONT_CN,
-              color: BRAND.white,
-              fontWeight: 400,
-              marginTop: 12,
-              transform: `translateY(${subtitleAnim.y}px)`,
-              opacity: subtitleAnim.opacity,
-            }}
-          >
-            {subtitle}
-          </div>
+        >
+          {levels.map((lv, i) => (
+            <LevelRow key={lv.name + i} level={lv} index={i} />
+          ))}
         </div>
       </div>
+    </AbsoluteFill>
+  );
+};
 
-      {/* Level cards grid */}
+const LevelRow: React.FC<{ level: Level; index: number }> = ({ level, index }) => {
+  const row = useStagger({
+    stagger: 0.13,
+    index,
+    delay: 0.6,
+    duration: 0.6,
+    ease: power3Out,
+    from: { y: 18, opacity: 0 },
+  });
+  return (
+    <div
+      style={{
+        display: 'flex',
+        alignItems: 'center',
+        gap: 40,
+        borderBottom: `1.5px solid ${BRAND.divider}`,
+        padding: '28px 6px',
+        transform: `translateY(${row.y}px)`,
+        opacity: row.opacity,
+      }}
+    >
+      {/* big serif index numeral */}
       <div
         style={{
-          display: 'grid',
-          gridTemplateColumns: cols === 1 ? '1fr' : '1fr 1fr',
-          gap: 18,
-          marginTop: 50,
+          fontFamily: FONT_HEAD_EN,
+          fontSize: 92,
+          fontWeight: 900,
+          color: BRAND.yellow,
+          width: 130,
+          lineHeight: 1,
         }}
       >
-        {levels.map((lv, i) => (
-          <LevelCard
-            key={lv.name + i}
-            index={i}
-            delay={0.7}
-            name={lv.name}
-            target={lv.target}
-            questions={lv.questions}
-            time={lv.time}
-            scoring={lv.scoring}
-            detail={lv.detail}
-            badge={lv.badge}
-            badgeColor={lv.color}
-          />
-        ))}
+        {String(index + 1).padStart(2, '0')}
       </div>
-    </AbsoluteFill>
+
+      <div style={{ flex: 1 }}>
+        {/* name + badge */}
+        <div style={{ display: 'flex', alignItems: 'center', gap: 20, marginBottom: 10 }}>
+          <div style={{ fontFamily: FONT_CN, fontSize: 56, fontWeight: 700, color: BRAND.white }}>{level.name}</div>
+          {level.badge ? (
+            <span
+              style={{
+                fontFamily: FONT_CN_SANS,
+                fontSize: 28,
+                fontWeight: 700,
+                color: ON_ACCENT,
+                background: BRAND.yellow,
+                padding: '6px 16px',
+                letterSpacing: '0.04em',
+              }}
+            >
+              {level.badge}
+            </span>
+          ) : null}
+        </div>
+
+        {/* target (cobalt) */}
+        {level.target ? (
+          <div style={{ fontFamily: FONT_CN, fontSize: 36, fontWeight: 700, color: BRAND.yellow, marginBottom: 6 }}>
+            {level.target}
+          </div>
+        ) : null}
+
+        {/* detail (muted) */}
+        {level.detail ? (
+          <div style={{ fontFamily: FONT_CN, fontSize: 34, color: BRAND.textLight, lineHeight: 1.4 }}>
+            {level.detail}
+          </div>
+        ) : null}
+      </div>
+    </div>
   );
 };
