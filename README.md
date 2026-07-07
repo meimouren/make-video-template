@@ -1,6 +1,34 @@
 # 【每天介绍一个国际竞赛】视频制作技能
 
+![Remotion](https://img.shields.io/badge/Remotion-4-0B84F3?logo=react&logoColor=white)
+![Node](https://img.shields.io/badge/Node-18%2B-3C873A?logo=nodedotjs&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript&logoColor=white)
+![TTS](https://img.shields.io/badge/TTS-CosyVoice-FF6A00)
+![Design](https://img.shields.io/badge/design-Bold_Editorial-1D4ED8)
+![Format](https://img.shields.io/badge/1080x1920-9:16-111111)
+
 > 翰林有方 · 国际竞赛系列竖屏短视频 · 标准制作流程与设计系统
+>
+> 用 Remotion + 阿里百炼 TTS 批量生产「每天介绍一个国际竞赛」竖屏短视频。改文案即出片，版式/动效/配色全部继承。
+
+## 快速开始
+
+```bash
+git clone https://github.com/meimouren/make-video-template.git
+cd make-video-template
+npm install
+cp .env.example .env            # 填入 DASHSCOPE_API_KEY（阿里百炼）
+
+# 编辑 src/config.ts 的 SCENES + COMPETITION，然后：
+rm -f public/voiceover/*.mp3    # 换主题先清旧配音
+npx ts-node generate-voiceover.ts
+npx ts-node compute-durations.ts
+npx ts-node generate-srt.ts
+npx remotion render src/index.ts AMCVideo out/video.mp4 --codec h264
+npx ts-node generate-copy.ts    # 生成发布文案
+```
+
+> 预览：`npx remotion studio src/index.ts`。视频**第一帧即封面**，无需单独导出封面图。
 
 ## 项目简介
 
